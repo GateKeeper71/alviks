@@ -15,11 +15,14 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "Intro Blurb", name: "description", widget: "text"}
       - {label: "Image", name: "image", widget: "image", required: false}
       - {label: "Body", name: "body", widget: "markdown"}
-  - name: "footer"
-    label: "Footer"
-    file: "site/content/_index.md"
-    field:
-      - {label: "Ingress", name: "ingress", widget: "text"}
+  - name: "global"
+    label: "Global"
+    files:
+      - file: "site/content/footer/_index.md"
+        label: "Footer"
+        name: "footer"
+        fields:
+          - {label: "Ingress", name: "ingress", widget: "text"}
   - name: "pages"
     label: "Pages"
     files:
