@@ -18,6 +18,13 @@ collections: # A list of collections the CMS should be able to edit
   - name: "global"
     label: "Global"
     files:
+      - file: "site/data/global.yml"
+        label: "General"
+        name: "general"
+        format: "yaml"
+        fields:
+          - {label: "Logotype", name: "logo", widget: "image"}
+          - {label: "Copyright", name: "copy", widget: "text"}
       - file: "site/data/footer.yml"
         label: "Footer"
         name: "footer"
