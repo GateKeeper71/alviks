@@ -18,11 +18,14 @@ collections: # A list of collections the CMS should be able to edit
   - name: "global"
     label: "Global"
     files:
-      - file: "site/content/footer/_index.md"
+      - file: "site/data/footer.yml"
         label: "Footer"
         name: "footer"
+        format: "yaml"
         fields:
           - {label: "Ingress", name: "ingress", widget: "text"}
+        editor:
+          preview: false
   - name: "pages"
     label: "Pages"
     files:

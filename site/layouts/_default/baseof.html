@@ -3,7 +3,9 @@
   {{ partial "head" . }}
   <body class="sans-serif">
     {{ partial "nav" . }}
-    {{ block "main" . }}{{ end }} 
-    {{ partial "footer" . }} 
+    {{ block "main" . }}{{ end }}
+    {{ partial "footer" . }}
+    <h1>when moon?</h1>
+    {{ .Site }}
   </body>
 </html>
