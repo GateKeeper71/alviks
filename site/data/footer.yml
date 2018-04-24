@@ -1,0 +1,19 @@
+ingress: >-
+  Dragée sweet roll sugar plum toffee. Cake cupcake oat cake sesame snaps tart.
+  Lollipop topping wafer topping dessert.
+ablock:
+  - heading: Stockholm
+    info:
+      - text: Alviksvägen 31
+      - text: 123 43 Bromm
+      - text: 08 - 31 31 31
+  - heading: Uppsala
+    info:
+      - text: Uppsalavägen 31
+      - text: 123 45 Uppsala
+      - text: 018 - 1234 56
+  - heading: Västerås
+    info:
+      - text: Västeråsvägen 31
+      - text: 812 23
+      - text: 08 - 123 45 67
