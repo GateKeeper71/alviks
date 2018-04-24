@@ -31,6 +31,12 @@ collections: # A list of collections the CMS should be able to edit
         format: "yaml"
         fields:
           - {label: "Ingress", name: "ingress", widget: "text"}
+          - {label: "Address block", name: "ablock", widget: "object", fields: [
+              {label: "Heading", name: "heading", widget: "string"},
+              {label: "Address info", name: "info", widget: "object", fields: [
+                {label: "Text", name: "text", widget: "string"}
+                ]}
+              ]}
         editor:
           preview: false
   - name: "pages"
