@@ -37,6 +37,11 @@ collections: # A list of collections the CMS should be able to edit
                 {label: "Text", name: "text", widget: "string"}
                 ]}
               ]}
+          - {label: "Social media heading", name: "socialheading", widget: "string"}
+          - {label: "Social media icon", name: "socialicon", widget: "list", fields: [
+              {label: "Icon", name: "icon", widget: "image"},
+              {label: "Link", name: "link", widget: "string"}
+            ]}
         editor:
           preview: false
   - name: "pages"

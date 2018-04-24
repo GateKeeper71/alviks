@@ -24,7 +24,10 @@
 					<li><a href="/post" class="link">Blog</a></li>
 					<li><a href="/contact" class="link">Contact</a></li>
 					{{ range .Site.Data.footer.ablock}}
-						{{ .heading }}
+						<li>{{ .heading }}</li>
+						{{ range .info }}
+							<li>{{ .text }}</li>
+						{{ end }}
 					{{ end }}
 
 				</ul>
