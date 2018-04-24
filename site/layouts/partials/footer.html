@@ -23,7 +23,10 @@
 					<li><a href="/values" class="link">About</a></li>
 					<li><a href="/post" class="link">Blog</a></li>
 					<li><a href="/contact" class="link">Contact</a></li>
-					<li>dd {{ .Params.ingress }}</li>
+					{{ range .Site.Data.footer.ablock}}
+						{{ .heading }}
+					{{ end }}
+
 				</ul>
 			</div>
 
