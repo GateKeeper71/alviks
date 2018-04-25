@@ -17,3 +17,9 @@ ablock:
       - text: Västeråsvägen 31
       - text: 812 23
       - text: 08 - 123 45 67
+socialheading: Social media
+socialicon:
+  - icon: /img/fb-f-logo__blue_50.png
+    link: 'https://www.facebook.com/alviksmaleristockholm'
+  - icon: /img/glyph-logo_may2016.png
+    link: 'https://instagram.com'
