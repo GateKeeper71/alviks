@@ -45,7 +45,7 @@ collections: # A list of collections the CMS should be able to edit
         editor:
           preview: false
   - name: "service"
-  - label: "Tjänster"
+    label: "Tjänster"
     folder: "site/content/service"
     create: true
     fields:
@@ -53,7 +53,7 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "Image", name: "image", widget: "image"}
       - {label: "Body", name: "body", widget: "markdown"}
   - name: "reference"
-  - label: "Referens"
+    label: "Referens"
     folder: "site/content/reference"
     create: true
     fields:
