@@ -20,6 +20,41 @@ input:focus, textarea:focus, a:focus, button:focus {
   opacity: .5;
 }
 
+/* Can combine this with overflow-hidden to make background images grow on hover
+ * even if you are using background-size: cover */
+
+.grow {
+  -moz-osx-font-smoothing: grayscale;
+  backface-visibility: hidden;
+  transform: translateZ(0);
+  transition: transform 0.25s ease-out;
+}
+
+.grow:hover,
+.grow:focus {
+  transform: scale(1.05);
+}
+
+.grow:active {
+  transform: scale(.90);
+}
+
+.grow-large {
+  -moz-osx-font-smoothing: grayscale;
+  backface-visibility: hidden;
+  transform: translateZ(0);
+  transition: transform .25s ease-in-out;
+}
+
+.grow-large:hover,
+.grow-large:focus {
+  transform: scale(1.2);
+}
+
+.grow-large:active {
+  transform: scale(.95);
+}
+
 .hide-child .child {
   opacity: 0;
   transition: opacity .15s ease-in;
@@ -34,6 +69,11 @@ input:focus, textarea:focus, a:focus, button:focus {
 .underline-hover:hover,
 .underline-hover:focus {
   text-decoration: underline;
+}
+
+.no-underline-hover:hover,
+.no-underline-hover:focus {
+  text-decoration: none;
 }
 
 .pointer:hover {
