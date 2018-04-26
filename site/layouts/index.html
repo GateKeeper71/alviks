@@ -2,6 +2,10 @@
 
 {{ partial "jumbotron" (dict "imageUrl" .Params.image "title" .Title "subtitle" .Params.subtitle) }}
 
+{{ partial "front-services" . }}
+
+{{ partial "image-grid" }}
+
 {{ partial "short-text" .Params.blurb}}
 
 {{ partial "2-up" .Params }}

@@ -1,0 +1,12 @@
+<div class="w-100 pv5">
+  <div class="mw7 center">
+    <h3 class="f3 lh-title b pa3">Services</h3>
+    {{ range $i,$p := where .Data.Pages "Type" "service" }}
+    {{if not (modBool $i 2)}}
+        {{ partial "label-image-block-odd" . }}
+      {{ else }}
+        {{ partial "label-image-block" . }}
+      {{end}}
+    {{ end }}
+  </div>
+</div>
