@@ -75,9 +75,9 @@ collections: # A list of collections the CMS should be able to edit
               {label: "Image", name: "image", widget: "image"}
             ]}
           - {label: Kontakt, name: contact, widget: object, fields: [
-              {label: Heading, name: heading: widget: string},
-              {label: Text, name: text: widget: text},
-              {label: Länk, name: link: widget: string},
+              {label: Heading, name: heading, widget: string},
+              {label: Text, name: text, widget: text},
+              {label: Länk, name: link, widget: string},
               {label: Knapp text, name: btntext, widget: string}
             ]}
           - {label: "Intro", name: intro, widget: object, fields: [
