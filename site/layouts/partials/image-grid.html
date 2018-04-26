@@ -1,17 +1,10 @@
 <div class="mw8 center ph3 pv4">
 
-	<div class="flex flex-wrap mhn1">
-		<div class="w-100 w-50-ns ph1-ns">
-			<img src="{{ .image1.image }}" alt="{{ .image1.alt }}">
-		</div>
-
-		<div class="w-100 w-50-ns ph1-ns">
-			<img src="{{ .image2.image }}" alt="{{ .image2.alt }}">
-		</div>
-
-		<div class="w-100 ph1-ns">
-			<img src="{{ .image3.image }}" alt="{{ .image3.alt }}">
-		</div>
+	<div class="flex flex-wrap ">
+		{{ range .Params.partners }}
+			<div class="w-25 h3 outline contain bg-center ma2" style="background-image:url({{ .image }});">
+			</div>
+		{{ end }}
 	</div>
 
 </div>
