@@ -5,7 +5,11 @@
 }
 
 .highlight {
-  color: --var(--highlight);
+  color: var(--highlight);
+}
+
+.yellow {
+  color: var(--yellow);
 }
 
 .white {
@@ -41,11 +45,15 @@
 }
 
 .bg-highlight {
-  background-color: --var(--highlight);
+  background-color: var(--highlight);
 }
 
 .bg-white {
   background-color: var(--white);
+}
+
+.bg-yellow {
+  background-color: var(--yellow);
 }
 
 .bg-off-white {
