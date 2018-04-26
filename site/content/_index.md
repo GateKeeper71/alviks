@@ -6,6 +6,9 @@ image: /img/home-jumbotron.jpg
 partners:
   - image: /img/riksdagen-logo.svg
   - image: /img/548px-mcdonald's_golden_arches.svg.png
+  - image: /img/riksdagen-logo.svg
+  - image: /img/548px-mcdonald's_golden_arches.svg.png
+  - image: /img/riksdagen-logo.svg
 blurb:
   heading: Why Kaldi?
   text: >-
