@@ -1,7 +1,9 @@
 ---
 supertitle: Whow
-title: Great coffee with a consciencee
-subtitle: Support sustainable farming while enjoying a cup
+title: Välkommen till Alviks Måleri lorem ipsum
+subtitle: >-
+  Marshmallow lollipop icing. Pastry sugar plum apple pie liquorice cake
+  macaroon chocolate cake gummi bears.
 image: /img/alviks-bg-2.svg
 partners:
   - image: /img/riksdagen-logo.svg
