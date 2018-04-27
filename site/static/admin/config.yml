@@ -35,6 +35,7 @@ collections: # A list of collections the CMS should be able to edit
               {label: "Heading", name: "heading", widget: "string"},
               {label: "Address info", name: "info", widget: "list", fields: [
                 {label: "Text", name: "text", widget: "string"}
+                {label: "Länk", name: "link", widget: "string", required: false}
                 ]}
               ]}
           - {label: "Social media heading", name: "socialheading", widget: "string"}

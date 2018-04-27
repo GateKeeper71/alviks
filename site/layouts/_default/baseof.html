@@ -1,11 +1,9 @@
 <!doctype html>
 <html lang="en">
   {{ partial "head" . }}
-  <body class="sans-serif">
+  <body class="sans-serif grey-3">
     {{ partial "nav" . }}
     {{ block "main" . }}{{ end }}
     {{ partial "footer" . }}
-    <h1>when moon?</h1>
-    {{ .Site.Data.global.copy }}
   </body>
 </html>
