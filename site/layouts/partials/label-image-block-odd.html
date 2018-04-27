@@ -1,9 +1,12 @@
-<div class="mw7 center flex">
+<div class="mw7 center flex items-center mb4">
   <div class="w-30 border pa3">
     <img class="w-100" src="{{ .Params.Image }}" alt="">
   </div>
   <div class="w-70 border pa3">
     <h4 class="f4 b lh-title mb2">{{ .Title }}</h4>
     <p>{{ .Summary }}</p>
+    {{ if .Truncated }}
+      {{ partial "button-link" (dict "label" "Läs mer" "link" .Permalink) }}
+    {{ end }}
   </div>
 </div>

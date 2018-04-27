@@ -1,16 +1,16 @@
 <footer class="bg-grey-2 ph3 pv4">
 
 	<div class="mw8 center">
-		<div class="flex flex-wrap">
-			<div class="w-25 ph3">
+		<div class="flex-ns flex-wrap-ns">
+			<div class="w-25-ns ph3">
 				<img src="{{ .Site.Data.global.logo }}" alt="">
-				<p class="mb3">{{ .Site.Data.footer.ingress }}</p>
+				<p class="mv3">{{ .Site.Data.footer.ingress }}</p>
 				<small>{{ .Site.Data.global.copy }}</small>
 			</div>
-			<div class="w-75">
-				<div class="flex flex-wrap">
+			<div class="w-75-ns">
+				<div class="flex-ns flex-wrap-ns">
 					{{ range .Site.Data.footer.ablock}}
-						<div class="w-third mb4 ph3">
+						<div class="w-third-ns mb4 ph3">
 							<ul>
 								<li class="f4 b lh-title mb2">{{ .heading }}</li>
 								{{ range .info }}
@@ -21,17 +21,21 @@
 									{{ end }}
 								{{ end }}
 							</ul>
+							<div class="mt3">
+								{{ if or (or (.fblink) (.iglink)) }}
+									<h5 class="f5 b lh-title mb2">Social media</h5>
+								{{ end }}
+								<ul class="mhn2">
+									{{ if .fblink}}
+										{{ partial "social-icon" (dict "link" .fblink "svg" "icons-facebook") }}
+									{{ end }}
+									{{ if .iglink}}
+										{{ partial "social-icon" (dict "link" .iglink "svg" "icons-instagram") }}
+									{{ end }}
+								</ul>
+							</div>
 						</div>
 					{{ end }}
-					<div class="w-50 ph3">
-						<h3 class="f4 b lh-title mb2">Social media</h3>
-						<ul class="mhn2">
-							{{ partial "social-icon" (dict "link" "#" "svg" "icons-facebook") }}
-							{{ partial "social-icon" (dict "link" "#" "svg" "icons-twitter") }}
-							{{ partial "social-icon" (dict "link" "#" "svg" "icons-instagram") }}
-							{{ partial "social-icon" (dict "link" "#" "svg" "icons-vimeo") }}
-						</ul>
-					</div>
 				</div>
 			</div>
 		</div>

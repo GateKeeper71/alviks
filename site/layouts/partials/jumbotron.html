@@ -1,5 +1,5 @@
-<div class="pv5 pv6-l ph3 ph5-ns bg-center cover mb4" style="background-image: url('{{.imageUrl}}')">
-  <div class="mw8 center">
+<div class="pv5 pv6-l bg-center cover mb4" style="background-image: url('{{.imageUrl}}')">
+  <div class="mw8 center ph3">
     <div class="db mb3">
       <div class="mw6 relative mb3">
         <h1 class="f2 f1-l b di lh-title mb3 white mw6">
@@ -14,7 +14,7 @@
         {{ end }}
       </div>
       <div class="">
-        <a href="#" class="f5 link no-underline-hover br1 ph3 pv2 mb2 dib white bg-primary">Kontakta oss</a>
+        {{ partial "button-link" (dict "label" "Kontakta oss" "link" "mailto:info@alviksmaleri.se") }}
       </div>
     </div>
   </div>

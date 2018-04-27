@@ -40,6 +40,14 @@
   color: var(--black);
 }
 
+.blue {
+  color: var(--blue);
+}
+
+.light-blue {
+  color: var(--light-blue);
+}
+
 .bg-primary {
   background-color: var(--primary);
 }
@@ -80,9 +88,21 @@
   background-color: var(--black);
 }
 
+.bg-blue {
+  color: var(--blue);
+}
+
+.bg-light-blue {
+  color: var(--light-blue);
+}
+
 .bg-fix-primary {
   padding: 0 var(--spacing-small);
   & :first-child {
     box-shadow: var(--spacing-small) 0 0 var(--primary), -var(--spacing-small) 0 0 var(--primary);
   }
+}
+
+.hover-bg-light-blue:hover {
+  background-color: var(--light-blue);
 }
