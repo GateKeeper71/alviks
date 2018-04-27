@@ -25,6 +25,12 @@ collections: # A list of collections the CMS should be able to edit
         fields:
           - {label: "Logotype", name: "logo", widget: "image"}
           - {label: "Copyright", name: "copy", widget: "text"}
+      - file: "site/data/nav.yml"
+        label: "Navbar"
+        name: "navbar"
+        format: "yaml"
+        fields:
+          - {label: "Bakgrundsbild", name: "bgimage", widget: "image"}
       - file: "site/data/footer.yml"
         label: "Footer"
         name: "footer"
