@@ -6,7 +6,10 @@ ablock:
     info:
       - text: Alviksvägen 31
       - text: 123 43 Bromm
-      - text: 08 - 31 31 31
+      - link: 'tel:+468313131'
+        text: 08 - 31 31 31
+      - link: 'mailto:stockholm@alviksmaleri.se'
+        text: stockholm@alviksmaleri.se
   - heading: Uppsala
     info:
       - text: Uppsalavägen 31
