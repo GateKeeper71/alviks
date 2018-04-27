@@ -2,7 +2,7 @@
 supertitle: Whow
 title: Great coffee with a consciencee
 subtitle: Support sustainable farming while enjoying a cup
-image: /img/home-jumbotron.jpg
+image: /img/alviks-bg-2.svg
 partners:
   - image: /img/riksdagen-logo.svg
   - image: /img/548px-mcdonald's_golden_arches.svg.png
