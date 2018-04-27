@@ -37,13 +37,13 @@ collections: # A list of collections the CMS should be able to edit
                 {label: "Text", name: "text", widget: "string"},
                 {label: "Länk", name: "link", widget: "string", required: false}
                 ]}
-              ]}
+              ]},
+              {label: "Facebooklänk", name: "fblink", widget: "string"},
+              {label: "Instagramlänk", name: "iglink", widget: "string"}
           - {label: "Social media heading", name: "socialheading", widget: "string"}
           - {label: "Social media icon", name: "socialicon", widget: "list", fields: [
               {label: "Icon", name: "icon", widget: "image"},
-              {label: "Link", name: "link", widget: "string"},
-              {label: "Facebooklänk", name: "fblink", widget: "string"},
-              {label: "Instagramlänk", name: "iglink", widget: "string"}
+              {label: "Link", name: "link", widget: "string"}
             ]}
         editor:
           preview: false
