@@ -14,7 +14,11 @@
 							<ul>
 								<li class="f4 b lh-title mb2">{{ .heading }}</li>
 								{{ range .info }}
-									<li>{{ .text }}</li>
+									{{ if .link }}
+										<li><a href="{{ .link }}">{{ .text }}</a></li>
+									{{ else }}
+										<li>{{ .text }}</li>
+									{{ end }}
 								{{ end }}
 							</ul>
 						</div>
