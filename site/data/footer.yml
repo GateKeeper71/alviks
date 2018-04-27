@@ -2,7 +2,9 @@ ingress: >-
   Dragée sweet roll sugar plum toffee. Cake cupcake oat cake sesame snaps tart.
   Lollipop topping wafer topping dessert.
 ablock:
-  - heading: Stockholm
+  - fblink: 'https://www.facebook.com/alviksmaleristockholm'
+    heading: Stockholm
+    iglink: 'https://www.instagram.com/alviksmaleri/'
     info:
       - text: Alviksvägen 31
       - text: 123 43 Bromm
@@ -10,12 +12,15 @@ ablock:
         text: 08 - 31 31 31
       - link: 'mailto:stockholm@alviksmaleri.se'
         text: stockholm@alviksmaleri.se
-  - heading: Uppsala
+  - fblink: 'https://www.facebook.com/alviksmaleriiuppsala/'
+    heading: Uppsala
+    iglink: 'https://www.instagram.com/alviks_maleri_i_uppsala_ab/'
     info:
       - text: Uppsalavägen 31
       - text: 123 45 Uppsala
       - text: 018 - 1234 56
-  - heading: Västerås
+  - fblink: 'https://www.facebook.com/mpaalviks/'
+    heading: Västerås
     info:
       - text: Västeråsvägen 31
       - text: 812 23
