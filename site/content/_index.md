@@ -4,7 +4,7 @@ title: Välkommen till Alviks Måleri lorem ipsum
 subtitle: >-
   Marshmallow lollipop icing. Pastry sugar plum apple pie liquorice cake
   macaroon chocolate cake gummi bears.
-image: /img/alviks-bg-2.svg
+image: /img/alviks-bg-3.svg
 partners:
   - image: /img/riksdagen-logo.svg
   - image: /img/548px-mcdonald's_golden_arches.svg.png
