@@ -1,12 +1,18 @@
 <div class="w-100 pt4 pb3">
-  <div class="mw7 center">
-    <h3 class="f2 lh-title b mb4 tc black">Tjänster</h3>
-    {{ range $i,$p := where .Data.Pages "Type" "service" }}
-    {{if not (modBool $i 2)}}
-        {{ partial "label-image-block-odd" . }}
-      {{ else }}
-        {{ partial "label-image-block" . }}
-      {{end}}
-    {{ end }}
+  <div class="h3 w-100 cover bg-top left" style="background-image: url(/img/alviks-curve-top-2.svg);">
+  </div>
+  <div class="bg-yellow-2 pb1">
+    <div class="pw7 center">
+      <h3 class="f2 lh-title b mb4 tc black">Tjänster</h3>
+      {{ range $i,$p := where .Data.Pages "Type" "service" }}
+      {{if not (modBool $i 2)}}
+          {{ partial "label-image-block-odd" . }}
+        {{ else }}
+          {{ partial "label-image-block" . }}
+        {{end}}
+      {{ end }}
+    </div>
+  </div>
+  <div class="h3 w-100 cover bg-bottom" style="background-image: url(/img/alviks-curve-bottom-2.svg);">
   </div>
 </div>

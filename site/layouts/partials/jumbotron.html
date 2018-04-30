@@ -1,21 +1,26 @@
-<div class="pv5 pv6-l bg-center cover mb4" style="background-image: url('{{.imageUrl}}')">
-  <div class="mw8 center ph3">
-    <div class="db mb3">
-      <div class="mw6 relative mb3">
-        <h1 class="f2 f1-l b di lh-title mb3 white mw6">
-          {{.title}}
-        </h1>
+<div class="pv5 pv6-l bg-center cover mb4">
+  <div class="mw8 center ph3 flex">
+    <div class="w-50">
+      <div class="db mb3 ">
+        <div class="mw6 relative mb3">
+          <h1 class="f2 f1-l b di lh-title mb3 mw6">
+            {{.title}}
+          </h1>
+        </div>
+        <div class="mw6 relative mb4">
+          {{ if .subtitle }}
+          <p class="b f4 di lh-title mb3 mw6">
+            {{.subtitle}}
+          </p>
+          {{ end }}
+        </div>
+        <div class="">
+          {{ partial "button-link" (dict "label" "Kontakta oss" "link" "mailto:info@alviksmaleri.se" "bgcolor" "bg-yellow") }}
+        </div>
       </div>
-      <div class="mw6 relative mb4">
-        {{ if .subtitle }}
-        <p class="b f4 di lh-title mb3 white mw6">
-          {{.subtitle}}
-        </p>
-        {{ end }}
-      </div>
-      <div class="">
-        {{ partial "button-link" (dict "label" "Kontakta oss" "link" "mailto:info@alviksmaleri.se" "bgcolor" "bg-yellow") }}
-      </div>
+    </div>
+    <div class="w-50">
+      <img src="{{ .illustration }}" alt="">
     </div>
   </div>
 </div>

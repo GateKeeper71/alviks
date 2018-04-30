@@ -64,6 +64,10 @@
   background-color: var(--yellow);
 }
 
+.bg-yellow-2 {
+  background-color: var(--yellow-2);
+}
+
 .bg-off-white {
   background-color: var(--off-white);
 }

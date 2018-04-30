@@ -1,8 +1,6 @@
 {{ define "main" }}
 
-<img src="{{ .Params.illustration }}" alt="">
-
-{{ partial "jumbotron" (dict "imageUrl" .Params.image "title" .Title "subtitle" .Params.subtitle) }}
+{{ partial "jumbotron" (dict "imageUrl" .Params.image "title" .Title "subtitle" .Params.subtitle "illustration" .Params.illustration) }}
 
 {{ partial "front-services" . }}
 
