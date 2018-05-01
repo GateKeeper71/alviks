@@ -1,5 +1,5 @@
 ---
-title: Kontakt
+title: Kontakta oss
 logo: /img/logo.svg
 contact_entries:
   - heading: Location
