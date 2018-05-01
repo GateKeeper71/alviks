@@ -1,0 +1,26 @@
+{{ define "main" }}
+
+<div class="ph3 bg-off-white">
+	<div class="center mw6 pv3">
+
+		<img src="{{ .Params.logo }}" alt="" class="db w4 center pv4">
+
+		{{ .Content }}
+
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+		<div class="flex-ns mb3">
+	        	{{ range .Params.contact_entries }}
+				<div>
+					<h4 class="f4 b lh-title mb2 primary">{{ .heading }}</h4>
+					<p>{{ .text }}</p>
+				</div>
+			{{ end }}
+		</div>
+
+		{{ partial "contact-form" . }}
+
+	</div>
+</div>
+
+{{ end }}
