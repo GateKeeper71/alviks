@@ -1,5 +1,5 @@
 ---
-title: Kontakta oss
+title: Kontakta oss genast
 logo: /img/logo.svg
 contact_entries:
   - heading: Location
