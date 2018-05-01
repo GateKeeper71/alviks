@@ -95,7 +95,7 @@ collections: # A list of collections the CMS should be able to edit
               {label: "Text", name: "text", widget: "text"}]}
       - file: "site/content/kontakt/_index.md"
         label: "Kontakta oss"
-        name: "contact"
+        name: "kontakt"
         fields:
           - {label: Title, name: title, widget: string}
           - {label: Logo, name: logo, widget: image}
