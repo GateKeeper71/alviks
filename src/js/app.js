@@ -1,3 +1,5 @@
+import { AnimateCurve } from './ux/animate'
+
 // JS Goes here - ES6 supported
 if (window.netlifyIdentity) {
   window.netlifyIdentity.on("init", user => {
@@ -8,3 +10,5 @@ if (window.netlifyIdentity) {
     }
   });
 }
+
+const animateCurve = new AnimateCurve();
