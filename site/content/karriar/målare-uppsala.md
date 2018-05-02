@@ -1,7 +1,7 @@
 ---
 title: Målare Uppsala
-lastday: 2018-05-19T00:00:00+02:00
-office: uppsala
+lastday: 2018-05-18T22:00:00.000Z
+office: Uppsala
 ---
 Marzipan jelly cake dessert gummies biscuit brownie dessert. Pudding tart muffin cupcake chocolate chocolate. Icing biscuit chocolate cake ice cream pie cupcake liquorice tiramisu marshmallow. Cupcake dessert tootsie roll. Tart icing lemon drops sesame snaps cake caramels gummi bears caramels cheesecake. Cake brownie marshmallow lemon drops. Caramels apple pie topping. Topping wafer jelly. Caramels marshmallow liquorice marzipan jujubes chupa chups. Biscuit chupa chups dessert.
 
