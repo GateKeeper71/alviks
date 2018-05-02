@@ -68,11 +68,7 @@ collections: # A list of collections the CMS should be able to edit
     fields:
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Sista ansökningsdag", name: "lastday", widget: "date"}
-      - {label: "Kontor", name: "office", widget: "select", options: [
-        {label: "Stockholm", value: "sthockholm"},
-        {label: "Uppsala", value: "uppsala"},
-        {label: "Västerås", value: "vasteras"}
-      ]}
+      - {label: "Kontor", name: "office", widget: "select", options: ["Stockholm", "Uppsala", "Västerås"]}
       - {label: "Body", name: "body", widget: "markdown"}
   - name: "reference"
     label: "Referens"

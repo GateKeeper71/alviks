@@ -10,4 +10,10 @@
   {{ partial "pagination" . }}
 </div>
 
+<div class="mw5 center pv4 outline">
+  {{ range .Pages.GroupByParam "office" }}
+    <h1>{{ .Key }}</h1>
+  {{ end }}
+</div>
+
 {{end}}
