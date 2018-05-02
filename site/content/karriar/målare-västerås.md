@@ -1,6 +1,7 @@
 ---
 title: Målare Västerås
-image: /img/about-jumbotron.jpg
+lastday: 2018-05-31T00:00:00+02:00
+office: vasteras
 ---
 Dessert lollipop candy canes cake croissant cheesecake cupcake jelly. Jujubes muffin lollipop tootsie roll jelly-o jelly-o bear claw. Pie tiramisu caramels tart cheesecake bear claw. Carrot cake chocolate bonbon cheesecake jelly beans. Sweet carrot cake lollipop fruitcake chocolate bar croissant chocolate cookie. Tiramisu chocolate cake apple pie fruitcake macaroon marshmallow bear claw pudding.
 
