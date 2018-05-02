@@ -1,12 +1,12 @@
 <div class="mw7 center flex flex-wrap items-center mb4">
-  <div class="w-100 w-70-m border pa3 order-1 order-0-m">
+  <div class="w-100 w-60-m border pa3 order-1 order-0-m">
     <h4 class="f4 b lh-title mb2">{{ .Title }}</h4>
     <p>{{ .Summary }}</p>
     {{ if .Truncated }}
       {{ partial "button-link" (dict "label" "Läs mer" "link" .Permalink) }}
     {{ end }}
   </div>
-  <div class="w-100 w-30-m border pa3 order-0 order-1-m">
+  <div class="w-100 w-40-m border pa3 order-0 order-1-m">
     <img class="w-100" src="{{ .Params.Image }}" alt="">
   </div>
 </div>

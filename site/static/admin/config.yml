@@ -67,7 +67,12 @@ collections: # A list of collections the CMS should be able to edit
     create: true
     fields:
       - {label: "Title", name: "title", widget: "string"}
-      - {label: "Image", name: "image", widget: "image"}
+      - {label: "Sista ansökningsdag", name: "lastday", widget: "date"}
+      - {label: "Kontor", name: "office", widget: "select", options: [
+        {label: "Stockholm", value: "sthockholm"},
+        {label: "Uppsala", value: "uppsala"},
+        {label: "Västerås", value: "vasteras"}
+      ]}
       - {label: "Body", name: "body", widget: "markdown"}
   - name: "reference"
     label: "Referens"
