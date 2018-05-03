@@ -1,6 +1,16 @@
 {{ define "main" }}
 
-{{ partial "jumbotron" (dict "imageUrl" "/img/7.jpg" "title" "This is where the heading goes" "subtitle" "This is where the subtitle goes") }}
-{{ .Content }}
-
+  <div class="mw6 center ph3 pv4">
+    <h1 class="f2 lh-title b mb3">{{.Title}}</h1>
+    <div class="flex justify-between grey-3">
+      <p>{{ .Date.Format "Mon, Jan 2, 2006" }}</p>
+      <p>Läs på {{ .ReadingTime }} minuter</p>
+    </div>
+    <pre>{{ .Date }} ffff</pre>
+    <div class="cms mw6">
+      <p>{{ .Description }}</p>
+      {{ if .Params.image }}<img src="{{ .Params.image }}" alt="{{ .Title }}" />{{ end }}
+      {{ .Content }}
+    </div>
+  </div>
 {{ end }}
