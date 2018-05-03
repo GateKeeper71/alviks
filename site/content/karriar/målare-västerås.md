@@ -2,6 +2,7 @@
 title: Målare Västerås
 lastday: 2018-05-30T22:00:00.000Z
 office: Västerås
+link: 'https://rabaldermedia.se'
 ---
 Dessert lollipop candy canes cake croissant cheesecake cupcake jelly. Jujubes muffin lollipop tootsie roll jelly-o jelly-o bear claw. Pie tiramisu caramels tart cheesecake bear claw. Carrot cake chocolate bonbon cheesecake jelly beans. Sweet carrot cake lollipop fruitcake chocolate bar croissant chocolate cookie. Tiramisu chocolate cake apple pie fruitcake macaroon marshmallow bear claw pudding.
 
