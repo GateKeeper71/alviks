@@ -10,9 +10,13 @@
   {{ partial "pagination" . }}
 </div>
 
-<div class="mw5 center pv4 outline">
+<div class="mw6 center pv4">
+  <h1 class="f1 ph3 b mb4">Karriär</h1>
   {{ range .Pages.GroupByParam "office" }}
-    <h1>{{ .Key }}</h1>
+    <h2 class="f2 linte-title b mb3 ph3">{{ .Key }}</h2>
+    {{ range .Pages }}
+     <h3>{{ .Render "li" }}</h3>
+    {{ end }}
   {{ end }}
 </div>
 

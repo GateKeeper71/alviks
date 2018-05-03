@@ -1,1 +1,12 @@
-{{ partial "label-image-block" . }}
+<div class="mw7 center mb4">
+  <div class="w-100 border pa3">
+    <h4 class="f4 b lh-title mb2">{{ .Title }}</h4>
+    {{ $time := time .Params.lastday }}
+    {{ $monthindex := printf "%d" $time.Month }}
+    <pre>Sista ansökningsdag: {{ $time.Year }} - {{ if gt 10 $monthindex }}0{{ end }}{{ $monthindex }} - {{ $time.Day }}</pre>
+    <p>{{ .Summary }}</p>
+    {{ if .Truncated }}
+      {{ partial "button-link" (dict "label" "Läs mer" "link" .Permalink) }}
+    {{ end }}
+  </div>
+</div>

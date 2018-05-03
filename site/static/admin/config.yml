@@ -69,6 +69,7 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Sista ansökningsdag", name: "lastday", widget: "date"}
       - {label: "Kontor", name: "office", widget: "select", options: ["Stockholm", "Uppsala", "Västerås"]}
+      - {label: "Länk ansökan", name: "link", widget: "string", required: false}
       - {label: "Body", name: "body", widget: "markdown"}
   - name: "reference"
     label: "Referens"
