@@ -162,6 +162,12 @@ collections: # A list of collections the CMS should be able to edit
               - label: Text
                 name: text
                 widget: text
+      - file: "site/content/om-oss/_index.md"
+        label: "Om oss"
+        name: "om-oss"
+        fields:
+          - {label: Title, name: title, widget: string}
+          - {label: Body, name: body, widget: markdown}
       - file: "site/content/about/_index.md"
         label: "Om oss"
         name: "about"

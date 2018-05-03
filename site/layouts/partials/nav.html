@@ -8,12 +8,12 @@
 		</div>
 		<nav class="db dtc-ns v-mid w-100 tl tr-ns mt2 overflow-auto pb2 pb0-ns">
 			<div class="nowrap">
-				<a href="/tjanster/" class="f5 fw6 hover-blue link black-70 dib mr2 mr3-m mr4-l">Tjänster</a>
-				<a href="/referenser/" class="f5 fw6 hover-blue link black-70 dib mr2 mr3-m mr4-l">Referenser</a>
-				<a href="/nyheter/" class="f5 fw6 hover-blue link black-70 dib mr2 mr3-m mr4-l">Nyheter</a>
-				<a href="/karriar/" class="f5 fw6 hover-blue link black-70 dib mr2 mr3-m mr4-l">Jobba hos oss</a>
+				{{ $currentPage := . }}
+				{{ range .Site.Menus.main }}
+				{{ $is := $currentPage.IsMenuCurrent "main" . }}
+					<a href="{{ .URL }}" class="f5 fw6 hover-blue link black-70 dib mr2 mr3-m mr4-l {{ if $is }} underline {{ end }}">{{ .Name }}</a>
+				{{ end }}
 				<a href="/reference/" class="f5 fw6 hover-blue link black-70 dib mr2 mr3-m mr4-l">Om oss</a>
-				<a href="/kontakt/" class="f5 fw6 hover-blue link black-70 dib">Kontakt</a>
 			</div>
 		</nav>
 	</div>
