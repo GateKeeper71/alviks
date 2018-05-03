@@ -1,5 +1,6 @@
 ---
 title: Vi har blivit ISO-certifierade.
+date: 2018-05-03T00:00:00+02:00
 image: /img/about-sustainable-farming.jpg
 ---
 Carrot cake tootsie roll pastry cookie dragée icing jelly chocolate cake. Soufflé tart liquorice cake dessert biscuit jelly bear claw. Cupcake toffee candy tootsie roll. Lollipop chupa chups gummi bears cotton candy. Toffee chocolate bar carrot cake chocolate cake lollipop topping. Croissant brownie bonbon halvah jelly beans pie. Dessert gummi bears tart dessert cake bonbon cotton candy. Powder sesame snaps sweet cake chocolate halvah. Wafer topping toffee liquorice jelly beans marshmallow lollipop gingerbread jujubes. Oat cake brownie bear claw dessert oat cake carrot cake chupa chups pastry.
