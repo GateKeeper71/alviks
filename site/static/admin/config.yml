@@ -54,8 +54,16 @@ collections: # A list of collections the CMS should be able to edit
         editor:
           preview: false
   - name: "service"
-    label: "Tjänster"
+    label: "Tjänster (Service)"
     folder: "site/content/service"
+    create: true
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Image", name: "image", widget: "image"}
+      - {label: "Body", name: "body", widget: "markdown"}
+  - name: "tjanster"
+    label: "Tjänster"
+    folder: "site/content/tjanster"
     create: true
     fields:
       - {label: "Title", name: "title", widget: "string"}

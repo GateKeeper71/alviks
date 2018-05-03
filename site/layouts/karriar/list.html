@@ -1,7 +1,7 @@
 {{ define "main" }}
 
 <div class="mw6 center pv4">
-  <h1 class="f1 ph3 b mb4">Karriär</h1>
+  <h1 class="f1 ph3 b mb4">Karriär {{ .Title }}</h1>
   {{ range .Pages.GroupByParam "office" }}
     <h2 class="f2 linte-title b mb3 ph3">{{ .Key }}</h2>
     {{ range .Pages }}
