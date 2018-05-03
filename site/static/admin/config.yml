@@ -169,7 +169,7 @@ collections: # A list of collections the CMS should be able to edit
           - {label: Title, name: title, widget: string}
           - {label: Body, name: body, widget: markdown}
       - file: "site/content/about/_index.md"
-        label: "Om oss"
+        label: "Om oss (old)"
         name: "about"
         fields:
           - {label: Title, name: title, widget: string}
