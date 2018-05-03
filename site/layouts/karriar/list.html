@@ -1,15 +1,5 @@
 {{ define "main" }}
 
-<div class="mw7 center pv4">
-  <h1 class="f1 ph3 b mb4">Karriär</h1>
-  <ul class="">
-      {{ range (.Paginator 4).Pages.ByPublishDate }}
-        {{ .Render "li"}}
-      {{ end }}
-  </ul>
-  {{ partial "pagination" . }}
-</div>
-
 <div class="mw6 center pv4">
   <h1 class="f1 ph3 b mb4">Karriär</h1>
   {{ range .Pages.GroupByParam "office" }}

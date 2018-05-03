@@ -10,6 +10,9 @@
       {{ if .Params.image }}<img src="{{ .Params.image }}" alt="{{ .Title }}" />{{ end }}
       {{ .Content }}
     </div>
+    {{ if .Params.link }}
+      {{ partial "button-link" (dict "link" .Params.link "label" "Ansök här") }}
+    {{ end }}
   </div>
 
 {{ end }}
