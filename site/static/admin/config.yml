@@ -104,6 +104,12 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "Publiceringsdatum", name: "date", widget: "datetime"}
       - {label: "Image", name: "image", widget: "image"}
       - {label: "Body", name: "body", widget: "markdown"}
+  - name: "kontor"
+    label: "Kontor"
+    folder: "site/content/kontakt"
+    create: true
+    fields:
+      - {label: Title, name: title, widget: string}
   - name: "pages"
     label: "Sidor"
     files:

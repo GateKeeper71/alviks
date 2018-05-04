@@ -20,7 +20,7 @@ title = "Alviks Måleri"
     name = "Kontakt"
     title = "Kontakt sectiion"
     url = "/kontakt/"
-    weight = 5
+    weight = 6
   [[menu.main]]
     identifier = "tjanster"
     name = "Tjänster"
@@ -33,3 +33,9 @@ title = "Alviks Måleri"
     title = "Referenser sectiion"
     url = "/referenser/"
     weight = 2
+  [[menu.main]]
+    identifier = "om-oss"
+    name = "Om oss"
+    title = "Om oss sectiion"
+    url = "/om-oss/"
+    weight = 5
