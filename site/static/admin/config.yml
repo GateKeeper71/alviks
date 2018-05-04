@@ -75,6 +75,7 @@ collections: # A list of collections the CMS should be able to edit
     create: true
     fields:
       - {label: "Title", name: "title", widget: "string"}
+      - {label: "Publiceringsdatum", name: "date", widget: "datetime"}
       - {label: "Sista ansökningsdag", name: "lastday", widget: "date"}
       - {label: "Kontor", name: "office", widget: "select", options: ["Stockholm", "Uppsala", "Västerås"]}
       - {label: "Länk ansökan", name: "link", widget: "string", required: false}
@@ -109,7 +110,26 @@ collections: # A list of collections the CMS should be able to edit
     folder: "site/content/kontakt"
     create: true
     fields:
-      - {label: Title, name: title, widget: string}
+      - {label: Titel, name: title, widget: string}
+      - {label: Ingress, name: ingress, widget: text}
+      - {label: Telefon, name: phone, widget: string}
+      - {label: E-postadress, name: email, widget: string}
+      - {label: Koordinater (Lat/Long), name: coordinates, widget: string}
+      - {label: "Besöksadress information", name: "visitinfo", widget: "list", fields: [
+          {label: "Text", name: "text", widget: "string"},
+          {label: "Länk", name: "link", widget: "string", required: false}
+        ]}
+      - {label: "Postadress information", name: "postinfo", widget: "list", fields: [
+          {label: "Text", name: "text", widget: "string"},
+          {label: "Länk", name: "link", widget: "string", required: false}
+        ]}
+      - {label: Medarbetare, name: coworker, widget: list, fields: [
+          {label: Namn, name: name, widget: string},
+          {label: E-postadress, name: email, widget: string},
+          {label: Bild, name: image, widget: image, required: false},
+          {label: Position, name: position, widget: string},
+          {label: Telefonnummer, name: phone, widget: string},
+        ]}
   - name: "pages"
     label: "Sidor"
     files:
