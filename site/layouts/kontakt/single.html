@@ -1,0 +1,52 @@
+{{ define "main" }}
+
+  <div class="mw7 center ph3 pv4">
+    <h1 class="f2 lh-title b mb4">Kontakt {{.Title}}</h1>
+
+    <div class="flex mb3">
+      <div class="w-50-m">
+        <h3 class="f3 b lh-title">Besöksadress</h3>
+        <ul>
+          {{ range .Params.visitinfo }}
+            {{ if .link }}
+              <li><a href="{{ .link }}">{{ .text }}</a></li>
+            {{ else }}
+              <li>{{ .text }}</li>
+            {{ end }}
+          {{ end }}
+        </ul>
+      </div>
+      {{ if .Params.postinfo }}
+        <div class="w-50-m">
+          <h3 class="f3 b lh-title">Postadress</h3>
+          <ul>
+            {{ range .Params.postinfo }}
+              {{ if .link }}
+                <li><a href="{{ .link }}">{{ .text }}</a></li>
+              {{ else }}
+                <li>{{ .text }}</li>
+              {{ end }}
+            {{ end }}
+          </ul>
+        </div>
+      {{ end }}
+    </div>
+
+    {{ partial "button-link" (dict "label" "Hitta till oss" "link" .Params.coordinates) }}
+
+
+    {{ partial "contact-box" (dict "heading" "Kontakta oss" "text" "Lorem ipsum" "btntext" "Maila oss" "link" "http://dn.se" "bgcolor" "bg-yellow" )}}
+
+    <div class="">
+      <h3 class="f3 b">Medarbetare</h3>
+      <div class="flex flex-wrap">
+        {{ range .Params.coworker }}
+        <div class="w-25-m">
+          <h5 class="f5 b">{{ .name }}</h5>
+        </div>
+        {{ end }}
+      </div>
+    </div>
+
+  </div>
+{{ end }}
