@@ -119,7 +119,7 @@ collections: # A list of collections the CMS should be able to edit
           {label: "Text", name: "text", widget: "string"},
           {label: "Länk", name: "link", widget: "string", required: false}
         ]}
-      - {label: "Postadress information", name: "postinfo", widget: "list", fields: [
+      - {label: "Postadress information", name: "postinfo", widget: "list", required: false, fields: [
           {label: "Text", name: "text", widget: "string"},
           {label: "Länk", name: "link", widget: "string", required: false}
         ]}

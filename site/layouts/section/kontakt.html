@@ -5,7 +5,11 @@
 
 		<h1 class="f2 lh-title b mb3">{{.Title}}</h1>
 
-		<img src="{{ .Params.logo }}" alt="" class="db w4 center pv4">
+		<ul class="">
+	      {{ range (.Paginator 4).Pages.ByPublishDate }}
+	        <a href="{{ .Permalink }}" class="f5 b grow link no-underline-hover br1 ph4 pv2 mv2 dib white bg-primary hover-bg-light-blue">{{ .Title }}</a>
+	      {{ end }}
+	  </ul>
 
 		{{ .Content }}
 
