@@ -10,8 +10,7 @@ coordinates: '59.8458168,17.6843651'
 visitinfo:
   - text: Stångjärnsgatan 15
   - text: 753 23 UPPSALA
-postinfo:
-  - text: Uppsala
+postinfo: []
 coworker:
   - email: fredrik.hagstrom@alviksmaleri.se
     image: /img/fredrik.jpg
