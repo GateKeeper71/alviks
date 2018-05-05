@@ -27,5 +27,10 @@ coworker:
     name: Mårten Bergström
     phone: '018 - 472 16 01 '
     position: Kalkyl / kvalitet och miljö
+  - email: leif.jansson@alviksmaleri.se
+    image: /img/leif.jpg
+    name: Leif Jansson
+    phone: 018 - 472 16 02
+    position: Teamledare
 ---
 
