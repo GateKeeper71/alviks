@@ -38,11 +38,21 @@
     {{ partial "contact-box" (dict "heading" "Kontakta oss" "text" "Lorem ipsum" "btntext" "Maila oss" "link" "http://dn.se" "bgcolor" "bg-yellow" )}}
 
     <div class="">
-      <h3 class="f3 b">Medarbetare</h3>
+      <h3 class="f3 b mb3">Medarbetare</h3>
       <div class="flex flex-wrap">
         {{ range .Params.coworker }}
         <div class="w-25-m">
+          <img class="w-100" src="{{ .image }}" alt="{{ .name }}">
           <h5 class="f5 b">{{ .name }}</h5>
+          <ul>
+            <li>{{ .position }}</li>
+            <li>
+              <a href="tel:{{ .phone }}">{{ .phone }}</a>
+            </li>
+            <li>
+              <a href="mailto:{{ .email }}">{{ .email }}</a>
+            </li>
+          </ul>
         </div>
         {{ end }}
       </div>
