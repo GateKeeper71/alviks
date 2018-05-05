@@ -32,5 +32,10 @@ coworker:
     name: Leif Jansson
     phone: 018 - 472 16 02
     position: Teamledare
+  - email: tomas.skogfeldt@alviksmaleri.se
+    image: /img/tomas.jpg
+    name: Tomas Skogfeldt
+    phone: '018-472 16 06 '
+    position: Teamledare
 ---
 
