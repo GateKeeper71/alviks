@@ -3,6 +3,8 @@
   <div class="mw7 center ph3 pv4">
     <h1 class="f2 lh-title b mb4">Kontakt {{.Title}}</h1>
 
+    <p>{{ .Params.ingress }}</p>
+
     <div class="flex mb3">
       <div class="w-50-m">
         <h3 class="f3 b lh-title">Besöksadress</h3>
@@ -32,25 +34,29 @@
       {{ end }}
     </div>
 
-    {{ partial "button-link" (dict "label" "Hitta till oss" "link" .Params.coordinates) }}
+    <div class="mw7">
+      <pre><span class="b">Telefon:</span> <a href="tel:{{ .Params.phone }}">{{ .Params.phone }}</a></pre>
+      <pre><span class="b">E-post:</span> <a href="mailto:{{ .Params.email }}">{{ .Params.email }}</a></pre>
+    </div>
 
+    <div class="mb4">
+      {{ partial "button-link" (dict "label" "Hitta till oss" "link" .Params.coordinates) }}
+    </div>
 
-    {{ partial "contact-box" (dict "heading" "Kontakta oss" "text" "Lorem ipsum" "btntext" "Maila oss" "link" "http://dn.se" "bgcolor" "bg-yellow" )}}
-
-    <div class="">
+    <div class="mw7">
       <h3 class="f3 b mb3">Medarbetare</h3>
-      <div class="flex flex-wrap">
+      <div class="mw7 flex flex-wrap items-center">
         {{ range .Params.coworker }}
-        <div class="w-25-m">
-          <img class="w-100" src="{{ .image }}" alt="{{ .name }}">
+        <div class="w-100 w-50-ns w-third-l ph2 mb4 tc tl-ns">
+          <img src="{{ .image }}" alt="{{ .name }}">
           <h5 class="f5 b">{{ .name }}</h5>
           <ul>
-            <li>{{ .position }}</li>
+            <li class="f6">{{ .position }}</li>
             <li>
-              <a href="tel:{{ .phone }}">{{ .phone }}</a>
+              <a class="f6" href="tel:{{ .phone }}">{{ .phone }}</a>
             </li>
             <li>
-              <a href="mailto:{{ .email }}">{{ .email }}</a>
+              <a class="f6" href="mailto:{{ .email }}">{{ .email }}</a>
             </li>
           </ul>
         </div>

@@ -4,6 +4,24 @@ title = "Alviks Måleri"
 
 [menu]
   [[menu.main]]
+    identifier = "vasteras"
+    name = "Västerås"
+    title = "Västerås section"
+    url = "/kontakt/vasteras/"
+    parent = "kontakt"
+  [[menu.main]]
+    identifier = "stockholm"
+    name = "Stockholm"
+    title = "Stockholm section"
+    url = "/kontakt/stockholm/"
+    parent = "kontakt"
+  [[menu.main]]
+    identifier = "uppsala"
+    name = "Uppsala"
+    title = "Uppsala section"
+    url = "/kontakt/uppsala/"
+    parent = "kontakt"
+  [[menu.main]]
     identifier = "nyheter"
     name = "Nyheter"
     title = "Nyheter sectiion"
@@ -21,6 +39,7 @@ title = "Alviks Måleri"
     title = "Kontakt sectiion"
     url = "/kontakt/"
     weight = 6
+    hasChildren = true
   [[menu.main]]
     identifier = "tjanster"
     name = "Tjänster"

@@ -6,13 +6,30 @@
 				<img src="{{ .Site.Data.global.logo }}" alt="Alviks Måleri logo" class="br0 db mb0 w-100 h3"/>
 			</a>
 		</div>
-		<nav class="db dtc-ns v-mid w-100 tl tr-ns mt2 overflow-auto pb2 pb0-ns">
-			<div class="nowrap">
-				{{ $currentPage := . }}
-				{{ range .Site.Menus.main }}
-				{{ $is := $currentPage.IsMenuCurrent "main" . }}
-					<a href="{{ .URL }}" class="f5 fw6 hover-blue link black-70 dib mr2 mr3-m mr4-l {{ if $is }} underline {{ end }}">{{ .Name }}</a>
-				{{ end }}
+		<nav class="db dtc-ns v-mid w-100 tl tr-ns mt2 overflow-y-auto overflow-visible-m pb2 pb0-ns">
+			<div class="nowrap ws-normal-m">
+				<ul class="list">
+					{{ $currentPage := . }}
+					{{ range .Site.Menus.main }}
+						{{ if .HasChildren }}
+							<li class="dib relative">
+								<a href="#" class="am-has-submenu f5 fw6 hover-blue link black-70 dib mr2 mr3-m mr4-l">{{ .Name }}</a>
+								<ul class="absolute left-0 tl">
+									{{ range .Children }}
+										<li class="db mv1 pv1">
+											<a href="{{ .URL }}" class="link">{{ .Name }}</a>
+										</li>
+									{{ end }}
+								</ul>
+							</li>
+						{{ else }}
+						{{ $is := $currentPage.IsMenuCurrent "main" . }}
+							<li class="dib">
+								<a href="{{ .URL }}" class="f5 fw6 hover-blue link black-70 dib mr2 mr3-m mr4-l {{ if $is }} underline {{ end }}">{{ .Name }}</a>
+							</li>
+						{{ end }}
+					{{ end }}
+				</ul>
 			</div>
 		</nav>
 	</div>
