@@ -17,5 +17,10 @@ coworker:
     name: Fredrik Hagström
     phone: 018 - 472 16 03
     position: VD och delägare
+  - email: anna.bergstrom@alviksmaleri.se
+    image: /img/anna.jpg
+    name: Anna Bergström
+    phone: 018 - 472 16 05
+    position: Kvalitets- och miljöarbete
 ---
 
