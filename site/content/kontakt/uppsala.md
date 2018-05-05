@@ -22,5 +22,10 @@ coworker:
     name: Anna Bergström
     phone: 018 - 472 16 05
     position: Kvalitets- och miljöarbete
+  - email: marten.bergstrom@alviksmaleri.se
+    image: /img/marten.jpg
+    name: Mårten Bergström
+    phone: '018 - 472 16 01 '
+    position: Kalkyl / kvalitet och miljö
 ---
 
