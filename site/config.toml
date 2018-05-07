@@ -22,23 +22,11 @@ title = "Alviks Måleri"
     url = "/kontakt/uppsala/"
     parent = "kontakt"
   [[menu.main]]
-    identifier = "nyheter"
-    name = "Nyheter"
-    title = "Nyheter sectiion"
-    url = "/nyheter/"
-    weight = 4
-  [[menu.main]]
-    identifier = "karriar"
-    name = "Jobba hos oss"
-    title = "Karriär sectiion"
-    url = "/karriar/"
-    weight = 3
-  [[menu.main]]
     identifier = "kontakt"
     name = "Kontakt"
     title = "Kontakt sectiion"
     url = "/kontakt/"
-    weight = 6
+    weight = 3
     hasChildren = true
   [[menu.main]]
     identifier = "tjanster"
@@ -52,9 +40,21 @@ title = "Alviks Måleri"
     title = "Referenser sectiion"
     url = "/referenser/"
     weight = 2
-  [[menu.main]]
+  [[menu.secondary]]
     identifier = "om-oss"
     name = "Om oss"
     title = "Om oss sectiion"
     url = "/om-oss/"
     weight = 5
+  [[menu.secondary]]
+    identifier = "nyheter"
+    name = "Nyheter"
+    title = "Nyheter sectiion"
+    url = "/nyheter/"
+    weight = 4
+  [[menu.secondary]]
+    identifier = "karriar"
+    name = "Jobba hos oss"
+    title = "Karriär sectiion"
+    url = "/karriar/"
+    weight = 6

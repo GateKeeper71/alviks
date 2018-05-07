@@ -2,7 +2,6 @@ import anime from 'animejs'
 
 export function Navbar () {
   document.addEventListener("DOMContentLoaded", () => {
-    console.log('Badam');
     const list = document.querySelectorAll('.am-has-submenu');
     list.forEach((item) => {
       item.addEventListener('click', (evt) => {
@@ -32,6 +31,12 @@ export function Navbar () {
       autoplay: false,
       easing: 'myCustomEasingName'
     });
+
+    const menuBtn = document.getElementById('menu');
+    const sidebar = document.getElementById('sidebar');
+    menuBtn.addEventListener('click', (e) => {
+      sidebar.classList.toggle('slider-reset');
+    })
 
   })
 }

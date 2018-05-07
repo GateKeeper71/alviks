@@ -107,8 +107,10 @@
   }
 }
 
-.bg
-
 .hover-bg-light-blue:hover {
   background-color: var(--light-blue);
+}
+
+@media (--breakpoint-not-small) {
+  .bg-white-ns { background-color: var(--white); }
 }

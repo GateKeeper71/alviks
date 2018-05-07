@@ -1,5 +1,15 @@
 <div class="mw7 pv4 ph3 mb5 mt3 center tc bg-grey-1">
   <h3 class="f3 lh-title b mb4 black">{{ .heading }}</h3>
-  <p class="center mb4 lh-copy black">{{ .text }}</p>
-  {{ partial "button-link" (dict "label" .btntext "link" .link "bgcolor" "bg-yellow") }}
+  <p class="center mb4 lh-copy black">{{ .text }} Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+  <div class="flex">
+    <div class="w-third">
+      {{ partial "button-link" (dict "label" "Stockholm" "link" .link "bgcolor" "bg-yellow") }}
+    </div>
+    <div class="w-third">
+      {{ partial "button-link" (dict "label" "Uppsala" "link" .link "bgcolor" "bg-yellow") }}
+    </div>
+    <div class="w-third">
+      {{ partial "button-link" (dict "label" "Västerås" "link" .link "bgcolor" "bg-yellow") }}
+    </div>
+  </div>
 </div>

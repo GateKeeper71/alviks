@@ -6,13 +6,13 @@
 				<img src="{{ .Site.Data.global.logo }}" alt="Alviks Måleri logo" class="br0 db mb0 w-100 h3"/>
 			</a>
 		</div>
-		<nav class="db dtc-ns v-mid w-100 tl tr-ns mt2 overflow-y-auto overflow-visible-m pb2 pb0-ns">
-			<div class="nowrap ws-normal-m">
-				<ul class="list">
+		<nav class="db dtc-ns v-mid w-100 tl tr-ns mt2 pb2 pb0-ns">
+			<div>
+				<ul class="list dib">
 					{{ $currentPage := . }}
 					{{ range .Site.Menus.main }}
 						{{ if .HasChildren }}
-							<li class="dib relative">
+							<li class="dib relative outline">
 								<a href="#" class="am-has-submenu f5 fw6 hover-blue link black-70 dib mr2 mr3-m mr4-l">{{ .Name }}</a>
 								<ul class="absolute left-0 tl dn bg-white">
 									{{ range .Children }}
@@ -30,7 +30,16 @@
 						{{ end }}
 					{{ end }}
 				</ul>
+				<ul id="sidebar" class="list dib-ns fixed relative-ns absolute--fill bg-grey-2 bg-white-ns z-9999 slider--left slider-reset-ns pv4 pv0-ns">
+					{{ range .Site.Menus.secondary }}
+						{{ $is := $currentPage.IsMenuCurrent "secondary" . }}
+						<li class="dib-ns ph4 ph0-ns">
+							<a href="{{ .URL }}" class="f3 f5-ns fw6 hover-blue link black-70 dib mr2 mr3-m mr4-l {{ if $is }} underline {{ end }}">{{ .Name }}</a>
+						</li>
+					{{ end }}
+				</ul>
 			</div>
+			<button id="menu" class="f6 b grow link br1 ph2 pv1 border-box absolute z-max top-0 right-0 mr3 mt4 no-underline bg-grey-2 dn-ns" type="button">Meny</button>
 		</nav>
 	</div>
 </header>
