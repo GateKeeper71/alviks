@@ -5,4 +5,13 @@ contactingress: >-
   Tootsie roll candy candy canes biscuit. Apple pie apple pie icing dessert
   macaroon cotton candy fruitcake. Chupa chups biscuit tootsie roll cotton candy
   cake donut.
-office: []
+office:
+  - email: info@alviksmaleri.se
+    name: Stockholm
+    phone: 08-704 75 80
+  - email: uppsala@alviksmaleri.se
+    name: Uppsala
+    phone: 018-30 20 54
+  - email: johannes.jansson@mpaalviksmaleri.se
+    name: Västerås
+    phone: 021-81 53 00
