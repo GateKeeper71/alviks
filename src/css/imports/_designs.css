@@ -1,0 +1,44 @@
+.tooltip[x-placement^="bottom"], .popper[x-placement^="bottom"] {
+  margin-top: 5px;
+}
+
+.tooltip[x-placement^="top"], .popper[x-placement^="top"] {
+  margin-bottom: 5px;
+}
+
+.tooltip[x-placement^="bottom"] .tooltip-arrow, .popper[x-placement^="bottom"] .popper__arrow {
+  border-width: 0 5px 5px 5px;
+  border-left-color: transparent;
+  border-right-color: transparent;
+  border-top-color: transparent;
+  top: -5px;
+  left: calc(50% - 5px);
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.tooltip[x-placement^="top"] .tooltip-arrow, .popper[x-placement^="top"] .popper__arrow {
+  border-width: 5px 5px 0 5px;
+  border-left-color: transparent;
+  border-right-color: transparent;
+  border-bottom-color: transparent;
+  bottom: -5px;
+  left: calc(50% - 5px);
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.arrow-top {
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-color: inherit;
+  position: absolute;
+  margin: 5px;
+}
+
+.test {
+  top: 200%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}

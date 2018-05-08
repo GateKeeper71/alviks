@@ -8,13 +8,13 @@
 		</div>
 		<nav class="db dtc-ns v-mid w-100 tl tr-ns mt2 pb2 pb0-ns">
 			<div>
-				<ul class="list dib">
+				<ul class="list flex inline-flex-ns">
 					{{ $currentPage := . }}
 					{{ range .Site.Menus.main }}
 						{{ if .HasChildren }}
-							<li class="dib relative outline">
+							<li class="dib relative w-third w-auto-ns">
 								<a href="#" class="am-has-submenu f5 fw6 hover-blue link black-70 dib mr2 mr3-m mr4-l">{{ .Name }}</a>
-								<ul class="absolute left-0 tl dn bg-white">
+								<ul class="absolute left-0 tl dn bg-white z-5 ph2">
 									{{ range .Children }}
 										<li class="db mv1 pv1">
 											<a href="{{ .URL }}" class="link">{{ .Name }}</a>
@@ -23,8 +23,8 @@
 								</ul>
 							</li>
 						{{ else }}
-						{{ $is := $currentPage.IsMenuCurrent "main" . }}
-							<li class="dib">
+							{{ $is := $currentPage.IsMenuCurrent "main" . }}
+							<li class="dib w-third w-auto-ns">
 								<a href="{{ .URL }}" class="f5 fw6 hover-blue link black-70 dib mr2 mr3-m mr4-l {{ if $is }} underline {{ end }}">{{ .Name }}</a>
 							</li>
 						{{ end }}

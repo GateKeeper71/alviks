@@ -32,3 +32,7 @@
   .bl-l { border-left-style: solid; border-left-width: 1px; }
   .bn-l { border-style: none; border-width: 0; }
 }
+
+.b--yellow { border-color: var(--yellow); }
+.b-b--yellow { border-bottom-color: var(--yellow); }
+.b--black { border-color: var(--black); }

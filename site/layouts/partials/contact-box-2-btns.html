@@ -1,6 +1,6 @@
 <div class="mw7 pv4 ph3 mb5 mt3 center tc bg-grey-1">
-  <h3 class="f3 lh-title b mb4 black">{{ .heading }}</h3>
-  <p class="center mb4 lh-copy black">{{ .text }}</p>
+  <h3 class="f3 lh-title b mb4 black">{{ .contacttitle }} {{ .logo }} ff</h3>
+  <p class="center mb4 lh-copy black">{{ .contactingress }} pest</p>
   <div class="flex">
     <div class="w-50">
       <a href="#" class="am-tooltip-reference f5 b grow link no-underline-hover br1 ph4 pv2 mv2 dib white bg-yellow">Ring oss</a>
@@ -15,6 +15,11 @@
           <li>
             <a class="dib pv2" href="#">Västerås</a>
           </li>
+          {{ range .office }}
+            <li>
+              <a href="{{ .phone }}">{{ .name }}</a>
+            </li>
+          {{ end }}
         </ul>
         <div class="am-tooltip-arrow arrow-top popper__arrow" x-arrow></div>
       </div>

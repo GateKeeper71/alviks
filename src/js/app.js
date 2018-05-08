@@ -1,5 +1,6 @@
 import { AnimateCurve } from './ux/animate'
 import { Navbar } from './ux/navbar'
+import { Tip } from './ux/tip'
 
 // JS Goes here - ES6 supported
 if (window.netlifyIdentity) {
@@ -14,3 +15,4 @@ if (window.netlifyIdentity) {
 
 const animateCurve = new AnimateCurve();
 const navbar = new Navbar();
+const tooltip = new Tip();
