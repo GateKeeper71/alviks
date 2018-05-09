@@ -29,10 +29,10 @@ title = "Alviks Måleri"
     weight = 3
     hasChildren = true
   [[menu.main]]
-    identifier = "tjanster"
+    identifier = "whatwedo"
     name = "Vad vi gör"
-    title = "Tjänster sectiion"
-    url = "/tjanster/"
+    title = "Vad vi gör sectiion"
+    url = "/vad-vi-gor/"
     weight = 1
   [[menu.main]]
     identifier = "referenser"

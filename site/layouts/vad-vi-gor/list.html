@@ -1,0 +1,17 @@
+{{ define "main" }}
+
+<div class="mw7 center pv4">
+  <h1 class="f1 ph3 b mb4">Vad vi gör</h1>
+  <ul class="">
+      {{ range (.Paginator 4).Pages.ByPublishDate }}
+        {{ .Render "li"}}
+      {{ end }}
+  </ul>
+
+  {{ partial "pagination" . }}
+
+  {{ partial "contact-box-2-btns" .Site.Data.global }}
+
+</div>
+
+{{end}}
