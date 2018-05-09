@@ -36,6 +36,12 @@
 		max-width: 100%;
 	}
 
+	/* Iframes */
+	& iframe {
+		max-width: 100%;
+		margin-bottom: var(--spacing-medium);
+	}
+
 	/* Links */
 	& a {
 		color: var(--primary);
