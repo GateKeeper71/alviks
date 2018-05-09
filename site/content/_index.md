@@ -11,7 +11,7 @@ partners:
   - image: /img/peab-logo.svg
   - image: /img/ncc-logo.svg
   - image: /img/hsb-logo.png
-  - image: /img/riksdagen-logo.svg
+  - image: /img/uppsalahem-logo.png
 contact:
   btntext: Maila oss
   heading: Kontakta oss
