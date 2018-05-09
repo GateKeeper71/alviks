@@ -30,7 +30,7 @@ title = "Alviks Måleri"
     hasChildren = true
   [[menu.main]]
     identifier = "tjanster"
-    name = "Tjänster"
+    name = "Vad vi gör"
     title = "Tjänster sectiion"
     url = "/tjanster/"
     weight = 1

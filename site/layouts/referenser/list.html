@@ -1,8 +1,8 @@
 {{ define "main" }}
 
 <div class="mw7 center pv4">
-  
-  <h1 class="f1 ph3 b mb4">{{ .Title }}</h1>
+
+  <h1 class="f1 ph3 b mb4">Referenser</h1>
 
   <ul class="">
       {{ range (.Paginator 4).Pages.ByPublishDate }}
@@ -12,7 +12,7 @@
 
   {{ partial "pagination" . }}
 
-  {{ partial "contact-box" (dict "heading" "Kontakta oss" "text" "Lorem ipsum" "btntext" "Maila oss" "link" "http://dn.se" "bgcolor" "bg-yellow" )}}
+  {{ partial "contact-box-2-btns" .Site.Data.global }}
 
 </div>
 

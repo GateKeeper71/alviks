@@ -17,6 +17,8 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "Body", name: "body", widget: "markdown"}
   - name: "global"
     label: "Global"
+    editor:
+      preview: false
     files:
       - file: "site/data/global.yml"
         label: "General"
