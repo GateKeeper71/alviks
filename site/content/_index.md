@@ -8,7 +8,7 @@ image: /img/alviks-bg-3.svg
 illustration: /img/alviks-illustration.svg
 partners:
   - image: /img/skanska-logotype-posblue.svg
-  - image: /img/548px-mcdonald's_golden_arches.svg.png
+  - image: /img/peab-logo.svg
   - image: /img/riksdagen-logo.svg
   - image: /img/548px-mcdonald's_golden_arches.svg.png
   - image: /img/riksdagen-logo.svg
