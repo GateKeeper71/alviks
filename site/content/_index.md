@@ -12,6 +12,7 @@ partners:
   - image: /img/ncc-logo.svg
   - image: /img/hsb-logo.png
   - image: /img/uppsalahem-logo.png
+  - image: /img/stockholms-stad-logo.svg
 contact:
   btntext: Maila oss
   heading: Kontakta oss
