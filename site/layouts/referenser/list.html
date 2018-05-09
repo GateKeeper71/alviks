@@ -2,13 +2,17 @@
 
 <div class="mw7 center pv4">
 
-  <h1 class="f1 ph3 b mb4">Referenser</h1>
+  <h1 class="f1 ph3 b mb4">{{ .Title }}</h1>
 
-  <ul class="">
-      {{ range (.Paginator 4).Pages.ByPublishDate }}
-        {{ .Render "li"}}
-      {{ end }}
-  </ul>
+  <div class="flex flex-wrap">
+
+    {{ range (.Paginator 16).Pages.ByPublishDate }}
+
+      {{ .Render "li"}}
+
+    {{ end }}
+
+  </div>
 
   {{ partial "pagination" . }}
 

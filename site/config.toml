@@ -1,6 +1,8 @@
 baseurl = "/"
 languageCode = "sv-se"
 title = "Alviks Måleri"
+summaryLength = 30
+pluralizeListTitles = false
 
 [menu]
   [[menu.main]]

@@ -3,8 +3,12 @@
 <div class="mw7 center pv4">
   <h1 class="f1 ph3 b mb4">Vad vi gör</h1>
   <ul class="">
-      {{ range (.Paginator 4).Pages.ByPublishDate }}
-        {{ .Render "li"}}
+      {{ range  $i,$p := (.Paginator 4).Pages.ByPublishDate }}
+        {{if not (modBool $i 2)}}
+          {{ partial "label-image-block-odd" . }}
+        {{ else }}
+          {{ partial "label-image-block" . }}
+        {{end}}
       {{ end }}
   </ul>
 

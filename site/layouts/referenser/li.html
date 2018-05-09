@@ -1,1 +1,8 @@
-{{ partial "label-image-block" . }}
+<div class="w-100 w-50-ns pv3 ph3">
+  <h4 class="f4 b lh-title mb2">{{ .Title }}</h4>
+  <img class="w-100" src="{{ .Params.Image }}" alt="">
+  <p>{{ .Summary }}</p>
+  {{ if .Truncated }}
+    {{ partial "button-link" (dict "label" "Läs mer" "link" .Permalink) }}
+  {{ end }}
+</div>
