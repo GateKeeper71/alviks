@@ -1,18 +1,29 @@
 {{ if gt .Paginator.TotalPages 1 }}
- 
+
 <nav class="cf pa3">
     {{ if .Paginator.HasNext }}
     <a class="fl dib link dim black f6 f5-ns b pa2" title="Next Page" href="{{ .Paginator.Next.URL }}">
-        &larr; Previous
+        &larr; Tidigare
     </a>
     {{ end }}
     <div class="pagination">
         {{ if .Paginator.HasPrev }}
         <a class="fl dib link dim black f6 f5-ns b pa2" title="Previous Page" href="{{ .Paginator.Prev.URL }}">
-            Next &rarr;
+            Nästa &rarr;
         </a>
         {{ end }}
     </div>
 </nav>
- 
+
+<nav class="bg-grey-1 mw7 ph3 pv4 center">
+  <div class="flex justify-between">
+    {{ if .Paginator.HasNext }}
+    <a href="{{ .Paginator.Next.URL }}">Tidigare</a>
+    {{ end }}
+    {{ if .Paginator.HasPrev }}
+    <a href="{{ .Paginator.Prev.URL }}">Nästa</a>
+    {{ end }}
+  </div>
+</nav>
+
 {{ end }}

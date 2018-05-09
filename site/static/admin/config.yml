@@ -78,6 +78,14 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Image", name: "image", widget: "image"}
       - {label: "Body", name: "body", widget: "markdown"}
+  - name: "whatwedo"
+    label: "Vad vi gör"
+    folder: "site/content/vad-vi-gor"
+    create: true
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Image", name: "image", widget: "image"}
+      - {label: "Body", name: "body", widget: "markdown"}
   - name: "karriar"
     label: "Karriär"
     folder: "site/content/karriar"

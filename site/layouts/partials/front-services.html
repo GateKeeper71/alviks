@@ -8,7 +8,7 @@
   </div>
   <div class="bg-yellow-2 pv3">
     <div class="pw7 center">
-      <h3 class="f2 lh-title b mb4 tc black">Tjänster</h3>
+      <h3 class="f2 lh-title b mb4 tc black">Vad vi gör</h3>
       {{ range $i,$p := where .Data.Pages "Type" "service" }}
       {{if not (modBool $i 2)}}
           {{ partial "label-image-block-odd" . }}
