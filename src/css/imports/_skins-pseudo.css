@@ -177,10 +177,6 @@
   transition: width 200ms ease-out;
 }
 
-.hover-b-before-after:hover::before {
-  width: 50%;
-}
-
 .hover-b-before-after::after {
   content: '';
   height: 2px;
@@ -192,8 +188,9 @@
   transition: width 200ms ease-out;
 }
 
-.hover-b-before-after:hover::after {
-  width: 50%;
+@media (--breakpoint-not-small) {
+  .hover-b-before-after:hover::after { width: 50%; }
+  .hover-b-before-after:hover::before { width: 50%; }
 }
 
 .hover-b-before-after-fw::after,
