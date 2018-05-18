@@ -1,6 +1,6 @@
 {{ define "main" }}
 
-{{ partial "jumbotron" (dict "imageUrl" .Params.image "title" .Title "subtitle" .Params.subtitle "illustration" .Params.illustration) }}
+{{ partial "jumbotron" (dict "imageUrl" .Params.image "title" .Title "subtitle" .Params.subtitle "illustration" .Params.illustration "bg" .Site.Data.nav.bgimage) }}
 
 {{ partial "front-services" . }}
 

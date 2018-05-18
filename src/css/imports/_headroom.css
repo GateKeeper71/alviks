@@ -1,0 +1,12 @@
+.headroom {
+  position: fixed;
+  transition: transform 400ms ease-out;
+}
+
+.headroom--pinned {
+  transform: translateY(0);
+}
+
+.headroom--unpinned {
+  transform: translateY(-100%);
+}
