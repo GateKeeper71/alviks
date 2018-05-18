@@ -13,9 +13,14 @@
 	--black: rgba(43, 37, 35, 1);
 	--blue: rgba(53, 126, 221, 1);
 	--light-blue: rgba(150, 204, 255, 1);
+	--alvik-1: rgba(169, 0, 57, 1);
+	--alvik-2: rgba(131, 26, 68, 1);
+	--alvik-3: rgba(40, 21, 90, 1);
+	--alvik-4: rgba(10, 10, 45, 1);
 
 	/* Typography */
-	--font-family: roboto, arial, sans-serif;
+	--font-family: 'Lato', arial, sans-serif;
+	--font-accent: 'Nanum Gothic', arial, sans-serif;
 	--line-height: 1.5;
 
 	--font-size: 16px;

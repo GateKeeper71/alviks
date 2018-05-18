@@ -13,7 +13,7 @@
 					{{ range .Site.Menus.main }}
 						{{ if .HasChildren }}
 							<li class="dib relative w-third w-auto-ns tc tl-ns">
-								<a href="#" class="relative hover-b-before-after pb3 pt3 am-has-submenu f5 fw6 link no-underline-hover black-70 dib mr2 mr3-m mr4-l">{{ .Name }}</a>
+								<a href="#" class="relative hover-b-before bt-50 b-psw-50 b-psh-2 b-psbg-grey-3 hover-b-after at-50 a-psw-50 a-psh-2 a-psbg-grey-3 pb3 pt3 am-has-submenu f5 fw6 link no-underline-hover alvik-2 dib mr2 mr3-m mr4-l">{{ .Name }}</a>
 								<ul class="absolute left-0 tl dn bg-white z-5 ph2">
 									{{ range .Children }}
 										<li class="db mv1 pv1">
@@ -25,16 +25,16 @@
 						{{ else }}
 							{{ $is := $currentPage.IsMenuCurrent "main" . }}
 							<li class="dib w-third w-auto-ns tc tl-ns">
-								<a href="{{ .URL }}" class="relative hover-b-before-after pb3 pt3 f5 fw6 link no-underline-hover black-70 dib mr2 mr3-m mr4-l {{ if $is }} hover-b-before-after-fw {{ end }}">{{ .Name }}</a>
+								<a href="{{ .URL }}" class="relative hover-b-before bt-50 b-psw-50 b-psh-2 b-psbg-grey-3 hover-b-after at-50 a-psw-50 a-psh-2 a-psbg-grey-3 pb3 pt3 f5 fw6 link no-underline-hover alvik-2 dib mr2 mr3-m mr4-l {{ if $is }} hover-b-before-after-fw {{ end }}">{{ .Name }}</a>
 							</li>
 						{{ end }}
 					{{ end }}
 				</ul>
-				<ul id="sidebar" class="list dib-ns fixed relative-ns absolute--fill bg-grey-2 bg-white-ns z-9999 slider--left slider-reset-ns pv4 pv0-ns">
+				<ul id="sidebar" class="list dib-ns fixed relative-ns absolute--fill bg-grey-2 bg-off-white-ns z-9999 slider--left slider-reset-ns pv4 pv0-ns">
 					{{ range .Site.Menus.secondary }}
 						{{ $is := $currentPage.IsMenuCurrent "secondary" . }}
 						<li class="dib-ns ph4 ph0-ns">
-							<a href="{{ .URL }}" class="relative hover-b-before-after pb3 pt3 f3 f5-ns fw6 link no-underline-hover black-70 dib mr2 mr3-m mr4-l {{ if $is }} hover-b-before-after-fw {{ end }}">{{ .Name }}</a>
+							<a href="{{ .URL }}" class="relative hover-b-before bt-50 b-psw-50 b-psh-2 b-psbg-grey-3 hover-b-after at-50 a-psw-50 a-psh-2 a-psbg-grey-3 pb3 pt3 f3 f5-ns fw6 link no-underline-hover alvik-2 dib mr2 mr3-m mr4-l {{ if $is }} hover-b-before-after-fw {{ end }}">{{ .Name }}</a>
 						</li>
 					{{ end }}
 				</ul>

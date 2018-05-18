@@ -39,6 +39,11 @@ sup {
   vertical-align: super;
 }
 
+/* Accent font family for buttons etc */
+.font-accent {
+  font-family: var(--font-accent);
+}
+
 /* Measure is limited to ~66 characters */
 .measure {
   max-width: 30em;

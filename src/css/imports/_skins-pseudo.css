@@ -166,34 +166,43 @@
 .hover-bg-washed-red:hover,
 .hover-bg-washed-red:focus { background-color: var(--washed-red); }
 
-.hover-b-before-after::before {
+/* Animated after/before PSEUDO element Border on hover.
+* Parent (of PSEUDO) must be relative. */
+
+.hover-b-before::before,
+.hover-b-after::after {
   content: '';
-  height: 2px;
-  background-color: var(--grey-3);
   width: 0;
-  position: absolute;
   bottom: 0;
-  right: 50%;
+  position: absolute;
   transition: width 200ms ease-out;
 }
+/* Before target in  % */
+.bt-50::before { right: 50%; }
+.bt-100::before { right: 100%; }
 
-.hover-b-before-after::after {
-  content: '';
-  height: 2px;
-  background-color: var(--grey-3);
-  width: 0;
-  position: absolute;
-  bottom: 0;
-  left: 50%;
-  transition: width 200ms ease-out;
-}
+/* After target in  % */
+.at-50::after { left: 50%; }
+.at-100::after { left: 100%; }
 
+/* PSEUDO height*/
+.a-psh-1::after { height: 1px; }
+.b-psh-1::before { height: 1px; }
+.a-psh-2::after { height: 2px; }
+.b-psh-2::before { height: 2px; }
+.a-psh-3::after { height: 3px; }
+.b-psh-3::before { height: 3px; }
+
+/* PSEUDO background-color*/
+.a-psbg-grey-3::after { background-color: var(--grey-3); }
+.b-psbg-grey-3::before { background-color: var(--grey-3); }
+.a-psbg-black::after { background-color: var(--black); }
+.b-psbg-black::before { background-color: var(--black); }
+
+/* Allow only on bigger screens to avoid double klick issue in iOS Safari */
 @media (--breakpoint-not-small) {
-  .hover-b-before-after:hover::after { width: 50%; }
-  .hover-b-before-after:hover::before { width: 50%; }
-}
-
-.hover-b-before-after-fw::after,
-.hover-b-before-after-fw::before {
-  width: 50%;
+  .a-psw-50:hover::after { width: 50%; }
+  .b-psw-50:hover::before { width: 50%; }
+  .a-psw-100:hover::after { width: 100%; }
+  .b-psw-100:hover::before { width: 100%; }
 }
