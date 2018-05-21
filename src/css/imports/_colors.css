@@ -139,7 +139,7 @@
   }
 }
 
-/* Hover bg */
+/* Hover backgrounds */
 .hover-bg-light-blue:hover {
   background-color: var(--light-blue);
 }
@@ -154,12 +154,30 @@
   background-image: linear-gradient(to right, rgb(144, 28, 148), rgb(27, 22, 88) 50%);
 }
 
-.hover-bg-blue-to-red::after {
-  background-image: linear-gradient(to right, rgb(144, 28, 148), rgb(27, 22, 88) 120%);
-}
-
 .bg-1-to-3 {
   background-image: linear-gradient(to right, var(--alvik-1), var(--alvik-3) 50%);
+}
+
+
+/* After backgrounds */
+.hover-bg-alviks-1::after {
+  background-color: var(--alvik-1);
+}
+
+.hover-bg-alviks-2::after {
+  background-color: var(--alvik-2);
+}
+
+.hover-bg-alviks-3::after {
+  background-color: var(--alvik-3);
+}
+
+.hover-bg-alviks-4::after {
+  background-color: var(--alvik-4);
+}
+
+.hover-bg-blue-to-red::after {
+  background-image: linear-gradient(to right, rgb(144, 28, 148), rgb(27, 22, 88) 120%);
 }
 
 .hover-bg-1-to-3::after {

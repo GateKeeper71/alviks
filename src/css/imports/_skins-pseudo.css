@@ -199,6 +199,9 @@
 .a-psbg-black::after { background-color: var(--black); }
 .b-psbg-black::before { background-color: var(--black); }
 
+.a-psbg-1-to-3::after { background-image: linear-gradient(to left, var(--alvik-1), var(--alvik-3) 160%); }
+.b-psbg-1-to-3::before { background-image: linear-gradient(to right, var(--alvik-1), var(--alvik-3) 160%); }
+
 /* Allow only on bigger screens to avoid double klick issue in iOS Safari */
 @media (--breakpoint-not-small) {
   .a-psw-50:hover::after { width: 50%; }
