@@ -16,6 +16,7 @@ export function Navbar () {
       item.addEventListener('click', (evt) => {
         console.log('boooom');
         evt.preventDefault();
+        console.log(evt.target.nextElementSibling);
         evt.target.nextElementSibling.classList.toggle('dn');
         //blog.play();
         //evt.target.nextElementSibling.classList.contains('dn') ? console.log('Contains') : console.log('NOOOOO');
@@ -29,7 +30,7 @@ export function Navbar () {
     }
 
     const blob = anime({
-      targets: '.absolute .db',
+      targets: '.am-submenu .db',
       translateY: function(el, i) {
         return (i + 1) * 10;
       },
@@ -44,6 +45,9 @@ export function Navbar () {
     const menuBtn = document.getElementById('menu');
     const sidebar = document.getElementById('sidebar');
     menuBtn.addEventListener('click', (e) => {
+      console.log('j');
+      menuBtn.classList.toggle('closed');
+      menuBtn.classList.toggle('white');
       sidebar.classList.toggle('slider-reset');
     })
 

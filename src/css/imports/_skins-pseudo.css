@@ -185,6 +185,11 @@
 .at-50::after { left: 50%; }
 .at-100::after { left: 100%; }
 
+.hover-b-before-after-fw::after,
+.hover-b-before-after-fw::before {
+  width: 50%;
+}
+
 /* PSEUDO height*/
 .a-psh-1::after { height: 1px; }
 .b-psh-1::before { height: 1px; }

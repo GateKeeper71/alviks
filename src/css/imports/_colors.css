@@ -64,6 +64,15 @@
   color: var(--alvik-4);
 }
 
+@media (--breakpoint-not-small) {
+  .alvik-1-ns { color: var(--alvik-1); }
+  .alvik-2-ns { color: var(--alvik-2); }
+  .alvik-3-ns { color: var(--alvik-3); }
+  .alvik-4-ns { color: var(--alvik-4); }
+}
+
+/* Background */
+
 .bg-primary {
   background-color: var(--primary);
 }
@@ -130,6 +139,10 @@
 
 .bg-alvik-4 {
   background-color: var(--alvik-4);
+}
+
+.bg-transparent {
+  background-color: transparent;
 }
 
 .bg-fix-primary {

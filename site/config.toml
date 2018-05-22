@@ -6,31 +6,6 @@ pluralizeListTitles = false
 
 [menu]
   [[menu.main]]
-    identifier = "vasteras"
-    name = "Västerås"
-    title = "Västerås section"
-    url = "/kontakt/vasteras/"
-    parent = "kontakt"
-  [[menu.main]]
-    identifier = "stockholm"
-    name = "Stockholm"
-    title = "Stockholm section"
-    url = "/kontakt/stockholm/"
-    parent = "kontakt"
-  [[menu.main]]
-    identifier = "uppsala"
-    name = "Uppsala"
-    title = "Uppsala section"
-    url = "/kontakt/uppsala/"
-    parent = "kontakt"
-  [[menu.main]]
-    identifier = "kontakt"
-    name = "Kontakt"
-    title = "Kontakt sectiion"
-    url = "/kontakt/"
-    weight = 3
-    hasChildren = true
-  [[menu.main]]
     identifier = "whatwedo"
     name = "Vad vi gör"
     title = "Vad vi gör sectiion"
@@ -60,3 +35,28 @@ pluralizeListTitles = false
     title = "Karriär sectiion"
     url = "/karriar/"
     weight = 6
+  [[menu.secondary]]
+    identifier = "vasteras"
+    name = "Västerås"
+    title = "Västerås section"
+    url = "/kontakt/vasteras/"
+    parent = "kontakt"
+  [[menu.secondary]]
+    identifier = "stockholm"
+    name = "Stockholm"
+    title = "Stockholm section"
+    url = "/kontakt/stockholm/"
+    parent = "kontakt"
+  [[menu.secondary]]
+    identifier = "uppsala"
+    name = "Uppsala"
+    title = "Uppsala section"
+    url = "/kontakt/uppsala/"
+    parent = "kontakt"
+  [[menu.secondary]]
+    identifier = "kontakt"
+    name = "Kontakt"
+    title = "Kontakt sectiion"
+    url = "/kontakt/"
+    weight = 3
+    hasChildren = true

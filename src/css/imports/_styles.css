@@ -13,3 +13,24 @@
     box-shadow: inset 0 -4px 0 var(--primary);
   }
 }
+
+.burger span {
+  transition: all 200ms ease-out;
+}
+
+.burger.closed span:nth-child(1) {
+  transform: rotate(45deg);
+  border-color: pink;
+  top: 10px;
+}
+
+.burger.closed span:nth-child(2) {
+  opacity: 0;
+}
+
+.burger.closed span:nth-child(3) {
+  transform: rotate(-45deg);
+  border-color: pink;
+  top: -8px;
+  position: relative;
+}
