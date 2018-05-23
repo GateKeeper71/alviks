@@ -56,23 +56,22 @@
 							</li>
 						{{ end }}
 					{{ end }}
-					<div class="db dn-ns debug">
-						<ul class="absolute bottom-0 center flex justify-center w-100">
+					<div class="db dn-ns">
+						<ul class="absolute bottom-0 center flex justify-center w-100 pv4">
 							<li class="db ph2">
 							  <a href="" class="am-tooltip-reference link white db relative br-100 pa2">
 							    <svg width="32px" height="32px" class="db">
 							      <use xlink:href="#icons-phone"></use>
 							    </svg>
 							  </a>
-								<div class="popper am-tooltip br1 pv2 ph3 o-0">
+								<div class="popper am-tooltip br1 pv2 ph3 dn">
 					        <ul class="white">
 					          {{ range $i,$p := .Site.Data.global.office }}
 					            <li>
-					              <a href="mailto:{{ .email }}" class="dib relative overflow-hidden link ba bw0 pv2 ph4 no-underline-hover font-accent b ttu bg-alvik-{{ add $i 1 }} hover-bg-alviks-{{ add $i 2 }} hover-bg-slide br-pill white"><span class="z-1 relative">{{ .name }}</span></a>
+					              <a href="tel:{{ .phone }}" class="dib relative overflow-hidden link ba bw0 pv2 ph4 no-underline-hover font-accent b ttu bg-alvik-{{ add $i 1 }} hover-bg-alviks-{{ add $i 2 }} hover-bg-slide br-pill white"><span class="z-1 relative">{{ .name }}</span></a>
 					            </li>
 					          {{ end }}
 					        </ul>
-					        <div class="am-tooltip-arrow arrow-top popper__arrow" x-arrow></div>
 					      </div>
 							</li>
 							<li class="db ph2">
@@ -81,7 +80,7 @@
 							      <use xlink:href="#icons-envelope"></use>
 							    </svg>
 							  </a>
-								<div class="popper am-tooltip br1 pv2 ph3 o-0">
+								<div class="popper am-tooltip br1 pv2 ph3 dn">
 					        <ul class="white">
 					          {{ range $i,$p := .Site.Data.global.office }}
 					            <li>
@@ -89,7 +88,6 @@
 					            </li>
 					          {{ end }}
 					        </ul>
-					        <div class="am-tooltip-arrow arrow-top popper__arrow" x-arrow></div>
 					      </div>
 							</li>
 						</ul>

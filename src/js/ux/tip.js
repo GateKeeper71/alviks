@@ -10,11 +10,12 @@ export function Tip () {
 
       item.addEventListener('click', (evt) => {
         evt.preventDefault();
-        sibling.classList.toggle('o-0');
+        sibling.classList.toggle('dn');
+        test.update();
       })
 
       const test = new Popper(item, sibling, {
-        trigger: "hover",
+        trigger: "click",
         placement: 'bottom',
       });
 
