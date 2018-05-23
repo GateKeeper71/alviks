@@ -6,11 +6,14 @@ export function Tip () {
     const tools = document.querySelectorAll('.am-tooltip-reference');
 
     tools.forEach((item) => {
+
       const sibling = item.nextElementSibling;
 
       item.addEventListener('click', (evt) => {
         evt.preventDefault();
         sibling.classList.toggle('dn');
+        console.log(test);
+        test.options.placement === 'bottom' ? test.options.placement = 'top' : test.options.placement = 'bottom';
         test.update();
       })
 
