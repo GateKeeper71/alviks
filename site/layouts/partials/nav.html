@@ -40,10 +40,10 @@
 					{{ range .Site.Menus.secondary }}
 						{{ if .HasChildren }}
 							<li class="db dib-ns relative w-100 w-auto-ns tr tl-ns">
-								<a href="#" class="relative hover-b-before bt-50 b-psw-50 b-psh-2 b-psbg-1-to-3 hover-b-after at-50 a-psw-50 a-psh-2 a-psbg-1-to-3 pv2 pv4-ns am-has-submenu f5 fw6 link no-underline-hover off-white alvik-2-ns dib mr3 mr2-ns mr3-m mr4-l">{{ .Name }}</a>
-								<ul class="absolute left-0 tl dn bg-white z-5 ph2 am-submenu">
+								<a href="#" class="relative hover-b-before bt-50 b-psw-50 b-psh-2 b-psbg-1-to-3 hover-b-after at-50 a-psw-50 a-psh-2 a-psbg-1-to-3 pv2 pv4-ns am-has-submenu f5 fw6 link no-underline-hover off-white alvik-2-ns dib mr3 mr2-ns mr3-m mr4-l"><span class="after-arrow--down">{{ .Name }}</span></a>
+								<ul class="absolute-ns left-0 tl db dn-ns white alvik-1-ns  bg-alvik-4 bg-off-white-ns z-5 ph2 am-submenu">
 									{{ range .Children }}
-										<li class="db mv1 pv1">
+										<li class="db mv1 pv1 tr tl-ns ph4 ph0-ns">
 											<a href="{{ .URL }}" class="link">{{ .Name }}</a>
 										</li>
 									{{ end }}
@@ -56,6 +56,44 @@
 							</li>
 						{{ end }}
 					{{ end }}
+					<div class="db dn-ns debug">
+						<ul class="absolute bottom-0 center flex justify-center w-100">
+							<li class="db ph2">
+							  <a href="" class="am-tooltip-reference link white db relative br-100 pa2">
+							    <svg width="32px" height="32px" class="db">
+							      <use xlink:href="#icons-phone"></use>
+							    </svg>
+							  </a>
+								<div class="popper am-tooltip br1 pv2 ph3 o-0">
+					        <ul class="white">
+					          {{ range $i,$p := .Site.Data.global.office }}
+					            <li>
+					              <a href="mailto:{{ .email }}" class="dib relative overflow-hidden link ba bw0 pv2 ph4 no-underline-hover font-accent b ttu bg-alvik-{{ add $i 1 }} hover-bg-alviks-{{ add $i 2 }} hover-bg-slide br-pill white"><span class="z-1 relative">{{ .name }}</span></a>
+					            </li>
+					          {{ end }}
+					        </ul>
+					        <div class="am-tooltip-arrow arrow-top popper__arrow" x-arrow></div>
+					      </div>
+							</li>
+							<li class="db ph2">
+							  <a href="" class="am-tooltip-reference link white db relative br-100 pa2">
+							    <svg width="32px" height="32px" class="db">
+							      <use xlink:href="#icons-envelope"></use>
+							    </svg>
+							  </a>
+								<div class="popper am-tooltip br1 pv2 ph3 o-0">
+					        <ul class="white">
+					          {{ range $i,$p := .Site.Data.global.office }}
+					            <li>
+					              <a href="mailto:{{ .email }}" class="dib relative overflow-hidden link ba bw0 pv2 ph4 no-underline-hover font-accent b ttu bg-alvik-{{ add $i 1 }} hover-bg-alviks-{{ add $i 2 }} hover-bg-slide br-pill white"><span class="z-1 relative">{{ .name }}</span></a>
+					            </li>
+					          {{ end }}
+					        </ul>
+					        <div class="am-tooltip-arrow arrow-top popper__arrow" x-arrow></div>
+					      </div>
+							</li>
+						</ul>
+					</div>
 				</ul>
 			</div>
 			<button id="menu" class="f6 b br1 ph2 pv1 border-box absolute z-max absolute--center-v right-0 mr3 no-underline bg-transparent dn-ns burger" type="button">Meny <span class="db w-100 bb mt1 mb2 bg-black relative"></span><span class="db w-100 bb mb2 bg-black"></span><span class="db w-100 bb bg-black"></span></button>

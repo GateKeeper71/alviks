@@ -14,13 +14,13 @@ export function Navbar () {
     const list = document.querySelectorAll('.am-has-submenu');
     list.forEach((item) => {
       item.addEventListener('click', (evt) => {
-        console.log('boooom');
         evt.preventDefault();
-        console.log(evt.target.nextElementSibling);
-        evt.target.nextElementSibling.classList.toggle('dn');
-        //blog.play();
-        //evt.target.nextElementSibling.classList.contains('dn') ? console.log('Contains') : console.log('NOOOOO');
-        evt.target.nextElementSibling.classList.contains('dn') ? blob.reverse() : blob.play();
+
+        const parentElemSibling = evt.target.parentElement.nextElementSibling;
+
+        parentElemSibling.classList.toggle('dn-ns');
+
+        parentElemSibling.classList.contains('dn-ns') ? blob.reverse() : blob.play();
 
       })
     })
@@ -46,6 +46,8 @@ export function Navbar () {
     const sidebar = document.getElementById('sidebar');
     menuBtn.addEventListener('click', (e) => {
       console.log('j');
+      navElem.classList.toggle('headroom');
+      navElem.classList.toggle('fixed');
       menuBtn.classList.toggle('closed');
       menuBtn.classList.toggle('white');
       sidebar.classList.toggle('slider-reset');

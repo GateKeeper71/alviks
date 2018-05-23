@@ -214,3 +214,20 @@
   .a-psw-100:hover::after { width: 100%; }
   .b-psw-100:hover::before { width: 100%; }
 }
+
+/* Pseudo decorations */
+.after-arrow--down {
+  padding-right: 18px;
+}
+.after-arrow--down::after {
+  content: '';
+  height: 0;
+  width: 0;
+  border-left: 6px solid transparent;
+  border-right: 6px solid transparent;
+  border-top: 6px solid var(--alvik-1);
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 0px;
+}

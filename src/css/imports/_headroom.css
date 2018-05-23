@@ -3,10 +3,10 @@
   transition: transform 400ms ease-out;
 }
 
-.headroom--pinned {
+.headroom.headroom--pinned {
   transform: translateY(0);
 }
 
-.headroom--unpinned {
+.headroom.headroom--unpinned {
   transform: translateY(-100%);
 }
