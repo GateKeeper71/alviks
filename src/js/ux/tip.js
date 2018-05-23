@@ -10,11 +10,11 @@ export function Tip () {
       const sibling = item.nextElementSibling;
 
       item.addEventListener('click', (evt) => {
+
         evt.preventDefault();
-        sibling.classList.toggle('dn');
-        console.log(test);
-        test.options.placement === 'bottom' ? test.options.placement = 'top' : test.options.placement = 'bottom';
         test.update();
+        sibling.classList.toggle('dn');
+
       })
 
       const test = new Popper(item, sibling, {
