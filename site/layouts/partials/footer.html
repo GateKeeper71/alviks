@@ -12,7 +12,7 @@
 					{{ range .Site.Data.footer.ablock}}
 						<div class="w-third-ns mb4 ph3">
 							<ul>
-								<li class="f4 b lh-title mb2">{{ .heading }}</li>
+								<li class="f4 b lh-title mb2 black">{{ .heading }}</li>
 								{{ range .info }}
 									{{ if .link }}
 										<li><a href="{{ .link }}">{{ .text }}</a></li>
@@ -23,7 +23,7 @@
 							</ul>
 							<div class="mt3">
 								{{ if or (or (.fblink) (.iglink)) }}
-									<h5 class="f5 b lh-title mb2">Social media</h5>
+									<h5 class="f5 b lh-title mb2 black">Social media</h5>
 								{{ end }}
 								<ul class="mhn2">
 									{{ if .fblink}}

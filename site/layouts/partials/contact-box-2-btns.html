@@ -1,14 +1,14 @@
 <div class="mw7 pv4 ph3 mb5 mt3 center tc bg-grey-1">
-  <h3 class="f3 lh-title b mb4">{{ .contacttitle }}</h3>
+  <h3 class="f3 lh-title b mb4 black">{{ .contacttitle }}</h3>
   <p class="center mb4 lh-copy black">{{ .contactingress }} pest</p>
   <div class="flex justify-center">
     <div class="mr4">
-      <a href="#" class="am-tooltip-reference f5 ttu font-accent b link no-underline-hover br-pill ph4 pv2 mv2 dib white bg-yellow bg-animate hover-bg-light-green">Ring oss</a>
-      <div class="popper am-tooltip bg-yellow b--yellow br1 pv3 ph3 dn">
+      <a href="#" class="am-tooltip-reference dib relative overflow-hidden link ba bw0 pv1 ph1 no-underline-hover font-accent b ttu bg-1-to-3 hover-bg-1-to-3 hover-bg-slide br-pill white"><span class="z-1 relative bg-white dib br-pill alvik-3 pv2 ph4">Ring oss</span></a>
+      <div class="popper am-tooltip br1 pv2 ph3 dn">
         <ul class="white">
-          {{ range .office }}
+          {{ range $i,$p := .office }}
             <li>
-              <a href="tel:{{ .phone }}" class="dib pv2">{{ .name }}</a>
+              <a href="tel:{{ .phone }}" class="dib relative overflow-hidden link ba bw0 pv2 ph4 no-underline-hover font-accent b ttu bg-alvik-{{ add $i 1 }} hover-bg-alviks-{{ add $i 2 }} hover-bg-slide br-pill white"><span class="z-1 relative">{{ .name }}</span></a>
             </li>
           {{ end }}
         </ul>

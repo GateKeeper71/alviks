@@ -1,13 +1,13 @@
 {{ define "main" }}
 
-  <div class="mw7 center ph3 pv4">
-    <h1 class="f2 lh-title b mb4">Kontakt {{.Title}}</h1>
+  <div class="mw7 center ph3 pt6 pb4">
+    <h1 class="f2 lh-title b mb4 alvik-3">Kontakt {{.Title}}</h1>
 
     <p>{{ .Params.ingress }}</p>
 
-    <div class="flex mb3">
-      <div class="w-50-m">
-        <h3 class="f3 b lh-title">Besöksadress</h3>
+    <div class="flex-ns mb3">
+      <div class="w-100 w-50-ns mb2">
+        <h3 class="f3 b lh-title black">Besöksadress</h3>
         <ul>
           {{ range .Params.visitinfo }}
             {{ if .link }}
@@ -19,8 +19,8 @@
         </ul>
       </div>
       {{ if .Params.postinfo }}
-        <div class="w-50-m">
-          <h3 class="f3 b lh-title">Postadress</h3>
+        <div class="w-100 w-50-ns mb2">
+          <h3 class="f3 b lh-title black">Postadress</h3>
           <ul>
             {{ range .Params.postinfo }}
               {{ if .link }}
@@ -44,12 +44,12 @@
     </div>
 
     <div class="mw7">
-      <h3 class="f3 b mb3">Medarbetare</h3>
+      <h3 class="f3 b mb3 black">Medarbetare</h3>
       <div class="mw7 flex flex-wrap items-center">
         {{ range .Params.coworker }}
         <div class="w-100 w-50-ns w-third-l ph2 mb4 tc tl-ns">
           <img src="{{ .image }}" alt="{{ .name }}">
-          <h5 class="f5 b">{{ .name }}</h5>
+          <h5 class="f5 b black">{{ .name }}</h5>
           <ul>
             <li class="f6">{{ .position }}</li>
             <li>

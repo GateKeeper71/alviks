@@ -49,6 +49,7 @@ export function Navbar () {
       navElem.classList.toggle('headroom');
       navElem.classList.toggle('fixed');
       menuBtn.classList.toggle('closed');
+      menuBtn.classList.toggle('alvik-1');
       menuBtn.classList.toggle('white');
       sidebar.classList.toggle('slider-reset');
     })

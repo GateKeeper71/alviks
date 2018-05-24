@@ -1,7 +1,7 @@
 {{ define "main" }}
 
-<div class="mw7 center pv4">
-  <h1 class="f1 ph3 b mb4">Vad vi gör</h1>
+<div class="mw7 center pt6 pb4">
+  <h1 class="f2 ph3 b mb4 alvik-3">Vad vi gör</h1>
   <ul class="">
       {{ range  $i,$p := (.Paginator 4).Pages.ByPublishDate }}
         {{if not (modBool $i 2)}}

@@ -5,16 +5,6 @@ media_folder: "site/static/img" # Folder where user uploaded files should go
 public_folder: "img"
 
 collections: # A list of collections the CMS should be able to edit
-  - name: "post" # Used in routes, ie.: /admin/collections/:slug/edit
-    label: "Post" # Used in the UI, ie.: "New Post"
-    folder: "site/content/post" # The path to the folder where the documents are stored
-    create: true # Allow users to create new documents in this collection
-    fields: # The fields each document in this collection have
-      - {label: "Title", name: "title", widget: "string"}
-      - {label: "Publish Date", name: "date", widget: "datetime"}
-      - {label: "Intro Blurb", name: "description", widget: "text"}
-      - {label: "Image", name: "image", widget: "image", required: false}
-      - {label: "Body", name: "body", widget: "markdown"}
   - name: "global"
     label: "Global"
     editor:
@@ -62,22 +52,6 @@ collections: # A list of collections the CMS should be able to edit
             ]}
         editor:
           preview: false
-  - name: "service"
-    label: "Tjänster (Service)"
-    folder: "site/content/service"
-    create: true
-    fields:
-      - {label: "Title", name: "title", widget: "string"}
-      - {label: "Image", name: "image", widget: "image"}
-      - {label: "Body", name: "body", widget: "markdown"}
-  - name: "tjanster"
-    label: "Tjänster"
-    folder: "site/content/tjanster"
-    create: true
-    fields:
-      - {label: "Title", name: "title", widget: "string"}
-      - {label: "Image", name: "image", widget: "image"}
-      - {label: "Body", name: "body", widget: "markdown"}
   - name: "whatwedo"
     label: "Vad vi gör"
     folder: "site/content/vad-vi-gor"
@@ -96,14 +70,6 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "Sista ansökningsdag", name: "lastday", widget: "date"}
       - {label: "Kontor", name: "office", widget: "select", options: ["Stockholm", "Uppsala", "Västerås"]}
       - {label: "Länk ansökan", name: "link", widget: "string", required: false}
-      - {label: "Body", name: "body", widget: "markdown"}
-  - name: "reference"
-    label: "Referens"
-    folder: "site/content/reference"
-    create: true
-    fields:
-      - {label: "Title", name: "title", widget: "string"}
-      - {label: "Image", name: "image", widget: "image"}
       - {label: "Body", name: "body", widget: "markdown"}
   - name: "referenser"
     label: "Referenser"
@@ -171,23 +137,6 @@ collections: # A list of collections the CMS should be able to edit
           - {label: "Intro", name: intro, widget: object, fields: [
               {label: "Heading", name: "heading", widget: string},
               {label: "Text", name: "text", widget: "text"}]}
-      - file: "site/content/contact/_index.md"
-        label: "Kontakta oss"
-        name: "contact"
-        fields:
-          - {label: Title, name: title, widget: string}
-          - {label: Logo, name: logo, widget: image}
-          - {label: Body, name: body, widget: markdown}
-          - label: Contact Entries
-            name: contact_entries
-            widget: list
-            fields:
-              - label: Heading
-                name: heading
-                widget: string
-              - label: Text
-                name: text
-                widget: text
       - file: "site/content/kontakt/_index.md"
         label: "Kontakt"
         name: "kontakt"
