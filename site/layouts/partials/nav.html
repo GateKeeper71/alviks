@@ -1,5 +1,5 @@
-<header id="main-nav" class="w-100 ph2 bg-off-white z-max bb b--grey-2">
-	<div class="db dt-ns mw8 center w-100 ph3">
+<header id="main-nav" class="w-100 ph2 bg-off-white z-max {{ if .Page.IsHome }} bg-transparent {{ end }}">
+	<div class="db dt-ns mw8 center w-100 ph3 b--after b--after--bottom relative {{ if .Page.IsHome }} b--after--inverse {{ end }}">
 		<div class="dtc v-mid tl w-25">
 			<!-- Logo -->
 			<a href="/" class="dib mt0 mb0 pr4 pr0-ns relative z-max">
@@ -13,7 +13,7 @@
 					{{ range first 2 .Site.Menus.main }}
 						{{ if .HasChildren }}
 						<li class="db dib-ns relative w-100 w-auto-ns tr tl-ns">
-							<a href="#" class="relative hover-b-before bt-50 b-psw-50 b-psh-2 b-psbg-1-to-3 hover-b-after at-50 a-psw-50 a-psh-2 a-psbg-1-to-3 pv2 pv4-ns am-has-submenu f5 fw6 link no-underline-hover off-white alvik-2-ns dib mr3 mr2-ns mr3-m mr4-l"><span class="after-arrow--down">{{ .Name }}</span></a>
+							<a href="#" class="relative hover-b-before bt-50 b-psw-50 b-psh-2 b-psbg-1-to-3 hover-b-after at-50 a-psw-50 a-psh-2 a-psbg-1-to-3 pv2 pv4-ns am-has-submenu f5 fw6 link no-underline-hover off-white alvik-2-ns dib mr3 mr2-ns mr3-m mr4-l {{ if $currentPage.IsHome }} white {{ end }}"><span class="after-arrow--down">{{ .Name }}</span></a>
 							<ul class="absolute-ns left-0 tl db dn-ns white alvik-1-ns  bg-alvik-4 bg-off-white-ns z-5 ph2 am-submenu">
 								{{ range .Children }}
 									<li class="db mv1 pv1 tr tl-ns ph4 ph0-ns">
@@ -25,22 +25,22 @@
 						{{ else }}
 							{{ $is := $currentPage.IsMenuCurrent "main" . }}
 							<li class="dib w-auto w-auto-ns tc tl-ns pr3">
-								<a href="{{ .URL }}" class="relative hover-b-before bt-50 b-psw-50 b-psh-2 b-psbg-1-to-3 hover-b-after at-50 a-psw-50 a-psh-2 a-psbg-1-to-3 pb4 pt4 f5 fw6 link no-underline-hover alvik-2 dib mr2 mr3-m mr4-l {{ if $is }} hover-b-before-after-fw {{ end }}">{{ .Name }}</a>
+								<a href="{{ .URL }}" class="relative hover-b-before bt-50 b-psw-50 b-psh-2 b-psbg-1-to-3 hover-b-after at-50 a-psw-50 a-psh-2 a-psbg-1-to-3 pb4 pt4 f5 fw6 link no-underline-hover alvik-2 dib mr2 mr3-m mr4-l {{ if $is }} hover-b-before-after-fw {{ end }}{{ if $currentPage.IsHome }} white {{ end }}">{{ .Name }}</a>
 							</li>
 						{{ end }}
 					{{ end }}
 				</ul>
-				<ul id="sidebar" class="list dib-ns vw-100 vh-100 h-auto-ns fixed relative-ns absolute--fill bg-alvik-4 bg-off-white-ns z-9999 slider--left slider-reset-ns pv6 pv0-ns">
+				<ul id="sidebar" class="list dib-ns vw-100 vh-100 h-auto-ns fixed relative-ns absolute--fill bg-alvik-4 bg-off-white-ns z-9999 slider--left slider-reset-ns pv6 pv0-ns {{ if .Page.IsHome }} bg-transparent-ns {{ end }}">
 					{{ range .Site.Menus.main }}
 						{{ $is := $currentPage.IsMenuCurrent "main" . }}
 						<li class="db dn-ns w-100 w-auto-ns tr tl-ns">
-							<a href="{{ .URL }}" class="relative hover-b-before bt-50 b-psw-50 b-psh-2 b-psbg-1-to-3 hover-b-after at-50 a-psw-50 a-psh-2 a-psbg-1-to-3 pv2 pv4-ns f5 fw6 link no-underline-hover off-white alvik-2-ns dib mr3 mr2-ns mr3-m mr4-l {{ if $is }} hover-b-before-after-fw {{ end }}">{{ .Name }}</a>
+							<a href="{{ .URL }}" class="relative hover-b-before bt-50 b-psw-50 b-psh-2 b-psbg-1-to-3 hover-b-after at-50 a-psw-50 a-psh-2 a-psbg-1-to-3 pv2 pv4-ns f5 fw6 link no-underline-hover off-white alvik-2-ns dib mr3 mr2-ns mr3-m mr4-l {{ if $is }} hover-b-before-after-fw {{ end }}{{ if $currentPage.IsHome }} white {{ end }}">{{ .Name }}</a>
 						</li>
 					{{ end }}
 					{{ range .Site.Menus.secondary }}
 						{{ if .HasChildren }}
 							<li class="db dib-ns relative w-100 w-auto-ns tr tl-ns">
-								<a href="#" class="relative hover-b-before bt-50 b-psw-50 b-psh-2 b-psbg-1-to-3 hover-b-after at-50 a-psw-50 a-psh-2 a-psbg-1-to-3 pv2 pv4-ns am-has-submenu f5 fw6 link no-underline-hover off-white alvik-2-ns dib mr3 mr2-ns mr3-m mr4-l"><span class="after-arrow--down">{{ .Name }}</span></a>
+								<a href="#" class="relative hover-b-before bt-50 b-psw-50 b-psh-2 b-psbg-1-to-3 hover-b-after at-50 a-psw-50 a-psh-2 a-psbg-1-to-3 pv2 pv4-ns am-has-submenu f5 fw6 link no-underline-hover off-white alvik-2-ns dib mr3 mr2-ns mr3-m mr4-l {{ if $currentPage.IsHome }} white-ns {{ end }}"><span class="after-arrow--down">{{ .Name }}</span></a>
 								<ul class="absolute-ns left-0 tl db dn-ns white alvik-1-ns  bg-alvik-4 bg-off-white-ns z-5 ph2 am-submenu">
 									{{ range .Children }}
 										<li class="db mv1 pv1 tr tl-ns ph4 ph0-ns">
@@ -52,7 +52,7 @@
 						{{ else }}
 							{{ $is := $currentPage.IsMenuCurrent "secondary" . }}
 							<li class="db dib-ns w-100 w-auto-ns tr tl-ns">
-								<a href="{{ .URL }}" class="relative hover-b-before bt-50 b-psw-50 b-psh-2 b-psbg-1-to-3 hover-b-after at-50 a-psw-50 a-psh-2 a-psbg-1-to-3 pv2 pv4-ns f5 fw6 link no-underline-hover off-white alvik-2-ns dib mr3 mr2-ns mr3-m mr4-l {{ if $is }} hover-b-before-after-fw {{ end }}">{{ .Name }}</a>
+								<a href="{{ .URL }}" class="relative hover-b-before bt-50 b-psw-50 b-psh-2 b-psbg-1-to-3 hover-b-after at-50 a-psw-50 a-psh-2 a-psbg-1-to-3 pv2 pv4-ns f5 fw6 link no-underline-hover off-white alvik-2-ns dib mr3 mr2-ns mr3-m mr4-l {{ if $is }} hover-b-before-after-fw {{ end }}{{ if $currentPage.IsHome }} white-ns {{ end }}">{{ .Name }}</a>
 							</li>
 						{{ end }}
 					{{ end }}
@@ -94,7 +94,7 @@
 					</div>
 				</ul>
 			</div>
-			<button id="menu" class="f6 b br1 ph2 pv1 border-box alvik-1 absolute z-max absolute--center-v right-0 mr3 no-underline bg-transparent dn-ns burger" type="button">Meny <span class="db w-100 bb mt1 mb2 bg-black relative"></span><span class="db w-100 bb mb2 bg-black"></span><span class="db w-100 bb bg-black"></span></button>
+			<button id="menu" class="f6 b br1 ph2 pv1 border-box alvik-1 absolute z-max absolute--center-v right-0 mr3 no-underline bg-transparent dn-ns burger {{ if .Page.IsHome }} white {{ end }}" type="button">Meny <span class="db w-100 bb mt1 mb2 relative b--alvik-2 {{ if .Page.IsHome }} b--white {{ end }}"></span><span class="db w-100 bb mb2 b--alvik-2 {{ if .Page.IsHome }} b--white {{ end }}"></span><span class="db w-100 bb b--alvik-2 {{ if .Page.IsHome }} b--white {{ end }}"></span></button>
 		</nav>
 	</div>
 </header>

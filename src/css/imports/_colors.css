@@ -12,10 +12,6 @@
   color: var(--yellow);
 }
 
-.white {
-  color: var(--white);
-}
-
 .off-white {
   color: var(--off-white);
 }
@@ -64,11 +60,16 @@
   color: var(--alvik-4);
 }
 
+.white {
+  color: var(--white);
+}
+
 @media (--breakpoint-not-small) {
   .alvik-1-ns { color: var(--alvik-1); }
   .alvik-2-ns { color: var(--alvik-2); }
   .alvik-3-ns { color: var(--alvik-3); }
   .alvik-4-ns { color: var(--alvik-4); }
+  .white-ns { color: var(--white); }
 }
 
 /* Background */
@@ -160,6 +161,7 @@
 @media (--breakpoint-not-small) {
   .bg-white-ns { background-color: var(--white); }
   .bg-off-white-ns { background-color: var(--off-white); }
+  .bg-transparent-ns { background-color: transparent; }
 }
 
 /* Gradient backgorunds */

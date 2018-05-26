@@ -50,7 +50,7 @@ export function Navbar () {
       navElem.classList.toggle('fixed');
       menuBtn.classList.toggle('closed');
       menuBtn.classList.toggle('alvik-1');
-      menuBtn.classList.toggle('white');
+      menuBtn.classList.toggle('off-white');
       sidebar.classList.toggle('slider-reset');
     })
 

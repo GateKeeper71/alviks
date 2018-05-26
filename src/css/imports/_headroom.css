@@ -1,6 +1,6 @@
 .headroom {
   position: fixed;
-  transition: transform 400ms ease-out;
+  transition: all 400ms ease-out;
 }
 
 .headroom.headroom--pinned {
@@ -9,4 +9,26 @@
 
 .headroom.headroom--unpinned {
   transform: translateY(-100%);
+}
+
+
+/* Make Index/Home navbar as default when not on top of page*/
+.headroom.headroom--not-top {
+  background-color: var(--white);
+}
+
+.headroom.headroom--not-top > div::after {
+  background-image: linear-gradient(-90deg,rgba(14,30,37,0) 0,#0e1e25 5%,#0e1e25 90%,rgba(14,30,37,0) 100%);
+}
+
+.headroom.headroom--not-top nav > div > ul > li > a {
+  color: var(--alvik-1);
+}
+
+.headroom.headroom--not-top #menu {
+  color: var(--alvik-1);
+}
+
+.headroom.headroom--not-top #menu span {
+  border-color: var(--alvik-1);
 }

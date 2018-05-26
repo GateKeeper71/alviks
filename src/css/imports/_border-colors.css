@@ -6,10 +6,6 @@
   border-color: var(--highlight);
 }
 
-.b--white {
-  border-color: var(--white);
-}
-
 .b--off-white {
   border-color: var(--off-white);
 }
@@ -32,4 +28,28 @@
 
 .b--black {
   border-color: var(--black);
+}
+
+.b--alvik-1 {
+  border-color: var(--alvik-1);
+}
+
+.b--alvik-2 {
+  border-color: var(--alvik-2);
+}
+
+.b--alvik-3 {
+  border-color: var(--alvik-3);
+}
+
+.b--alvik-4 {
+  border-color: var(--alvik-4);
+}
+
+.b--white {
+  border-color: var(--white);
+}
+
+.b--none {
+  border-color: none;
 }

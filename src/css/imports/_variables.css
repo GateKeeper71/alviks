@@ -44,3 +44,7 @@
 	--border-radius: .25rem;
 	--hover-transition: all 150ms ease;
 }
+
+#waves > svg {
+	flex: 0 0 auto;
+}
