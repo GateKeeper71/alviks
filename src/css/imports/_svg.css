@@ -5,3 +5,7 @@ svg {
   max-width: 100%;
   max-height: 100%;
 }
+
+.fill-1-to-3 {
+  fill: linear-gradient(to right, var(--alvik-1), var(--alvik-3) 160%);
+}
