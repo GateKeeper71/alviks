@@ -34,6 +34,7 @@
 @import './imports/_background-position';
 @import './imports/_outlines';
 @import './imports/_borders';
+@import './imports/_box-shadow';
 @import './imports/_border-radius';
 @import './imports/_border-style';
 @import './imports/_border-widths';
