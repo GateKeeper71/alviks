@@ -88,6 +88,16 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "Publiceringsdatum", name: "date", widget: "datetime"}
       - {label: "Image", name: "image", widget: "image"}
       - {label: "Body", name: "body", widget: "markdown"}
+  - name: "trendmagasin"
+    label: "TRENDmagasin"
+    folder: "site/content/trendmagasin"
+    create: true
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Publiceringsdatum", name: "date", widget: "datetime"}
+      - {label: "Image", name: "image", widget: "image"}
+      - {label: "Body", name: "body", widget: "markdown"}
+      - {label: "PDF-fil", name: "pdf_file", widget: "file"}
   - name: "kontor"
     label: "Kontor"
     folder: "site/content/kontakt"

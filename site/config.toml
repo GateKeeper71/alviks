@@ -60,3 +60,9 @@ pluralizeListTitles = false
     url = "/kontakt/"
     weight = 3
     hasChildren = true
+  [[menu.secondary]]
+    identifier = "trendmagasin"
+    name = "TRENDmagasin"
+    title = "TRENDmagasin sectiion"
+    url = "/kontakt/"
+    weight = 7
