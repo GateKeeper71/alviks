@@ -11,5 +11,8 @@
       {{ if .Params.image }}<img src="{{ .Params.image }}" alt="{{ .Title }}" />{{ end }}
       {{ .Content }}
     </div>
+    <div class="ph3">
+      <a href="{{ .Params.pdf_file }}" class="dib relative overflow-hidden link ba bw0 pv1 ph1 no-underline-hover font-accent b ttu bg-1-to-3 hover-bg-1-to-3 hover-bg-slide br-pill white"><span class="z-1 relative bg-white dib br-pill alvik-3 pv2 ph4">Ladda ned {{ .Title }}</span></a>
+    </div>
   </div>
 {{ end }}

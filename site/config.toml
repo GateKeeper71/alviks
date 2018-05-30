@@ -64,5 +64,5 @@ pluralizeListTitles = false
     identifier = "trendmagasin"
     name = "TRENDmagasin"
     title = "TRENDmagasin sectiion"
-    url = "/kontakt/"
+    url = "/trendmagasin/"
     weight = 7
