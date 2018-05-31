@@ -18,9 +18,9 @@ export function Navbar () {
 
         const parentElemSibling = evt.target.parentElement.nextElementSibling;
 
-        parentElemSibling.classList.toggle('dn-ns');
+        parentElemSibling.classList.toggle('dn-m');
 
-        parentElemSibling.classList.contains('dn-ns') ? blob.reverse() : blob.play();
+        parentElemSibling.classList.contains('dn-m') ? blob.reverse() : blob.play();
 
       })
     })

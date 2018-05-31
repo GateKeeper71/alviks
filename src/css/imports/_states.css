@@ -92,3 +92,7 @@ input:focus, textarea:focus, a:focus, button:focus {
 @media (--breakpoint-not-small) {
   .slider-reset-ns { transform: translateX(0); }
 }
+
+@media (--breakpoint-medium) {
+  .slider-reset-m { transform: translateX(0); }
+}

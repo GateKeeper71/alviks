@@ -1,62 +1,62 @@
 <header id="main-nav" class="w-100 ph2 bg-off-white z-max {{ if .Page.IsHome }} bg-transparent {{ end }}">
-	<div class="db dt-ns mw8 center w-100 ph3 b--after b--after--bottom relative {{ if .Page.IsHome }} b--after--inverse {{ end }}">
-		<div class="dtc v-mid tl w-25 w-10-ns">
+	<div class="db dt-m mw8 center w-100 ph3 b--after b--after--bottom relative {{ if .Page.IsHome }} b--after--inverse {{ end }}">
+		<div class="dtc v-mid tl w-25 w-10-m">
 			<!-- Logo -->
-			<a href="/" class="dib mt0 mb0 pr4 pr0-ns relative z-max">
+			<a href="/" class="dib mt0 mb0 pr4 pr0-m relative z-max">
 				<img src="{{ .Site.Data.global.logo }}" alt="Alviks Måleri logo" class="br0 db mb0 h3"/>
 			</a>
 		</div>
-		<nav class="dtc v-mid w-100 tl tr-ns mt2 pb0">
+		<nav class="dtc v-mid w-100 tl tr-m mt2 pb0">
 			<div>
-				<ul class="list flex inline-flex-ns ">
+				<ul class="list flex inline-flex-m">
 					{{ $currentPage := . }}
 					{{ range first 2 .Site.Menus.main }}
 						{{ if .HasChildren }}
-						<li class="db dib-ns relative w-100 w-auto-ns tr tl-ns">
-							<a href="#" class="relative hover-b-before bt-50 b-psw-50 b-psh-2 b-psbg-1-to-3--fade hover-b-after at-50 a-psw-50 a-psh-2 a-psbg-1-to-3--fade pv2 pv4-ns am-has-submenu f5 fw6 link no-underline-hover off-white alvik-2-ns dib mr3 mr2-ns mr3-m mr4-l {{ if $currentPage.IsHome }} white {{ end }}"><span class="after-arrow--down">{{ .Name }}</span></a>
-							<ul class="absolute-ns left-0 tl db dn-ns white alvik-1-ns  bg-alvik-4 bg-off-white-ns z-5 ph2 am-submenu">
+						<li class="db dib-m relative w-100 w-auto-m tr tl-m">
+							<a href="#" class="relative hover-b-before bt-50 b-psw-50 b-psh-2 b-psbg-1-to-3--fade hover-b-after at-50 a-psw-50 a-psh-2 a-psbg-1-to-3--fade pv2 pv4-m am-has-submenu f5 fw6 link no-underline-hover off-white alvik-2-m dib mr4 mr4-ns mr3-m mr4-l {{ if $currentPage.IsHome }} white {{ end }}"><span class="after-arrow--down">{{ .Name }}</span></a>
+							<ul class="absolute-m left-0 tl db dn-m white alvik-1-m  bg-alvik-4 bg-off-white-m z-5 ph2 am-submenu">
 								{{ range $i,$p := .Children }}
-									<li class="db mv1 pv1 tr tl-ns ph4 ph0-ns">
-										<a href="{{ .URL }}" class="link no-underline-hover font-accent-ns tc-ns ttu-ns br-pill-ns dib-ns white-ns relative-ns ph4-ns pv2-ns overflow-hidden bg-alvik-{{ add $i 1 }}-ns hover-bg-alviks-{{ add $i 2 }}-ns hover-bg-slide"><span class="relative z-1">{{ .Name }}</span></a>
+									<li class="db mv1 pv1 tr tl-m ph4 ph0-m">
+										<a href="{{ .URL }}" class="link no-underline-hover font-accent-m tc-m ttu-m br-pill-m dib-m white-m relative-m ph4-m pv2-m overflow-hidden bg-alvik-{{ add $i 1 }}-m hover-bg-alviks-{{ add $i 2 }}-m hover-bg-slide"><span class="relative z-1">{{ .Name }}</span></a>
 									</li>
 								{{ end }}
 							</ul>
 						</li>
 						{{ else }}
 							{{ $is := $currentPage.IsMenuCurrent "main" . }}
-							<li class="dib w-auto w-auto-ns tc tl-ns pr3">
+							<li class="dib w-auto w-auto-m tc tl-m pr3">
 								<a href="{{ .URL }}" class="relative hover-b-before bt-50 b-psw-50 b-psh-2 b-psbg-1-to-3--fade hover-b-after at-50 a-psw-50 a-psh-2 a-psbg-1-to-3--fade pb4 pt4 f5 fw6 link no-underline-hover alvik-2 dib mr2 mr3-m mr4-l {{ if $is }} hover-b-before-after-fw {{ end }}{{ if $currentPage.IsHome }} white {{ end }}">{{ .Name }}</a>
 							</li>
 						{{ end }}
 					{{ end }}
 				</ul>
-				<ul id="sidebar" class="list dib-ns vw-100 vh-100 h-auto-ns fixed relative-ns absolute--fill bg-alvik-4 bg-off-white-ns z-9999 slider--left slider-reset-ns pv6 pv0-ns {{ if .Page.IsHome }} bg-transparent-ns {{ end }}">
+				<ul id="sidebar" class="list dib-m vw-100 vh-100 h-auto-m fixed relative-m absolute--fill bg-alvik-4 bg-off-white-m z-9999 slider--left slider-reset-m pv6 pv0-m {{ if .Page.IsHome }} bg-transparent-m {{ end }}">
 					{{ range .Site.Menus.main }}
 						{{ $is := $currentPage.IsMenuCurrent "main" . }}
-						<li class="db dn-ns w-100 w-auto-ns tr tl-ns">
-							<a href="{{ .URL }}" class="relative hover-b-before bt-50 b-psw-50 b-psh-2 b-psbg-1-to-3--fade hover-b-after at-50 a-psw-50 a-psh-2 a-psbg-1-to-3--fade pv2 pv4-ns f5 fw6 link no-underline-hover off-white alvik-2-ns dib mr3 mr2-ns mr3-m mr4-l {{ if $is }} hover-b-before-after-fw {{ end }}{{ if $currentPage.IsHome }} white {{ end }}">{{ .Name }}</a>
+						<li class="db dn-m w-100 w-auto-m tr tl-m">
+							<a href="{{ .URL }}" class="relative hover-b-before bt-50 b-psw-50 b-psh-2 b-psbg-1-to-3--fade hover-b-after at-50 a-psw-50 a-psh-2 a-psbg-1-to-3--fade pv2 pv4-m f5 fw6 link no-underline-hover off-white alvik-2-m dib mr4 mr4-ns mr3-m mr4-l {{ if $is }} hover-b-before-after-fw {{ end }}{{ if $currentPage.IsHome }} white {{ end }}">{{ .Name }}</a>
 						</li>
 					{{ end }}
 					{{ range .Site.Menus.secondary }}
 						{{ if .HasChildren }}
-							<li class="db dib-ns relative w-100 w-auto-ns tr tl-ns">
-								<a href="#" class="relative hover-b-before bt-50 b-psw-50 b-psh-2 b-psbg-1-to-3--fade hover-b-after at-50 a-psw-50 a-psh-2 a-psbg-1-to-3--fade pv2 pv4-ns am-has-submenu f5 fw6 link no-underline-hover off-white alvik-2-ns dib mr3 mr2-ns mr3-m mr4-l {{ if $currentPage.IsHome }} white-ns {{ end }}"><span class="after-arrow--down">{{ .Name }}</span></a>
-								<ul class="absolute-ns left-0 tl db dn-ns white alvik-1-ns  bg-alvik-4 bg-transparent-ns z-5 ph2 am-submenu">
+							<li class="db dib-m relative w-100 w-auto-m tr tl-m">
+								<a href="#" class="relative hover-b-before bt-50 b-psw-50 b-psh-2 b-psbg-1-to-3--fade hover-b-after at-50 a-psw-50 a-psh-2 a-psbg-1-to-3--fade pv2 pv4-m am-has-submenu f5 fw6 link no-underline-hover off-white alvik-2-m dib mr4 mr4-ns mr3-m mr4-l {{ if $currentPage.IsHome }} white-m {{ end }}"><span class="after-arrow--down">{{ .Name }}</span></a>
+								<ul class="absolute-m left-0 tl db dn-m white alvik-1-m  bg-alvik-4 bg-transparent-m z-5 ph2 am-submenu">
 									{{ range $i,$p := .Children }}
-										<li class="db mv1 pv1 tr tl-ns ph4 ph0-ns">
-											<a href="{{ .URL }}" class="link no-underline-hover font-accent-ns tc-ns ttu-ns br-pill-ns dib-ns white-ns relative-ns ph4-ns pv2-ns overflow-hidden bg-alvik-{{ add $i 1 }}-ns hover-bg-alviks-{{ add $i 2 }}-ns hover-bg-slide shadow-1"><span class="relative z-1">{{ .Name }}</span></a>
+										<li class="db mv1 pv1 tr tl-m ph5 ph4-m ph0-m">
+											<a href="{{ .URL }}" class="link no-underline-hover font-accent-m tc-m ttu-m br-pill-m dib-m white-m relative-m ph4-m pv2-m overflow-hidden bg-alvik-{{ add $i 1 }}-m hover-bg-alviks-{{ add $i 2 }}-m hover-bg-slide shadow-1"><span class="relative z-1">{{ .Name }}</span></a>
 										</li>
 									{{ end }}
 								</ul>
 							</li>
 						{{ else }}
 							{{ $is := $currentPage.IsMenuCurrent "secondary" . }}
-							<li class="db dib-ns w-100 w-auto-ns tr tl-ns">
-								<a href="{{ .URL }}" class="relative hover-b-before bt-50 b-psw-50 b-psh-2 b-psbg-1-to-3--fade hover-b-after at-50 a-psw-50 a-psh-2 a-psbg-1-to-3--fade pv2 pv4-ns f5 fw6 link no-underline-hover off-white alvik-2-ns dib mr3 mr2-ns mr3-m mr4-l {{ if $is }} hover-b-before-after-fw {{ end }}{{ if $currentPage.IsHome }} white-ns {{ end }}">{{ .Name }}</a>
+							<li class="db dib-m w-100 w-auto-m tr tl-m">
+								<a href="{{ .URL }}" class="relative hover-b-before bt-50 b-psw-50 b-psh-2 b-psbg-1-to-3--fade hover-b-after at-50 a-psw-50 a-psh-2 a-psbg-1-to-3--fade pv2 pv4-m f5 fw6 link no-underline-hover off-white alvik-2-m dib mr4 mr4-ns mr3-m mr4-l {{ if $is }} hover-b-before-after-fw {{ end }}{{ if $currentPage.IsHome }} white-m {{ end }}">{{ .Name }}</a>
 							</li>
 						{{ end }}
 					{{ end }}
-					<div class="db dn-ns">
+					<div class="db dn-m">
 						<ul class="absolute top-0 center flex justify-center w-100 pv3">
 							<li class="db ph2">
 							  <a href="" class="am-tooltip-reference link white db relative br-100 pa2">
@@ -94,7 +94,7 @@
 					</div>
 				</ul>
 			</div>
-			<button id="menu" class="f6 b br1 ph2 pv1 border-box alvik-1 absolute z-max absolute--center-v right-0 mr3 no-underline bg-transparent dn-ns burger {{ if .Page.IsHome }} white {{ end }}" type="button">Meny <span class="db w-100 bb mt1 mb2 relative b--alvik-2 {{ if .Page.IsHome }} b--white {{ end }}"></span><span class="db w-100 bb mb2 b--alvik-2 {{ if .Page.IsHome }} b--white {{ end }}"></span><span class="db w-100 bb b--alvik-2 {{ if .Page.IsHome }} b--white {{ end }}"></span></button>
+			<button id="menu" class="f6 b br1 ph2 pv1 border-box alvik-1 absolute z-max absolute--center-v right-0 mr3 no-underline bg-transparent dn-m burger {{ if .Page.IsHome }} white {{ end }}" type="button">Meny <span class="db w-100 bb mt1 mb2 relative b--alvik-2 {{ if .Page.IsHome }} b--white {{ end }}"></span><span class="db w-100 bb mb2 b--alvik-2 {{ if .Page.IsHome }} b--white {{ end }}"></span><span class="db w-100 bb b--alvik-2 {{ if .Page.IsHome }} b--white {{ end }}"></span></button>
 		</nav>
 	</div>
 </header>

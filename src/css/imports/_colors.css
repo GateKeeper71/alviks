@@ -160,6 +160,14 @@
   .bg-alvik-4-ns { background-color: var(--alvik-4); }
 }
 
+@media (--breakpoint-medium) {
+  .bg-alvik-1-m { background-color: var(--alvik-1); }
+  .bg-alvik-2-m { background-color: var(--alvik-2); }
+  .bg-alvik-3-m { background-color: var(--alvik-3); }
+  .bg-alvik-4-m { background-color: var(--alvik-4); }
+  .bg-transparent-m { background-color: transparent; }
+}
+
 /* Hover backgrounds */
 .hover-bg-light-blue:hover {
   background-color: var(--light-blue);

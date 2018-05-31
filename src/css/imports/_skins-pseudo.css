@@ -279,6 +279,24 @@
   }
 }
 
+@media (--breakpoint-medium) {
+  .hover-bg-alviks-1-m::after {
+    background-color: var(--alvik-1);
+  }
+
+  .hover-bg-alviks-2-m::after {
+    background-color: var(--alvik-2);
+  }
+
+  .hover-bg-alviks-3-m::after {
+    background-color: var(--alvik-3);
+  }
+
+  .hover-bg-alviks-4-m::after {
+    background-color: var(--alvik-4);
+  }
+}
+
 /* Sliding background on hover */
 @media (--breakpoint-not-small) {
   .hover-bg-slide::after {
