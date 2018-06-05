@@ -72,6 +72,14 @@
   .white-ns { color: var(--white); }
 }
 
+@media (--breakpoint-medium) {
+  .alvik-1-m { color: var(--alvik-1); }
+  .alvik-2-m { color: var(--alvik-2); }
+  .alvik-3-m { color: var(--alvik-3); }
+  .alvik-4-m { color: var(--alvik-4); }
+  .white-m { color: var(--white); }
+}
+
 /* Background */
 
 .bg-primary {
@@ -165,6 +173,7 @@
   .bg-alvik-2-m { background-color: var(--alvik-2); }
   .bg-alvik-3-m { background-color: var(--alvik-3); }
   .bg-alvik-4-m { background-color: var(--alvik-4); }
+  .bg-off-white-m { background-color: var(--off-white); }
   .bg-transparent-m { background-color: transparent; }
 }
 

@@ -120,6 +120,7 @@
   .right--2-l  { right:  -2rem; }
   .bottom--2-l { bottom: -2rem; }
   .left--2-l   { left:   -2rem; }
+  .top--7-l    { top:    -7rem; }
   .absolute--fill-l {
     top: 0;
     right: 0;
