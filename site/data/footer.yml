@@ -18,7 +18,8 @@ ablock:
     info:
       - text: Uppsalavägen 31
       - text: 123 45 Uppsala
-      - text: 018 - 1234 56
+      - link: 'tel:0181234 56'
+        text: 018 - 1234 56
       - link: 'mailto:uppsala@alviksmaleri.se'
         text: uppsala@alviksmaleri.se
   - fblink: 'https://www.facebook.com/mpaalviks/'
@@ -26,7 +27,8 @@ ablock:
     info:
       - text: Västeråsvägen 31
       - text: 812 23
-      - text: 08 - 123 45 67
+      - link: 'tel:081234567'
+        text: 08 - 123 45 67
       - link: 'mailto:uppsala@alviksmaleri.se'
         text: vasteras@alviksmaleri.se
 socialheading: Social media
