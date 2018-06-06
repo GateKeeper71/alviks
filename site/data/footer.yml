@@ -18,7 +18,7 @@ ablock:
     info:
       - text: Uppsalavägen 31
       - text: 123 45 Uppsala
-      - link: 'tel:0181234 56'
+      - link: 'tel:04618123456'
         text: 018 - 1234 56
       - link: 'mailto:uppsala@alviksmaleri.se'
         text: uppsala@alviksmaleri.se
