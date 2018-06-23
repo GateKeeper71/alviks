@@ -132,7 +132,9 @@ collections: # A list of collections the CMS should be able to edit
         fields:
           - {label: Supertitle, name: supertitle, widget: string}
           - {label: Title, name: title, widget: string}
-          - {label: Subtitle, name: subtitle, widget: string}
+          - {label: Title 2, name: title_2, widget: string, required: false}
+          - {label: Title 3, name: title_3, widget: string, required: false}
+          - {label: Subtitle, name: subtitle, widget: string, required: false}
           - {label: Image, name: image, widget: image}
           - {label: Illustration, name: illustration, widget: image}
           - {label: Partners, name: partners, widget: list, fields: [
@@ -167,12 +169,6 @@ collections: # A list of collections the CMS should be able to edit
       - file: "site/content/om-oss/_index.md"
         label: "Om oss"
         name: "om-oss"
-        fields:
-          - {label: Title, name: title, widget: string}
-          - {label: Body, name: body, widget: markdown}
-      - file: "site/content/about/_index.md"
-        label: "Om oss (old)"
-        name: "about"
         fields:
           - {label: Title, name: title, widget: string}
           - {label: Body, name: body, widget: markdown}
