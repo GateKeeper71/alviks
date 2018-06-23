@@ -3,7 +3,7 @@ supertitle: Whow
 title: Vi bryr oss.
 title_2: Vi är i framkant.
 title_3: Vi är lätta att samarbeta med.
-subtitle: Test
+subtitle: ''
 image: /img/alviks-waves-diagonal.svg
 illustration: /img/alviks-illustration.svg
 partners:
