@@ -31,7 +31,7 @@
               <ul class="white">
                 {{ range $i,$p := .office }}
                   <li>
-                    <a href="tel:{{ .phone }}" class="dib relative overflow-hidden link ba bw0 pv2 ph4 no-underline-hover font-accent b ttu bg-alvik-{{ add $i 1 }} hover-bg-alviks-{{ add $i 2 }} hover-bg-slide br-pill white"><span class="z-1 relative">{{ .name }}</span></a>
+                    <a href="tel:{{ .phone }}" class="dib relative overflow-hidden link ba bw0 pv2 ph4 no-underline-hover font-accent b ttu bg-alvik-{{ add $i 1 }} hover-bg-alviks-{{ add $i 2 }} hover-bg-slide br-pill white shadow-1"><span class="z-1 relative">{{ .name }}</span></a>
                   </li>
                 {{ end }}
               </ul>
@@ -43,7 +43,7 @@
               <ul class="white">
                 {{ range $i,$p := .office }}
                   <li>
-                    <a href="mailto:{{ .email }}" class="dib relative overflow-hidden link ba bw0 pv2 ph4 no-underline-hover font-accent b ttu bg-alvik-{{ add $i 1 }} hover-bg-alviks-{{ add $i 2 }} hover-bg-slide br-pill white"><span class="z-1 relative">{{ .name }}</span></a>
+                    <a href="mailto:{{ .email }}" class="dib relative overflow-hidden link ba bw0 pv2 ph4 no-underline-hover font-accent b ttu bg-alvik-{{ add $i 1 }} hover-bg-alviks-{{ add $i 2 }} hover-bg-slide br-pill white shadow-1"><span class="z-1 relative">{{ .name }}</span></a>
                   </li>
                 {{ end }}
               </ul>
