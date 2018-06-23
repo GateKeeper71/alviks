@@ -1,9 +1,9 @@
 ---
 supertitle: Whow
-title: Välkommen till Alviks Måleri lorem ipsum
-subtitle: >-
-  Marshmallow lollipop icing. Pastry sugar plum apple pie liquorice cake
-  macaroon chocolate cake gummi bears.
+title: Vi bryr oss.
+title_2: Vi är i framkant.
+title_3: Vi är lätta att samarbeta med.
+subtitle: ''
 image: /img/alviks-waves-diagonal.svg
 illustration: /img/alviks-illustration.svg
 partners:
