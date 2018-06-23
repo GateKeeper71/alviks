@@ -236,6 +236,10 @@
   right: 0px;
 }
 
+.after-arrow--down--white::after {
+  border-top: 6px solid var(--white);
+}
+
 /* After backgrounds */
 .hover-bg-alviks-1::after {
   background-color: var(--alvik-1);

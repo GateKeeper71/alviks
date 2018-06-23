@@ -45,7 +45,6 @@ export function Navbar () {
     const menuBtn = document.getElementById('menu');
     const sidebar = document.getElementById('sidebar');
     menuBtn.addEventListener('click', (e) => {
-      console.log('j');
       navElem.classList.toggle('headroom');
       navElem.classList.toggle('fixed');
       menuBtn.classList.toggle('closed');

@@ -32,3 +32,7 @@
 .headroom.headroom--not-top #menu span {
   border-color: var(--alvik-1);
 }
+
+.headroom.headroom--not-top .after-arrow--down--white::after {
+  border-top: 6px solid var(--alvik-1);
+}
