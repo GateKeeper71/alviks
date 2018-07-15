@@ -34,9 +34,13 @@
       {{ end }}
     </div>
 
-    <div class="mw7">
-      <pre><span class="b">Telefon:</span> <a href="tel:{{ .Params.phone }}">{{ .Params.phone }}</a></pre>
-      <pre><span class="b">E-post:</span> <a href="mailto:{{ .Params.email }}">{{ .Params.email }}</a></pre>
+    <div class="mw7 mb3">
+      <div class="bg-grey-1 pv3 ph3 mb2">
+        <span class="b">Telefon:</span> <a href="tel:{{ .Params.phone }}">{{ .Params.phone }}</a>
+      </div>
+      <div class="bg-grey-1 pv3 ph3 mb2">
+        <span class="b">E-post:</span> <a href="mailto:{{ .Params.email }}">{{ .Params.email }}</a>
+      </div>
     </div>
 
     <div class="mb4">

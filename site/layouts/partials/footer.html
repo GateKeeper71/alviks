@@ -1,4 +1,4 @@
-<footer class="bg-grey-1 ph3 pv4">
+<footer id="site-footer" class="bg-grey-1 ph3 pv4">
 
 	<div class="mw8 center">
 		<div class="flex-ns flex-wrap-ns">
@@ -15,7 +15,7 @@
 								<li class="f4 b lh-title mb2 black">{{ .heading }}</li>
 								{{ range .info }}
 									{{ if .link }}
-										<li><a href="{{ .link }}">{{ .text }}</a></li>
+										<li><a {{ printf "href=%q" .link | safeHTMLAttr }}>{{ .text }}</a></li>
 									{{ else }}
 										<li>{{ .text }}</li>
 									{{ end }}

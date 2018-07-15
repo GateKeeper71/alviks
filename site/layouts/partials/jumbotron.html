@@ -3,16 +3,16 @@
     <div class="w-100 w-100-m">
       <div class="db mb3 center tc">
         <div class="relative mb3 tc">
-          <h1 class="f3 f2-l b db lh-title mb3 off-white ttu font-accent">
+          <h1 class="f3 f2-l db lh-title mb3 off-white ttu font-accent">
             {{ .title }}
           </h1>
           {{ if .title_2 }}
-            <h1 class="f3 f2-l b db lh-title mb3 off-white ttu font-accent">
+            <h1 class="f3 f2-l db lh-title mb3 off-white ttu font-accent">
               {{ .title_2 }}
             </h1>
           {{ end }}
           {{ if .title_3 }}
-            <h1 class="f3 f2-l b db lh-title mb3 off-white ttu font-accent">
+            <h1 class="f3 f2-l db lh-title mb3 off-white ttu font-accent">
               {{ .title_3 }}
             </h1>
           {{ end }}
@@ -39,7 +39,8 @@
               <ul class="white">
                 {{ range $i,$p := .office }}
                   <li>
-                    <a href="tel:{{ .phone }}" class="dib relative overflow-hidden link ba bw0 pv2 ph4 no-underline-hover font-accent b ttu bg-alvik-{{ add $i 1 }} hover-bg-alviks-{{ add $i 2 }} hover-bg-slide br-pill white shadow-1"><span class="z-1 relative">{{ .name }}</span></a>
+                    <a href="tel:{{ .phone }}" class="dib dn-ns mb2 relative overflow-hidden link ba bw0 pv2 ph4 no-underline-hover font-accent b ttu bg-alvik-{{ add $i 1 }} hover-bg-alviks-{{ add $i 2 }} hover-bg-slide br-pill white shadow-1"><span class="z-1 relative">{{ .name }}</span></a>
+                    <a href="#site-footer" class="dn dib-ns mb2 relative overflow-hidden link ba bw0 pv2 ph4 no-underline-hover font-accent b ttu bg-alvik-{{ add $i 1 }} hover-bg-alviks-{{ add $i 2 }} hover-bg-slide br-pill white shadow-1"><span class="z-1 relative">{{ .name }}</span></a>
                   </li>
                 {{ end }}
               </ul>
@@ -59,7 +60,7 @@
               <ul class="white">
                 {{ range $i,$p := .office }}
                   <li>
-                    <a href="mailto:{{ .email }}" class="dib relative overflow-hidden link ba bw0 pv2 ph4 no-underline-hover font-accent b ttu bg-alvik-{{ add $i 1 }} hover-bg-alviks-{{ add $i 2 }} hover-bg-slide br-pill white shadow-1"><span class="z-1 relative">{{ .name }}</span></a>
+                    <a href="mailto:{{ .email }}" class="dib mb2 relative overflow-hidden link ba bw0 pv2 ph4 no-underline-hover font-accent b ttu bg-alvik-{{ add $i 1 }} hover-bg-alviks-{{ add $i 2 }} hover-bg-slide br-pill white shadow-1"><span class="z-1 relative">{{ .name }}</span></a>
                   </li>
                 {{ end }}
               </ul>

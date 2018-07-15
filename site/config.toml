@@ -39,7 +39,7 @@ pluralizeListTitles = false
     identifier = "vasteras"
     name = "Västerås"
     title = "Västerås section"
-    url = "/kontakt/vasteras/"
+    url = "/kontakt/västerås/"
     parent = "kontakt"
   [[menu.secondary]]
     identifier = "stockholm"

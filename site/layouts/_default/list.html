@@ -3,9 +3,9 @@
 <div class="mw7 center pt6 pb4">
 
   <h1 class="f2 ph3 b mb4 alvik-3">{{ .Title }}</h1>
-  
+
   <ul class="">
-      {{ range (.Paginator 8).Pages.ByPublishDate }}
+      {{ range (.Paginator 8).Pages }}
         {{ .Render "li"}}
       {{ end }}
   </ul>

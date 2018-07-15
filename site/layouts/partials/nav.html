@@ -13,7 +13,7 @@
 					{{ range first 2 .Site.Menus.main }}
 						{{ if .HasChildren }}
 						<li class="db dib-m relative w-100 w-auto-m tr tl-m">
-							<a href="#" class="relative hover-b-before bt-50 b-psw-50 b-psh-2 b-psbg-1-to-3--fade hover-b-after at-50 a-psw-50 a-psh-2 a-psbg-1-to-3--fade pv2 pv4-m am-has-submenu f5 fw6 link no-underline-hover off-white alvik-2-m dib mr4 mr4-ns mr3-m mr4-l {{ if $currentPage.IsHome }} white {{ end }}"><span class="after-arrow--down">{{ .Name }}</span></a>
+							<a href="#" class="font-accent ttu relative hover-b-before bt-50 b-psw-50 b-psh-2 b-psbg-1-to-3--fade hover-b-after at-50 a-psw-50 a-psh-2 a-psbg-1-to-3--fade pv2 pv4-m am-has-submenu f5 fw4 link no-underline-hover off-white alvik-2-m dib mr4 mr4-ns mr3-m mr3-l {{ if $currentPage.IsHome }} white {{ end }}"><span class="after-arrow--down">{{ .Name }}</span></a>
 							<ul class="absolute-m left-0 tl db dn-m white alvik-1-m  bg-alvik-4 bg-off-white-m z-5 ph2 am-submenu">
 								{{ range $i,$p := .Children }}
 									<li class="db mv1 pv1 tr tl-m ph4 ph0-m">
@@ -25,7 +25,7 @@
 						{{ else }}
 							{{ $is := $currentPage.IsMenuCurrent "main" . }}
 							<li class="dib w-auto w-auto-m tc tl-m pr3">
-								<a href="{{ .URL }}" class="relative hover-b-before bt-50 b-psw-50 b-psh-2 b-psbg-1-to-3--fade hover-b-after at-50 a-psw-50 a-psh-2 a-psbg-1-to-3--fade pb4 pt4 f5 fw6 link no-underline-hover alvik-2 dib mr2 mr3-m mr4-l {{ if $is }} hover-b-before-after-fw {{ end }}{{ if $currentPage.IsHome }} white {{ end }}">{{ .Name }}</a>
+								<a href="{{ .URL }}" class="font-accent ttu relative hover-b-before bt-50 b-psw-50 b-psh-2 b-psbg-1-to-3--fade hover-b-after at-50 a-psw-50 a-psh-2 a-psbg-1-to-3--fade pb4 pt4 f6 f5-ns fw4 link no-underline-hover alvik-2 dib mr2 mr3-m mr3-l {{ if $is }} hover-b-before-after-fw {{ end }}{{ if $currentPage.IsHome }} white {{ end }}">{{ .Name }}</a>
 							</li>
 						{{ end }}
 					{{ end }}
@@ -34,17 +34,17 @@
 					{{ range .Site.Menus.main }}
 						{{ $is := $currentPage.IsMenuCurrent "main" . }}
 						<li class="db dn-m w-100 w-auto-m tr tl-m">
-							<a href="{{ .URL }}" class="relative hover-b-before bt-50 b-psw-50 b-psh-2 b-psbg-1-to-3--fade hover-b-after at-50 a-psw-50 a-psh-2 a-psbg-1-to-3--fade pv2 pv4-m f5 fw6 link no-underline-hover off-white alvik-2-m dib mr4 mr4-ns mr3-m mr4-l {{ if $is }} hover-b-before-after-fw {{ end }}{{ if $currentPage.IsHome }} white {{ end }}">{{ .Name }}</a>
+							<a href="{{ .URL }}" class="font-accent ttu relative hover-b-before bt-50 b-psw-50 b-psh-2 b-psbg-1-to-3--fade hover-b-after at-50 a-psw-50 a-psh-2 a-psbg-1-to-3--fade pv2 pv4-m f5 fw4 link no-underline-hover off-white alvik-2-m dib mr4 mr4-ns mr3-m mr3-l {{ if $is }} hover-b-before-after-fw {{ end }}{{ if $currentPage.IsHome }} white {{ end }}">{{ .Name }}</a>
 						</li>
 					{{ end }}
 					{{ range .Site.Menus.secondary }}
 						{{ if .HasChildren }}
 							<li class="db dib-m relative w-100 w-auto-m tr tl-m">
-								<a href="#" class="relative hover-b-before bt-50 b-psw-50 b-psh-2 b-psbg-1-to-3--fade hover-b-after at-50 a-psw-50 a-psh-2 a-psbg-1-to-3--fade pv2 pv4-m am-has-submenu f5 fw6 link no-underline-hover off-white alvik-2-m dib mr4 mr4-ns mr3-m mr4-l {{ if $currentPage.IsHome }} white-m {{ end }}"><span class="after-arrow--down {{ if $currentPage.IsHome }} after-arrow--down--white {{ end }}">{{ .Name }}</span></a>
+								<a href="#" class="font-accent ttu relative hover-b-before bt-50 b-psw-50 b-psh-2 b-psbg-1-to-3--fade hover-b-after at-50 a-psw-50 a-psh-2 a-psbg-1-to-3--fade pv2 pv4-m am-has-submenu f5 fw4 link no-underline-hover off-white alvik-2-m dib mr4 mr4-ns mr3-m mr3-l {{ if $currentPage.IsHome }} white-m {{ end }}"><span class="after-arrow--down {{ if $currentPage.IsHome }} after-arrow--down--white {{ end }}">{{ .Name }}</span></a>
 								<ul class="absolute-m left-0 tl db dn-m white alvik-1-m  bg-alvik-4 bg-off-white-m z-5 ph2 ph0-m am-submenu">
 									{{ range $i,$p := .Children }}
 										<li class="db mv1 pv1 tr tl-m ph5 ph2-m bg-off-white-m">
-											<a href="{{ .URL }}" class="link"><span class="relative z-1">{{ .Name }}</span></a>
+											<a href="{{ .URL }}" class="link font-accent ttu"><span class="relative z-1">{{ .Name }}</span></a>
 										</li>
 									{{ end }}
 								</ul>
@@ -52,7 +52,7 @@
 						{{ else }}
 							{{ $is := $currentPage.IsMenuCurrent "secondary" . }}
 							<li class="db dib-m w-100 w-auto-m tr tl-m">
-								<a href="{{ .URL }}" class="relative hover-b-before bt-50 b-psw-50 b-psh-2 b-psbg-1-to-3--fade hover-b-after at-50 a-psw-50 a-psh-2 a-psbg-1-to-3--fade pv2 pv4-m f5 fw6 link no-underline-hover off-white alvik-2-m dib mr4 mr4-ns mr3-m mr4-l {{ if $is }} hover-b-before-after-fw {{ end }}{{ if $currentPage.IsHome }} white-m {{ end }}">{{ .Name }}</a>
+								<a href="{{ .URL }}" class="font-accent ttu relative hover-b-before bt-50 b-psw-50 b-psh-2 b-psbg-1-to-3--fade hover-b-after at-50 a-psw-50 a-psh-2 a-psbg-1-to-3--fade pv2 pv4-m f5 fw4 link no-underline-hover off-white alvik-2-m dib mr4 mr4-ns mr3-m mr3-l {{ if $is }} hover-b-before-after-fw {{ end }}{{ if $currentPage.IsHome }} white-m {{ end }}">{{ .Name }}</a>
 							</li>
 						{{ end }}
 					{{ end }}

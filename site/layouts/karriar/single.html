@@ -2,9 +2,13 @@
 
   <div class="mw6 center ph3 pt6 pb5">
     <h1 class="f2 lh-title b mb3 alvik-3">{{.Title}}</h1>
-    {{ $time := time .Params.lastday }}
-    {{ $monthindex := printf "%d" $time.Month }}
-    <pre>Sista ansökningsdag: {{ $time.Year }} - {{ if gt 10 $monthindex }}0{{ end }}{{ $monthindex }} - {{ $time.Day }}</pre>
+    {{ if .Params.lastday }}
+
+      {{ $time := time .Params.lastday }}
+      {{ $monthindex := printf "%d" $time.Month }}
+      <div class="bg-grey-1 pv3 ph3 mb2">Sista ansökningsdag: {{ $time.Year }} - {{ if gt 10 $monthindex }}0{{ end }}{{ $monthindex }} - {{ $time.Day }}</div>
+
+    {{ end }}
     <div class="cms mw6">
       <p>{{ .Description }}</p>
       {{ if .Params.image }}<img src="{{ .Params.image }}" alt="{{ .Title }}" />{{ end }}
