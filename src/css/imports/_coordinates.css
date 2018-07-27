@@ -91,6 +91,10 @@
   .right--2-m  { right:  -2rem; }
   .bottom--2-m { bottom: -2rem; }
   .left--2-m   { left:   -2rem; }
+  .top--2-m    { top:    -2rem; }
+  .top--3-m    { top:    -3rem; }
+  .top--4-m    { top:    -4rem; }
+  .top--5-m    { top:    -4rem; }
   .absolute--fill-m {
     top: 0;
     right: 0;
@@ -121,6 +125,9 @@
   .bottom--2-l { bottom: -2rem; }
   .left--2-l   { left:   -2rem; }
   .top--7-l    { top:    -7rem; }
+  .top--8-l    { top:    -8rem; }
+  .top--9-l    { top:    -9rem; }
+  .top--10-l    { top:    -10rem; }
   .absolute--fill-l {
     top: 0;
     right: 0;
