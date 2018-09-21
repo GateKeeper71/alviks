@@ -1,5 +1,5 @@
 ---
-title: Klättringsmålning
+title: Industirklättare
 image: /img/alviks-building-with-birds.jpg
 ---
 Pie soufflé fruitcake bear claw tart cookie halvah cake. Bear claw pudding powder cupcake cotton candy marzipan. Marzipan tiramisu cupcake. Biscuit apple pie carrot cake pastry chocolate cake. Sesame snaps liquorice topping. Sweet brownie chocolate bar biscuit tiramisu biscuit muffin jelly.
