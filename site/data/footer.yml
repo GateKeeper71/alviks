@@ -10,8 +10,8 @@ ablock:
       - text: 123 43 Bromma
       - link: 'tel:+468313131'
         text: 08 - 31 31 31
-      - link: 'mailto:stockholm@alviksmaleri.se'
-        text: stockholm@alviksmaleri.se
+      - link: 'mailto:info@alviksmaleri.se'
+        text: info@alviksmaleri.se
   - fblink: 'https://www.facebook.com/alviksmaleriiuppsala/'
     heading: Uppsala
     iglink: 'https://www.instagram.com/alviks_maleri_i_uppsala_ab/'
@@ -30,8 +30,8 @@ ablock:
       - text: 812 23
       - link: 'tel:081234567'
         text: 08 - 123 45 67
-      - link: 'mailto:uppsala@alviksmaleri.se'
-        text: vasteras@alviksmaleri.se
+      - link: 'mailto:johannes.jansson@mpaalviksmaleri.se'
+        text: johannes.jansson@mpaalviksmaleri.se
 socialheading: Social media
 socialicon:
   - icon: /img/fb-f-logo__blue_50.png
