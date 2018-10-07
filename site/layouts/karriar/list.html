@@ -2,11 +2,9 @@
 
 <div class="mw6 center pt6 pb4">
 
-  <h1>{{ .Pages }}</h1>
-
   <h1 class="f2 ph3 b mb4 alvik-3">Karriär</h1>
 
-  {{ range (.Paginator 8).Pages.ByPublishDate }}
+  {{ range (.Paginator 8).Pages.ByPublishDate.Reverse }}
    <h3>{{ .Render "li" }}</h3>
   {{ end }}
 

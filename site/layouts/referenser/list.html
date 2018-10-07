@@ -6,7 +6,7 @@
 
   <div class="flex flex-wrap">
 
-    {{ range (.Paginator 16).Pages.ByPublishDate }}
+    {{ range (.Paginator 16).Pages.ByPublishDate.Reverse }}
 
       {{ .Render "li"}}
 
