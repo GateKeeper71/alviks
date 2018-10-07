@@ -6,6 +6,7 @@ import Jumbotron from "./components/jumbotron";
 export default class PostPreview extends React.Component {
   render() {
     const {entry, getAsset} = this.props;
+    console.log(this.props);
     let image = getAsset(entry.getIn(["data", "image"]));
 
     // Bit of a nasty hack to make relative paths work as expected as a background image here
@@ -14,7 +15,7 @@ export default class PostPreview extends React.Component {
     }
 
     return <div>
-        <Jumbotron image={image} title={entry.getIn(["data", "title"])} subtitle={entry.getIn(["data", "subtitle"])}/>
+        <Jumbotron image={image} title={entry.getIn(["data", "title"])} title_2={entry.getIn(["data", "title_2"])} title_3={entry.getIn(["data", "title_3"])} subtitle={entry.getIn(["data", "subtitle"])} office={entry.getIn(["data", "office"])}/>
 
         <div className="bg-grey-1 pv4">
           <div className="flex-l mhn1-l ph3 center mw7">

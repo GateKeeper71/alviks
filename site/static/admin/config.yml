@@ -53,6 +53,8 @@ collections: # A list of collections the CMS should be able to edit
         editor:
           preview: false
   - name: "whatwedo"
+    editor:
+      preview: false
     label: "Vad vi gör"
     folder: "site/content/vad-vi-gor"
     create: true
@@ -61,6 +63,8 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "Image", name: "image", widget: "image"}
       - {label: "Body", name: "body", widget: "markdown"}
   - name: "karriar"
+    editor:
+      preview: false
     label: "Karriär"
     folder: "site/content/karriar"
     create: true
@@ -73,6 +77,8 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "Body", name: "body", widget: "markdown"}
   - name: "referenser"
     label: "Referenser"
+    editor:
+      preview: false
     folder: "site/content/referenser"
     create: true
     fields:
@@ -81,6 +87,8 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "Body", name: "body", widget: "markdown"}
   - name: "nyheter"
     label: "Nyheter"
+    editor:
+      preview: false
     folder: "site/content/nyheter"
     create: true
     fields:
@@ -90,6 +98,8 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "Body", name: "body", widget: "markdown"}
   - name: "trendmagasin"
     label: "TRENDmagasin"
+    editor:
+      preview: false
     folder: "site/content/trendmagasin"
     create: true
     fields:
@@ -100,6 +110,8 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "PDF-fil", name: "pdf_file", widget: "file"}
   - name: "kontor"
     label: "Kontor"
+    editor:
+      preview: false
     folder: "site/content/kontakt"
     create: true
     fields:
@@ -125,6 +137,8 @@ collections: # A list of collections the CMS should be able to edit
         ]}
   - name: "pages"
     label: "Sidor"
+    editor:
+      preview: false
     files:
       - file: "site/content/_index.md"
         label: "Home Page"
