@@ -1,14 +1,13 @@
 ---
-title: Dekoration/Motiv
+title: 'Vanlig målning, ovanligt bra'
 image: /img/342342.jpg
 ---
-Dekorationsmålning förekommer bland annat när vi rör oss i kulturhistoriska och skyddsklassade miljöer. Vi har stor erfarenhet då kraven på teknik och material är höga och är vana med att samarbetar med antikvarier och myndigheter för att säkerställa kvalitén. 
+Alviks Måleri startade för över trettio år sedan och genom åren har vi skapat oss kompetens och erfarenhet som gör att vi kan ta oss an både små och stora projekt. Att planera, genomföra och färdigställa ställer krav på hela organisationen, genom hela projektet. 
 
-Våra dekorationsmålare arbetar också mycket med trapphusrenoveringar där man till exempel skall återskapa snickeriernas ådringsmålning eller ge nya säkerhetsdörrar en känsla av gediget trä. Dekorationsmålning kan användas till mycket och med rätt kompetens kan man skapa helt fantastiska resultat.
+Hos oss har vi höga krav på våra anställda och utbildar kontinuerligt vår personal för att ligga i framkant.
 
-Exempel på arbete där dekorationsmålning kan förekomma
+Att ni som kund ska vara delaktiga och löpande ha insyn och kontroll i projekten är för oss en självklarhet. Vi har en färdig struktur och tydliga rutiner kring dokumentation vilket gör att du kan känna dig trygg i att arbetet sköts på ett professionellt och fackmannamässigt sätt.
 
-* Sten animationer.
-* Ådringsmålning.
-* Väggmotiv och bårder.
-* Marmoreringar.
+Vi tar ansvar för våra framtida generationer och lägger stor vikt på natur och miljö, självklart är vi kvalitets- och miljöcertifi ficerade enl. ISO 9001 och 14001.
+
+Ge oss en utmaning, hur kan vi hjälpa dig?
