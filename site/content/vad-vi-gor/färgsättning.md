@@ -1,21 +1,13 @@
 ---
-title: Färgsättning
+title: 'Trapphus, fönster och fasadmålning'
 image: /img/alviks-fargsattning.jpg
 ---
-Gingerbread tiramisu muffin. Soufflé sweet roll gummies cake sweet toffee pudding. Sweet roll dragée muffin bear claw sweet chupa chups. Brownie jelly icing brownie muffin biscuit sweet roll.
+Sveriges fyra årstider och varierande klimat är härligt på många sätt och vis men det sliter och ställer höga krav på fastighetsunderhåll.
 
+Genom att välja rätt material och utförande kan man se till att fastigheten håller sig fräsch och vacker i många år framöver men det finns en hel del att tänka på när man ska renovera fasaden, trapphuset eller fönster. \
+\
+Med vår erfarenhet, tydliga rutiner och välbeprövad arbetsprocess ser vi till att genomföra arbetet på ett så smidigt sätt som möjligt för era boende eller hyresgäster.
 
+**Vår arbetsprocess**
 
-Fruitcake danish donut marzipan. Liquorice jelly-o chocolate bar tiramisu cake. Pudding chocolate gummi bears chocolate bar pie sweet lollipop. Macaroon marzipan candy jelly beans gingerbread.
-
-
-
-Toffee tootsie roll macaroon wafer gummies sweet roll. Chupa chups pie chocolate muffin. Brownie pudding carrot cake liquorice carrot cake.
-
-
-
-Donut liquorice tiramisu. Cotton candy lemon drops sesame snaps marzipan cotton candy. Toffee cake marshmallow icing tart lemon drops candy jelly-o. Cupcake tootsie roll pie carrot cake bonbon.
-
-
-
-Cookie chocolate croissant carrot cake marzipan. Biscuit pastry marzipan. Sugar plum pastry chocolate halvah jelly lollipop sweet roll carrot cake.
+_Beskriv er arbetsprocess (första möte, färgsättning/design, etc)_
