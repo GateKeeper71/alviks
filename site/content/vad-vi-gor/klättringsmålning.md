@@ -1,5 +1,5 @@
 ---
-title: 'Fasad, fasad och trapphusmålning'
+title: 'Fasad, fönster och trapphusmålning'
 image: /img/alviks-building-with-birds.jpg
 ---
 Sveriges fyra årstider och varierande klimat är härligt på många sätt och vis men det sliter och ställer höga krav på fastighetsunderhåll.
