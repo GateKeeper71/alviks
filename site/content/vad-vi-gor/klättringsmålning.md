@@ -1,13 +1,11 @@
 ---
-title: Industriklättring
+title: 'Fasad, fasad och trapphusmålning'
 image: /img/alviks-building-with-birds.jpg
 ---
-När det inte passar och är effektivt med en stor byggnadsställning eller lift kan klättring vara ett alternativ. Våra certifierade och erfarna klättrare tar sig fram med lina på de mest svåråtkomliga utrymmen och utför målning, underhåll och service på er fastighet. 
+Sveriges fyra årstider och varierande klimat är härligt på många sätt och vis men det sliter och ställer höga krav på fastighetsunderhåll.
 
-Klättring har blivit ett populärt alternativ just på grund av att det är effektivt och skapar minimalt med störningsmoment för omgivningen. 
+Genom att välja rätt material och utförande kan man se till att fastigheten håller sig fräsch och vacker i många år framöver men det finns en hel del att tänka på när man ska renovera fasaden, trapphuset eller fönster. Med vår erfarenhet, tydliga rutiner och välbeprövad arbetsprocess ser vi till att genomföra arbetet på ett så smidigt sätt som möjligt för era boende eller hyresgäster.
 
-Vår kompetens innefattar bland annat
+Vår arbetsprocess
 
-* Rostskyddsmålning.
-* Blästeringsarbeten.
-* Balkonger.
+_Beskriv er arbetsprocess (första möte, färgsättning/design, etc)_
