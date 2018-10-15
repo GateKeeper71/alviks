@@ -1,7 +1,13 @@
 ---
-title: Test of a what we do
+title: Dekorationsmålning
 image: /img/65634534.jpg
 ---
-Macaroon chocolate fruitcake macaroon tiramisu apple pie tart dragée sugar plum. Sweet roll sweet roll macaroon croissant muffin cookie candy canes biscuit tart. Toffee ice cream fruitcake jelly beans cake cupcake brownie. Jujubes chocolate cake powder cake. Tiramisu candy canes gummi bears fruitcake chocolate bar. Chupa chups dragée cake macaroon jelly cupcake. Cake danish wafer powder. Fruitcake sugar plum toffee marshmallow.
+Dekorationsmålning förekommer bland annat när vi rör oss i kulturhistoriska och skyddsklassade miljöer. Vi har stor erfarenhet då kraven på teknik och material är höga och är vana med att samarbetar med antikvarier och myndigheter för att säkerställa kvalitén. 
 
-Lollipop toffee cookie lollipop jelly-o pie marzipan lollipop toffee. Jelly beans danish dragée. Apple pie sweet roll muffin lemon drops. Bear claw cupcake jelly pie macaroon cake macaroon icing cotton candy. Oat cake candy wafer cookie lemon drops dessert. Chupa chups macaroon sweet roll.
+Våra dekorationsmålare arbetar också mycket med trapphusrenoveringar där man till exempel skall återskapa snickeriernas ådringsmålning eller ge nya säkerhetsdörrar en känsla av gediget trä. Dekorationsmålning kan användas till mycket och med rätt kompetens kan man skapa helt fantastiska resultat.
+
+Exempel på arbete där dekorationsmålning kan förekomma.
+
+* Sten animationer.
+* Ådringsmålning.
+* Väggmotiv och bårder.
