@@ -2,10 +2,12 @@
 title: 'Trapphus, fasad och fönstermålning'
 image: /img/alviks-building-with-birds.jpg
 ---
-Sveriges fyra årstider och varierande klimat är härligt på många sätt och vis men det sliter och ställer höga krav på fastighetsunderhåll.
+Sveriges fyra årstider och varierande klimat ställer höga krav på underhåll.
 
-Genom att välja rätt material och utförande kan man se till att fastigheten håller sig fräsch och vacker i många år framöver men det finns en hel del att tänka på när man ska renovera fasaden, trapphuset eller fönster. Med vår erfarenhet, tydliga rutiner och välbeprövad arbetsprocess ser vi till att genomföra arbetet på ett så smidigt sätt som möjligt för era boende eller hyresgäster.
+Genom att utföra underhåll löpande ser ni till att behålla värdet på fastigheten samt skapa en trivsam vistelsemiljö.
 
-Vår arbetsprocess
+Det finns en hel del att tänka på när det kommer till underhåll. Vi på Alviks Måleri har många års erfarenhet av fasadmålning, fönstermålning och trapphusmålning och hjälper er gärna med hela processen, från planering till färdigställande. 
+
+**Vår process**
 
 _Beskriv er arbetsprocess (första möte, färgsättning/design, etc)_
