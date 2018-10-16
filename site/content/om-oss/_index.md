@@ -7,18 +7,16 @@ Till oss är du välkommen med allt från små servicejobb till stora målerient
 
 För att kunna leverera bästa möjliga tjänst till respektive kund arbetar vi i Team, skräddarsydda Team för varje kund och uppdrag. Vi satsar ständigt på ledarskapsutveckling så att all den kunskap och färdighet som finns hos alla våra medarbetare kommer dig som kund tillgodo, på bästa sätt.
 
-
-
 ![Starcase with decorations](/img/kontorstockholm.jpg)
 
-**Våra kärnmeningar och vision!**
+**Våra kärnmeningar och vision.**
 
 Tillsamman med våra kunder och medarbetare har vi arbetat fram våra kärnmeningar. Vårt arbete ska genomsyras av våra kärnmeningar och vår vision.
 
-**Kvalitets- och miljöarbete**
+**Kvalitets- och miljöarbete.**
 
 Alviks Måleri, Alviks Måleri i Uppsala och MPA Alviks Måleri är alla kvalitets- och miljöcertifierade enl. ISO 9001 och 14001.
 
-**Socialt engagemang**
+**Socialt engagemang.**
 
 Inom Alviks Måleris bolag stödjer vi Läkare utan gränser, Zero mission (klimatkompensation),  Radiohälpen, ActionAid, Sirius (idrottsverksamhet), Uppsala Tennisverksamhet, Västerås hockey, Tillberga bandy.
