@@ -2,12 +2,12 @@
 title: Industriklättring
 image: /img/alviks-fargsattning.jpg
 ---
-När det inte passar och är effektivt med en stor byggnadsställning eller lift kan klättring vara ett alternativ. Våra certifierade och erfarna klättrare tar sig fram med lina på de mest svåråtkomliga utrymmen och utför målning, underhåll och service på er fastighet. 
+Våra certifierade och erfarna klättrare tar sig fram med lina på de mest svåråtkomliga utrymmen och utför målning och underhåll på er fastighet. 
 
-Klättring har blivit ett populärt alternativ just på grund av att det är effektivt och skapar minimalt med störningsmoment för omgivningen.
+Klättring är ett bra alternativ på grund av att det är effektivt och skapar minimalt med störningsmoment för omgivningen. 
 
-Vår kompetens innefattar bland annat
+Följande arbeten ligger inom vår expertis.
 
 * Rostskyddsmålning.
-* Blästeringsarbeten.
+* Blästringsarbeten.
 * Balkonger.
