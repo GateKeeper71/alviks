@@ -2,11 +2,11 @@
 title: Dekorationsmålning
 image: /img/342342.jpg
 ---
-Dekorationsmålning förekommer bland annat när vi rör oss i kulturhistoriska och skyddsklassade miljöer. Vi har stor erfarenhet då kraven på teknik och material är höga och är vana med att samarbetar med antikvarier och myndigheter för att säkerställa kvalitén.
+Kulturhistoriska och skyddsklassade miljöer ställer höga krav på teknik och materialval. Vi är vana att arbeta tillsammans med antikvarier och myndigheter för att säkerställa kvalitén. 
 
-Våra dekorationsmålare arbetar också mycket med trapphusrenoveringar där man till exempel skall återskapa snickeriernas ådringsmålning eller ge nya säkerhetsdörrar en känsla av gediget trä. Dekorationsmålning kan användas till mycket och med rätt kompetens kan man skapa helt fantastiska resultat.
+Dekorationsmålning är vanligt förekommande vid trapphusrenoveringar där man vill ta tillvara på fastighetens åldrande karaktär. Dekorationsmålning kan användas till mycket och med rätt kompetens kan man skapa fantastiska resultat.
 
-Exempel på arbete där dekorationsmålning kan förekomma.
+Vi kan hjälpa till med följande dekorations arbeten.
 
 * Sten animationer.
 * Ådringsmålning.
