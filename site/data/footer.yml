@@ -1,7 +1,7 @@
-ingress: |-
-  Vi bryr oss.
-  Vi är i framkant.
-  Vi är lätta att samarbeta med.
+ingress: >-
+  Till oss är du välkommen med allt från små servicejobb till stora
+  målerientreprenader som sträcker sig över flera år och kräver stora
+  personalresurser.
 ablock:
   - fblink: 'https://www.facebook.com/alviksmaleristockholm'
     heading: Stockholm
