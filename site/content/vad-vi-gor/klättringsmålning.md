@@ -1,13 +1,19 @@
 ---
-title: 'Trapphus, fasad och fönstermålning'
+title: Fasad och fönstermålning
 image: /img/alviks-building-with-birds.jpg
 ---
-Sveriges fyra årstider och varierande klimat ställer höga krav på underhåll.
+Oavsett om det är en villa, ett flerbostadshus eller en industrifastighet, så ska fasader, tak och fönster underhållas.
 
-Genom att utföra underhåll löpande ser ni till att behålla värdet på fastigheten samt skapa en trivsam vistelsemiljö.
+Oavsett om det är trä, plåt, puts eller betong är det viktigt att dessa ytor underhålls med rätt metoder, rätt färgval, rätt kulörval samt rätt intervaller.
 
-Det finns en hel del att tänka på när det kommer till underhåll. Vi på Alviks Måleri har många års erfarenhet av fasadmålning, fönstermålning och trapphusmålning och hjälper er gärna med hela processen, från planering till färdigställande. 
+Det är även viktigt att löpande se över dessa ytor, så att inte onödiga kostnader uppstår vid nästa renovering.
 
-**Vår process**
+Mellan renoveringar bör följande utföras.
 
-_Beskriv er arbetsprocess (första möte, färgsättning/design, etc)_
+* Inspektion
+* Tvättning
+* Bättring av ev. skador
+
+Genom att göra detta förlängs underhålls intervallerna.
+
+Kontakta oss gärna, så berättar vi mer.
