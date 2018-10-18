@@ -1,8 +1,8 @@
 ---
-title: Dekorationsmålning
+title: Kulturhistoriska miljöer
 image: /img/342342.jpg
 ---
-Kulturhistoriska miljöer ställer höga krav på teknik och materialval. Vi är vana att arbeta i kulturhistoriska miljöer, där vi b.l.a. samarbetar med antikvarier, myndigheter och vår leverantörer.   
+Kulturhistoriska miljöer ställer höga krav på teknik och materialval. Vi är vana att arbeta i kulturhistoriska miljöer, där vi b.l.a. samarbetar med antikvarier, myndigheter och våra leverantörer.   
 
 I kulturhistoriska miljöer är dekorationsmålning vanligt förekommande. Dekorationsmålning kan användas till mycket och med rätt kompetens kan man skapa fantastiska resultat.
 
