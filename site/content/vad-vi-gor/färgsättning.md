@@ -1,22 +1,11 @@
 ---
-title: Industriklättrande målare.
-image: /img/alviks-building-with-birds.jpg
+title: Färgsättning.
+image: /img/about-reinvest-profits.jpg
 ---
-Med våra industriklättrande målare har vi möjlighet att måla där det är svårt eller för dyrt att använda  ställning / skylift. 
+En genomtänkt färgsättning är A och O för allt som ska målas! 
 
-Klättring är ett bra alternativ till ställning & skylift. Det är effektivt och skapar minimalt med störningsmoment för omgivningen. 
+Med en genomtänkt färgsättning ökas trivseln, värdet ökas, försäljningen ökar, människor mår bättre och arbetsmiljön förbättras.
 
-Våra certifierade och erfarna klättrare tar sig fram med lina på de mest svåråtkomliga utrymmen och utför målning och underhåll på er fastighet. 
+Vad är det du önskar uppnå? 
 
-Vad mer utöver måleriarbeten, erbjuder detta team?
-
-* Fogning
-* Putslagning
-* Plåtarbeten
-* Eldragningar
-* Fönsterputs
-* Inspektioner / besiktningar
-* Montage
-* Fall skyddssystem
-* Samverkan och säkring av andra yrkesgrupper. 
-* Skapa säker arbetsmiljö.
+Kontakta oss gärna, så berättar vi mer om hur vi kan hjälpa er med rätt färgsättning samt uppnå det ni önskar.
