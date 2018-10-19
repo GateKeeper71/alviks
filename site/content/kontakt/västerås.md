@@ -29,8 +29,13 @@ coworker:
     position: Teamledare.
   - email: roger.johansson@mpaalviksmaleri.se
     image: /img/roger.jpg
-    name: ' Roger Johansson Teamledare'
+    name: ' Roger Johansson'
     phone: 021-81 53 09
     position: Teamledare
+  - email: anders.wennergrund@mpaalviksmaleri.se
+    image: /img/anders.jpg
+    name: Anders Wennergrund
+    phone: 070-462 53 05
+    position: Kalkyl/Teamledare.
 ---
 
