@@ -54,8 +54,24 @@ coworker:
     phone: 073-660 61 73
     position: Teamledare med fokus på måleri inom BRF och ramavtal.
   - email: stefan.pettersson@alviksmaleri.se
+    image: /img/32432.jpg
     name: Stefan Pettersson
     phone: 073-660 61 70
     position: Teamledare med fokus på måleri inom ny- och ombyggnation.
+  - email: magnus.rundin@alviksmaleri.se
+    image: /img/41.jpg
+    name: Magnus Rundin
+    phone: 073-660 61 71
+    position: Teamledare med fokus på måleri inom ny- och ombyggnation.
+  - email: robert.vidman@alviksmaleri.se
+    image: /img/38.jpg
+    name: Robert Vidman
+    phone: 073-660 61 67
+    position: Teamledare med fokus på måleri inom BRF och ramavtal.
+  - email: hans-ake.wennerstrand@alviksmaleri.se
+    image: /img/37.jpg
+    name: Hans-Åke Wennerstrand
+    phone: 072-394 95 90
+    position: Kvalitets- och miljöansvarig.
 ---
 
