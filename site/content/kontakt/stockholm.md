@@ -90,6 +90,7 @@ coworker:
     phone: 073-660 61 62
     position: Ansvarig för Verksamhetsutveckling.
   - email: ' fredrik.kristland@alviksmaleri.se'
+    image: /img/4324324.jpg
     name: Fredrik Kristland
     phone: 073-660 61 09
     position: Arbetsledare med fokus på måleri inom BRF och ramavtal.
