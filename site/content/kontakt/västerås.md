@@ -17,5 +17,20 @@ coworker:
     name: Fredrik Hagström
     phone: 018-472 16 03
     position: VD
+  - email: johannes.jansson@mpaalviksmaleri.se
+    image: /img/johannes.jpg
+    name: Johannes Jansson
+    phone: 021-81 53 06
+    position: Arbetschef/Offertförfrågning.
+  - email: johan.fredriksson@mpaalviksmaleri.se
+    image: /img/johan.jpg
+    name: Johan Fredriksson
+    phone: 021-81 53 08
+    position: Teamledare.
+  - email: roger.johansson@mpaalviksmaleri.se
+    image: /img/roger.jpg
+    name: ' Roger Johansson Teamledare'
+    phone: 021-81 53 09
+    position: Teamledare
 ---
 
