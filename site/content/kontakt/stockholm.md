@@ -48,5 +48,10 @@ coworker:
     name: Pia Mosell
     phone: 073-660 61 08
     position: Ekonomiansvarig
+  - email: joachim.olsson@alviksmaleri.se
+    image: /img/33.jpg
+    name: Joachim Olsson
+    phone: 073-660 61 73
+    position: Teamledare med fokus på måleri inom BRF och ramavtal.
 ---
 
