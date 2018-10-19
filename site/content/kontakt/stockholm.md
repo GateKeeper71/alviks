@@ -27,5 +27,11 @@ coworker:
     name: Lars-Erik Jonsson
     phone: 073-660 61 01
     position: VD och delägare. Teamledare med fokus på måleri inom ny- och ombyggnation
+  - email: sebastian.persson@alviksmaleri.se
+    name: Sebastian Persson
+    phone: 073 660 61 55
+    position: >-
+      Teamledare med fokus på måleri inom ny- och ombyggnation samt privata
+      kunder
 ---
 
