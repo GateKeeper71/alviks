@@ -53,5 +53,9 @@ coworker:
     name: Joachim Olsson
     phone: 073-660 61 73
     position: Teamledare med fokus på måleri inom BRF och ramavtal.
+  - email: stefan.pettersson@alviksmaleri.se
+    name: Stefan Pettersson
+    phone: 073-660 61 70
+    position: Teamledare med fokus på måleri inom ny- och ombyggnation.
 ---
 
