@@ -73,5 +73,22 @@ coworker:
     name: Hans-Åke Wennerstrand
     phone: 072-394 95 90
     position: Kvalitets- och miljöansvarig.
+  - email: jim.wikstrom@alviksmaleri.se
+    image: /img/39.jpg
+    name: Jim Wikström
+    phone: 073-660 61 48
+    position: Arbetsledare med fokus på måleri inom allmännyttan och BRF.
+  - email: anki.fors@alviksmaleri.se
+    name: Anki Fors
+    phone: 073-660 61 10
+    position: Löneadministratör.
+  - email: anders.larm@alviksmaleri.se
+    name: Anders Larm
+    phone: 073-660 61 62
+    position: Ansvarig för Verksamhetsutveckling.
+  - email: ' fredrik.kristland@alviksmaleri.se'
+    name: Fredrik Kristland
+    phone: 073-660 61 09
+    position: Arbetsledare med fokus på måleri inom BRF och ramavtal.
 ---
 
