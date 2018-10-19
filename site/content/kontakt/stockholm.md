@@ -33,5 +33,20 @@ coworker:
     position: >-
       Teamledare med fokus på måleri inom ny- och ombyggnation samt privata
       kunder
+  - email: michael.gidlund@alviksmaleri.se
+    image: /img/36.jpg
+    name: Michael Gidlund
+    phone: ' 073-660 61 07'
+    position: Teamledare med fokus på måleri inom allmännyttan och ramavtal.
+  - email: orjan.grahn@alviksmaleri.se
+    image: /img/324.jpg
+    name: Örjan Grahn
+    phone: 073-660 61 06
+    position: Lärlingsansvarig
+  - email: pia.mosell@alviksmaleri.se
+    image: /img/40.jpg
+    name: Pia Mosell
+    phone: 073-660 61 08
+    position: Ekonomiansvarig
 ---
 
