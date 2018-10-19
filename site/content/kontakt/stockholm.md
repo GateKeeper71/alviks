@@ -90,5 +90,15 @@ coworker:
     name: Fredrik Kristland
     phone: 073-660 61 09
     position: Arbetsledare med fokus på måleri inom BRF och ramavtal.
+  - email: anne.purzel@alviksmaleri.se
+    image: /img/anne.jpg
+    name: Anne Pürzel
+    phone: 073-660 61 12
+    position: Arkitekt med fokus på färgsättningar.
+  - email: mikael.wilking@alviksmaleri.se
+    image: /img/mw.jpg
+    name: Mikael Wilking
+    phone: 073-660 61 79
+    position: Projektledare med fokus på måleri inom ny- och ombyggnation.
 ---
 
