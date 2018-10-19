@@ -22,5 +22,10 @@ coworker:
     position: >-
       Delägare. Teamledare och försäljningschef med fokus på försäljning inom
       BRF och ramavtal.
+  - email: lars-erik.jonsson@alviksmaleri.se
+    image: /img/lars-erik.jpg
+    name: Lars-Erik Jonsson
+    phone: 073-660 61 01
+    position: VD och delägare. Teamledare med fokus på måleri inom ny- och ombyggnation
 ---
 
