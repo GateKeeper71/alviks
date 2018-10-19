@@ -28,6 +28,7 @@ coworker:
     phone: 073-660 61 01
     position: VD och delägare. Teamledare med fokus på måleri inom ny- och ombyggnation
   - email: sebastian.persson@alviksmaleri.se
+    image: /img/male-avatar-profile-picture-use-260nw-193292033.jpg
     name: Sebastian Persson
     phone: 073 660 61 55
     position: >-
@@ -79,10 +80,12 @@ coworker:
     phone: 073-660 61 48
     position: Arbetsledare med fokus på måleri inom allmännyttan och BRF.
   - email: anki.fors@alviksmaleri.se
+    image: /img/male-avatar-profile-picture-use-260nw-193292033.jpg
     name: Anki Fors
     phone: 073-660 61 10
     position: Löneadministratör.
   - email: anders.larm@alviksmaleri.se
+    image: /img/male-avatar-profile-picture-use-260nw-193292033.jpg
     name: Anders Larm
     phone: 073-660 61 62
     position: Ansvarig för Verksamhetsutveckling.
