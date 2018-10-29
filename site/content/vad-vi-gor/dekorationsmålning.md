@@ -1,6 +1,7 @@
 ---
 title: Dekorationsmålning
 image: /img/342342.jpg
+weight: '40'
 ---
 Dekorationsmålning är en form av bildkonst, en konstnärlig utsmyckning med hjälp av målarfärg. Både material och färg kan variera.
 
