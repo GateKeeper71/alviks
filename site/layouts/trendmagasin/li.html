@@ -1,15 +1,15 @@
-<div class="mw6 center ph3 pt6 pb5">
-    <h1 class="f2 lh-title b mb3 alvik-3">{{.Title}}</h1>
-    <div class="flex justify-between grey-3">
-      <p>{{ .Date.Format "2006-01-02" }}</p>
-      <p>Läs på {{ .ReadingTime }} minuter</p>
-    </div>
-    <div class="cms mw6">
-      <p>{{ .Description }}</p>
-      {{ if .Params.image }}<img src="{{ .Params.image }}" alt="{{ .Title }}" />{{ end }}
-      {{ .Content }}
-    </div>
-    <div class="ph3">
-      <a target="_blank" href="{{ .Params.pdf_file }}" class="dib relative overflow-hidden link ba bw0 pv1 ph1 no-underline-hover font-accent b tc ttu bg-1-to-3 hover-bg-1-to-3 hover-bg-slide br-pill white"><span class="z-1 relative bg-white dib br-pill alvik-3 pv2 ph4">Visa {{ .Title }}</span></a>
-    </div>
+<div class="mt3 mb5">
+  <h1 class="f2 lh-title b mb3 alvik-3">{{.Title}}</h1>
+  <div class="flex justify-between grey-3">
+    <p>{{ .Date.Format "2006-01-02" }}</p>
+    <p>Läs på {{ .ReadingTime }} minuter</p>
   </div>
+  <div class="cms mw6">
+    <p>{{ .Description }}</p>
+    {{ if .Params.image }}<img src="{{ .Params.image }}" alt="{{ .Title }}" />{{ end }}
+    {{ .Content }}
+  </div>
+  <div class="flex justify-center">
+    <a download target="_blank" href="{{ .Params.pdf_file }}" class="dib relative overflow-hidden link ba bw0 pv1 ph1 no-underline-hover font-accent b tc ttu bg-1-to-3 hover-bg-1-to-3 hover-bg-slide br-pill white"><span class="z-1 relative bg-white dib br-pill alvik-3 pv2 ph4">Ladda ned {{ .Title }}</span></a>
+  </div>
+</div>
