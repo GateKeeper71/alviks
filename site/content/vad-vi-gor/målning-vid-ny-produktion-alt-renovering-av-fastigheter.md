@@ -1,6 +1,7 @@
 ---
 title: Målning vid ny produktion alt. renovering av fastigheter
 image: /img/about-direct-sourcing.jpg
+weight: '1'
 ---
 Hur ska det målas?
 
