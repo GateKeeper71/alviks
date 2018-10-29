@@ -1,6 +1,7 @@
 ---
 title: Färgsättning
 image: /img/about-reinvest-profits.jpg
+weight: '2'
 ---
 En genomtänkt färgsättning är A och O för allt som ska målas!
 
