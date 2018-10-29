@@ -7,7 +7,7 @@ Kulturhistoriska miljöer ställer höga krav på teknik och materialval. Vi är
 
 I kulturhistoriska miljöer är dekorationsmålning vanligt förekommande. Dekorationsmålning kan användas till mycket och med rätt kompetens kan man skapa fantastiska resultat.
 
-Vi kan hjälpa till med följande dekorations-arbeten:
+Vi kan hjälpa till med följande dekorationsarbeten:
 
 * Sten animationer.
 * Ådringsmålning.
