@@ -1,6 +1,7 @@
 ---
 title: Totalentreprenad
 image: /img/about-single-origin.jpg
+weight: '80'
 ---
 Varför utför ett måleriföretag totalentreprenader?
 
