@@ -2,7 +2,7 @@
 title: Färgsättning
 image: /img/about-reinvest-profits.jpg
 ---
-En genomtänkt färgsättning är A och O för allt som ska målas! 
+En genomtänkt färgsättning är A och O för allt som ska målas! (test)
 
 Med en genomtänkt färgsättning ökas trivseln, värdet ökas, försäljningen ökar, människor mår bättre och arbetsmiljön förbättras.
 
