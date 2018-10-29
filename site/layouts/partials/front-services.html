@@ -2,7 +2,7 @@
   <div class="pt4 pb3">
     <div class="pw7 center">
       <h3 class="f2 lh-title b mb4 tc alvik-4">Vad vi gör</h3>
-      {{ range $i,$p := where .Data.Pages "Type" "vad-vi-gor" }}
+      {{ range $i,$p := ((where .Data.Pages "Type" "vad-vi-gor") sort (.Data.Pages.ByParam "weight")) }}
         {{if not (modBool $i 2)}}
           {{ partial "label-image-block-odd" . }}
         {{ else }}

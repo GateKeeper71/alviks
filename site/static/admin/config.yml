@@ -1,7 +1,7 @@
 backend:
   name: github
   repo: GateKeeper71/alviks
-  branch: develop
+  branch: staging
 
 media_folder: "site/static/img" # Folder where user uploaded files should go
 public_folder: "img"
@@ -64,6 +64,7 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Image", name: "image", widget: "image"}
       - {label: "Body", name: "body", widget: "markdown"}
+      - {label: "Page weight", name: "weight", widget: "number"}
   - name: "karriar"
     editor:
       preview: false
