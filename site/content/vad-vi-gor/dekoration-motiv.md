@@ -1,6 +1,7 @@
 ---
 title: Kulturhistoriska miljöer
 image: /img/342342.jpg
+weight: '3'
 ---
 Kulturhistoriska miljöer ställer höga krav på teknik och materialval. Vi är vana att arbeta i kulturhistoriska miljöer, där vi b.l.a. samarbetar med antikvarier, myndigheter och våra leverantörer.   
 
