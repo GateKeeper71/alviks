@@ -1,5 +1,7 @@
 ---
 title: 'Vanlig målning, ovanligt bra'
+categories:
+  - test
 image: /img/65634534.jpg
 weight: '10'
 ---
