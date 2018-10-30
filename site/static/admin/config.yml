@@ -190,3 +190,13 @@ collections: # A list of collections the CMS should be able to edit
         fields:
           - {label: Title, name: title, widget: string}
           - {label: Body, name: body, widget: markdown}
+  - name: "categories"
+    editor:
+      preview: false
+    label: "Kategorier"
+    folder: "site/content/categories"
+    create: true
+    fields:
+      - {label: "Rubrik", name: "title", widget: "string"}
+      - {label: "Bild", name: "image", widget: "image"}
+      - {label: "Innehåll", name: "body", widget: "markdown"}
