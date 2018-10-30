@@ -1,5 +1,6 @@
 ---
 title: Målning vid ny produktion alt. renovering av fastigheter
+categories: Okategoriserad
 image: /img/about-direct-sourcing.jpg
 weight: '100'
 ---

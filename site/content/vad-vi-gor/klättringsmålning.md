@@ -1,5 +1,6 @@
 ---
 title: Fasad och fönstermålning
+categories: Okategoriserad
 image: /img/alviks-building-with-birds.jpg
 weight: '70'
 ---

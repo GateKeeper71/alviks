@@ -62,7 +62,7 @@ collections: # A list of collections the CMS should be able to edit
     create: true
     fields:
       - {label: "Title", name: "title", widget: "string"}
-      - {label: "Kategorier", name: "categories", widget: "list"}
+      - {label: "Kategorier", name: "categories", widget: "relation", collection: "categories", searchFields: [ "title", "body" ], valueField: "title"}
       - {label: "Image", name: "image", widget: "image"}
       - {label: "Body", name: "body", widget: "markdown"}
       - {label: "Page weight", name: "weight", widget: "number"}

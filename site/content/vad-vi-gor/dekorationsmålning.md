@@ -1,5 +1,6 @@
 ---
 title: Dekorationsmålning
+categories: Okategoriserad
 image: /img/342342.jpg
 weight: '40'
 ---
