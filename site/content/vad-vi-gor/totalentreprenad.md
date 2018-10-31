@@ -1,6 +1,5 @@
 ---
 title: Totalentreprenad
-categories: Okategoriserad
 image: /img/about-single-origin.jpg
 weight: '80'
 ---

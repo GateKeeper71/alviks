@@ -6,9 +6,8 @@ backend:
 media_folder: "site/static/img" # Folder where user uploaded files should go
 public_folder: "img"
 
-taxonomies:
-  kategori: "kategorier"
-  referenskategori: "referenskategorier"
+# taxonomies:
+#   referenserkategori: "referenserkategorier"
 
 collections: # A list of collections the CMS should be able to edit
   - name: "global"
@@ -66,7 +65,6 @@ collections: # A list of collections the CMS should be able to edit
     create: true
     fields:
       - {label: "Rubrik", name: "title", widget: "string"}
-      - {label: "Kategorier", name: "kategorier", widget: "relation", collection: "kategorier", searchFields: [ "title", "body" ], valueField: "title"}
       - {label: "Bild", name: "image", widget: "image"}
       - {label: "Innehåll", name: "body", widget: "markdown"}
       - {label: "Ordning", name: "weight", widget: "number"}
@@ -91,7 +89,7 @@ collections: # A list of collections the CMS should be able to edit
     create: true
     fields:
       - {label: "Rubrik", name: "title", widget: "string"}
-      - {label: "Kategorier", name: "kategorier", widget: "relation", collection: "referenserkategorier", searchFields: [ "title", "body" ], valueField: "title"}
+      - {label: "Kategorier", name: "referenserkategorier", widget: "relation", collection: "referenserkategorier", searchFields: [ "title", "body" ], valueField: "title"}
       - {label: "Bild", name: "image", widget: "image"}
       - {label: "Innehåll", name: "body", widget: "markdown"}
       - {label: "Ordning", name: "weight", widget: "number"}
@@ -207,13 +205,3 @@ collections: # A list of collections the CMS should be able to edit
         fields:
           - {label: Title, name: title, widget: string}
           - {label: Body, name: body, widget: markdown}
-  - name: "kategorier"
-    editor:
-      preview: false
-    label: "Kategorier"
-    folder: "site/content/kategorier"
-    create: true
-    fields:
-      - {label: "Rubrik", name: "title", widget: "string"}
-      - {label: "Bild", name: "image", widget: "image"}
-      - {label: "Innehåll", name: "body", widget: "markdown"}

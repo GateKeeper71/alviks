@@ -1,6 +1,5 @@
 ---
 title: Färgsättning
-categories: Okategoriserad
 image: /img/about-reinvest-profits.jpg
 weight: '30'
 ---

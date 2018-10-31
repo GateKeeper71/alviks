@@ -1,6 +1,5 @@
 ---
 title: 'Vanlig målning, ovanligt bra'
-categories: Okategoriserad
 image: /img/65634534.jpg
 weight: '10'
 ---

@@ -1,6 +1,5 @@
 ---
 title: Ett axplock av projekt vi nu har igång
-categories: Okategoriserad
 image: /img/about-sustainable-farming.jpg
 weight: '90'
 ---
