@@ -6,7 +6,7 @@
 
   <div class="flex flex-wrap">
 
-    {{range where ($.Site.GetPage "taxonomyTerm" "referenser").Pages "Params.referenserkategorier" .Title }}
+    {{range (where ($.Site.GetPage "taxonomyTerm" "referenser").Pages "Params.referenserkategorier" .Title).ByParam "weight" }}
 
       {{ .Render "li" }}
 

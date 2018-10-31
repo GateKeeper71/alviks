@@ -17,7 +17,7 @@ collections: # A list of collections the CMS should be able to edit
       preview: false
     files:
       - file: "site/data/global.yml"
-        label: "General"
+        label: "Allmänt"
         name: "general"
         format: "yaml"
         fields:
@@ -37,7 +37,7 @@ collections: # A list of collections the CMS should be able to edit
         fields:
           - {label: "Bakgrundsbild", name: "bgimage", widget: "image"}
       - file: "site/data/footer.yml"
-        label: "Footer"
+        label: "Sidfot"
         name: "footer"
         format: "yaml"
         fields:
@@ -53,8 +53,8 @@ collections: # A list of collections the CMS should be able to edit
               ]}
           - {label: "Social media heading", name: "socialheading", widget: "string"}
           - {label: "Social media icon", name: "socialicon", widget: "list", fields: [
-              {label: "Icon", name: "icon", widget: "image"},
-              {label: "Link", name: "link", widget: "string"},
+              {label: "Ikon", name: "icon", widget: "image"},
+              {label: "Länk", name: "link", widget: "string"},
             ]}
         editor:
           preview: false
@@ -65,11 +65,11 @@ collections: # A list of collections the CMS should be able to edit
     folder: "site/content/vad-vi-gor"
     create: true
     fields:
-      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Rubrik", name: "title", widget: "string"}
       - {label: "Kategorier", name: "kategorier", widget: "relation", collection: "kategorier", searchFields: [ "title", "body" ], valueField: "title"}
-      - {label: "Image", name: "image", widget: "image"}
-      - {label: "Body", name: "body", widget: "markdown"}
-      - {label: "Page weight", name: "weight", widget: "number"}
+      - {label: "Bild", name: "image", widget: "image"}
+      - {label: "Innehåll", name: "body", widget: "markdown"}
+      - {label: "Ordning", name: "weight", widget: "number"}
   - name: "karriar"
     editor:
       preview: false
@@ -77,12 +77,12 @@ collections: # A list of collections the CMS should be able to edit
     folder: "site/content/karriar"
     create: true
     fields:
-      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Rubrik", name: "title", widget: "string"}
       - {label: "Publiceringsdatum", name: "date", widget: "datetime"}
       - {label: "Sista ansökningsdag", name: "lastday", widget: "date", required: false}
       - {label: "Kontor", name: "office", widget: "select", options: ["Stockholm", "Uppsala", "Västerås"]}
       - {label: "Länk ansökan", name: "link", widget: "string", required: false}
-      - {label: "Body", name: "body", widget: "markdown"}
+      - {label: "Innehåll", name: "body", widget: "markdown"}
   - name: "referenser"
     label: "Referenser"
     editor:
@@ -90,10 +90,11 @@ collections: # A list of collections the CMS should be able to edit
     folder: "site/content/referenser"
     create: true
     fields:
-      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Rubrik", name: "title", widget: "string"}
       - {label: "Kategorier", name: "kategorier", widget: "relation", collection: "referenserkategorier", searchFields: [ "title", "body" ], valueField: "title"}
-      - {label: "Image", name: "image", widget: "image"}
-      - {label: "Body", name: "body", widget: "markdown"}
+      - {label: "Bild", name: "image", widget: "image"}
+      - {label: "Innehåll", name: "body", widget: "markdown"}
+      - {label: "Ordning", name: "weight", widget: "number"}
   - name: "referenserkategorier"
     editor:
       preview: false
@@ -104,6 +105,7 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "Rubrik", name: "title", widget: "string"}
       - {label: "Bild", name: "image", widget: "image"}
       - {label: "Innehåll", name: "body", widget: "markdown"}
+      - {label: "Ordning", name: "weight", widget: "number"}
   - name: "nyheter"
     label: "Nyheter"
     editor:
