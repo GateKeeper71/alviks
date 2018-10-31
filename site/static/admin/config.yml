@@ -6,9 +6,6 @@ backend:
 media_folder: "site/static/img" # Folder where user uploaded files should go
 public_folder: "img"
 
-# taxonomies:
-#   referenserkategori: "referenserkategorier"
-
 collections: # A list of collections the CMS should be able to edit
   - name: "global"
     label: "Global"
@@ -89,7 +86,7 @@ collections: # A list of collections the CMS should be able to edit
     create: true
     fields:
       - {label: "Rubrik", name: "title", widget: "string"}
-      - {label: "Kategorier", name: "referenserkategorier", widget: "relation", collection: "referenserkategorier", searchFields: [ "title", "body" ], valueField: "title"}
+      - {label: "Kategori", name: "referenserkategorier", widget: "relation", collection: "referenserkategorier", searchFields: [ "title", "body" ], valueField: "title"}
       - {label: "Bild", name: "image", widget: "image"}
       - {label: "Innehåll", name: "body", widget: "markdown"}
       - {label: "Ordning", name: "weight", widget: "number"}
