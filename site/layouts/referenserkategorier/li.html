@@ -2,7 +2,5 @@
   <h4 class="f4 b lh-title mb2 black">{{ .Title }}</h4>
   <img class="w-100" src="{{ .Params.Image }}" alt="">
   <p>{{ .Summary }}</p>
-  {{ if .Truncated }}
-    {{ partial "button-link" (dict "label" "Läs mer" "link" .Permalink) }}
-  {{ end }}
+  {{ partial "button-link" (dict "label" "Läs mer" "link" .Permalink) }}
 </div>

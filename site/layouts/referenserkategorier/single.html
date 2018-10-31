@@ -1,14 +1,21 @@
 {{ define "main" }}
 
-  <div class="referenserkategorier-single mw6 center ph3 pt6 pb5">
-    <h1 class="f2 lh-title b mb3 alvik-3">{{.Title}}</h1>
-    <div class="flex justify-between grey-3">
-      <p>{{ .Date.Format "2006-01-02" }}</p>
-    </div>
-    <div class="cms mw6">
-      <p>{{ .Description }}</p>
-      {{ if .Params.image }}<img src="{{ .Params.image }}" alt="{{ .Title }}" />{{ end }}
-      {{ .Content }}
-    </div>
+<div class="referenserkategorier-list mw7 center pt6 pb4">
+
+  <h1 class="f2 ph3 b mb4 alvik-3">{{ .Title }}</h1>
+
+  <div class="flex flex-wrap">
+
+    {{range where ($.Site.GetPage "taxonomyTerm" "referenser").Pages "Params.referenserkategorier" .Title }}
+
+      {{ .Render "li" }}
+
+    {{ end }}
+
   </div>
-{{ end }}
+
+  {{ partial "contact-box-2-btns" .Site.Data.global }}
+
+</div>
+
+{{end}}

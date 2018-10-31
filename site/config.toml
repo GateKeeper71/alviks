@@ -6,7 +6,7 @@ pluralizeListTitles = false
 
 [permalinks]
   referenser = "/referenser/:title/"
-  referenserkategori = "/referenser/:title/"
+  referenserkategorier = "/referenser/:title/"
 
 [menu]
   [[menu.main]]
