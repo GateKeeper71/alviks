@@ -96,8 +96,8 @@ collections: # A list of collections the CMS should be able to edit
   - name: "referenserkategorier"
     editor:
       preview: false
-    label: "Kategorier referenser"
-    folder: "site/content/kategorier"
+    label: "Referenser - Kategorier"
+    folder: "site/content/referenserkategorier"
     create: true
     fields:
       - {label: "Rubrik", name: "title", widget: "string"}
