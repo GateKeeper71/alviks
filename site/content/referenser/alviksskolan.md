@@ -1,11 +1,9 @@
 ---
 title: Tele 2 Arena
+referenserkategorier: Totalentreprenad
 image: /img/about-sustainable-farming.jpg
-referenserkategorier: Okategoriserad
 weight: 10
 ---
 Vi målar järnbalkar. Detta sker med våra industriklättrare och arbetet utförs på en höjd mellan 7 - 40 meter upp.
 
-
-
-![](/img/342342.jpg)
+![null](/img/342342.jpg)
