@@ -1,7 +1,5 @@
 backend:
-  name: github
-  repo: GateKeeper71/alviks
-  branch: staging
+  name: git-gateway
 
 media_folder: "site/static/img" # Folder where user uploaded files should go
 public_folder: "img"
