@@ -6,9 +6,9 @@
 
   <div class="flex flex-wrap">
 
-    {{ range (.Paginator 16).Pages.ByPublishDate.Reverse }}
+    {{range ($.Site.GetPage "taxonomyTerm" "referenserkategorier").Pages }}
 
-      {{ .Render "li"}}
+      {{ .Render "li" }}
 
     {{ end }}
 

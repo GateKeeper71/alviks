@@ -6,6 +6,9 @@ backend:
 media_folder: "site/static/img" # Folder where user uploaded files should go
 public_folder: "img"
 
+taxonomies:
+  kategori: "kategorier"
+
 collections: # A list of collections the CMS should be able to edit
   - name: "global"
     label: "Global"
@@ -62,7 +65,7 @@ collections: # A list of collections the CMS should be able to edit
     create: true
     fields:
       - {label: "Title", name: "title", widget: "string"}
-      - {label: "Kategorier", name: "categories", widget: "relation", collection: "categories", searchFields: [ "title", "body" ], valueField: "title"}
+      - {label: "Kategorier", name: "kategorier", widget: "relation", collection: "kategorier", searchFields: [ "title", "body" ], valueField: "title"}
       - {label: "Image", name: "image", widget: "image"}
       - {label: "Body", name: "body", widget: "markdown"}
       - {label: "Page weight", name: "weight", widget: "number"}
@@ -87,8 +90,19 @@ collections: # A list of collections the CMS should be able to edit
     create: true
     fields:
       - {label: "Title", name: "title", widget: "string"}
+      - {label: "Kategorier", name: "kategorier", widget: "relation", collection: "referenserkategorier", searchFields: [ "title", "body" ], valueField: "title"}
       - {label: "Image", name: "image", widget: "image"}
       - {label: "Body", name: "body", widget: "markdown"}
+  - name: "referenserkategorier"
+    editor:
+      preview: false
+    label: "Kategorier referenser"
+    folder: "site/content/kategorier"
+    create: true
+    fields:
+      - {label: "Rubrik", name: "title", widget: "string"}
+      - {label: "Bild", name: "image", widget: "image"}
+      - {label: "Innehåll", name: "body", widget: "markdown"}
   - name: "nyheter"
     label: "Nyheter"
     editor:
@@ -190,11 +204,11 @@ collections: # A list of collections the CMS should be able to edit
         fields:
           - {label: Title, name: title, widget: string}
           - {label: Body, name: body, widget: markdown}
-  - name: "categories"
+  - name: "kategorier"
     editor:
       preview: false
     label: "Kategorier"
-    folder: "site/content/categories"
+    folder: "site/content/kategorier"
     create: true
     fields:
       - {label: "Rubrik", name: "title", widget: "string"}

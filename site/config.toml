@@ -4,6 +4,10 @@ title = "Alviks Måleri"
 summaryLength = 30
 pluralizeListTitles = false
 
+[permalinks]
+  referenser = "/referenser/:title/"
+  referenserkategori = "/referenser/:title/"
+
 [menu]
   [[menu.main]]
     identifier = "whatwedo"
