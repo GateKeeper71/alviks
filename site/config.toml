@@ -6,7 +6,8 @@ pluralizeListTitles = false
 
 [permalinks]
   referenser = "/referenser/:title/"
-  referenserkategorier = "/referenser/:title/"
+  referenserkategorier = "/referenser/kategorier/:title/"
+  vad-vi-gor_kategorier = "/kategorier/:title/"
 
 [menu]
   [[menu.main]]

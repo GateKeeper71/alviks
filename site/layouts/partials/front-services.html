@@ -1,14 +1,19 @@
 <div class="w-100 pb3">
   <div class="pt4 pb3">
-    <div class="pw7 center">
+    <div class="partials-front-services pw7 center">
+
       <h3 class="f2 lh-title b mb4 tc alvik-4">Vad vi gör</h3>
-      {{ range $i,$p := ((where .Data.Pages "Type" "vad-vi-gor") sort (.Data.Pages.ByParam "weight")) }}
+
+      {{ range $i,$p := ((where .Data.Pages "Type" "vad-vi-gor_kategorier") sort (.Data.Pages.ByParam "weight")) }}
+
         {{if not (modBool $i 2)}}
           {{ partial "label-image-block-odd" . }}
         {{ else }}
           {{ partial "label-image-block" . }}
         {{end}}
+
       {{ end }}
+
     </div>
   </div>
 </div>

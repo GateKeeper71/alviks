@@ -1,6 +1,6 @@
 ---
-title: Test
+title: Kategori
 image: /img/342342.jpg
 weight: '10'
 ---
-Testtext
+Detta är en exempeltext
