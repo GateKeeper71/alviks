@@ -61,6 +61,18 @@ collections: # A list of collections the CMS should be able to edit
     create: true
     fields:
       - {label: "Rubrik", name: "title", widget: "string"}
+      - {label: "Kategori", name: "whatwedo_category", widget: "relation", collection: "whatwedo_categories", searchFields: [ "title", "body" ], valueField: "title"}
+      - {label: "Bild", name: "image", widget: "image"}
+      - {label: "Innehåll", name: "body", widget: "markdown"}
+      - {label: "Ordning", name: "weight", widget: "number"}
+  - name: "whatwedo_categories"
+    editor:
+      preview: false
+    label: "Vad vi gör - Kategorier"
+    folder: "site/content/vad-vi-gor_kategorier"
+    create: true
+    fields:
+      - {label: "Rubrik", name: "title", widget: "string"}
       - {label: "Bild", name: "image", widget: "image"}
       - {label: "Innehåll", name: "body", widget: "markdown"}
       - {label: "Ordning", name: "weight", widget: "number"}
