@@ -1,6 +1,5 @@
 ---
 title: Trapphus målning
-whatwedo_category: Ännu en kategori!
 image: /img/about-jumbotron.jpg
 weight: '20'
 ---

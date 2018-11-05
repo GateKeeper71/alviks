@@ -1,6 +1,5 @@
 ---
 title: Kulturhistoriska miljöer
-whatwedo_category: Kategori
 image: /img/342342.jpg
 weight: '50'
 ---
