@@ -3,14 +3,16 @@
 <div class="vad-vi-gor-list mw7 center pt6 pb4">
   <h1 class="f2 ph3 b mb4 alvik-3">Vad vi gör</h1>
   <ul class="">
-      {{ range $i,$p := ((where .Data.Pages "Type" "vad-vi-gor_kategorier") sort (.Data.Pages.ByParam "weight")) }}
-        <h1>TESTTTT</h1>
-        {{if not (modBool $i 2)}}
+
+      {{ $paginator := .Paginate ((where .Site.Pages "Section" "vad-vi-gor_kategorier").ByParam "weight") 4 }}
+      {{ range $index, $value := $paginator.Pages }}
+        {{ if not (modBool $index 2) }}
           {{ partial "label-image-block-odd" . }}
         {{ else }}
           {{ partial "label-image-block" . }}
-        {{end}}
+        {{ end }}
       {{ end }}
+
   </ul>
 
   {{ partial "pagination" . }}

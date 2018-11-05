@@ -4,9 +4,9 @@
 
       <h3 class="f2 lh-title b mb4 tc alvik-4">Vad vi gör</h3>
 
-      {{ range $i,$p := ((where .Data.Pages "Type" "vad-vi-gor_kategorier") sort (.Data.Pages.ByParam "weight")) }}
+      {{ range $index, $value := ((where .Data.Pages "Type" "vad-vi-gor_kategorier") sort (.Data.Pages.ByParam "weight")) }}
 
-        {{if not (modBool $i 2)}}
+        {{if not (modBool $index 2)}}
 
           <div class="mw7 center flex flex-wrap items-center mb4">
 
