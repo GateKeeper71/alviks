@@ -3,8 +3,7 @@
 <div class="vad-vi-gor-list mw7 center pt6 pb4">
   <h1 class="f2 ph3 b mb4 alvik-3">Vad vi gör</h1>
   <ul class="">
-      {{ range $i,$p := ((where (.Paginator 4).Pages "Type" "vad-vi-gor_kategorier") sort (.Data.Pages.ByParam "weight")) }}
-      {{/*  {{ range  $i,$p := (.Paginator 4).Pages.ByParam "weight" }}  */}}
+      {{ range $i,$p := ((where .Data.Pages "Type" "vad-vi-gor_kategorier") sort (.Data.Pages.ByParam "weight")) }}
         {{if not (modBool $i 2)}}
           {{ partial "label-image-block-odd" . }}
         {{ else }}
@@ -14,7 +13,6 @@
   </ul>
 
   {{ partial "pagination" . }}
-
   {{ partial "contact-box-2-btns" .Site.Data.global }}
 
 </div>
