@@ -1,6 +1,6 @@
 ---
 title: Trapphus målning
-image: /img/about-jumbotron.jpg
+image: /img/instagram-5568.jpg
 weight: '20'
 ---
 Funderar ni på att måla om ert trapphus?
