@@ -1,11 +1,13 @@
 ---
 title: Dekorationsmålning
-image: /img/342342.jpg
+image: /img/_dsc4978.jpg
 weight: '40'
 ---
 Dekorationsmålning är en form av bildkonst, en konstnärlig utsmyckning med hjälp av målarfärg. Både material och färg kan variera.
 
-Vårt dekorations team utför b.l.a. ådringsmålning för att efterlikna ett träslag eller marmorering för att efterlikna en sten art, te.x. Carrera marmor, kolmårdsmarmor m.m.
+Vårt dekorations team utför b.l.a. ådringsmålning för att efterlikna ett träslag eller marmorering för att efterlikna en sten art, te.x. Carrera marmor, kolmårdsmarmor m.m. eller egentligen målar vi det du önskar. 
+
+De utför även 
 
 Kontakta oss så berättar vi mer om vad vi kan göra med måleriet möjligheter.
 
