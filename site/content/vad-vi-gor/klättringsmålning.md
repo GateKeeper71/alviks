@@ -1,6 +1,6 @@
 ---
 title: Fasad och fönstermålning
-image: /img/alviks-building-with-birds.jpg
+image: /img/img_0750.jpg
 weight: '70'
 ---
 Oavsett om det är en villa, ett flerbostadshus eller en industrifastighet, så ska fasader, tak och fönster underhållas.
