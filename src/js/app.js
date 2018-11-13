@@ -2,6 +2,7 @@ import { AnimateCurve } from './ux/animate'
 import { AnimateJumbotron } from './ux/animate'
 import { Navbar } from './ux/navbar'
 import { Tip } from './ux/tip'
+import './custom/slider'
 
 // JS Goes here - ES6 supported
 if (window.netlifyIdentity) {

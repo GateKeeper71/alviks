@@ -1,0 +1,60 @@
+.c-partialProjectSlider {
+    position: relative;
+}
+
+.c-partialProjectSlider__frame {
+    width: 900px;
+    height: 160px;
+    position: relative;
+    display: block;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.c-partialProjectSlider__wrapper {
+    left: 0;
+    width: 200%;
+    height: auto;
+    overflow: auto;
+    transition: left .8s ease-out;
+    position: relative;
+    list-style-type: none;
+    height: 100%;
+}
+
+.c-partialProjectSlider__slide {
+    float: left;
+    height: 100%;
+    width: 900px;
+}
+
+.c-partialProjectSlider__project {
+    float: left;
+    height: 100%;
+    width: calc( 900px / 5 );
+}
+
+.c-partialProjectSlider__project img {
+    height: 100%;
+    width: 100%;
+    display: block;
+    object-fit: cover;
+}
+
+.c-partialProjectSlider__leftButton,
+.c-partialProjectSlider__rightButton {
+    color: #fff;
+    position: absolute;
+    background-color: blue;
+    top: calc( 50% - (37px / 2) );
+    z-index: 1;
+    font-size: 30px;
+}
+
+.c-partialProjectSlider__leftButton {
+    left: -33px;
+}
+
+.c-partialProjectSlider__rightButton {
+    right: -33px;
+}
