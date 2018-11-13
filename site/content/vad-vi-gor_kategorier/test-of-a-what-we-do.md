@@ -1,5 +1,5 @@
 ---
-title: 'Vanlig målning, ovanligt bra'
+title: Vanlig målning, ovanligt bra
 image: /img/65634534.jpg
 weight: '10'
 ---

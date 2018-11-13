@@ -1,5 +1,6 @@
 .c-partialProjectSlider {
     position: relative;
+    margin: 0 auto 50px;
 }
 
 .c-partialProjectSlider__frame {
@@ -7,7 +8,6 @@
     height: 160px;
     position: relative;
     display: block;
-    margin: 0 auto;
     overflow: hidden;
 }
 
@@ -29,9 +29,10 @@
 }
 
 .c-partialProjectSlider__project {
+    margin: 0 20px;
     float: left;
     height: 100%;
-    width: calc( 900px / 5 );
+    width: calc( (900px - (20px * 8)) / 4 );
 }
 
 .c-partialProjectSlider__project img {
@@ -43,18 +44,20 @@
 
 .c-partialProjectSlider__leftButton,
 .c-partialProjectSlider__rightButton {
-    color: #fff;
+    padding: 0 10px;
+    color: #135093;
+    font-weight: bold;
     position: absolute;
-    background-color: blue;
-    top: calc( 50% - (37px / 2) );
+    top: calc( 50% - (59px / 2) );
     z-index: 1;
-    font-size: 30px;
+    font-size: 48px;
+    background: none;
 }
 
 .c-partialProjectSlider__leftButton {
-    left: -33px;
+    left: -43px;
 }
 
 .c-partialProjectSlider__rightButton {
-    right: -33px;
+    right: -43px;
 }
