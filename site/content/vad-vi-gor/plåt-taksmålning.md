@@ -22,4 +22,6 @@ Att behandla plåttak.
 3. Rostangrepp på strykes med rostskyddsfärg. 
 4. Taket spolas av med vanlig trädgårdsslang. (För att få bort små partiklar, så som pollen, slipdamm etc.).
 5. Grundmålning.
-6. Täckmålning / färdigstrykning.
+6. Täckmålning / färdigstrykning. 
+
+Kontakta oss så berättar vi mer.
