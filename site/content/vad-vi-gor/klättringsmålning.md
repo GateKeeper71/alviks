@@ -3,18 +3,16 @@ title: Fasad och fönstermålning
 image: /img/img_0750.jpg
 weight: '70'
 ---
-Oavsett om det är en villa, ett flerbostadshus eller en industrifastighet, så ska fasader, tak och fönster underhållas.
+Oavsett om det är ett flerbostadshus, villa eller en industrifastighet så behöver fasader, tak och fönster mm underhållas.
 
-Oavsett om det är trä, plåt, puts eller betong är det viktigt att dessa ytor underhålls med rätt metoder, rätt färgval, rätt kulörval samt rätt intervaller.
+Det förekommer olika fasadbeklädnader och förutsättningar. Dessa kräver olika former av åtgärder och det ställer höga krav på den som skall utföra underhållsarbetet.
 
-Det är även viktigt att löpande se över dessa ytor, så att inte onödiga kostnader uppstår vid nästa renovering.
+I grunden för att det skall bli ett lyckat underhåll, så krävs oftast en besiktning i samband med platsbesök och en väl genomgången önskelista från beställaren.
 
-Mellan renoveringar bör följande utföras.
+Vi förespråka att efter utförd entreprenad teckna ett service avtal.
 
-* Inspektion
-* Tvättning
-* Bättring av ev. skador
+Ett service avtal kan innehålla mindre insatser och på detta sätt förlänga underhållsintervallerna.
 
-Genom att göra detta förlängs underhålls intervallerna.
 
-Kontakta oss gärna, så berättar vi mer.
+
+Kontakta oss gärna, så berättar vi mer om hur vi kan hjälpa er med er fastighet.
