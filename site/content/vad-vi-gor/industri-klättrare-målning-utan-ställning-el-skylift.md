@@ -1,5 +1,5 @@
 ---
-title: Industri klättrare. (Målning utan ställning el. skylift)
+title: Industri klättrare. Målning utan ställning eller skylift.
 image: /img/_mg_2707.jpg
 weight: '40'
 ---
