@@ -1,29 +1,19 @@
 {{ define "main" }}
-    {{ if( eq .Params.title "Ett axplock av projekt vi nu har igång" ) }}
 
-      <div class="vad-vi-gor_kategorier-single mw8 center pt6 pb4">
-          <h1 class="f2 ph3 b mb4 alvik-3">{{ .Title }}</h1>
-          <div class="flex flex-wrap">
+    <div class="vad-vi-gor_kategorier-single mw7 center pt6 pb4">
+        <h1 class="f2 ph3 b mb4 alvik-3">{{ .Title }}</h1>
+        <div class="flex flex-wrap">
 
-            {{ partial "project-slider" . }}
+        {{ range $index, $value := (where .Site.Pages "Params.whatwedo_category" .Title) }}
+            {{ if not (modBool $index 2) }}
+                {{ partial "label-image-block-odd" . }}
+            {{ else }}
+                {{ partial "label-image-block" . }}
+            {{ end }}
+        {{ end }}
 
-          </div>
-      {{ partial "contact-box-2-btns" .Site.Data.global }}
+        </div>
+        {{ partial "contact-box-2-btns" .Site.Data.global }}
     </div>
 
-    {{ else }}
-
-      <div class="vad-vi-gor_kategorier-single mw7 center pt6 pb4">
-          <h1 class="f2 ph3 b mb4 alvik-3">{{ .Title }}</h1>
-          <div class="flex flex-wrap">
-
-            {{ range (where .Site.Pages "Params.whatwedo_category" .Title) }}
-              {{ .Render "li" }}
-            {{ end }}
-
-          </div>
-          {{ partial "contact-box-2-btns" .Site.Data.global }}
-        </div>
-
-    {{ end }}
 {{end}}

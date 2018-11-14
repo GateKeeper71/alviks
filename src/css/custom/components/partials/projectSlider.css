@@ -4,7 +4,7 @@
 }
 
 .c-partialProjectSlider__frame {
-    width: 900px;
+    width: 100%;
     height: 160px;
     position: relative;
     display: block;
@@ -12,6 +12,7 @@
 }
 
 .c-partialProjectSlider__wrapper {
+    display: flex;
     left: 0;
     width: 200%;
     height: auto;
@@ -23,16 +24,22 @@
 }
 
 .c-partialProjectSlider__slide {
+    display: flex;
+    justify-content: center;
     float: left;
     height: 100%;
     width: 900px;
 }
 
+.c-partialProjectSlider__project:first-of-type {
+    margin-left: 20px;
+}
+
 .c-partialProjectSlider__project {
-    margin: 0 20px;
+    margin-right: 20px;
     float: left;
     height: 100%;
-    width: calc( (900px - (20px * 8)) / 4 );
+    width: calc( 900px / 4 );
 }
 
 .c-partialProjectSlider__project img {

@@ -53,6 +53,17 @@ collections: # A list of collections the CMS should be able to edit
             ]}
         editor:
           preview: false
+  - name: "projects"
+    editor:
+      preview: false
+    label: "Projekt"
+    folder: "site/content/projects"
+    create: true
+    fields:
+      - {label: "Rubrik", name: "title", widget: "string"}
+      - {label: "Bild", name: "image", widget: "image"}
+      - {label: "Innehåll", name: "body", widget: "markdown"}
+      - {label: "Ordning", name: "weight", widget: "number"}
   - name: "whatwedo"
     editor:
       preview: false

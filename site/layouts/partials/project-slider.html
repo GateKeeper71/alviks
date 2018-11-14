@@ -1,13 +1,15 @@
-<div class="c-partialProjectSlider">
+<div class="mw8 center c-partialProjectSlider">
     <button class="c-partialProjectSlider__leftButton"><</button>
 
     <div class="c-partialProjectSlider__frame">
         <ul class="c-partialProjectSlider__wrapper">
 
-            {{ range (where .Site.Pages "Params.whatwedo_category" .Title) }}
-                <a href="{{ .Permalink }}" class="c-partialProjectSlider__project">
-                    <img src="{{ .Params.Image }}" alt="Project image">
-                </a>
+            {{ range (where .Site.Pages "Type" "projects") }}
+                {{ if isset .Params "image" }}
+                    <a href="{{ .Permalink }}" class="c-partialProjectSlider__project">
+                        <img src="{{ .Params.Image }}" alt="Project image">
+                    </a>
+                {{ end }}
             {{ end }}
 
         </ul>

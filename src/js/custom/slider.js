@@ -8,10 +8,10 @@ $(() => {
         left = 0,
 
         // Time before auto-slide
-        delay = 5000,
+        delay = 5000;
 
         // Auto-slide function
-        timer = setInterval(nextSlide, delay);
+        // timer = setInterval(nextSlide, delay);
 
     // Wrap first 5 elements in a slide
     projects.slice(0, 4).wrapAll("</li><li class='c-partialProjectSlider__slide'>");
@@ -24,7 +24,15 @@ $(() => {
         }
     })
 
+    // Get slides again
     slides = $(".c-partialProjectSlider__slide");
+
+    slides.css("width", `${slider.outerWidth()}px`);
+
+    // Hide arrows if only one slide
+    if( slides.length < 2 ) {
+        $(".c-partialProjectSlider__leftButton, .c-partialProjectSlider__rightButton").css('display', 'none');
+    }
 
     // Event listeners
     $(".c-partialProjectSlider__leftButton").click(() => {
