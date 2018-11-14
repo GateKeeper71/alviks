@@ -3,8 +3,8 @@ title: Industri klättrare. Målning utan ställning eller skylift.
 image: /img/_mg_2707.jpg
 weight: '40'
 ---
-Med hjälp av våra "Industriklättrare" kan vi åta oss arbeten utan att ni som behöver resa ställning eller använda skylift.
+Med hjälp av våra "Industri klättrande målare" kan vi åta oss arbeten på hög höjd på ett säkert och kostnadseffektivt sätt, där ni i många fall hade behövt använda ställning eller skylift. 
 
-Våra industriklättrande målare använder vi där det är svårt att komma åt, eller det är för dyrt att resa ställning / hyra skyift. Med hjälp av dem har vi möjlighet att hjälpa er från arbeten upp till en höjd av 150 meter. 
+Våra industriklättrande målare som använder rep teknik utför arbeten där det är svårt att komma åt eller där ställning / hyra skylift inte är önskvärt.
 
 Kontakta oss gärna så berättar vi mer.
