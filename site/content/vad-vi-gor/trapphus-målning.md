@@ -3,10 +3,10 @@ title: Trapphus målning
 image: /img/instagram-5568.jpg
 weight: '20'
 ---
-Funderar ni på att måla om ert trapphus?
+Funderar ni på att renovera trapphuset?  Genom att färgsätta, måla om och renovera ert trapphus på ett genomtänkt sätt så skapas både trivsel och ett högre värde på fastigheten och därmed de enskilda bostadsrätterna vid Brf.
 
-Genom att färgsätta, måla om och renovera ert trapphus på ett genomtänkt sätt, skapas b.l.a. ökad trivsel.
+Vid trapphusrenovering är det av stor vikt att titta på alla detaljer och få ihop det till en helhet. Våra Teamledare har stor erfarenhet av att renovera och måla om trapphus. Tillsammans med er går vi igenom vad som behöver åtgärdas förutom färgsättning och målning. Det kan vara byte av el och armaturer, trappregister, matta, hissinredning, säkerhetsdörrar m.m. Utifrån era önskemål tar vi sedan fram ett färgsättningsförslag och anbud.
 
-Vid trapphus renoveringar är det av stor vikt att titta på alla detaljer för att få ihop det till en helhet.
+
 
 Kontakta oss så berättar vi mer.
