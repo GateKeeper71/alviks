@@ -3,14 +3,8 @@ title: Totalentreprenad
 image: /img/_dsc3912.jpg
 weight: '80'
 ---
-I många projekt är färgsättning och måleri en betydande del av hela projektet. Vi på Alviks Måleri har både kunskap och färdigheter inom totalentreprenader. 
+Vi vill att ni som kund ska fokusera på det som ni vill, kan och har tid att göra. Allt det andra sköter vi. Det ska vara lätt för er att renovera, bygga om, underhålla er fastighet.  Vi hjälper er gärna oavsett om det är målning eller fler delar ni önskar att vi utför. 
 
-Vi vill att ni som kund ska fokusera på det som ni vill göra. Allt det andra sköter vi. Det ska vara lätt för er att renovera, bygga om er fastighet.  Vi hjälper er gärna med samordningen vid renovering.  
+Tillsammans med våra samarbetspartners hjälper vi er att utföra det ni önskar. Oavsett om det är du som privatperson, Bostadsrättsförening eller fastighetsägare. 
 
-Vi tar även hand om personal liggaren, sköter samordning mellan de olika yrkesgrupperna. Ansvarar för BAS-U och BAS-P. Hjälper till med färgsättning.  Ni behöver endast ha kontakt med en person inte alla entreprenörer. 
-
-En totalentreprenad är den enklaste entreprenadformen ur ansvarssynpunkt. Byggherren ( Brf ) har endast avtal med en part. 
-
-Vid totalentreprenad ingår beställaren avtal, med en enda entreprenör och ger denne att i uppdrag både projektera och utföra arbetet.
-
-Totalentreprenader kan bl.a. vara renoveringar av trapphus, fasader, fönster, plåttak, takfötter, eller ombyggnationer.
+När vi ska måla om ett trapphus får vi ofta frågan om vi kan byta armaturer för att få rätt belysning i trapphuset. Det har under senare år även utökats till polering av golv och trappor, utbyte av säkerhetsdörrar, montering av nya postfack, byte av namntavlor mm.
