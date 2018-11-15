@@ -1,6 +1,6 @@
 ---
 title: Ett testexempel på ett projekt
-whatwedo_category: Ett axplock av projekt vi nu har igång
+whatwedo_category: Trapphus målning
 image: /img/342342.jpg
 weight: '1'
 ---
