@@ -9,9 +9,9 @@ Genom att underhålla, tvätta bort alg angrepp samt se över taken kontinuerlig
 
 Vid flagad yta, angriper UV-strålarna förzinkningen i plåten och till slut uppstår rost och håligheter. 
 
-Om alg angrepp ej avlägsnas äter algerna till slut upp färgen och rost och håligheter uppstår.
+Om alg angrepp ej avlägsnas äter algerna till slut sig igenom färgen, så att rost och håligheter uppstår.
 
-Om dessa ovan punkter ej beaktas kommer taket inom en snar framtid att börja läcka.  
+För att undvika framtida läckage bör ovan punkter beaktas och framför allt att taken kontinuerligt besiktigas och underhålls.  Vi rekommenderar att fastighetsägaren i samband med rensning av hängrännor och stuprör även utför årlig besiktningen av taken, så att ev. skador på takenkan dokumenteras och åtgärdas. 
 
 Plåttak har använts i Sverige sedan 1700-talet och än idag finns det plåttak som finns kvar från 1700-talet.  Dessa tak underhålls och ses över kontinuerligt vilket har medfört dess långa livslängd.
 
