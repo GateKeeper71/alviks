@@ -1,5 +1,7 @@
 ---
-title: Industri klättrare. Målning utan ställning eller skylift.
+title: >-
+  Industri klättrare. Arbeten där ställning eller skylift ej är att föredra
+  eller kan användas.
 image: /img/_mg_2707.jpg
 weight: '40'
 ---
