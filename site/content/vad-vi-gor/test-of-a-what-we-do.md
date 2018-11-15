@@ -13,6 +13,4 @@ Det kan vara önskemål som tex industrikänsla, ombonad, tidstypiskt, mysigt, u
 
 Här är det bara fantasin som sätter gränser och det är väldigt stimulerande att arbeta med känslan upplevelse för oss.
 
-Är du nyfiken eller har frågor så kontakta oss…. 
-
 Är du nyfiken eller har frågor så kontakta oss….
