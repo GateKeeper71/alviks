@@ -1,5 +1,5 @@
 ---
-title: Fasad och fönstermålning
+title: Fönster- & fasadmålning
 image: /img/img_0750.jpg
 weight: '70'
 ---
