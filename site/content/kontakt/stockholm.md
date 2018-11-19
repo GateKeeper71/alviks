@@ -14,6 +14,9 @@ visitinfo:
 postinfo:
   - text: BOX 110 33
   - text: 161 11 BROMMA
+vacant_jobs:
+  - body: Detta är en text som innehåller information om den utplacerade annonsen
+    title: Målare
 coworker:
   - email: daniel.andersson@alviksmaleri.se
     image: /img/daniel.jpg
