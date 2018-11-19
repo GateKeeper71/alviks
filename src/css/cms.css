@@ -1,1 +1,14 @@
 @import "netlify-cms/dist/cms.css";
+
+.nc-mediaLibrary-cardGrid-container {
+    overflow-x: hidden;
+}
+
+.nc-mediaLibrary-card {
+    margin: 0;
+    width: calc(100%/5);
+}
+
+.nc-mediaLibrary-cardImage {
+    object-fit: contain;
+}

@@ -1,0 +1,9 @@
+.c-sectionListWorkers__list {
+    align-items: flex-end;
+}
+
+.c-sectionListWorkers__worker img {
+    object-fit: contain;
+    height: 200px;
+    width: 100%;
+}

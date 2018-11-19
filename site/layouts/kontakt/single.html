@@ -9,6 +9,7 @@
       <div class="w-100 w-50-ns mb2">
         <h3 class="f3 b lh-title black">Besöksadress</h3>
         <ul>
+
           {{ range .Params.visitinfo }}
             {{ if .link }}
               <li><a href="{{ .link }}">{{ .text }}</a></li>
@@ -16,12 +17,16 @@
               <li>{{ .text }}</li>
             {{ end }}
           {{ end }}
+
         </ul>
       </div>
+
       {{ if .Params.postinfo }}
+
         <div class="w-100 w-50-ns mb2">
           <h3 class="f3 b lh-title black">Postadress</h3>
           <ul>
+
             {{ range .Params.postinfo }}
               {{ if .link }}
                 <li><a href="{{ .link }}">{{ .text }}</a></li>
@@ -29,9 +34,12 @@
                 <li>{{ .text }}</li>
               {{ end }}
             {{ end }}
+
           </ul>
         </div>
+
       {{ end }}
+
     </div>
 
     <div class="mw7 mb3">
@@ -47,26 +55,60 @@
       {{ partial "button-link" (dict "label" "Hitta till oss" "link" .Params.coordinates) }}
     </div>
 
-    <div class="mw7">
-      <h3 class="f3 b mb3 black">Medarbetare</h3>
-      <div class="mw7 flex flex-wrap items-center">
-        {{ range .Params.coworker }}
-        <div class="w-100 w-50-ns w-third-l ph2 mb4 tc tl-ns">
-          <img src="{{ .image }}" alt="{{ .name }}">
-          <h5 class="f5 b black">{{ .name }}</h5>
-          <ul>
-            <li class="f6">{{ .position }}</li>
-            <li>
-              <a class="f6" href="tel:{{ .phone }}">{{ .phone }}</a>
+    <div class="mw7 mb4">
+      <ul>
+        <h3 class="f3 b mb3 black">Lediga jobb</h3>
+
+        {{/*  {{ range (where .Site.Pages "Section" "karriar").ByParam "weight" }}  */}}
+        {{ range .Params.vacant_jobs }}
+
+          {{ if .Summary }}
+
+            <li class="bg-grey-1 pv3 ph3 mb2">
+              <h5 class="f5 b mb3 black">{{ .Title }}</h5>
+              <p>{{ .Content }}</p>
             </li>
-            <li>
-              <a class="f6" href="mailto:{{ .email }}">{{ .email }}</a>
-            </li>
-          </ul>
-        </div>
+
+          {{ end }}
         {{ end }}
-      </div>
+
+      </ul>
+
+      {{ if .Params.email }}
+        {{ $email := (print  "mailto:" .Params.email) }}
+        {{ partial "button-link" (dict "label" "Ansök" "link" $email) }}
+      {{ end }}
+
     </div>
+
+    <section class="c-sectionListWorkers mw7">
+      <h3 class="f3 b mb3 black">Medarbetare</h3>
+      <ul class="c-sectionListWorkers__list mw7 flex flex-wrap items-center">
+
+        {{ range .Params.coworker }}
+
+          <li class="c-sectionListWorkers__worker w-100 w-50-ns w-third-l ph2 mb4 tc tl-ns">
+            {{ if .image }}
+              <img src="{{ .image }}" alt="{{ .name }}">
+            {{ end }}
+            <div class="c-sectionListWorkers__info">
+              <h5 class="f5 b black">{{ .name }}</h5>
+              <ul>
+                <li class="f6">{{ .position }}</li>
+                <li>
+                  <a class="f6" href="tel:{{ .phone }}">{{ .phone }}</a>
+                </li>
+                <li>
+                  <a class="f6" href="mailto:{{ .email }}">{{ .email }}</a>
+                </li>
+              </ul>
+            </div>
+          </li>
+
+        {{ end }}
+
+      </ul>
+    </section>
 
   </div>
 {{ end }}
