@@ -1,6 +1,6 @@
 ---
 title: Dekorationsmålning
-image: /img/_dsc4978.jpg
+image: /img/dekorationsmålning.jpg
 weight: '40'
 ---
 Många av våra uppdrag innebär att vi rör oss i kulturhistoriskt intressanta miljöer som i många fall är skyddsklassade. Värdefulla originalmålningar ställer krav på lyhördhet och respekt. Om det rör sig om försiktig rengöring eller endast renovering av målningar gäller det att ha rätt inställning när man tar sig an uppgiften. Arbetena sker i samarbete med antikvarier och representanter från myndigheter för att säkerställa kvalitén.
