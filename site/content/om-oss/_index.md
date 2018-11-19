@@ -9,6 +9,10 @@ För att kunna leverera bästa möjliga tjänst till respektive kund arbetar vi 
 
 ![Starcase with decorations](/img/kontorstockholm.jpg)
 
+**Några exempel på på kunder vi målat åt.**
+
+Vi har målat på Nya Karolinska sjukhuset åt Skanska (pågår), Riksdagens fastighetsbestånd, Statens fastighetsverk, Stockholmshem, Familjebostäder, Botkyrkabyggen, Nacka kommun, MTR (tunnelbanan). Flera nybyggnadsprojekt åt Skanska, NCC, Peab, Veidekke och Arcona. Skolor och förskolor åt Sisab. Stockholms hamn. Amerikanska ambassaden. Österrikiska Ambassaden Lägenheter och villor åt privatpersoner m.m.
+
 **Våra kärnmeningar och vision.**
 
 Tillsamman med våra kunder och medarbetare har vi arbetat fram våra kärnmeningar. Vårt arbete ska genomsyras av våra kärnmeningar och vår vision.
