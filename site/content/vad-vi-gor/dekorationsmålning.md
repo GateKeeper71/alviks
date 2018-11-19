@@ -20,7 +20,3 @@ Kontakta oss så berättar vi mer om vad vi kan göra med måleriet möjligheter
 \
 \
 \
-\
-\
-\
-\
