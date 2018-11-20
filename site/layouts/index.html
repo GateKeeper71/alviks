@@ -2,9 +2,9 @@
 
 {{ partial "jumbotron" (dict "imageUrl" .Params.image "title" .Title "title_2" .Params.title_2 "title_3" .Params.title_3 "subtitle" .Params.subtitle "illustration" .Params.illustration "bg" .Params.image "office" .Site.Data.global.office) }}
 
-{{ partial "front-services" . }}
-
 {{ partial "project-slider" . }}
+
+{{ partial "front-services" . }}
 
 {{ partial "image-grid" . }}
 

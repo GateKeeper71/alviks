@@ -59,28 +59,31 @@
       {{ partial "button-link" (dict "label" "Hitta till oss" "link" .Params.coordinates) }}
     </div>
 
-    <div class="mw7 mb4">
-      <ul>
-        <h3 class="f3 b mb3 black">Lediga jobb</h3>
+    {{ if .Params.vacant_jobs }}
 
-        {{/*  {{ range (where .Site.Pages "Section" "karriar").ByParam "weight" }}  */}}
-        {{ range .Params.vacant_jobs }}
+      <div class="mw7 mb4">
+        <ul>
+          <h3 class="f3 b mb3 black">Lediga jobb</h3>
 
-          <li class="bg-grey-1 pv3 ph3 mb2">
-            <h5 class="f5 b mb3 black">{{ .title }}</h5>
-            <p>{{ .Content }}</p>
-          </li>
+          {{ range .Params.vacant_jobs }}
 
+            <li class="bg-grey-1 pv3 ph3 mb2">
+              <h5 class="f5 b mb3 black">{{ .title }}</h5>
+              <p>{{ .body }}</p>
+            </li>
+
+          {{ end }}
+
+        </ul>
+
+        {{ if .Params.email }}
+          {{ $email := (print  "mailto:" .Params.email) }}
+          {{ partial "button-link" (dict "label" "Ansök" "link" $email) }}
         {{ end }}
 
-      </ul>
+      </div>
 
-      {{ if .Params.email }}
-        {{ $email := (print  "mailto:" .Params.email) }}
-        {{ partial "button-link" (dict "label" "Ansök" "link" $email) }}
-      {{ end }}
-
-    </div>
+    {{ end }}
 
     <section class="c-sectionListWorkers mw7">
       <h3 class="f3 b mb3 black">Medarbetare</h3>
