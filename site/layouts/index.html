@@ -4,9 +4,11 @@
 
 <div class="mb4 flex w-100 flex-column items-center">
     <h3 class="f2 lh-title b mb3 alvik-4">
-        {{ .slider_heading }}
+        {{ .Param "slider_heading" }}
     </h3>
-    <p>TEXT</p>
+    <p class="f4">
+        {{ .Param "slider_text" }}
+    </p>
 </div>
 
 {{ partial "project-slider" . }}
