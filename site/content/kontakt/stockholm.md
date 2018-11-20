@@ -17,6 +17,8 @@ postinfo:
 vacant_jobs:
   - body: Detta är en text som innehåller information om den utplacerade annonsen
     title: Målare
+  - body: Informationstext om annonsen
+    title: Trappexpert
 coworker:
   - email: daniel.andersson@alviksmaleri.se
     image: /img/daniel.jpg
