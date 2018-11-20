@@ -1,7 +1,12 @@
 ---
-title: Vanlig målning, ovanligt bra
+title: 'Vanlig målning, ovanligt bra'
 image: /img/65634534.jpg
 weight: '10'
+subcategories:
+  - title: Test
+    image: /img/342342.jpg
+    body: TESTTEXT
+    weight: '10'
 ---
 Vad är vanlig målning och vad är ovanligt bra?
 
