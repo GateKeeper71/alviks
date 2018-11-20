@@ -4,7 +4,7 @@
 
       <h3 class="f2 lh-title b mb4 tc alvik-4">Vad vi gör</h3>
 
-      {{ range $index, $value := ((where .Data.Pages "Type" "vad-vi-gor_kategorier") sort (.Data.Pages.ByParam "weight")) }}
+      {{ range $index, $value := (where .Site.Pages "Section" "vad-vi-gor").ByParam "weight" }}
 
         {{if not (modBool $index 2)}}
 
