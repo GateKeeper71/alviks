@@ -1,23 +1,27 @@
 {{ define "main" }}
 
-<div class="vad-vi-gor-list mw7 center pt6 pb4">
-  <h1 class="f2 ph3 b mb4 alvik-3">Vad vi gör</h1>
-  <ul class="">
+  <div class="vad-vi-gor-list mw7 center pt6 pb4">
+    <h1 class="f2 ph3 b mb4 alvik-3">Vad vi gör</h1>
+    <ul class="">
 
-      {{ $paginator := .Paginate ((where .Site.Pages "Section" "vad-vi-gor_kategorier").ByParam "weight") 4 }}
-      {{ range $index, $value := $paginator.Pages }}
-        {{ if not (modBool $index 2) }}
-          {{ partial "label-image-block-odd" . }}
-        {{ else }}
-          {{ partial "label-image-block" . }}
+        {{ range $index, $value := (where .Site.Pages "Section" "vad-vi-gor_kategorier").ByParam "weight" }}
+
+          {{ if not (modBool $index 2) }}
+
+              {{ partial "label-image-block-odd" . }}
+
+          {{ else }}
+
+              {{ partial "label-image-block" . }}
+
+          {{ end }}
+
         {{ end }}
-      {{ end }}
 
-  </ul>
+    </ul>
 
-  {{ partial "pagination" . }}
-  {{ partial "contact-box-2-btns" .Site.Data.global }}
+    {{ partial "contact-box-2-btns" .Site.Data.global }}
 
-</div>
+  </div>
 
 {{end}}

@@ -1,8 +1,14 @@
 {{ define "main" }}
 
-{{ partial "jumbotron" (dict "imageUrl" .Params.image "title" .Title "title_2" .Params.title_2 "title_3" .Params.title_3 "subtitle" .Params.subtitle "illustration" .Params.illustration "bg" .Params.image "office" .Site.Data.global.office) }}
+{{ partial "jumbotron" (dict "imageUrl" .Params.image "title" .Title "title_2" .Params.title_2 "title_3" .Params.title_3 "subtitle" .Params.subtitle "office" .Site.Data.global.office) }}
 
-<h3 class="f2 lh-title b mb4 tc alvik-4">Ett axplock av projekt</h3>
+<div class="mb4 flex w-100 flex-column items-center">
+    <h3 class="f2 lh-title b mb3 alvik-4">
+        {{ .slider_heading }}
+    </h3>
+    <p>TEXT</p>
+</div>
+
 {{ partial "project-slider" . }}
 
 {{ partial "front-services" . }}

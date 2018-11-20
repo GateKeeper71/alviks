@@ -172,28 +172,18 @@ collections: # A list of collections the CMS should be able to edit
       preview: false
     files:
       - file: "site/content/_index.md"
-        label: "Home Page"
+        label: "Startsida"
         name: "home"
         fields:
-          - {label: Supertitle, name: supertitle, widget: string}
           - {label: Title, name: title, widget: string}
           - {label: Title 2, name: title_2, widget: string, required: false}
           - {label: Title 3, name: title_3, widget: string, required: false}
           - {label: Subtitle, name: subtitle, widget: string, required: false}
-          - {label: Image, name: image, widget: image}
-          - {label: Illustration, name: illustration, widget: image}
+          - {label: Rubrik Projektslider, name: slider_heading, widget: string, required: false}
+          - {label: Text Projektslider, name: slider_text, widget: text, required: false}
           - {label: Partners, name: partners, widget: list, fields: [
               {label: "Image", name: "image", widget: "image"}
             ]}
-          - {label: Kontakt, name: contact, widget: object, fields: [
-              {label: Heading, name: heading, widget: string},
-              {label: Text, name: text, widget: text},
-              {label: Länk, name: link, widget: string},
-              {label: Knapp text, name: btntext, widget: string}
-            ]}
-          - {label: "Intro", name: intro, widget: object, fields: [
-              {label: "Heading", name: "heading", widget: string},
-              {label: "Text", name: "text", widget: "text"}]}
       - file: "site/content/kontakt/_index.md"
         label: "Kontakt"
         name: "kontakt"

@@ -12,3 +12,7 @@
 .nc-mediaLibrary-cardImage {
     object-fit: contain;
 }
+
+.nc-imageControl-imageWrapper img {
+    object-fit: contain;
+}
