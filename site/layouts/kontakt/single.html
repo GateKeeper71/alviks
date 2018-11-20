@@ -12,9 +12,13 @@
 
           {{ range .Params.visitinfo }}
             {{ if .link }}
+
               <li><a href="{{ .link }}">{{ .text }}</a></li>
+
             {{ else }}
+
               <li>{{ .text }}</li>
+
             {{ end }}
           {{ end }}
 
@@ -62,14 +66,11 @@
         {{/*  {{ range (where .Site.Pages "Section" "karriar").ByParam "weight" }}  */}}
         {{ range .Params.vacant_jobs }}
 
-          {{ if .Summary }}
+          <li class="bg-grey-1 pv3 ph3 mb2">
+            <h5 class="f5 b mb3 black">{{ .title }}</h5>
+            <p>{{ .Content }}</p>
+          </li>
 
-            <li class="bg-grey-1 pv3 ph3 mb2">
-              <h5 class="f5 b mb3 black">{{ .Title }}</h5>
-              <p>{{ .Content }}</p>
-            </li>
-
-          {{ end }}
         {{ end }}
 
       </ul>

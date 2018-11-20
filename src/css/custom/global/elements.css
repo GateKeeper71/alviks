@@ -1,0 +1,35 @@
+/**
+ * Table
+ */
+table {
+    width: 100%;
+}
+
+thead {
+    text-align: left;
+    font-weight: bold;
+}
+
+td, th {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+th {
+    padding-top: 0;
+    padding-bottom: 15px;
+}
+
+tr {
+    padding-bottom: 5px;
+    border-bottom: 1px solid #eee;
+}
+
+td {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+tr:last-of-type {
+    border: none;
+}
