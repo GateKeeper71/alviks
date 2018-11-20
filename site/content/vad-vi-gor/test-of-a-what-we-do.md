@@ -3,10 +3,13 @@ title: 'Vanlig målning, ovanligt bra'
 image: /img/65634534.jpg
 weight: '10'
 subcategories:
-  - title: Test
+  - title: Underkategori
     image: /img/342342.jpg
-    body: TESTTEXT
+    body: Detta är en informationstext om underkategorin
     weight: '10'
+  - title: Underkategori 2
+    image: /img/about-jumbotron.jpg
+    body: Detta är en text om denna underkategori
 ---
 Vad är vanlig målning och vad är ovanligt bra?
 
