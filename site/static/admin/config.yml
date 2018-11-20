@@ -64,7 +64,7 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "Bild", name: "image", widget: "image"}
       - {label: "Innehåll", name: "body", widget: "markdown"}
       - {label: "Ordning", name: "weight", widget: "number"}
-  - name: "whatwedo_categories"
+  - name: "whatwedo"
     editor:
       preview: false
     label: "Vad vi gör"
@@ -75,6 +75,12 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "Bild", name: "image", widget: "image"}
       - {label: "Innehåll", name: "body", widget: "markdown"}
       - {label: "Ordning", name: "weight", widget: "number"}
+      - {label: Underkategorier, name: "subcategories" , widget: list, fields: [
+        {label: "Rubrik", name: "title", widget: "string"},
+        {label: "Bild", name: "image", widget: "image"},
+        {label: "Innehåll", name: "body", widget: "markdown"},
+        {label: "Ordning", name: "weight", widget: "number"}
+      ]}
   - name: "karriar"
     editor:
       preview: false
