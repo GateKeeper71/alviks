@@ -76,24 +76,11 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "Innehåll", name: "body", widget: "markdown"}
       - {label: "Ordning", name: "weight", widget: "number"}
       - {label: Underkategorier, name: "subcategories" , widget: list, fields: [
-        {label: "Rubrik", name: "title", widget: "string"},
-        {label: "Bild", name: "image", widget: "image"},
-        {label: "Innehåll", name: "body", widget: "markdown"},
-        {label: "Ordning", name: "weight", widget: "number"}
-      ]}
-  - name: "karriar"
-    editor:
-      preview: false
-    label: "Lediga Jobb"
-    folder: "site/content/karriar"
-    create: true
-    fields:
-      - {label: "Rubrik", name: "title", widget: "string"}
-      - {label: "Publiceringsdatum", name: "date", widget: "datetime"}
-      - {label: "Kontor", name: "office", widget: "select", options: ["Stockholm", "Uppsala", "Västerås"]}
-      - {label: "Länk ansökan", name: "link", widget: "string", required: false}
-      - {label: "Innehåll", name: "body", widget: "markdown"}
-      - {label: "Ordning", name: "weight", widget: "number"}
+          {label: "Rubrik", name: "title", widget: "string"},
+          {label: "Bild", name: "image", widget: "image"},
+          {label: "Innehåll", name: "body", widget: "markdown"},
+          {label: "Ordning", name: "weight", widget: "number"}
+        ]}
   - name: "referenser"
     label: "Referenser"
     editor:

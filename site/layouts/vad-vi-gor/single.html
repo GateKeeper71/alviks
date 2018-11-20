@@ -11,15 +11,15 @@
                 </div>
             </header>
 
-            {{ range $index, $value := .Param "subcategories" }}
+            {{ range $index, $value := .Params.subcategories }}
 
                 {{ if not (modBool $index 2) }}
 
-                    {{ partial "label-image-block-odd" . }}
+                    {{ partial "label-image-block-odd" (dict "image" .image) }}
 
                 {{ else }}
 
-                    {{ partial "label-image-block" . }}
+                    {{ partial "label-image-block" (dict "image" .image) }}
 
                 {{ end }}
 

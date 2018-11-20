@@ -1,6 +1,6 @@
 {{ define "main" }}
 
-{{ partial "jumbotron" (dict "imageUrl" .Params.image "title" .Title "title_2" .Params.title_2 "title_3" .Params.title_3 "subtitle" .Params.subtitle "office" .Site.Data.global.office) }}
+{{ partial "jumbotron" (dict "title" .Title "title_2" .Params.title_2 "title_3" .Params.title_3 "subtitle" .Params.subtitle "office" .Site.Data.global.office) }}
 
 <div class="mb4 flex w-100 flex-column items-center">
     <div class="mw6">
