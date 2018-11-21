@@ -8,6 +8,7 @@ pluralizeListTitles = false
   referenser = "/referenser/:title/"
   referenserkategorier = "/referenser/kategorier/:title/"
   vad-vi-gor = "/vad-vi-gor/:title/"
+  underkategorier = "/vad-vi-gor/underkategorier/:title"
 
 [menu]
   [[menu.main]]

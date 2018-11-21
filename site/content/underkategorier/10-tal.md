@@ -1,6 +1,6 @@
 ---
 title: 10-tal
-referenserkategorier: Trapphus målning
+kategori: Trapphus målning
 image: /img/342342.jpg
 weight: '10'
 ---

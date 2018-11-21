@@ -3,42 +3,29 @@
     <div class="vad-vi-gor_kategorier-single mw7 center pt6 pb4">
         <div class="flex flex-wrap">
 
-            <header class="intro">
+            <header class="w-100 intro">
                 <h1 class="f2 ph3 b mb4 alvik-3">{{ .Title }}</h1>
-                <img src='{{ .Param "image" }}' alt="">
+                <img class="w-100" src='{{ .Param "image" }}' alt="">
                 <div class="content">
                     {{ .Content }}
                 </div>
             </header>
 
-            {{ range $index, $value := .Params.subcategories }}
+            {{ $saveTitle := .Title }}
 
-                {{ if not (modBool $index 2) }}
+            {{ range $index, $value := (where .Site.Pages "Section" "underkategorier").ByParam "weight" }}
 
-                    <div class="c-sectionTextImage c-sectionTextImage--odd mw7 center flex flex-wrap items-center mb4">
-                        <div class="c-sectionTextImage__image flex w-100 w-60-m border">
-                          <img class="w-100" src="{{ .image }}" alt="">
-                        </div>
+                {{ if eq .Params.kategori $saveTitle }}
 
-                        <div class="w-100 w-40-m border pa3">
-                          <h4 class="f4 b lh-title mb2 black">{{ .title }}</h4>
-                          <p>{{ .body }}</p>
-                          {{ partial "button-link" (dict "label" "Läs mer" "link" .Permalink) }}
-                        </div>
-                    </div>
+                    {{ if not (modBool $index 2) }}
 
-                {{ else }}
+                        {{ partial "label-image-block" . }}
 
-                    <div class="c-sectionTextImage mw7 center flex flex-wrap items-center mb4">
-                        <div class="w-100 w-40-m border pa3 order-1 order-0-m">
-                            <h4 class="f4 b lh-title mb2 black">{{ .title }}</h4>
-                            <p>{{ .body }}</p>
-                            {{ partial "button-link" (dict "label" "Läs mer" "link" .Permalink) }}
-                        </div>
-                        <div class="c-sectionTextImage__image flex w-100 w-60-m border order-0 order-1-m">
-                            <img class="w-100" src="{{ .image }}" alt="">
-                        </div>
-                    </div>
+                    {{ else }}
+
+                        {{ partial "label-image-block" . }}
+
+                    {{ end }}
 
                 {{ end }}
 

@@ -89,7 +89,7 @@ collections: # A list of collections the CMS should be able to edit
     create: true
     fields:
       - {label: "Rubrik", name: "title", widget: "string"}
-      - {label: "Kategori", name: "referenserkategorier", widget: "relation", collection: "whatwedo", searchFields: [ "title", "body" ], valueField: "title"}
+      - {label: "Kategori", name: "kategori", widget: "relation", collection: "whatwedo", searchFields: [ "title", "body" ], valueField: "title"}
       - {label: "Bild", name: "image", widget: "image"}
       - {label: "Innehåll", name: "body", widget: "markdown"}
       - {label: "Ordning", name: "weight", widget: "number"}
