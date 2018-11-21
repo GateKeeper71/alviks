@@ -1,8 +1,14 @@
 {{ define "main" }}
 
-<div class="referenserkategorier-list mw7 center pt6 pb4">
+<div class="o-single referenserkategorier-single mw7 center pt6 pb4">
 
-  <h1 class="f2 ph3 b mb4 alvik-3">{{ .Title }}</h1>
+  <header class="w-100 intro">
+      <h1 class="f2 ph3 b mb4 alvik-3">{{ .Title }}</h1>
+      <img class="w-100" src='{{ .Param "image" }}' alt="">
+      <div class="content">
+          {{ .Content }}
+      </div>
+  </header>
 
   <div class="flex flex-wrap">
 

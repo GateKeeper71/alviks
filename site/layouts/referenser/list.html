@@ -1,23 +1,23 @@
 {{ define "main" }}
 
-<div class="referenser-list mw7 center pt6 pb4">
+  <div class="referenser-list mw7 center pt6 pb4">
 
-  <h1 class="f2 ph3 b mb4 alvik-3">{{ .Title }}</h1>
+    <h1 class="f2 ph3 b mb4 alvik-3">{{ .Title }}</h1>
 
-  <div class="flex flex-wrap">
+    <div class="flex flex-wrap">
 
-    {{range ($.Site.GetPage "taxonomyTerm" "referenserkategorier").Pages.ByParam "weight" }}
+      {{range ($.Site.GetPage "taxonomyTerm" "referenserkategorier").Pages.ByParam "weight" }}
 
-      {{ .Render "li" }}
+        {{ .Render "li" }}
 
-    {{ end }}
+      {{ end }}
+
+    </div>
+
+    {{ partial "pagination" . }}
+
+    {{ partial "contact-box-2-btns" .Site.Data.global }}
 
   </div>
-
-  {{ partial "pagination" . }}
-
-  {{ partial "contact-box-2-btns" .Site.Data.global }}
-
-</div>
 
 {{end}}

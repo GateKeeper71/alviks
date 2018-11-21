@@ -1,14 +1,19 @@
 {{ define "main" }}
 
-  <div class="referenser-single mw6 center ph3 pt6 pb5">
-    <h1 class="f2 lh-title b mb3">{{.Title}}</h1>
-    <div class="cms mw6">
-      <p>{{ .Description }}</p>
-      {{ if .Params.image }}<img src="{{ .Params.image }}" alt="{{ .Title }}" />{{ end }}
-      {{ .Content }}
-    </div>
+  <div class="o-single referenser-single mw7 center pt6 pb4">
+      <div class="flex flex-wrap">
 
-    {{ partial "contact-box-2-btns" .Site.Data.global }}
+        <header class="w-100 intro">
+            <h1 class="f2 ph3 b mb4 alvik-3">{{ .Title }}</h1>
+            <img class="w-100" src='{{ .Param "image" }}' alt="">
+            <div class="content">
+                {{ .Content }}
+            </div>
+        </header>
+
+      </div>
+
+      {{ partial "contact-box-2-btns" .Site.Data.global }}
 
   </div>
 
