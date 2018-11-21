@@ -1,7 +1,7 @@
 {{ define "main" }}
 
     <div class="vad-vi-gor_kategorier-single mw7 center pt6 pb4">
-        <div class="flex flex-wrap">
+        <div class="mb4 flex flex-wrap">
 
             <header class="w-100 intro">
                 <h1 class="f2 ph3 b mb4 alvik-3">{{ .Title }}</h1>
@@ -12,6 +12,33 @@
             </header>
 
         </div>
+
+        {{ if .Params.projects }}
+            {{ range .Params.projects }}
+
+                <h3 class="f3 ph3 b alvik-3">{{ .title }}</h3>
+                <div class="mw8 center c-partialProjectSlider">
+                    <button class="c-partialProjectSlider__leftButton"><</button>
+
+                    <div class="c-partialProjectSlider__frame">
+                        <ul class="c-partialProjectSlider__wrapper">
+
+                            {{ range .images }}
+
+                                <a target="_blank" href="{{ .image }}" class="c-partialProjectSlider__project">
+                                    <img src="{{ .image }}" alt="Project image">
+                                </a>
+
+                            {{ end }}
+
+                        </ul>
+                    </div>
+
+                    <button class="c-partialProjectSlider__rightButton">></button>
+                </div>
+
+            {{ end }}
+        {{ end }}
 
         {{ partial "contact-box-2-btns" .Site.Data.global }}
 

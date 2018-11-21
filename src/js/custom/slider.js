@@ -1,75 +1,69 @@
 $(() => {
-    var slider = $(".c-partialProjectSlider__frame"),
-        wrapper = $(".c-partialProjectSlider__wrapper"),
-        slides = $(".c-partialProjectSlider__slide"),
-        projects = $(".c-partialProjectSlider__project"),
+    const sliders = $('.c-partialProjectSlider__frame');
 
-        // Current slide number
-        left = 0,
+    sliders.each((index, element) => {
+        var
+            slider = $(element),
+            wrapper = slider.find('.c-partialProjectSlider__wrapper'),
+            slides = slider.find('.c-partialProjectSlider__slide'),
+            projects = slider.find('.c-partialProjectSlider__project'),
+            leftButton = slider.parent().find('.c-partialProjectSlider__leftButton'),
+            rightButton = slider.parent().find('.c-partialProjectSlider__rightButton'),
 
-        // Time before auto-slide
-        delay = 5000;
-
-        // Auto-slide function
-        // timer = setInterval(nextSlide, delay);
-
-    // Wrap first 5 elements in a slide
-    projects.slice(0, 4).wrapAll("</li><li class='c-partialProjectSlider__slide'>");
-    projects.each(index => {
-        index++
-
-        // Group together 5 projects in a slide
-        if( index % 4 === 0 ) {
-            projects.slice(index, index+4).wrapAll("</li><li class='c-partialProjectSlider__slide'>");
-        }
-    })
-
-    // Get slides again
-    slides = $(".c-partialProjectSlider__slide");
-
-    slides.css("width", `${slider.outerWidth()}px`);
-
-    // Hide arrows if only one slide
-    if( slides.length < 2 ) {
-        $(".c-partialProjectSlider__leftButton, .c-partialProjectSlider__rightButton").css('display', 'none');
-    }
-
-    // Event listeners
-    $(".c-partialProjectSlider__leftButton").click(() => {
-        prevSlide();
-        resetTimer();
-    })
-    $(".c-partialProjectSlider__rightButton").click(() => {
-        nextSlide();
-        resetTimer();
-    })
-
-    function nextSlide() {
-        if( left !== (slides.length * -1) + 1 ) {
-            left--;
-            wrapper.css("left", `${left*100}%`);
-        } else {
+            // Current slide number
             left = 0;
-            wrapper.css("left", `${left*100}%`);
-        }
-    }
 
-    function prevSlide() {
-        if( left > 0 ) {
-            if( left < 0 ) {
-                left++;
+        // Wrap first 5 elements in a slide
+        projects.slice(0, 4).wrapAll("</li><li class='c-partialProjectSlider__slide'>");
+
+        projects.each((index, element) => {
+            index++;
+
+            // Group together 5 projects in a slide
+            if( index % 4 === 0 ) {
+                projects.slice(index, index+4).wrapAll("</li><li class='c-partialProjectSlider__slide'>");
+            }
+        });
+
+        // Refresh slides
+        slides = slider.find('.c-partialProjectSlider__slide');
+
+        // Calculate slides
+        wrapper.css("width", (slides.length * 100) + "%");
+        slides.css("width", `${$(element).outerWidth()}px`);
+
+        // Hide arrows if only one slide
+        if( slides.length < 2 ) {
+            leftButton.css('display', 'none');
+            rightButton.css('display', 'none');
+        }
+
+        // Event listeners
+        leftButton.click(e => prevSlide(e.target));
+        rightButton.click(e => nextSlide(e.target));
+
+        function nextSlide(target) {
+            if( left !== (slides.length * -1) + 1 ) {
+                left--;
+                wrapper.css("left", `${left*100}%`);
             } else {
                 left = 0;
+                wrapper.css("left", `${left*100}%`);
             }
-            wrapper.css("left", `${left*100}%`)
-        } else {
-            left = slides.length - 1;
-            wrapper.css("left", `${left*-100}%`);
         }
-    }
 
-    function resetTimer() {
-        clearInterval(timer);
-        timer = setInterval(nextSlide, delay);
-    }
+        function prevSlide(target) {
+            if( left > 0 ) {
+                if( left < 0 ) {
+                    left++;
+                } else {
+                    left = 0;
+                }
+                wrapper.css("left", `${left * 100}%`)
+            } else {
+                left = slides.length - 1;
+                wrapper.css("left", `${left * -100}%`);
+            }
+        }
+    });
 });
