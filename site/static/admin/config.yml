@@ -81,6 +81,24 @@ collections: # A list of collections the CMS should be able to edit
           {label: "Innehåll", name: "body", widget: "markdown"},
           {label: "Ordning", name: "weight", widget: "number"}
         ]}
+  - name: "whatwedo_subcat"
+    editor:
+      preview: false
+    label: "Vad vi gör - Underkategorier"
+    folder: "site/content/underkategorier/"
+    create: true
+    fields:
+      - {label: "Rubrik", name: "title", widget: "string"}
+      - {label: "Kategori", name: "referenserkategorier", widget: "relation", collection: "whatwedo", searchFields: [ "title", "body" ], valueField: "title"}
+      - {label: "Bild", name: "image", widget: "image"}
+      - {label: "Innehåll", name: "body", widget: "markdown"}
+      - {label: "Ordning", name: "weight", widget: "number"}
+      - {label: Projekt, name: "projects" , widget: list, required: false, fields: [
+          {label: "Rubrik", name: "title", widget: "string"},
+          {label: "Bild", name: "image", widget: "image"},
+          {label: "Innehåll", name: "body", widget: "markdown"},
+          {label: "Ordning", name: "weight", widget: "number"}
+        ]}
   - name: "referenser"
     label: "Referenser"
     editor:
