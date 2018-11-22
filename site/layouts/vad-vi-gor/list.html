@@ -1,7 +1,7 @@
 {{ define "main" }}
 
   <div class="vad-vi-gor-list mw7 center pt6 pb4">
-    <h1 class="f2 ph3 b mb4 alvik-3">Vad vi gör</h1>
+    <h1 class="f2 ph3 b mb4 tc alvik-3">Vad vi gör</h1>
     <ul class="">
 
         {{ range $index, $value := (where .Site.Pages "Section" "vad-vi-gor").ByParam "weight" }}
