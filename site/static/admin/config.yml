@@ -90,7 +90,8 @@ collections: # A list of collections the CMS should be able to edit
       - {label: Projekt, name: "projects" , widget: list, required: false, fields: [
           {label: "Rubrik", name: "title", widget: "string"},
           {label: Bilder, name: "images", widget: list, required: false, fields: [
-            {label: "Bild", name: "image", widget: "image"}
+            {label: "Bild", name: "image", widget: "image"},
+            {label: "Bildtext", name: "text", widget: "text"}
           ]}
         ]}
   - name: "referenser"
