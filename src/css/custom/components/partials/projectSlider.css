@@ -50,6 +50,11 @@
     object-fit: cover;
 }
 
+.c-partialProjectSlider__project p {
+    margin: 0;
+    padding: 0 20px;
+}
+
 .c-partialProjectSlider__leftButton,
 .c-partialProjectSlider__rightButton {
     padding: 0 10px;

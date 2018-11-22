@@ -8,6 +8,7 @@
                 {{ if isset .Params "image" }}
                     <a href="{{ .Permalink }}" class="c-partialProjectSlider__project">
                         <img src="{{ .Params.Image }}" alt="Project image">
+                        <p>{{ .Summary }}</p>
                     </a>
                 {{ end }}
             {{ end }}
