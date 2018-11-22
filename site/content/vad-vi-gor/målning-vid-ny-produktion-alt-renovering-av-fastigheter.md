@@ -1,12 +1,8 @@
 ---
-title: Målning vid ny produktion alt. renovering av fastigheter
+title: Om- & Nybyggnadsmålning
 image: /img/about-direct-sourcing.jpg
 weight: '99'
 ---
-Hur ska det målas?
+Vi har lång erfarenhet av att måla ny- och ombyggnadsprojekt. Vi skräddarsyr våra Team och är nyfikna på att prova nya arbetssätt och produkter för att göra målningsprocessen ännu effektivare i samverkan med dig som kund. Och samverkansprojekt/partenering gör vi gärna i ännu flera projekt.
 
-Vem är slut kunden?
-
-Dessa frågor ska alltid ställas inför ett projekt. Det har stor betydelse för slut resultatet och förmodligen finns det även olika önskemål från olika kunder även om det är i samma projekt.
-
-Partenering / samverkan. Denna sida arbetar vi aktivt för att öka. Här finns det flera uppsidor som vi gärna för vidare diskussioner med er.
+Det bästa är när vi kan komma in i tidigt skede så att vi kan säkerställa att det blir rätt Team och att vår erfarenhet kan tas tillvara i planeringen. Välkommen att kontakta oss, oavsett om du är intresserad av samverkan eller traditionell entreprenadform.

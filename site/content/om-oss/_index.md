@@ -1,13 +1,17 @@
 ---
 title: Om oss
 ---
-**På Alviks Måleri är vi 125 medarbetare som målar och förskönar Stockholm.**
+**På Alviks Måleri är vi 125 medarbetare som målar och förskönar Sverige.**
 
 Till oss är du välkommen med allt från små servicejobb till stora målerientreprenader som sträcker sig över flera år och kräver stora personalresurser. Bland våra medarbetare finns traditionella målare, servicemålare och dekorationsmålare. Vi har kvalitets- och arbetsmiljöansvariga som ser till att vi uppfyller ställda krav.
 
 För att kunna leverera bästa möjliga tjänst till respektive kund arbetar vi i Team, skräddarsydda Team för varje kund och uppdrag. Vi satsar ständigt på ledarskapsutveckling så att all den kunskap och färdighet som finns hos alla våra medarbetare kommer dig som kund tillgodo, på bästa sätt.
 
-![Starcase with decorations](/img/kontorstockholm.jpg)
+![Vi förskönar Sverige](/img/alviks-3d-object-small.jpg)
+
+**Några exempel på på kunder vi målat åt.**
+
+Vi har målat på Nya Karolinska sjukhuset åt Skanska, Riksdagens fastighetsbestånd, Statens fastighetsverk, Stockholmshem, Familjebostäder, Botkyrkabyggen, Nacka kommun, MTR (tunnelbanan). Flera nybyggnadsprojekt åt Skanska, NCC, Peab, Veidekke och Arcona. Skolor och förskolor åt Sisab. Stockholms hamn. Amerikanska ambassaden. Österrikiska Ambassaden Lägenheter och villor åt privatpersoner m.m.
 
 **Våra kärnmeningar och vision.**
 
