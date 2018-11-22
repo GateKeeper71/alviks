@@ -56,7 +56,7 @@ collections: # A list of collections the CMS should be able to edit
   - name: "projects"
     editor:
       preview: false
-    label: "Projekt"
+    label: "Projekt - Startsida"
     folder: "site/content/projects"
     create: true
     fields:
