@@ -74,7 +74,7 @@ module.exports = function(grunt) {
             // Build Lunr index for this page
             if(frontMatter && excludes.indexOf(slug[1]) == -1) {
 
-                grunt.log.error(slug[1]);
+                // grunt.log.error(slug[1]);
 
                 pageIndex = {
                     title: frontMatter.title || '',
