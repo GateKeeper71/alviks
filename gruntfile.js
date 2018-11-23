@@ -68,8 +68,14 @@ module.exports = function(grunt) {
                 href = S(abspath).chompLeft(CONTENT_PATH_PREFIX).chompRight(filename).s;
             }
 
+            let slug = href.split('/');
+            let excludes = ['om-oss', 'contact', 'kontakt'];
+
             // Build Lunr index for this page
-            if(frontMatter) {
+            if(frontMatter && excludes.indexOf(slug[1]) == -1) {
+
+                grunt.log.error(slug[1]);
+
                 pageIndex = {
                     title: frontMatter.title || '',
                     image: frontMatter.image || '',
