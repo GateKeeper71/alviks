@@ -5,7 +5,7 @@ var CONTENT_PATH_PREFIX = "site/content";
 
 module.exports = function(grunt) {
 
-    grunt.registerTask("lunr-index", function() {
+    grunt.registerTask("default", function() {
 
         grunt.log.writeln("Build pages index");
 
