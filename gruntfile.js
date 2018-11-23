@@ -72,6 +72,7 @@ module.exports = function(grunt) {
             if(frontMatter) {
                 pageIndex = {
                     title: frontMatter.title || '',
+                    image: frontMatter.image || '',
                     tags: frontMatter.tags || '' ,
                     href: href || '',
                     content: S(content[2]).trim().stripTags().stripPunctuation().s || ''

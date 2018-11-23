@@ -6,7 +6,7 @@
 
     {{ partial "search" . }}
 
-    <div class="flex flex-wrap">
+    <ul class="c-searchForm__results flex flex-wrap">
 
       {{range ($.Site.GetPage "taxonomyTerm" "referenserkategorier").Pages.ByParam "weight" }}
 
@@ -14,7 +14,7 @@
 
       {{ end }}
 
-    </div>
+    </ul>
 
     {{ partial "pagination" . }}
 
