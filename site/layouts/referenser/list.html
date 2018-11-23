@@ -4,6 +4,8 @@
 
     <h1 class="f2 ph3 b mb4 alvik-3">{{ .Title }}</h1>
 
+    {{ partial "search" . }}
+
     <div class="flex flex-wrap">
 
       {{range ($.Site.GetPage "taxonomyTerm" "referenserkategorier").Pages.ByParam "weight" }}
