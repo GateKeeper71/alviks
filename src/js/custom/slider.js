@@ -1,4 +1,4 @@
-$(() => {
+export default function makeSliders() {
     const sliders = $('.c-partialProjectSlider__frame');
 
     sliders.each((index, element) => {
@@ -66,4 +66,4 @@ $(() => {
             }
         }
     });
-});
+}

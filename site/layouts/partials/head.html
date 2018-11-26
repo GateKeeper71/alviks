@@ -28,4 +28,9 @@
 	src="https://code.jquery.com/jquery-3.3.1.min.js"
 	integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
 	crossorigin="anonymous"></script>
+
+	{{/*  Lunr search library  */}}
+	{{ if eq .Section "referenser"  }}
+		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/1.0.0/lunr.min.js"></script>
+	{{ end }}
 </head>

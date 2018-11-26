@@ -3,23 +3,27 @@ var S = require("string");
 
 var CONTENT_PATH_PREFIX = "site/content";
 
-module.exports = function(grunt) {
+module.exports = function (grunt) {
 
-    grunt.registerTask("default", function() {
+    grunt.registerTask("default", function () {
 
         grunt.log.writeln("Build pages index");
 
-        var indexPages = function() {
+        var indexPages = function () {
             var pagesIndex = [];
-            grunt.file.recurse(CONTENT_PATH_PREFIX, function(abspath, rootdir, subdir, filename) {
-                grunt.verbose.writeln("Parse file:",abspath);
-                pagesIndex.push(processFile(abspath, filename));
+            grunt.file.recurse(CONTENT_PATH_PREFIX, function (abspath, rootdir, subdir, filename) {
+                let data = processFile(abspath, filename);
+
+                grunt.verbose.writeln("Parse file:", abspath);
+
+                if (data)
+                    pagesIndex.push(data);
             });
 
             return pagesIndex;
         };
 
-        var processFile = function(abspath, filename) {
+        var processFile = function (abspath, filename) {
             var pageIndex;
 
             if (S(filename).endsWith(".html")) {
@@ -31,7 +35,7 @@ module.exports = function(grunt) {
             return pageIndex;
         };
 
-        var processHTMLFile = function(abspath, filename) {
+        var processHTMLFile = function (abspath, filename) {
             var content = grunt.file.read(abspath);
             var pageName = S(filename).chompRight(".html").s;
             var href = S(abspath)
@@ -43,7 +47,7 @@ module.exports = function(grunt) {
             };
         };
 
-        var processMDFile = function(abspath, filename) {
+        var processMDFile = function (abspath, filename) {
             var content = grunt.file.read(abspath);
             var pageIndex;
             var frontMatter;
@@ -52,7 +56,7 @@ module.exports = function(grunt) {
             content = content.split("---");
 
             try {
-                if(content[1]) {
+                if (content[1]) {
                     frontMatter = yamljs.parse(content[1].trim());
                 }
             } catch (e) {
@@ -69,17 +73,17 @@ module.exports = function(grunt) {
             }
 
             let slug = href.split('/');
-            let excludes = ['om-oss', 'contact', 'kontakt'];
 
             // Build Lunr index for this page
-            if(frontMatter && excludes.indexOf(slug[1]) == -1) {
+            if (frontMatter && slug[1] === 'underkategorier') {
 
-                // grunt.log.error(slug[1]);
+                // grunt.log.error(JSON.stringify(frontMatter, null, 4));
 
                 pageIndex = {
                     title: frontMatter.title || '',
+                    kategori: frontMatter.kategori || '',
                     image: frontMatter.image || '',
-                    tags: frontMatter.tags || '' ,
+                    projects: frontMatter.projects || '',
                     href: href || '',
                     content: S(content[2]).trim().stripTags().stripPunctuation().s || ''
                 };
