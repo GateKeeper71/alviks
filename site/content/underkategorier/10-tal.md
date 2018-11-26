@@ -22,6 +22,6 @@ projects:
       - image: /img/home-jumbotron.jpg
       - image: /img/home-about-section.jpg
       - image: /img/products-full-width.jpg
-    title: Stockholm
+    title: Hantverkargatan 10
 ---
 Informationstext om 10-tal trapphusmålningar.
