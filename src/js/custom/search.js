@@ -1,9 +1,9 @@
 import makeSliders from './slider';
 
 $(() => {
-    if($('.referenser-list').length !== 0) {
+    if ($('.referenser-list').length !== 0) {
         var lunrIndex,
-            $results,
+            $results = $(".referenser-list .c-searchForm__results"),
             pagesIndex;
 
         const
@@ -36,30 +36,38 @@ $(() => {
                             boost: 5
                         });
                         this.field("category");
-                        this.field("projects_title");
-                        this.field("projects_images_text");
+                        this.field("project_titles");
 
                         // ref is the result item identifier (I chose the page URL)
                         this.ref("href");
                     });
 
-                    // Feed lunr with each file and let lunr actually index them
-                    pagesIndex.forEach(page => {
-                        if(page) {
-                            lunrIndex.add(page);
-                        }
+                    pagesIndex.map(pageMapper).forEach(page => {
+                        lunrIndex.add(page);
                     });
                 })
-                .fail(function(jqxhr, textStatus, error) {
+                .fail((jqxhr, textStatus, error) => {
                     var err = textStatus + ", " + error;
                     console.error("Error getting Hugo index file:", err);
                 });
         }
 
+        function pageMapper(page) {
+            let projectTitles= page.projects.map(project => {
+                return project.title;
+            });
+
+            return {
+                "title": page.title,
+                "content": page.content,
+                "category": page.category,
+                "href": page.href,
+                "project_titles": projectTitles
+            }
+        }
+
         // Nothing crazy here, just hook up a listener on the input field
         function initUI() {
-            $results = $(".referenser-list .flex.flex-wrap");
-
             $("#search").keyup(() => {
                 var query = $("#search").val();
                 var results = search(query);
@@ -70,7 +78,7 @@ $(() => {
                 }
 
                 $results.empty();
-                renderResults(results);
+                renderResults(results, query);
             });
 
             $("#category").change(() => {
@@ -78,9 +86,8 @@ $(() => {
                 var results = search(query);
 
                 $results.empty();
-
-                if( results > 0 )
-                    renderResults(results);
+                $("#sub-category option:first").prop('selected',true);
+                renderResults(results, query);
             });
 
             $("#sub-category").change(() => {
@@ -88,18 +95,17 @@ $(() => {
                 var results = search(query);
 
                 $results.empty();
-
-                if( results > 0 )
-                    renderResults(results);
+                $("#category option:first").prop('selected',true);
+                renderResults(results, query);
             });
         }
 
         /**
-        * Trigger a search in lunr and transform the result
-        *
-        * @param  {String} query
-        * @return {Array}  results
-        */
+         * Trigger a search in lunr and transform the result
+         *
+         * @param  {String} query
+         * @return {Array}  results
+         */
         function search(query) {
             // Find the item in our index corresponding to the lunr one to have more info
             // Lunr result:
@@ -108,26 +114,28 @@ $(() => {
             //  {title:"Page1", href:"/section/page1", ...}
             return lunrIndex.search(query).map(result => {
                 return pagesIndex.filter(page => {
-                        if(page)
-                            return page.href === result.ref;
+                    if (page) {
+                        return page.href === result.ref;
+                    }
                 })[0];
             });
         }
 
         /**
-        * Display the 10 first results
-        *
-        * @param  {Array} results to display
-        */
-        function renderResults(results) {
+         * Display the 10 first results
+         *
+         * @param  {Array} results to display
+         */
+        function renderResults(results, query) {
             if (!results.length) {
+                noResults(query);
                 return;
             }
 
             $results.empty();
 
             // Only show the ten first results
-            results.forEach(function(result) {
+            results.forEach(result => {
                 $(result.projects).each((index, project) => {
                     let sliderHTML = $.parseHTML(`
                     <li style="width: 100%">
@@ -145,8 +153,8 @@ $(() => {
                         </div>
                     </li>`);
 
-                    $(project.images).each( (index, image) => {
-                        let imageText = image.text || '';
+                    $(project.images).each((index, image) => {
+                        let imageText = image.text || '';
 
                         $(sliderHTML).find('.c-partialProjectSlider__wrapper').append(`
                         <li>
@@ -165,17 +173,14 @@ $(() => {
             makeSliders();
         }
 
-        function projectMapper(project) {
-            return {
-                "title": project.title,
-                "content": project
-            }
+        function noResults(query) {
+            $results.html(`<h3>Inga resultat hittades för "${query}".</h3>`);
         }
 
         // Let's get started
         initLunr();
 
-        $(document).ready(function() {
+        $(document).ready(() => {
             initUI();
         });
     }

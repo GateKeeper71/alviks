@@ -20,8 +20,8 @@ export default function makeSliders() {
             index++;
 
             // Group together 5 projects in a slide
-            if( index % 4 === 0 ) {
-                projects.slice(index, index+4).wrapAll("</li><li class='c-partialProjectSlider__slide'>");
+            if (index % 4 === 0) {
+                projects.slice(index, index + 4).wrapAll("</li><li class='c-partialProjectSlider__slide'>");
             }
         });
 
@@ -33,7 +33,7 @@ export default function makeSliders() {
         slides.css("width", `${$(element).outerWidth()}px`);
 
         // Hide arrows if only one slide
-        if( slides.length < 2 ) {
+        if (slides.length < 2) {
             leftButton.css('display', 'none');
             rightButton.css('display', 'none');
         }
@@ -43,7 +43,7 @@ export default function makeSliders() {
         rightButton.click(e => nextSlide(e.target));
 
         function nextSlide(target) {
-            if( left !== (slides.length * -1) + 1 ) {
+            if (left !== (slides.length * -1) + 1) {
                 left--;
                 wrapper.css("left", `${left*100}%`);
             } else {
@@ -53,8 +53,8 @@ export default function makeSliders() {
         }
 
         function prevSlide(target) {
-            if( left > 0 ) {
-                if( left < 0 ) {
+            if (left > 0) {
+                if (left < 0) {
                     left++;
                 } else {
                     left = 0;
