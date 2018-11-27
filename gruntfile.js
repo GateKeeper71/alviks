@@ -81,7 +81,7 @@ module.exports = function (grunt) {
 
                 pageIndex = {
                     title: frontMatter.title || '',
-                    kategori: frontMatter.kategori || '',
+                    category: frontMatter.kategori || '',
                     image: frontMatter.image || '',
                     projects: frontMatter.projects || '',
                     href: href || '',

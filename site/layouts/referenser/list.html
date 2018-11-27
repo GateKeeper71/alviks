@@ -6,15 +6,7 @@
 
     {{ partial "search" . }}
 
-    <ul class="c-searchForm__results flex flex-wrap">
-
-      {{range ($.Site.GetPage "taxonomyTerm" "referenserkategorier").Pages.ByParam "weight" }}
-
-        {{ .Render "li" }}
-
-      {{ end }}
-
-    </ul>
+    <ul class="c-searchForm__results flex flex-wrap"></ul>
 
     {{ partial "pagination" . }}
 

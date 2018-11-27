@@ -2,5 +2,20 @@
     <form class="c-searchForm__form" onsubmit="return false">
         <span>Sök:</span>
         <input id="search" type="text">
+
+        <select id="category">
+            <option value="Välj kategori">Välj kategori</option>
+            {{ range ($.Site.GetPage "taxonomyTerm" "vad-vi-gor").Pages }}
+                <option value="{{ .Title }}">{{ .Title }}</option>
+            {{ end }}
+        </select>
+
+        <select id="sub-category">
+            <option value="Välj underkategori">Välj underkategori</option>
+            {{ range ($.Site.GetPage "taxonomyTerm" "underkategorier").Pages }}
+                <option value="{{ .Title }}">{{ .Title }}</option>
+            {{ end }}
+        </select>
+
     </form>
 </section>
