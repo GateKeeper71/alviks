@@ -11,21 +11,15 @@
                 </div>
             </header>
 
-            {{ $saveTitle := .Title }}
+            {{ range $index, $value := where ( (where .Site.Pages "Section" "underkategorier").ByParam "weight") "Params.kategori" .Title }}
 
-            {{ range $index, $value := (where .Site.Pages "Section" "underkategorier").ByParam "weight" }}
+                {{ if not (modBool $index 2) }}
 
-                {{ if eq .Params.kategori $saveTitle }}
+                    {{ partial "label-image-block-odd" . }}
 
-                    {{ if not (modBool $index 2) }}
+                {{ else }}
 
-                        {{ partial "label-image-block" . }}
-
-                    {{ else }}
-
-                        {{ partial "label-image-block" . }}
-
-                    {{ end }}
+                    {{ partial "label-image-block" . }}
 
                 {{ end }}
 

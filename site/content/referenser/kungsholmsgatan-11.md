@@ -1,6 +1,6 @@
 ---
-title: Kungsholmsgatan 10
-underkategori: Trapphus 10-tal
+title: Hantverkargatan 25
+underkategori: Färgsättning 20-tal
 images:
   - image: /img/_dsc4372.jpg
     text: >-

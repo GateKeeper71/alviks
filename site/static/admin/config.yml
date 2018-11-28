@@ -102,7 +102,7 @@ collections: # A list of collections the CMS should be able to edit
     create: true
     fields:
       - {label: "Rubrik", name: "title", widget: "string"}
-      - {label: "Underkategori", name: "underkategori", widget: "relation", collection: "underkategorier", searchFields: [ "title", "body" ], valueField: "title"}
+      - {label: "Underkategori", name: "underkategori", widget: "relation", collection: "whatwedo_subcat", searchFields: [ "title", "body" ], valueField: "title"}
       - {label: Bilder, name: "images", widget: list, required: false, fields: [
           {label: "Bild", name: "image", widget: "image"},
           {label: "Bildtext", name: "text", widget: "text"}
