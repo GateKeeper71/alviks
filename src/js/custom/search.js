@@ -36,7 +36,6 @@ $(() => {
                             boost: 5
                         });
                         this.field("category");
-                        this.field("project_titles");
 
                         // ref is the result item identifier (I chose the page URL)
                         this.ref("href");
@@ -53,16 +52,11 @@ $(() => {
         }
 
         function pageMapper(page) {
-            let projectTitles= page.projects.map(project => {
-                return project.title;
-            });
-
             return {
                 "title": page.title,
                 "content": page.content,
                 "category": page.category,
-                "href": page.href,
-                "project_titles": projectTitles
+                "href": page.href
             }
         }
 
@@ -136,24 +130,27 @@ $(() => {
 
             // Only show the ten first results
             results.forEach(result => {
-                $(result.projects).each((index, project) => {
-                    let sliderHTML = $.parseHTML(`
-                    <li style="width: 100%">
-                        <h3 class="f3 b lh-title mb2 black">
-                            ${project.title}
-                        </h3>
-                        <div class="mw8 center c-partialProjectSlider">
-                            <button class="c-partialProjectSlider__leftButton"><</button>
 
-                            <div class="c-partialProjectSlider__frame">
-                                <ul class="c-partialProjectSlider__wrapper"></ul>
-                            </div>
+                // Slider HTML
+                let sliderHTML = $.parseHTML(`
+                <li style="width: 100%">
+                    <h3 class="f3 b lh-title mb2 black">
+                        ${result.title}
+                    </h3>
+                    <div class="mw8 center c-partialProjectSlider">
+                        <button class="c-partialProjectSlider__leftButton"><</button>
 
-                            <button class="c-partialProjectSlider__rightButton">></button>
+                        <div class="c-partialProjectSlider__frame">
+                            <ul class="c-partialProjectSlider__wrapper"></ul>
                         </div>
-                    </li>`);
 
-                    $(project.images).each((index, image) => {
+                        <button class="c-partialProjectSlider__rightButton">></button>
+                    </div>
+                </li>`);
+
+                // References
+                if(result.images) {
+                    $(result.images).each((index, image) => {
                         let imageText = image.text || '';
 
                         $(sliderHTML).find('.c-partialProjectSlider__wrapper').append(`
@@ -164,9 +161,32 @@ $(() => {
                             </a>
                         </li>`);
                     });
+                } else {
+                    let references = [];
 
-                    $('.referenser-list .flex.flex-wrap').append(sliderHTML);
-                });
+                    // Go though each page index
+                    $(pagesIndex).each((index, page) => {
+
+                        // Match sub-categories
+                        if(page.sub_category === result.title) {
+                            $(sliderHTML).find('h3').text(page.title);
+
+                            $(page.images).each((index, image) => {
+                                let imageText = image.text || '';
+
+                                $(sliderHTML).find('.c-partialProjectSlider__wrapper').append(`
+                                <li>
+                                    <a target="_blank" href="${image.image}" class="c-partialProjectSlider__project">
+                                        <img src="${image.image}" alt="Project image">
+                                        ${imageText}
+                                    </a>
+                                </li>`);
+                            });
+                        }
+                    });
+                }
+
+                $('.referenser-list .flex.flex-wrap').append(sliderHTML);
             });
 
             // Set up sliders

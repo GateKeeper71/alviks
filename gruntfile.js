@@ -74,16 +74,22 @@ module.exports = function (grunt) {
 
             let slug = href.split('/');
 
+            const collections = [
+                'underkategorier',
+                'referenser'
+            ];
+
             // Build Lunr index for this page
-            if (frontMatter && slug[1] === 'underkategorier') {
+            if (frontMatter && slug[1] && collections.includes(slug[1])) {
 
                 // grunt.log.error(JSON.stringify(frontMatter, null, 4));
 
                 pageIndex = {
                     title: frontMatter.title || '',
                     category: frontMatter.kategori || '',
+                    sub_category: frontMatter.underkategori || '',
                     image: frontMatter.image || '',
-                    projects: frontMatter.projects || '',
+                    images: frontMatter.images || '',
                     href: href || '',
                     content: S(content[2]).trim().stripTags().stripPunctuation().s || ''
                 };
