@@ -2,7 +2,6 @@
 title: Kungsholmsgatan 10
 underkategori: Trapphus 10-tal
 images:
-  - image: /img/548px-mcdonald's_golden_arches.svg.png
   - image: /img/_dsc4372.jpg
     text: >-
       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ex erat,
