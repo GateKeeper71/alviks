@@ -79,6 +79,7 @@ $(() => {
                 var query = $("#category").val();
                 var results = search(query);
 
+                $("#search").val('');
                 $results.empty();
                 $("#sub-category option:first").prop('selected',true);
                 renderResults(results, query);
@@ -88,6 +89,7 @@ $(() => {
                 var query = $("#sub-category").val();
                 var results = search(query);
 
+                $("#search").val('');
                 $results.empty();
                 $("#category option:first").prop('selected',true);
                 renderResults(results, query);
@@ -161,13 +163,14 @@ $(() => {
                             </a>
                         </li>`);
                     });
+                    $('.referenser-list .flex.flex-wrap').append(sliderHTML);
                 } else {
                     let references = [];
 
                     // Go though each page index
                     $(pagesIndex).each((index, page) => {
 
-                        // Match sub-categories
+                        // Get references with matched sub-category
                         if(page.sub_category === result.title) {
                             $(sliderHTML).find('h3').text(page.title);
 
@@ -182,11 +185,11 @@ $(() => {
                                     </a>
                                 </li>`);
                             });
+
+                            $('.referenser-list .flex.flex-wrap').append(sliderHTML);
                         }
                     });
                 }
-
-                $('.referenser-list .flex.flex-wrap').append(sliderHTML);
             });
 
             // Set up sliders
