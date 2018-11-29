@@ -68,6 +68,7 @@ $(() => {
 
                 // Only trigger a search when 2 chars. at least have been provided
                 if (query.length < 2) {
+                    $results.empty();
                     return;
                 }
 
