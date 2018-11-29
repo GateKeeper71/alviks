@@ -15,27 +15,32 @@
 
         {{ range $index, $value := where ((where .Site.Pages "Section" "referenser").ByParam "weight") "Params.underkategori" .Title }}
 
-            <h3 class="f3 ph3 b alvik-3">{{ .Title }}</h3>
-            <div class="mw8 center c-partialProjectSlider">
-                <button class="c-partialProjectSlider__leftButton"><</button>
+            <section>
+                <header>
+                    <h3 class="f3 ph3 b alvik-3">{{ .Title }}</h3>
+                    <div class="ph3">{{ .Content }}</div>
+                </header>
+                <div class="mw8 center c-partialProjectSlider">
+                    <button class="c-partialProjectSlider__leftButton"><</button>
 
-                <div class="c-partialProjectSlider__frame">
-                    <ul class="c-partialProjectSlider__wrapper">
+                    <div class="c-partialProjectSlider__frame">
+                        <ul class="c-partialProjectSlider__wrapper">
 
-                        {{ range .Param "images" }}
+                            {{ range .Param "images" }}
 
-                            <a target="_blank" href="{{ .image }}" class="c-partialProjectSlider__project">
-                                <img src="{{ .image }}" alt="Project image">
-                                <p>{{ .text }}</p>
-                            </a>
+                                <a target="_blank" href="{{ .image }}" class="c-partialProjectSlider__project">
+                                    <img src="{{ .image }}" alt="Project image">
+                                    <p>{{ .text }}</p>
+                                </a>
 
-                        {{ end }}
+                            {{ end }}
 
-                    </ul>
+                        </ul>
+                    </div>
+
+                    <button class="c-partialProjectSlider__rightButton">></button>
                 </div>
-
-                <button class="c-partialProjectSlider__rightButton">></button>
-            </div>
+            </section>
 
         {{ end }}
 

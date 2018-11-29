@@ -91,7 +91,7 @@ module.exports = function (grunt) {
                     image: frontMatter.image || '',
                     images: frontMatter.images || '',
                     href: href || '',
-                    content: S(content[2]).trim().stripTags().stripPunctuation().s || ''
+                    content: content[2] || ''
                 };
 
                 return pageIndex;

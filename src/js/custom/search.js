@@ -72,6 +72,8 @@ $(() => {
                 }
 
                 $results.empty();
+                $("#category option:first").prop('selected',true);
+                $("#sub-category option:first").prop('selected',true);
                 renderResults(results, query);
             });
 
@@ -136,9 +138,14 @@ $(() => {
                 // Slider HTML
                 let sliderHTML = $.parseHTML(`
                 <li style="width: 100%">
-                    <h3 class="f3 b lh-title mb2 black">
-                        ${result.title}
-                    </h3>
+                    <header>
+                        <h3 class="f3 ph3 b alvik-3">
+                            ${result.title}
+                        </h3>
+                        <div class="ph3 content">
+                            <p>${result.content}</p>
+                        </div>
+                    </header>
                     <div class="mw8 center c-partialProjectSlider">
                         <button class="c-partialProjectSlider__leftButton"><</button>
 
@@ -172,7 +179,29 @@ $(() => {
 
                         // Get references with matched sub-category
                         if(page.sub_category === result.title) {
+                            sliderHTML = $.parseHTML(`
+                            <li style="width: 100%">
+                                <header>
+                                    <h3 class="f3 ph3 b alvik-3">
+                                        ${result.title}
+                                    </h3>
+                                    <div class="ph3 content">
+                                        <p>${result.content}</p>
+                                    </div>
+                                </header>
+                                <div class="mw8 center c-partialProjectSlider">
+                                    <button class="c-partialProjectSlider__leftButton"><</button>
+
+                                    <div class="c-partialProjectSlider__frame">
+                                        <ul class="c-partialProjectSlider__wrapper"></ul>
+                                    </div>
+
+                                    <button class="c-partialProjectSlider__rightButton">></button>
+                                </div>
+                            </li>`);
+
                             $(sliderHTML).find('h3').text(page.title);
+                            $(sliderHTML).find('.content p:first-of-type').text(page.content);
 
                             $(page.images).each((index, image) => {
                                 let imageText = image.text || '';
