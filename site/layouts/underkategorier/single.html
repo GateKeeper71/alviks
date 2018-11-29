@@ -1,6 +1,6 @@
 {{ define "main" }}
 
-    <div class="vad-vi-gor_kategorier-single mw7 center pt6 pb4">
+    <div class="underkategorier-single mw7 center pt6 pb4">
         <div class="mb4 flex flex-wrap">
 
             <header class="w-100 intro">
@@ -13,17 +13,20 @@
 
         </div>
 
-        {{ if .Params.projects }}
-            {{ range .Params.projects }}
+        {{ range $index, $value := where ((where .Site.Pages "Section" "referenser").ByParam "weight") "Params.underkategori" .Title }}
 
-                <h3 class="f3 ph3 b alvik-3">{{ .title }}</h3>
+            <section>
+                <header>
+                    <h3 class="f3 ph3 b alvik-3">{{ .Title }}</h3>
+                    <div class="ph3">{{ .Content }}</div>
+                </header>
                 <div class="mw8 center c-partialProjectSlider">
                     <button class="c-partialProjectSlider__leftButton"><</button>
 
                     <div class="c-partialProjectSlider__frame">
                         <ul class="c-partialProjectSlider__wrapper">
 
-                            {{ range .images }}
+                            {{ range .Param "images" }}
 
                                 <a target="_blank" href="{{ .image }}" class="c-partialProjectSlider__project">
                                     <img src="{{ .image }}" alt="Project image">
@@ -37,8 +40,8 @@
 
                     <button class="c-partialProjectSlider__rightButton">></button>
                 </div>
+            </section>
 
-            {{ end }}
         {{ end }}
 
         {{ partial "contact-box-2-btns" .Site.Data.global }}

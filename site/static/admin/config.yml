@@ -66,7 +66,7 @@ collections: # A list of collections the CMS should be able to edit
   - name: "whatwedo"
     editor:
       preview: false
-    label: "Vad vi gör"
+    label: "Vad vi gör - Kategorier"
     folder: "site/content/vad-vi-gor"
     create: true
     fields:
@@ -86,35 +86,20 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "Bild", name: "image", widget: "image"}
       - {label: "Innehåll", name: "body", widget: "markdown"}
       - {label: "Ordning", name: "weight", widget: "number"}
-      - {label: Projekt, name: "projects" , widget: list, required: false, fields: [
-          {label: "Rubrik", name: "title", widget: "string"},
-          {label: Bilder, name: "images", widget: list, required: false, fields: [
-            {label: "Bild", name: "image", widget: "image"},
-            {label: "Bildtext", name: "text", widget: "text"}
-          ]}
-        ]}
   - name: "referenser"
-    label: "Referenser"
+    label: "Vad vi gör - Referenser"
     editor:
       preview: false
     folder: "site/content/referenser"
     create: true
     fields:
       - {label: "Rubrik", name: "title", widget: "string"}
-      - {label: "Kategori", name: "referenserkategorier", widget: "relation", collection: "referenserkategorier", searchFields: [ "title", "body" ], valueField: "title"}
-      - {label: "Bild", name: "image", widget: "image"}
+      - {label: "Underkategori", name: "underkategori", widget: "relation", collection: "whatwedo_subcat", searchFields: [ "title", "body" ], valueField: "title"}
       - {label: "Innehåll", name: "body", widget: "markdown"}
-      - {label: "Ordning", name: "weight", widget: "number"}
-  - name: "referenserkategorier"
-    editor:
-      preview: false
-    label: "Referenser - Kategorier"
-    folder: "site/content/referenserkategorier"
-    create: true
-    fields:
-      - {label: "Rubrik", name: "title", widget: "string"}
-      - {label: "Bild", name: "image", widget: "image"}
-      - {label: "Innehåll", name: "body", widget: "markdown"}
+      - {label: Bilder, name: "images", widget: list, required: false, fields: [
+          {label: "Bild", name: "image", widget: "image"},
+          {label: "Bildtext", name: "text", widget: "text"}
+      ]}
       - {label: "Ordning", name: "weight", widget: "number"}
   - name: "trendmagasin"
     label: "TRENDmagasin"
