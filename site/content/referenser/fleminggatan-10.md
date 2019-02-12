@@ -1,5 +1,5 @@
 ---
-title: 'BRF HHHH   Engelbrektsgatan 12 '
+title: BRF HHHH   Engelbrektsgatan 12
 underkategori: Trapphus 10-tal
 images:
   - image: /img/_dsc6590.jpg
