@@ -1,0 +1,238 @@
+.c-heroImageGrid {
+	position: relative;
+	overflow: hidden;
+	height: 50vw;
+	background: #fff;
+	margin-bottom: 60px;
+}
+
+.c-heroImageGrid__logo {
+	position: absolute;
+	border-radius: 0;
+	z-index: 1;
+	top: 2vw;
+	left: 2vw;
+	width: 8vw;
+	height: 5.5vw;
+	object-fit: contain;
+}
+
+.c-heroImageGrid__arrow-down {
+	z-index: 1;
+	position: absolute;
+	bottom: 1vw;
+	left: 50%;
+	width: 4vw;
+	height: 2.5vw;
+	animation: bounce 2s infinite ease-in-out;
+}
+
+.c-heroImageGrid__arrow-down:before,
+.c-heroImageGrid__arrow-down:after {
+	content: "";
+	position: absolute;
+	top: 0;
+	height: 100%;
+	width: 0.22vw;
+	background-color: #000;
+}
+
+.c-heroImageGrid__arrow-down:before {
+	left: 1.05vw;
+	transform: rotateZ(-45deg);
+}
+
+.c-heroImageGrid__arrow-down:after {
+	right: 1.05vw;
+	transform: rotateZ(45deg);
+}
+
+.c-heroImageGrid .container {
+	display: flex;
+	align-items: flex-end;
+	position: absolute;
+	top: -20vw;
+	left: -8vw;
+	transform: rotateZ(45deg);
+	height: 100vw;
+	width: 107vw;
+}
+
+.c-heroImageGrid .container .column {
+	overflow: hidden;
+	position: relative;
+}
+
+.c-heroImageGrid .container .column:nth-of-type(1) {
+	border-right: 8px solid white;
+	width: 25%;
+	height: 66vw;
+}
+
+.c-heroImageGrid .container .column:nth-of-type(1):hover {
+	opacity: 0.75;
+	cursor: pointer;
+}
+
+.c-heroImageGrid .container .column:nth-of-type(1):before {
+	position: absolute;
+	top: 8.3vw;
+	left: 8.1vw;
+	background-repeat: no-repeat;
+	background-size: cover;
+	transform: rotateZ(-45deg);
+	content: "";
+	width: 37vw;
+	height: 38vw;
+	background-image: url(/img/villa.jpg);
+}
+
+
+.c-heroImageGrid .container .column:nth-of-type(2) {
+	display: flex;
+	flex-direction: column-reverse;
+	width: 75%;
+	height: 109.1vw;
+}
+
+.c-heroImageGrid .container .column:nth-of-type(2) .row {
+	border-top: 8px solid #fff;
+}
+
+
+.c-heroImageGrid .container .column:nth-of-type(2) .row:nth-of-type(1) {
+	position: relative;
+	overflow: hidden;
+	height: 50vw;
+}
+
+.c-heroImageGrid .container .column:nth-of-type(2) .row:nth-of-type(1):hover {
+	opacity: 0.75;
+	cursor: pointer;
+}
+
+.c-heroImageGrid .container .column:nth-of-type(2) .row:nth-of-type(1):before {
+	position: absolute;
+	top: -10.1vw;
+	left: -14.3vw;
+	background-repeat: no-repeat;
+	background-size: cover;
+	transform: rotateZ(-45deg);
+	content: "";
+	width: 65vw;
+	height: 39vw;
+	background-image: url(/img/industriklattrare.jpg);
+}
+
+.c-heroImageGrid .container .column:nth-of-type(2) .row:nth-of-type(2) {
+	display: flex;
+	height: 40.5vw;
+}
+
+.c-heroImageGrid .container .column:nth-of-type(2) .row:nth-of-type(3) {
+	border-top: none;
+}
+
+.c-heroImageGrid .container .column:nth-of-type(2) .row:nth-of-type(2) div:nth-of-type(1) {
+	overflow: hidden;
+	width: 30%;
+	background-color: #8B8B8A;
+}
+
+.c-heroImageGrid .container .column:nth-of-type(2) .row:nth-of-type(2) div:nth-of-type(1) .text {
+	width: 100%;
+	height: 100%;
+	overflow: visible;
+	transform: rotateZ(-45deg);
+	position: relative;
+}
+
+.c-heroImageGrid .container .column:nth-of-type(2) .row:nth-of-type(2) div:nth-of-type(1) .text h6 {
+	position: absolute;
+	color: #fff;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 1.35vw;
+	width: 20vw;
+	top: 16vw;
+	left: 9vw;
+	line-height: 1.55vw;
+}
+
+.c-heroImageGrid .container .column:nth-of-type(2) .row:nth-of-type(2) div:nth-of-type(1) .text p {
+	text-align: right;
+	position: absolute;
+	color: #fff;
+	font-size: 0.9vw;
+	width: 18vw;
+	top: 23.5vw;
+	left: -3.5vw;
+}
+
+.c-heroImageGrid .container .column:nth-of-type(2) .row:nth-of-type(2) div:nth-of-type(2) {
+	position: relative;
+	width: 70%;
+	border-left: 8px solid white;
+	overflow: hidden;
+}
+
+.c-heroImageGrid .container .column:nth-of-type(2) .row:nth-of-type(2) div:nth-of-type(2):hover {
+	opacity: 0.75;
+	cursor: pointer;
+}
+
+.c-heroImageGrid .container .column:nth-of-type(2) .row:nth-of-type(2) div:nth-of-type(2):before {
+	position: absolute;
+	top: -13.7vw;
+	left: -18.3vw;
+	width: 60vw;
+	height: 60vw;
+	background-repeat: no-repeat;
+	background-size: cover;
+	transform: rotateZ(-45deg);
+	content: "";
+	background-image: url(/img/Flamingo.jpg);
+}
+
+.c-heroImageGrid .container .column:nth-of-type(2) .row:nth-of-type(3) {
+	position: relative;
+	height: 18.6vw;
+	overflow: hidden;
+}
+
+.c-heroImageGrid .container .column:nth-of-type(2) .row:nth-of-type(3):hover {
+	opacity: 0.75;
+	cursor: pointer;
+}
+
+.c-heroImageGrid .container .column:nth-of-type(2) .row:nth-of-type(3):before {
+	position: absolute;
+	top: 7.5vw;
+	left: 25vw;
+	width: 33vw;
+	height: 27vw;
+	background-repeat: no-repeat;
+	background-size: cover;
+	transform: rotateZ(-45deg);
+	content: "";
+	background-image: url(/img/Rostfärg.jpg);
+}
+
+@keyframes bounce {
+
+	0%,
+	20%,
+	50%,
+	80%,
+	100% {
+		transform: translateY(0);
+	}
+
+	40% {
+		transform: translateY(-30px);
+	}
+
+	60% {
+		transform: translateY(-15px);
+	}
+}

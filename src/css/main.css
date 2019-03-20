@@ -102,6 +102,8 @@
 
 @import './custom/components/partials/projectSlider.css';
 @import './custom/components/partials/searchForm.css';
+@import './custom/components/partials/heroImageGrid.css';
+
 @import './custom/components/sections/list-workers.css';
 @import './custom/components/sections/textImage.css';
 
