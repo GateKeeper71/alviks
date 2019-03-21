@@ -5,6 +5,11 @@ subheading: >-
   nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi
   enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis
   nisl ut aliquip ex ea commodo consequat. Duis autem
+images:
+  - image: /img/Villa.jpg
+  - image: /img/industriklattrare.jpg
+  - image: /img/Flamingo.jpg
+  - image: /img/Rostfärg.jpg
 slider_heading: Ett axplock av våra projekt
 slider_text: Detta är en beskrivande text om våra aktuella projekt
 partners:
