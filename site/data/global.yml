@@ -4,11 +4,17 @@ contacttitle: Hör gärna av dig!
 contactingress: Det går utmärkt att kontakta oss via telefon eller mail.
 office:
   - email: info@alviksmaleri.se
+    facebook: 'https://www.facebook.com/alviksmaleristockholm'
+    instagram: 'https://www.instagram.com/alviksmaleri/'
     name: Stockholm
     phone: 08-704 75 80
   - email: uppsala@alviksmaleri.se
+    facebook: 'https://www.facebook.com/alviksmaleriiuppsala/'
+    instagram: 'https://www.instagram.com/alviks_maleri_i_uppsala_ab/'
     name: Uppsala
     phone: 018-30 20 54
   - email: johannes.jansson@mpaalviksmaleri.se
+    facebook: 'https://www.facebook.com/mpaalviks/'
+    instagram: 'https://www.instagram.com/alviksmaleri/'
     name: Västerås
     phone: 021-81 53 00
