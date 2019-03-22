@@ -23,14 +23,10 @@ collections: # A list of collections the CMS should be able to edit
           - {label: "Kontor", name: "office", widget: "list", fields: [
               {label: "Kontor", name: "name", widget: "string"},
               {label: "Telefon", name: "phone", widget: "string"},
-              {label: "E-postadress", name: "email", widget: "string"}
+              {label: "E-postadress", name: "email", widget: "string"},
+              {label: "Facebook", name: "facebook", widget: "string"},
+              {label: "Instagram", name: "instagram", widget: "string"}
             ]}
-      - file: "site/data/nav.yml"
-        label: "Navbar"
-        name: "navbar"
-        format: "yaml"
-        fields:
-          - {label: "Bakgrundsbild", name: "bgimage", widget: "image"}
       - file: "site/data/footer.yml"
         label: "Sidfot"
         name: "footer"
@@ -154,10 +150,16 @@ collections: # A list of collections the CMS should be able to edit
         label: "Startsida"
         name: "home"
         fields:
-          - {label: Title, name: title, widget: string}
-          - {label: Title 2, name: title_2, widget: string, required: false}
-          - {label: Title 3, name: title_3, widget: string, required: false}
-          - {label: Subtitle, name: subtitle, widget: string, required: false}
+          - {label: Huvudrubrik, name: title, widget: text}
+          - {label: Underrubrik, name: subheading, widget: text, required: false}
+          - {label: Bilder,
+            name: "images",
+            widget: list,
+            fields: [
+              {label: "Bild", name: "image", widget: "image"},
+              {label: "Text", name: "text", widget: "string"},
+              {label: "Länk", name: "link", widget: "string"}
+          ]}
           - {label: Rubrik Projektslider, name: slider_heading, widget: string, required: false}
           - {label: Text Projektslider, name: slider_text, widget: text, required: false}
           - {label: Partners, name: partners, widget: list, fields: [

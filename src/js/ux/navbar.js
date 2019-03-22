@@ -4,12 +4,6 @@ import Headroom from 'headroom.js'
 export function Navbar () {
   document.addEventListener("DOMContentLoaded", () => {
 
-    /* Headroom added to navbar. Visible on scoll up */
-    const navElem = document.getElementById('main-nav'),
-    headroom = new Headroom(navElem);
-
-    headroom.init();
-
     /* Navbar folding clickable submenu */
     const list = document.querySelectorAll('.am-has-submenu');
     list.forEach((item) => {
@@ -45,8 +39,6 @@ export function Navbar () {
     const menuBtn = document.getElementById('menu');
     const sidebar = document.getElementById('sidebar');
     menuBtn.addEventListener('click', (e) => {
-      navElem.classList.toggle('headroom');
-      navElem.classList.toggle('fixed');
       menuBtn.classList.toggle('closed');
       menuBtn.classList.toggle('alvik-1');
       menuBtn.classList.toggle('off-white');

@@ -1,0 +1,19 @@
+<section class="c-sectionServicesGrid w-100 pb3">
+	<div class="container center">
+		<ul class="partials-front-services pw7">
+			{{ range $index, $value := (where .Site.Pages "Section" "vad-vi-gor").ByParam "weight" }}
+
+				{{ if .Summary }}
+					<li class="c-sectionServicesGrid__item mb4">
+						<img class="center w-100" src="{{ .Params.Image }}" alt="">
+						<div>
+							<h4 class="f4 b lh-title mb2 black">{{ .Title }}</h4>
+							<p>{{ .Summary }}</p>
+						</div>
+					</li>
+				{{ end }}
+
+			{{ end }}
+		</ul>
+	</div>
+</section>

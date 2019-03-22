@@ -1,3 +1,7 @@
+import { AnimateCurve } from './ux/animate';
+import { AnimateJumbotron } from './ux/animate';
+import { Navbar } from './ux/navbar';
+import { Tip } from './ux/tip';
 import "./custom/search";
 import makeSlider from "./custom/slider";
 
@@ -11,5 +15,10 @@ if (window.netlifyIdentity) {
 		}
 	});
 }
+
+const animateCurve = new AnimateCurve();
+const animateJumbotron = new AnimateJumbotron();
+const navbar = new Navbar();
+const tooltip = new Tip();
 
 makeSlider();

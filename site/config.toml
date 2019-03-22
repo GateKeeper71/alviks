@@ -5,58 +5,58 @@ summaryLength = 30
 pluralizeListTitles = false
 
 [permalinks]
-  referenser = "/referenser/:title/"
-  referenserkategorier = "/referenserkategorier/:title/"
-  vad-vi-gor = "/vad-vi-gor/:title/"
-  underkategorier = "/vad-vi-gor/underkategorier/:title"
+	referenser = "/referenser/:title/"
+	referenserkategorier = "/referenserkategorier/:title/"
+	vad-vi-gor = "/vad-vi-gor/:title/"
+	underkategorier = "/vad-vi-gor/underkategorier/:title"
 
 [menu]
-  [[menu.main]]
-    identifier = "whatwedo"
-    name = "Vad vi gör"
-    title = "Vad vi gör sectiion"
-    url = "/vad-vi-gor/"
-    weight = 1
-  [[menu.main]]
-    identifier = "referenser"
-    name = "Referenser"
-    title = "Referenser sectiion"
-    url = "/referenser/"
-    weight = 2
-  [[menu.secondary]]
-    identifier = "om-oss"
-    name = "Om oss"
-    title = "Om oss sectiion"
-    url = "/om-oss/"
-    weight = 5
-  [[menu.secondary]]
-    identifier = "vasteras"
-    name = "Västerås"
-    title = "Västerås section"
-    url = "/kontakt/västerås/"
-    parent = "kontakt"
-  [[menu.secondary]]
-    identifier = "stockholm"
-    name = "Stockholm"
-    title = "Stockholm section"
-    url = "/kontakt/stockholm/"
-    parent = "kontakt"
-  [[menu.secondary]]
-    identifier = "uppsala"
-    name = "Uppsala"
-    title = "Uppsala section"
-    url = "/kontakt/uppsala/"
-    parent = "kontakt"
-  [[menu.secondary]]
-    identifier = "kontakt"
-    name = "Kontakt"
-    title = "Kontakt sectiion"
-    url = "/kontakt/"
-    weight = 3
-    hasChildren = true
-  [[menu.secondary]]
-    identifier = "trendmagasin"
-    name = "TRENDmagasin"
-    title = "TRENDmagasin sectiion"
-    url = "/trendmagasin/"
-    weight = 7
+	[[menu.main]]
+		identifier = "whatwedo"
+		name = "Tjänster"
+		title = "Vad vi gör sectiion"
+		url = "/vad-vi-gor/"
+		weight = 1
+	[[menu.main]]
+		identifier = "referenser"
+		name = "Referenser"
+		title = "Referenser sectiion"
+		url = "/referenser/"
+		weight = 2
+	[[menu.main]]
+		identifier = "om-oss"
+		name = "Om oss"
+		title = "Om oss sectiion"
+		url = "/om-oss/"
+		weight = 3
+	[[menu.main]]
+		identifier = "kontakt"
+		name = "Kontakt"
+		title = "Kontakt sectiion"
+		url = "/kontakt/"
+		weight = 4
+	[[menu.offices]]
+		identifier = "vasteras"
+		name = "Västerås"
+		title = "Västerås section"
+		url = "/kontakt/västerås/"
+		parent = "kontakt"
+	[[menu.offices]]
+		identifier = "stockholm"
+		name = "Stockholm"
+		title = "Stockholm section"
+		url = "/kontakt/stockholm/"
+		parent = "kontakt"
+	[[menu.offices]]
+		identifier = "uppsala"
+		name = "Uppsala"
+		title = "Uppsala section"
+		url = "/kontakt/uppsala/"
+		parent = "kontakt"
+		hasChildren = true
+	[[menu.main]]
+		identifier = "trendmagasin"
+		name = "TRENDmagasin"
+		title = "TRENDmagasin sectiion"
+		url = "/trendmagasin/"
+		weight = 5

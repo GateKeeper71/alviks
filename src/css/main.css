@@ -98,14 +98,17 @@
 /**
  * Custom CSS
  */
+@import './custom/global/fonts.css';
 @import './custom/global/elements.css';
 
 @import './custom/components/partials/projectSlider.css';
 @import './custom/components/partials/searchForm.css';
 @import './custom/components/partials/heroImageGrid.css';
+@import './custom/components/partials/fixedHeader.css';
 
 @import './custom/components/sections/list-workers.css';
 @import './custom/components/sections/textImage.css';
+@import './custom/components/sections/services-grid.css';
 
 @import './custom/objects/button.css';
 @import './custom/objects/single.css';

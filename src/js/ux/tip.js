@@ -19,7 +19,7 @@ export function Tip () {
 
       const test = new Popper(item, sibling, {
         trigger: "click",
-        placement: 'bottom',
+        placement: 'left',
       });
 
     })

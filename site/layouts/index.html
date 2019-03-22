@@ -1,54 +1,21 @@
 {{ define "main" }}
 
-{{/*  {{ partial "jumbotron" (dict "title" .Title "title_2" .Params.title_2 "title_3" .Params.title_3 "subtitle" .Params.subtitle "office" .Site.Data.global.office) }}  */}}
+{{ partial "hero-grid" . }}
 
-<div class="c-heroImageGrid">
-	<img class="c-heroImageGrid__logo" src="{{ .Site.Data.global.logo }}" alt="">
-	<div class="container">
-		<div class="column"></div>
-		<div class="column">
-			<div class="row"></div>
-			<div class="row">
-				<div>
-					<div class="text">
-						<h6>
-							Vi är ett måleri med över 120 målare<br>
-							i Stockholm,<br>
-							Uppsala och Västerås.
-						</h6>
-						<p>
-							Lorem ipsum dolor sit amet, consectetuer
-							adipiscing elit, sed diam nonummy nibh
-							euismod tincidunt ut laoreet dolore magna
-							aliquam erat volutpat. Ut wisi enim ad
-							minim veniam, quis nostrud exerci tation
-							ullamcorper suscipit lobortis nisl ut aliquip
-							ex ea commodo consequat. Duis autem
-						</p>
-					</div>
-				</div>
-				<div></div>
-			</div>
-			<div class="row"></div>
-		</div>
-	</div>
-	<div class="c-heroImageGrid__arrow-down"></div>
-</div>
+{{ partial "services-grid" . }}
 
 <div class="mb4 flex w-100 flex-column items-center">
-    <div class="mw6">
-        <h3 class="f2 lh-title b mb3 alvik-4">
-            {{ .Param "slider_heading" }}
-        </h3>
-        <p class="f4">
-            {{ .Param "slider_text" }}
-        </p>
-    </div>
+	<div class="mw6">
+		<h3 class="f2 lh-title b mb3 alvik-4">
+			{{ .Param "slider_heading" }}
+		</h3>
+		<p class="f4">
+			{{ .Param "slider_text" }}
+		</p>
+	</div>
 </div>
 
 {{ partial "project-slider" . }}
-
-{{ partial "front-services" . }}
 
 {{ partial "image-grid" . }}
 
