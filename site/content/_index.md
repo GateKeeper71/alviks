@@ -1,7 +1,7 @@
 ---
 title: |-
-  Vi är ett måleri med över 120 målare
-  i Stockholm,
+  Vi är ett måleri med över 120 målare<br>
+  i Stockholm,<br>
   Uppsala och Västerås.
 subheading: >-
   Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy
