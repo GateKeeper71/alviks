@@ -77,6 +77,14 @@
 	background-image: url(/img/villa.jpg);
 }
 
+.c-heroImageGrid .container .column a {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+
 
 .c-heroImageGrid .container .column:nth-of-type(2) {
 	display: flex;
@@ -143,9 +151,9 @@
 	color: #fff;
 	text-transform: uppercase;
 	font-weight: bold;
-	font-size: 1.35vw;
+	font-size: 1.25vw;
 	width: 20vw;
-	top: 16vw;
+	top: 17vw;
 	left: 7vw;
 	line-height: 1.7vw;
 }

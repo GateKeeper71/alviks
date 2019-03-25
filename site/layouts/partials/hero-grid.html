@@ -15,9 +15,13 @@
 
 <div class="c-heroImageGrid">
 	<div class="container">
-		<div class="column"></div>
 		<div class="column">
-			<div class="row"></div>
+			<a href="{{ (index .Params.images 0).link }}"></a>
+		</div>
+		<div class="column">
+			<div class="row">
+				<a href="{{ (index .Params.images 1).link }}"></a>
+			</div>
 			<div class="row">
 				<div>
 					<div class="text">
@@ -25,9 +29,13 @@
 						<p>{{ .Params.subheading }}</p>
 					</div>
 				</div>
-				<div></div>
+				<div>
+					<a href="{{ (index .Params.images 2).link }}"></a>
+				</div>
 			</div>
-			<div class="row"></div>
+			<div class="row">
+				<a href="{{ (index .Params.images 3).link }}"></a>
+			</div>
 		</div>
 	</div>
 	<div class="c-heroImageGrid__arrow-down"></div>

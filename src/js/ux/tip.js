@@ -1,27 +1,25 @@
-import Tooltip from 'tooltip.js'
-import Popper from 'popper.js'
+import Tooltip from "tooltip.js";
+import Popper from "popper.js";
 
-export function Tip () {
-  document.addEventListener('DOMContentLoaded', () => {
-    const tools = document.querySelectorAll('.am-tooltip-reference');
+export function Tip() {
+	document.addEventListener("DOMContentLoaded", () => {
+		const tools = document.querySelectorAll(".am-tooltip-reference");
 
-    tools.forEach((item) => {
+		tools.forEach((item) => {
 
-      const sibling = item.nextElementSibling;
+			const sibling = item.nextElementSibling;
 
-      item.addEventListener('click', (evt) => {
+			item.addEventListener("click", (evt) => {
+				evt.preventDefault();
+				test.update();
+				sibling.classList.toggle("dn");
+			});
 
-        evt.preventDefault();
-        test.update();
-        sibling.classList.toggle('dn');
+			const test = new Popper(item, sibling, {
+				trigger: "click",
+				placement: "left",
+			});
 
-      })
-
-      const test = new Popper(item, sibling, {
-        trigger: "click",
-        placement: 'left',
-      });
-
-    })
-  })
+		});
+	});
 }

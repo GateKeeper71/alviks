@@ -17,6 +17,10 @@
 	padding: 0;
 }
 
+.c-sectionServicesGrid__item a {
+	text-decoration: none;
+}
+
 .c-sectionServicesGrid__item img {
 	display: block;
 	width: 80%;

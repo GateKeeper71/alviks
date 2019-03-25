@@ -99,6 +99,7 @@
  * Custom CSS
  */
 @import './custom/global/fonts.css';
+@import './custom/global/typography.css';
 @import './custom/global/elements.css';
 
 @import './custom/components/partials/projectSlider.css';

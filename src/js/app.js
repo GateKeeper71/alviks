@@ -4,6 +4,7 @@ import { Navbar } from './ux/navbar';
 import { Tip } from './ux/tip';
 import "./custom/search";
 import makeSlider from "./custom/slider";
+import menus from "./custom/menus";
 
 // JS Goes here - ES6 supported
 if (window.netlifyIdentity) {
@@ -22,3 +23,4 @@ const navbar = new Navbar();
 const tooltip = new Tip();
 
 makeSlider();
+menus();
