@@ -10,9 +10,17 @@ subheading: >-
   nisl ut aliquip ex ea commodo consequat. Duis autem
 images:
   - image: /img/Villa.jpg
+    link: '#link1'
+    text: Villa
   - image: /img/industriklattrare.jpg
+    link: '#link2'
+    text: Industriklättrare
   - image: /img/Flamingo.jpg
+    link: '#link3'
+    text: Flamingo
   - image: /img/Rostfärg.jpg
+    link: link4
+    text: Rostfärg
 slider_heading: Ett axplock av våra projekt
 slider_text: Detta är en beskrivande text om våra aktuella projekt
 partners:
