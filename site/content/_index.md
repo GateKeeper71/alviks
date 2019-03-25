@@ -19,7 +19,7 @@ images:
     link: '#link3'
     text: Flamingo
   - image: /img/Rostfärg.jpg
-    link: link4
+    link: '#link4'
     text: Rostfärg
 slider_heading: Ett axplock av våra projekt
 slider_text: Detta är en beskrivande text om våra aktuella projekt
