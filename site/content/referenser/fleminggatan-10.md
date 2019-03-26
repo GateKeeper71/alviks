@@ -1,5 +1,5 @@
 ---
-title: Fleminggatan 10 test
+title: Fleminggatan 10
 underkategori: Trapphus 10-tal
 images:
   - image: /img/342342.jpg
@@ -8,4 +8,4 @@ images:
   - image: /img/_dsc3912.jpg
 weight: '20'
 ---
-Detta är en informationstext. test
+Detta är en informationstext.
