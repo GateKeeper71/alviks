@@ -90,18 +90,18 @@
 		</ul>
 
 		<div id="sidebar" class="c-fixedHeader__slideMenu list vw-100 vh-100 fixed bg-alvik-4 z-9999 slider--left pv6">
-			<button class="close">x</button>
+			<button class="close"></button>
 			<ul class="c-fixedHeader__main">
 				{{ range .Site.Menus.main }}
 					{{ $is := $currentPage.IsMenuCurrent "main" . }}
 					<li class="db w-100 tr">
-						<a href="{{ .URL }}" class="ttu relative hover-b-before bt-50 b-psw-50 b-psh-2 b-psbg-1-to-3--fade hover-b-after at-50 a-psw-50 a-psh-2 a-psbg-1-to-3--fade pv2 f5 fw4 link no-underline-hover off-white dib mr4 mr4-ns mr3-l {{ if $is }} hover-b-before-after-fw {{ end }}">{{ .Name }}</a>
+						<a href="{{ .URL }}" class="ttu relative hover-b-before bt-50 b-psw-50 b-psh-2 hover-b-after at-50 a-psw-50 a-psh-2 pv2 f5 fw4 link no-underline-hover off-white dib mr4 mr4-ns mr3-l {{ if $is }} hover-b-before-after-fw {{ end }}">{{ .Name }}</a>
 					</li>
 				{{ end }}
 				{{ range .Site.Menus.secondary }}
 					{{ if .HasChildren }}
 						<li class="db relative w-100 tr">
-							<a href="#" class="ttu relative hover-b-before bt-50 b-psw-50 b-psh-2 b-psbg-1-to-3--fade hover-b-after at-50 a-psw-50 a-psh-2 a-psbg-1-to-3--fade pv2 am-has-submenu f5 fw4 link no-underline-hover off-white dib mr4 mr4-ns mr3-l ">
+							<a href="#" class="ttu relative hover-b-before bt-50 b-psw-50 b-psh-2 hover-b-after at-50 a-psw-50 a-psh-2 pv2 am-has-submenu f5 fw4 link no-underline-hover off-white dib mr4 mr4-ns mr3-l ">
 								<span class="after-arrow--down">{{ .Name }}</span>
 							</a>
 							<ul class="left-0 tl db white bg-alvik-4 z-5 ph2 am-submenu">
@@ -115,7 +115,7 @@
 					{{ else }}
 						{{ $is := $currentPage.IsMenuCurrent "secondary" . }}
 						<li class="db w-100 tr">
-							<a href="{{ .URL }}" class="ttu relative hover-b-before bt-50 b-psw-50 b-psh-2 b-psbg-1-to-3--fade hover-b-after at-50 a-psw-50 a-psh-2 a-psbg-1-to-3--fade pv2 f5 fw4 link no-underline-hover off-white dib mr4 mr4-ns mr3-l {{ if $is }} hover-b-before-after-fw {{ end }}">{{ .Name }}</a>
+							<a href="{{ .URL }}" class="ttu relative hover-b-before bt-50 b-psw-50 b-psh-2 hover-b-after at-50 a-psw-50 a-psh-2 pv2 f5 fw4 link no-underline-hover off-white dib mr4 mr4-ns mr3-l {{ if $is }} hover-b-before-after-fw {{ end }}">{{ .Name }}</a>
 						</li>
 					{{ end }}
 				{{ end }}

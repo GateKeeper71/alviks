@@ -6,6 +6,29 @@
 	margin-bottom: 60px;
 }
 
+.c-heroImageGrid .image-caption {
+	position: absolute;
+	font-size: 24px;
+	color: #000;
+	z-index: 1;
+	transition: all 0.15s ease;
+}
+
+.c-heroImageGrid .overlay {
+	transition: opacity 0.15s ease;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	opacity: 0;
+	background-color: #fff;
+}
+
+/**
+ * Arrow down
+ */
+
 .c-heroImageGrid__arrow-down {
 	z-index: 1;
 	position: absolute;
@@ -48,23 +71,31 @@
 	width: 107vw;
 }
 
-.c-heroImageGrid .container .column {
+.c-heroImageGrid .column {
 	overflow: hidden;
 	position: relative;
 }
 
-.c-heroImageGrid .container .column:nth-of-type(1) {
+.c-heroImageGrid .column:nth-of-type(1) {
 	border-right: 8px solid white;
 	width: 25%;
 	height: 66vw;
 }
 
-.c-heroImageGrid .container .column:nth-of-type(1):hover {
-	opacity: 0.75;
+.c-heroImageGrid .column:nth-of-type(1):hover {
 	cursor: pointer;
 }
 
-.c-heroImageGrid .container .column:nth-of-type(1):before {
+.c-heroImageGrid .column:nth-of-type(1):hover .image-caption {
+	right: 0;
+}
+
+.c-heroImageGrid .column:nth-of-type(1):hover .overlay,
+.c-heroImageGrid .column:nth-of-type(2) .row:nth-of-type(1):hover .overlay {
+	opacity: 0.5;
+}
+
+.c-heroImageGrid .column:nth-of-type(1):before {
 	position: absolute;
 	top: 8.3vw;
 	left: 8.1vw;
@@ -77,7 +108,13 @@
 	background-image: url(/img/villa.jpg);
 }
 
-.c-heroImageGrid .container .column a {
+.c-heroImageGrid .column:nth-of-type(1) .image-caption {
+	right: -50px;
+	bottom: 50%;
+	transform: rotateZ(-90deg);
+}
+
+.c-heroImageGrid .column a {
 	width: 100%;
 	height: 100%;
 	position: absolute;
@@ -86,30 +123,38 @@
 }
 
 
-.c-heroImageGrid .container .column:nth-of-type(2) {
+.c-heroImageGrid .column:nth-of-type(2) {
 	display: flex;
 	flex-direction: column-reverse;
 	width: 75%;
 	height: 109.1vw;
 }
 
-.c-heroImageGrid .container .column:nth-of-type(2) .row {
+.c-heroImageGrid .column:nth-of-type(2) .row {
 	border-top: 8px solid #fff;
 }
 
 
-.c-heroImageGrid .container .column:nth-of-type(2) .row:nth-of-type(1) {
+.c-heroImageGrid .column:nth-of-type(2) .row:nth-of-type(1) {
 	position: relative;
 	overflow: hidden;
 	height: 50vw;
 }
 
-.c-heroImageGrid .container .column:nth-of-type(2) .row:nth-of-type(1):hover {
-	opacity: 0.75;
+.c-heroImageGrid .column:nth-of-type(2) .row:nth-of-type(1) .image-caption {
+	top: -50px;
+	left: 15%;
+}
+
+.c-heroImageGrid .column:nth-of-type(2) .row:nth-of-type(1):hover {
 	cursor: pointer;
 }
 
-.c-heroImageGrid .container .column:nth-of-type(2) .row:nth-of-type(1):before {
+.c-heroImageGrid .column:nth-of-type(2) .row:nth-of-type(1):hover .image-caption {
+	top: 8px;
+}
+
+.c-heroImageGrid .column:nth-of-type(2) .row:nth-of-type(1):before {
 	position: absolute;
 	top: -10.1vw;
 	left: -14.3vw;
@@ -122,22 +167,22 @@
 	background-image: url(/img/industriklattrare.jpg);
 }
 
-.c-heroImageGrid .container .column:nth-of-type(2) .row:nth-of-type(2) {
+.c-heroImageGrid .column:nth-of-type(2) .row:nth-of-type(2) {
 	display: flex;
 	height: 40.5vw;
 }
 
-.c-heroImageGrid .container .column:nth-of-type(2) .row:nth-of-type(3) {
+.c-heroImageGrid .column:nth-of-type(2) .row:nth-of-type(3) {
 	border-top: none;
 }
 
-.c-heroImageGrid .container .column:nth-of-type(2) .row:nth-of-type(2) div:nth-of-type(1) {
+.c-heroImageGrid .column:nth-of-type(2) .row:nth-of-type(2) .left-column {
 	overflow: hidden;
 	width: 30%;
 	background-color: #8B8B8A;
 }
 
-.c-heroImageGrid .container .column:nth-of-type(2) .row:nth-of-type(2) div:nth-of-type(1) .text {
+.c-heroImageGrid .column:nth-of-type(2) .row:nth-of-type(2) .left-column .text {
 	width: 100%;
 	height: 100%;
 	overflow: visible;
@@ -145,7 +190,7 @@
 	position: relative;
 }
 
-.c-heroImageGrid .container .column:nth-of-type(2) .row:nth-of-type(2) div:nth-of-type(1) .text h6 {
+.c-heroImageGrid .column:nth-of-type(2) .row:nth-of-type(2) .left-column .text h6 {
 	font-family: Futura;
 	position: absolute;
 	color: #fff;
@@ -156,9 +201,10 @@
 	top: 17vw;
 	left: 7vw;
 	line-height: 1.7vw;
+	text-shadow: 7px 7px 5px rgba(0, 0, 0, 0.75);
 }
 
-.c-heroImageGrid .container .column:nth-of-type(2) .row:nth-of-type(2) div:nth-of-type(1) .text p {
+.c-heroImageGrid .column:nth-of-type(2) .row:nth-of-type(2) .left-column .text p {
 	font-family: Futura;
 	text-align: right;
 	position: absolute;
@@ -170,19 +216,18 @@
 	font-weight: 500;
 }
 
-.c-heroImageGrid .container .column:nth-of-type(2) .row:nth-of-type(2) div:nth-of-type(2) {
+.c-heroImageGrid .column:nth-of-type(2) .row:nth-of-type(2) .right-column {
 	position: relative;
 	width: 70%;
 	border-left: 8px solid white;
 	overflow: hidden;
 }
 
-.c-heroImageGrid .container .column:nth-of-type(2) .row:nth-of-type(2) div:nth-of-type(2):hover {
-	opacity: 0.75;
+.c-heroImageGrid .column:nth-of-type(2) .row:nth-of-type(2) .right-column:hover {
 	cursor: pointer;
 }
 
-.c-heroImageGrid .container .column:nth-of-type(2) .row:nth-of-type(2) div:nth-of-type(2):before {
+.c-heroImageGrid .column:nth-of-type(2) .row:nth-of-type(2) .right-column:before {
 	position: absolute;
 	top: -13.7vw;
 	left: -18.3vw;
@@ -195,18 +240,17 @@
 	background-image: url(/img/Flamingo.jpg);
 }
 
-.c-heroImageGrid .container .column:nth-of-type(2) .row:nth-of-type(3) {
+.c-heroImageGrid .column:nth-of-type(2) .row:nth-of-type(3) {
 	position: relative;
 	height: 18.6vw;
 	overflow: hidden;
 }
 
-.c-heroImageGrid .container .column:nth-of-type(2) .row:nth-of-type(3):hover {
-	opacity: 0.75;
+.c-heroImageGrid .column:nth-of-type(2) .row:nth-of-type(3):hover {
 	cursor: pointer;
 }
 
-.c-heroImageGrid .container .column:nth-of-type(2) .row:nth-of-type(3):before {
+.c-heroImageGrid .column:nth-of-type(2) .row:nth-of-type(3):before {
 	position: absolute;
 	top: 7.5vw;
 	left: 25vw;

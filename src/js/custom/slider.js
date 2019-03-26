@@ -1,5 +1,19 @@
 export default function makeSliders() {
-    const sliders = $('.c-partialProjectSlider__frame');
+	const windowWidth = $(window).outerWidth();
+	const sliders = $('.c-partialProjectSlider__frame');
+	var items = 1;
+
+	if(windowWidth > 480) {
+		items = 2;
+	}
+
+	if(windowWidth > 768) {
+		items = 3;
+	}
+
+	if(windowWidth > 1100) {
+		items = 4;
+	}
 
     sliders.each((index, element) => {
         var
@@ -13,15 +27,15 @@ export default function makeSliders() {
             // Current slide number
             left = 0;
 
-        // Wrap first 5 elements in a slide
-        projects.slice(0, 4).wrapAll("</li><li class='c-partialProjectSlider__slide'>");
+        // Wrap first elements in a slide
+        projects.slice(0, items).wrapAll("</li><li class='c-partialProjectSlider__slide'>");
 
         projects.each((index, element) => {
             index++;
 
-            // Group together 5 projects in a slide
-            if (index % 4 === 0) {
-                projects.slice(index, index + 4).wrapAll("</li><li class='c-partialProjectSlider__slide'>");
+            // Group together projects in a slide
+            if (index % items === 0) {
+                projects.slice(index, index + items).wrapAll("</li><li class='c-partialProjectSlider__slide'>");
             }
         });
 
@@ -30,7 +44,8 @@ export default function makeSliders() {
 
         // Calculate slides
         wrapper.css("width", (slides.length * 100) + "%");
-        slides.css("width", `${$(element).outerWidth()}px`);
+		slides.css("width", `${$(element).outerWidth()}px`);
+		projects.css("width", `${$(element).outerWidth() / items}px`);
 
         // Hide arrows if only one slide
         if (slides.length < 2) {

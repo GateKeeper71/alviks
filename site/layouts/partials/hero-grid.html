@@ -16,25 +16,45 @@
 <div class="c-heroImageGrid">
 	<div class="container">
 		<div class="column">
-			<a href="{{ (index .Params.images 0).link }}"></a>
+			<a href="{{ (index .Params.images 0).link }}">
+				<span class="image-caption">
+					{{ (index .Params.images 0).text }}
+				</span>
+				<div class="overlay"></div>
+			</a>
 		</div>
 		<div class="column">
 			<div class="row">
-				<a href="{{ (index .Params.images 1).link }}"></a>
+				<a href="{{ (index .Params.images 1).link }}">
+					<span class="image-caption">
+						{{ (index .Params.images 1).text }}
+					</span>
+					<div class="overlay"></div>
+				</a>
 			</div>
 			<div class="row">
-				<div>
+				<div class="left-column">
 					<div class="text">
 						<h6>{{ .Title }}</h6>
 						<p>{{ .Params.subheading }}</p>
 					</div>
 				</div>
-				<div>
-					<a href="{{ (index .Params.images 2).link }}"></a>
+				<div class="right-column">
+					<a href="{{ (index .Params.images 2).link }}">
+						<span class="image-caption">
+							{{ (index .Params.images 2).text }}
+						</span>
+						<div class="overlay"></div>
+					</a>
 				</div>
 			</div>
 			<div class="row">
-				<a href="{{ (index .Params.images 3).link }}"></a>
+				<a href="{{ (index .Params.images 3).link }}">
+					<span class="image-caption">
+						{{ (index .Params.images 3).text }}
+					</span>
+					<div class="overlay"></div>
+				</a>
 			</div>
 		</div>
 	</div>
