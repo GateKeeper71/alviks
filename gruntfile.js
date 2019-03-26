@@ -9,7 +9,7 @@ module.exports = function (grunt) {
 
 		grunt.log.writeln("Build pages index");
 
-		var indexPages = function () {
+		var indexPages = function() {
 			var pagesIndex = [];
 			grunt.file.recurse(CONTENT_PATH_PREFIX, function (abspath, rootdir, subdir, filename) {
 				let data = processFile(abspath, filename);
@@ -23,7 +23,7 @@ module.exports = function (grunt) {
 			return pagesIndex;
 		};
 
-		var processFile = function (abspath, filename) {
+		var processFile = function(abspath, filename) {
 			var pageIndex;
 
 			if (S(filename).endsWith(".html")) {
@@ -35,7 +35,7 @@ module.exports = function (grunt) {
 			return pageIndex;
 		};
 
-		var processHTMLFile = function (abspath, filename) {
+		var processHTMLFile = function(abspath, filename) {
 			var content = grunt.file.read(abspath);
 			var pageName = S(filename).chompRight(".html").s;
 			var href = S(abspath)
@@ -47,7 +47,7 @@ module.exports = function (grunt) {
 			};
 		};
 
-		var processMDFile = function (abspath, filename) {
+		var processMDFile = function(abspath, filename) {
 			var content = grunt.file.read(abspath);
 			var pageIndex;
 			var frontMatter;
@@ -98,7 +98,11 @@ module.exports = function (grunt) {
 			// }
 		};
 
-		grunt.file.write("site/static/js/lunr/PagesIndex.json", JSON.stringify(indexPages()));
-		grunt.log.ok("Index built");
+		var success = grunt.file.write("site/static/js/lunr/PagesIndex.json", JSON.stringify(indexPages()));
+
+		if (success)
+			grunt.log.ok("Index build finished");
+		else
+			grunt.log.error("Index building failed");
 	});
 };
