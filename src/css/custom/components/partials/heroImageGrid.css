@@ -91,7 +91,9 @@
 }
 
 .c-heroImageGrid .column:nth-of-type(1):hover .overlay,
-.c-heroImageGrid .column:nth-of-type(2) .row:nth-of-type(1):hover .overlay {
+.c-heroImageGrid .column:nth-of-type(2) .row:nth-of-type(1):hover .overlay,
+.c-heroImageGrid .column:nth-of-type(2) .row:nth-of-type(2) .right-column:hover .overlay,
+.c-heroImageGrid .column:nth-of-type(2) .row:nth-of-type(3):hover .overlay {
 	opacity: 0.5;
 }
 
@@ -110,7 +112,7 @@
 
 .c-heroImageGrid .column:nth-of-type(1) .image-caption {
 	right: -50px;
-	bottom: 50%;
+	bottom: 40%;
 	transform: rotateZ(-90deg);
 }
 
@@ -223,8 +225,17 @@
 	overflow: hidden;
 }
 
+.c-heroImageGrid .column:nth-of-type(2) .row:nth-of-type(2) .right-column .image-caption {
+	top: -50px;
+	left: 15%;
+}
+
 .c-heroImageGrid .column:nth-of-type(2) .row:nth-of-type(2) .right-column:hover {
 	cursor: pointer;
+}
+
+.c-heroImageGrid .column:nth-of-type(2) .row:nth-of-type(2) .right-column:hover .image-caption {
+	top: 5px;
 }
 
 .c-heroImageGrid .column:nth-of-type(2) .row:nth-of-type(2) .right-column:before {
@@ -246,8 +257,17 @@
 	overflow: hidden;
 }
 
+.c-heroImageGrid .column:nth-of-type(2) .row:nth-of-type(3) .image-caption {
+	left: 40%;
+	bottom: -50px;
+}
+
 .c-heroImageGrid .column:nth-of-type(2) .row:nth-of-type(3):hover {
 	cursor: pointer;
+}
+
+.c-heroImageGrid .column:nth-of-type(2) .row:nth-of-type(3):hover .image-caption {
+	bottom: 5px;
 }
 
 .c-heroImageGrid .column:nth-of-type(2) .row:nth-of-type(3):before {
