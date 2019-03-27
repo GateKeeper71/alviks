@@ -99,7 +99,7 @@
 	z-index: 999;
 	position: fixed;
 	right: 50px;
-	top: 13vw;
+	top: 30%;
 }
 
 .c-fixedHeader__sideMenu .line {
@@ -213,7 +213,7 @@
 	z-index: 1;
 }
 
-@media screen and (min-width: 700px) {
+@media screen and (min-width: 768px) {
 	.c-fixedHeader__logo {
 		left: 50px;
 		width: 130px;

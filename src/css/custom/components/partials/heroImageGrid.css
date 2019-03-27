@@ -1,9 +1,10 @@
 .c-heroImageGrid {
+	display: none;
 	position: relative;
 	overflow: hidden;
 	height: 50vw;
 	background: #fff;
-	margin-bottom: 60px;
+	margin-bottom: 100px;
 }
 
 .c-heroImageGrid .image-caption {
@@ -64,11 +65,11 @@
 	display: flex;
 	align-items: flex-end;
 	position: absolute;
-	top: -20vw;
-	left: -8vw;
+	top: -23.7vw;
+	left: -7vw;
 	transform: rotateZ(45deg);
-	height: 100vw;
-	width: 107vw;
+	height: 104vw;
+	width: 109vw;
 }
 
 .c-heroImageGrid .column {
@@ -158,14 +159,14 @@
 
 .c-heroImageGrid .column:nth-of-type(2) .row:nth-of-type(1):before {
 	position: absolute;
-	top: -10.1vw;
+	top: -10.6vw;
 	left: -14.3vw;
 	background-repeat: no-repeat;
 	background-size: cover;
 	transform: rotateZ(-45deg);
 	content: "";
-	width: 65vw;
-	height: 39vw;
+	width: 66.5vw;
+	height: 40vw;
 	background-image: url(/img/industriklattrare.jpg);
 }
 
@@ -192,7 +193,7 @@
 	position: relative;
 }
 
-.c-heroImageGrid .column:nth-of-type(2) .row:nth-of-type(2) .left-column .text h6 {
+.c-heroImageGrid .column:nth-of-type(2) .row:nth-of-type(2) .left-column .text h1 {
 	font-family: Futura;
 	position: absolute;
 	color: #fff;
@@ -241,7 +242,7 @@
 .c-heroImageGrid .column:nth-of-type(2) .row:nth-of-type(2) .right-column:before {
 	position: absolute;
 	top: -13.7vw;
-	left: -18.3vw;
+	left: -16.9vw;
 	width: 60vw;
 	height: 60vw;
 	background-repeat: no-repeat;
@@ -272,8 +273,8 @@
 
 .c-heroImageGrid .column:nth-of-type(2) .row:nth-of-type(3):before {
 	position: absolute;
-	top: 7.5vw;
-	left: 25vw;
+	top: 6.8vw;
+	left: 25.7vw;
 	width: 33vw;
 	height: 27vw;
 	background-repeat: no-repeat;
@@ -299,5 +300,11 @@
 
 	60% {
 		transform: translateY(-15px) translateX(-50%);
+	}
+}
+
+@media screen and (min-width: 768px) {
+	.c-heroImageGrid {
+		display: block;
 	}
 }
