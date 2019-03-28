@@ -1,7 +1,6 @@
-import { AnimateCurve } from './ux/animate';
-import { AnimateJumbotron } from './ux/animate';
-import { Navbar } from './ux/navbar';
-import { Tip } from './ux/tip';
+import {AnimateCurve} from "./ux/animate";
+import {AnimateJumbotron} from "./ux/animate";
+import {Navbar} from "./ux/navbar";
 import "./custom/search";
 import makeSliders from "./custom/slider";
 import menus from "./custom/menus";
@@ -20,7 +19,6 @@ if (window.netlifyIdentity) {
 const animateCurve = new AnimateCurve();
 const animateJumbotron = new AnimateJumbotron();
 const navbar = new Navbar();
-const tooltip = new Tip();
 
 makeSliders();
 menus();

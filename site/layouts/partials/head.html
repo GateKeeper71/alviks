@@ -6,6 +6,7 @@
 	<meta charset="utf-8">
 	<meta http-equiv="x-ua-compatible" content="ie=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="{{ .Title }} | Alviks Måleri">
 
 	<link href="https://fonts.googleapis.com/css?family=Lato:400,700|Roboto:400,700" rel="stylesheet">
 
@@ -19,7 +20,8 @@
 
 	<!-- Open Graph -->
 	<meta property="og:type" content="business.business">
-	<meta property="og:title" content="Alviks Måleri | Målare och måleri i Stockholm">
+	<meta property="og:title" content="{{ .Title }}">
+	<meta property="og:description" content="{{ .Title }} | Alviks Måleri">
 	<meta property="og:url" content="/">
 	<meta property="og:image" content="{{ if .Params.image }}{{ .Params.image }} {{ else }}/img/og-image.jpg{{ end }}">
 

@@ -38,6 +38,22 @@
 	text-align: center;
 }
 
+.c-sectionServicesGrid__link {
+	font-size: 16px;
+	position: relative;
+	left: 50%;
+	transform: translateX(-50%);
+	display: inline-block;
+	padding: 10px 25px;
+	border-radius: 20px;
+	text-decoration: none;
+	font-weight: bold;
+	text-transform: uppercase;
+	color: #fff;
+	background-color: #06062B;
+	margin-bottom: 50px;
+}
+
 @media screen and (min-width: 700px) {
 	.c-sectionServicesGrid__item {
 		width: calc(100% / 2);
