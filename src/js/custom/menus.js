@@ -47,4 +47,15 @@ $(() => {
 		});
 
 	});
+
+	/**
+	 * Scroll
+	 */
+	$(window).scroll(() => {
+		if ($(window).scrollTop() > 400) {
+			$(".c-fixedHeader .navbar").addClass("background");
+		} else {
+			$(".c-fixedHeader .navbar").removeClass("background");
+		}
+	});
 });

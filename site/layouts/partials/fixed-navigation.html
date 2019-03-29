@@ -1,14 +1,16 @@
 {{ $currentPage := . }}
 <div class="c-fixedHeader">
-	<button id="menu" class="c-fixedHeader__toggle" type="button">
-		<span class="line"></span>
-		<span class="line"></span>
-		<span class="line"></span>
-		Meny
-	</button>
-	<a href="/">
-		<img class="c-fixedHeader__logo" src="{{ .Site.Data.global.logo }}" alt="">
-	</a>
+	<div class="navbar">
+		<button id="menu" class="c-fixedHeader__toggle" type="button">
+			<span class="line"></span>
+			<span class="line"></span>
+			<span class="line"></span>
+			Meny
+		</button>
+		<a href="/">
+			<img class="c-fixedHeader__logo" src="{{ .Site.Data.global.logo }}" alt="">
+		</a>
+	</div>
 
 	<nav class="dtc v-mid w-100 tl mt2 pb0">
 		<ul class="c-fixedHeader__sideMenu">
