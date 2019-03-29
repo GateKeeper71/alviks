@@ -6,7 +6,40 @@
 
     {{ partial "search" . }}
 
-    <ul class="c-searchForm__results flex flex-wrap"></ul>
+    <ul class="c-searchForm__results flex flex-wrap">
+
+		{{range .Pages }}
+
+			<li style="width: 100%">
+				<header>
+					<h3 class="f3 ph3 b alvik-3">{{ .Title }}</h3>
+					<div class="ph3 content">{{ .Content }}</div>
+				</header>
+				<div class="mw8 center c-partialProjectSlider">
+					<button class="c-partialProjectSlider__leftButton"><</button>
+
+					<div class="c-partialProjectSlider__frame">
+						<ul class="c-partialProjectSlider__wrapper">
+
+							{{ range .Params.images }}
+								<li>
+									<a target="_blank" href="{{ .image }}" class="c-partialProjectSlider__project">
+										<img src="{{ .image }}" alt="Project image">
+										{{ .text }}
+									</a>
+								</li>
+							{{ end }}
+
+						</ul>
+					</div>
+
+					<button class="c-partialProjectSlider__rightButton">></button>
+				</div>
+			</li>
+
+		{{ end }}
+
+	</ul>
 
     {{ partial "pagination" . }}
 

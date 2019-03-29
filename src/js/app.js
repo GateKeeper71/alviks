@@ -3,7 +3,7 @@ import {AnimateJumbotron} from "./ux/animate";
 import {Navbar} from "./ux/navbar";
 import "./custom/search";
 import makeSliders from "./custom/slider";
-import menus from "./custom/menus";
+import "./custom/menus";
 
 // JS Goes here - ES6 supported
 if (window.netlifyIdentity) {
@@ -21,4 +21,3 @@ const animateJumbotron = new AnimateJumbotron();
 const navbar = new Navbar();
 
 makeSliders();
-menus();
