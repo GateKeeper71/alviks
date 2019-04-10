@@ -3,15 +3,15 @@ var S = require("string");
 
 var CONTENT_PATH_PREFIX = "site/content";
 
-module.exports = function (grunt) {
+module.exports = function(grunt) {
 
-	grunt.registerTask("default", function () {
+	grunt.registerTask("default", function() {
 
 		grunt.log.writeln("Build pages index");
 
 		var indexPages = function() {
 			var pagesIndex = [];
-			grunt.file.recurse(CONTENT_PATH_PREFIX, function (abspath, rootdir, subdir, filename) {
+			grunt.file.recurse(CONTENT_PATH_PREFIX, function(abspath, rootdir, subdir, filename) {
 				let data = processFile(abspath, filename);
 
 				grunt.verbose.writeln("Parse file:", abspath);
@@ -72,18 +72,6 @@ module.exports = function (grunt) {
 				href = S(abspath).chompLeft(CONTENT_PATH_PREFIX).chompRight(filename).s;
 			}
 
-			// let slug = href.split('/');
-
-			// const collections = [
-			// 	"underkategorier",
-			// 	"referenser"
-			// ];
-
-			// Build Lunr index for this page
-			// if (frontMatter && slug[1] && collections.includes(slug[1])) {
-
-			// grunt.log.error(JSON.stringify(frontMatter, null, 4));
-
 			pageIndex = {
 				title: frontMatter.title || "",
 				category: frontMatter.kategori || "",
@@ -95,7 +83,6 @@ module.exports = function (grunt) {
 			};
 
 			return pageIndex;
-			// }
 		};
 
 		var success = grunt.file.write("site/static/js/lunr/PagesIndex.json", JSON.stringify(indexPages()));

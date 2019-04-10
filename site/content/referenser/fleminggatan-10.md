@@ -1,11 +1,12 @@
 ---
-title: Fleminggatan 10
+title: BRF HHHH   Engelbrektsgatan 12
 underkategori: Trapphus 10-tal
 images:
-  - image: /img/342342.jpg
-  - image: /img/_dsc4978.jpg
-  - image: /img/_dsc5242.jpg
-  - image: /img/_dsc3912.jpg
-weight: '20'
+  - image: /img/_dsc6590.jpg
+  - image: /img/_dsc6573.jpg
+  - image: /img/_dsc6557.jpg
+  - image: /img/_dsc6579.jpg
+    text: fghfghertertert
+weight: '1'
 ---
-Detta är en informationstext.
+Det här trapphuset etcetcetcetc

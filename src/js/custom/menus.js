@@ -32,12 +32,15 @@ $(() => {
 			event.preventDefault();
 			pop.update();
 
-			$(".c-fixedHeader__sideMenu .icon-link").next().not(element.next()).addClass("dn");
-
-			if (element.next().hasClass("dn")) {
-				element.next().removeClass("dn");
+			if (element.length > 0) {
+				$(".c-fixedHeader__sideMenu .icon-link").next().not(element.next()).addClass("dn");
+				if (element.next().hasClass("dn")) {
+					element.next().removeClass("dn");
+				} else {
+					element.next().addClass("dn");
+				}
 			} else {
-				element.next().addClass("dn");
+				$(sibling).toggleClass('dn');
 			}
 		});
 
