@@ -9,16 +9,16 @@ subheading: >-
   enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis
   nisl ut aliquip ex ea commodo consequat. Duis autem
 images:
-  - image: /img/Villa.jpg
+  - image: /img/Villa-cropped.jpg
     link: '#link1'
     text: Villa
-  - image: /img/industriklattrare.jpg
+  - image: /img/Industriklättrare-cropped.jpg
     link: '#link2'
     text: Industriklättrare
-  - image: /img/Flamingo.jpg
+  - image: /img/Flamingo-cropped.jpg
     link: '#link3'
     text: Flamingo
-  - image: /img/Rostfärg.jpg
+  - image: /img/Rostfärg-cropped.jpg
     link: '#link4'
     text: Rostfärg
 slider_heading: Ett axplock av våra projekt
