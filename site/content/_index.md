@@ -12,7 +12,7 @@ images:
   - image: /img/Villa-cropped.jpg
     link: 'https://nervous-easley-ac4f7a.netlify.com/vad-vi-gor/totalentreprenad/'
     text: Villa
-  - image: /img/industriklattrare-cropped.jpg
+  - image: /img/Industriklättrare-cropped.jpg
     link: >-
       https://nervous-easley-ac4f7a.netlify.com/vad-vi-gor/industri-kl%C3%A4ttrare.-arbeten-d%C3%A4r-st%C3%A4llning-eller-skylift-ej-%C3%A4r-att-f%C3%B6redra-eller-kan-anv%C3%A4ndas./
     text: Industriklättrare
