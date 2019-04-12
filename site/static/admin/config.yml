@@ -1,179 +1,290 @@
 backend:
   name: git-gateway
+  branch: staging
 
-media_folder: "site/static/img" # Folder where user uploaded files should go
-public_folder: "img"
+media_folder: 'site/static/img' # Folder where user uploaded files should go
+public_folder: 'img'
 
 collections: # A list of collections the CMS should be able to edit
-  - name: "global"
-    label: "Global"
+  - name: 'global'
+    label: 'Global'
     editor:
       preview: false
     files:
-      - file: "site/data/global.yml"
-        label: "Allmänt"
-        name: "general"
-        format: "yaml"
+      - file: 'site/data/global.yml'
+        label: 'Allmänt'
+        name: 'general'
+        format: 'yaml'
         fields:
-          - {label: "Logotype", name: "logo", widget: "image"}
-          - {label: "Copyright", name: "copy", widget: "text"}
-          - {label: "Kontakt titel", name: "contacttitle", widget: "string"}
-          - {label: "Kontakt ingress", name: "contactingress", widget: "text"}
-          - {label: "Kontor", name: "office", widget: "list", fields: [
-              {label: "Kontor", name: "name", widget: "string"},
-              {label: "Telefon", name: "phone", widget: "string"},
-              {label: "E-postadress", name: "email", widget: "string"},
-              {label: "Facebook", name: "facebook", widget: "string"},
-              {label: "Instagram", name: "instagram", widget: "string"}
-            ]}
-      - file: "site/data/footer.yml"
-        label: "Sidfot"
-        name: "footer"
-        format: "yaml"
+          - { label: 'Logotype', name: 'logo', widget: 'image' }
+          - { label: 'Copyright', name: 'copy', widget: 'text' }
+          - { label: 'Kontakt titel', name: 'contacttitle', widget: 'string' }
+          - { label: 'Kontakt ingress', name: 'contactingress', widget: 'text' }
+          - {
+              label: 'Kontor',
+              name: 'office',
+              widget: 'list',
+              fields:
+                [
+                  { label: 'Kontor', name: 'name', widget: 'string' },
+                  { label: 'Telefon', name: 'phone', widget: 'string' },
+                  { label: 'E-postadress', name: 'email', widget: 'string' },
+                  { label: 'Facebook', name: 'facebook', widget: 'string' },
+                  { label: 'Instagram', name: 'instagram', widget: 'string' },
+                ],
+            }
+      - file: 'site/data/footer.yml'
+        label: 'Sidfot'
+        name: 'footer'
+        format: 'yaml'
         fields:
-          - {label: "Ingress", name: "ingress", widget: "text"}
-          - {label: "Address block", name: "ablock", widget: "list", fields: [
-              {label: "Heading", name: "heading", widget: "string"},
-              {label: "Facebooklänk", name: "fblink", widget: "string"},
-              {label: "Instagramlänk", name: "iglink", widget: "string"},
-              {label: "Address info", name: "info", widget: "list", fields: [
-                {label: "Text", name: "text", widget: "string"},
-                {label: "Länk", name: "link", widget: "string", required: false}
-                ]}
-              ]}
-          - {label: "Social media heading", name: "socialheading", widget: "string"}
-          - {label: "Social media icon", name: "socialicon", widget: "list", fields: [
-              {label: "Ikon", name: "icon", widget: "image"},
-              {label: "Länk", name: "link", widget: "string"},
-            ]}
+          - { label: 'Ingress', name: 'ingress', widget: 'text' }
+          - {
+              label: 'Address block',
+              name: 'ablock',
+              widget: 'list',
+              fields:
+                [
+                  { label: 'Heading', name: 'heading', widget: 'string' },
+                  { label: 'Facebooklänk', name: 'fblink', widget: 'string' },
+                  { label: 'Instagramlänk', name: 'iglink', widget: 'string' },
+                  {
+                    label: 'Address info',
+                    name: 'info',
+                    widget: 'list',
+                    fields:
+                      [
+                        { label: 'Text', name: 'text', widget: 'string' },
+                        {
+                          label: 'Länk',
+                          name: 'link',
+                          widget: 'string',
+                          required: false,
+                        },
+                      ],
+                  },
+                ],
+            }
+          - {
+              label: 'Social media heading',
+              name: 'socialheading',
+              widget: 'string',
+            }
+          - {
+              label: 'Social media icon',
+              name: 'socialicon',
+              widget: 'list',
+              fields:
+                [
+                  { label: 'Ikon', name: 'icon', widget: 'image' },
+                  { label: 'Länk', name: 'link', widget: 'string' },
+                ],
+            }
         editor:
           preview: false
-  - name: "projects"
+  - name: 'projects'
     editor:
       preview: false
-    label: "Projekt - Startsida"
-    folder: "site/content/projects"
+    label: 'Projekt - Startsida'
+    folder: 'site/content/projects'
     create: true
     fields:
-      - {label: "Rubrik", name: "title", widget: "string"}
-      - {label: "Bild", name: "image", widget: "image"}
-      - {label: "Innehåll", name: "body", widget: "markdown"}
-      - {label: "Ordning", name: "weight", widget: "number"}
-  - name: "whatwedo"
+      - { label: 'Rubrik', name: 'title', widget: 'string' }
+      - { label: 'Bild', name: 'image', widget: 'image' }
+      - { label: 'Innehåll', name: 'body', widget: 'markdown' }
+      - { label: 'Ordning', name: 'weight', widget: 'number' }
+  - name: 'whatwedo'
     editor:
       preview: false
-    label: "Vad vi gör - Kategorier"
-    folder: "site/content/vad-vi-gor"
+    label: 'Vad vi gör - Kategorier'
+    folder: 'site/content/vad-vi-gor'
     create: true
     fields:
-      - {label: "Rubrik", name: "title", widget: "string"}
-      - {label: "Bild", name: "image", widget: "image"}
-      - {label: "Innehåll", name: "body", widget: "markdown"}
-      - {label: "Ordning", name: "weight", widget: "number"}
-  - name: "whatwedo_subcat"
+      - { label: 'Rubrik', name: 'title', widget: 'string' }
+      - { label: 'Bild', name: 'image', widget: 'image' }
+      - { label: 'Innehåll', name: 'body', widget: 'markdown' }
+      - { label: 'Ordning', name: 'weight', widget: 'number' }
+  - name: 'whatwedo_subcat'
     editor:
       preview: false
-    label: "Vad vi gör - Underkategorier"
-    folder: "site/content/underkategorier/"
+    label: 'Vad vi gör - Underkategorier'
+    folder: 'site/content/underkategorier/'
     create: true
     fields:
-      - {label: "Rubrik", name: "title", widget: "string"}
-      - {label: "Kategori", name: "kategori", widget: "relation", collection: "whatwedo", searchFields: [ "title", "body" ], valueField: "title"}
-      - {label: "Bild", name: "image", widget: "image"}
-      - {label: "Innehåll", name: "body", widget: "markdown"}
-      - {label: "Ordning", name: "weight", widget: "number"}
-  - name: "referenser"
-    label: "Vad vi gör - Referenser"
+      - { label: 'Rubrik', name: 'title', widget: 'string' }
+      - {
+          label: 'Kategori',
+          name: 'kategori',
+          widget: 'relation',
+          collection: 'whatwedo',
+          searchFields: ['title', 'body'],
+          valueField: 'title',
+        }
+      - { label: 'Bild', name: 'image', widget: 'image' }
+      - { label: 'Innehåll', name: 'body', widget: 'markdown' }
+      - { label: 'Ordning', name: 'weight', widget: 'number' }
+  - name: 'referenser'
+    label: 'Vad vi gör - Referenser'
     editor:
       preview: false
-    folder: "site/content/referenser"
+    folder: 'site/content/referenser'
     create: true
     fields:
-      - {label: "Rubrik", name: "title", widget: "string"}
-      - {label: "Underkategori", name: "underkategori", widget: "relation", collection: "whatwedo_subcat", searchFields: [ "title", "body" ], valueField: "title"}
-      - {label: "Innehåll", name: "body", widget: "markdown"}
-      - {label: Bilder, name: "images", widget: list, required: false, fields: [
-          {label: "Bild", name: "image", widget: "image"},
-          {label: "Bildtext", name: "text", widget: "text"}
-      ]}
-      - {label: "Ordning", name: "weight", widget: "number"}
-  - name: "trendmagasin"
-    label: "TRENDmagasin"
+      - { label: 'Rubrik', name: 'title', widget: 'string' }
+      - {
+          label: 'Underkategori',
+          name: 'underkategori',
+          widget: 'relation',
+          collection: 'whatwedo_subcat',
+          searchFields: ['title', 'body'],
+          valueField: 'title',
+        }
+      - { label: 'Innehåll', name: 'body', widget: 'markdown' }
+      - {
+          label: Bilder,
+          name: 'images',
+          widget: list,
+          required: false,
+          fields:
+            [
+              { label: 'Bild', name: 'image', widget: 'image' },
+              { label: 'Bildtext', name: 'text', widget: 'text' },
+            ],
+        }
+      - { label: 'Ordning', name: 'weight', widget: 'number' }
+  - name: 'trendmagasin'
+    label: 'TRENDmagasin'
     editor:
       preview: false
-    folder: "site/content/trendmagasin"
+    folder: 'site/content/trendmagasin'
     create: true
     fields:
-      - {label: "Title", name: "title", widget: "string"}
-      - {label: "Publiceringsdatum", name: "date", widget: "datetime"}
-      - {label: "Image", name: "image", widget: "image"}
-      - {label: "Body", name: "body", widget: "markdown"}
-      - {label: "PDF-fil", name: "pdf_file", widget: "file"}
-  - name: "kontor"
-    label: "Kontor"
+      - { label: 'Title', name: 'title', widget: 'string' }
+      - { label: 'Publiceringsdatum', name: 'date', widget: 'datetime' }
+      - { label: 'Image', name: 'image', widget: 'image' }
+      - { label: 'Body', name: 'body', widget: 'markdown' }
+      - { label: 'PDF-fil', name: 'pdf_file', widget: 'file' }
+  - name: 'kontor'
+    label: 'Kontor'
     editor:
       preview: false
-    folder: "site/content/kontakt"
+    folder: 'site/content/kontakt'
     create: true
     fields:
-      - {label: Titel, name: title, widget: string}
-      - {label: Ingress, name: ingress, widget: text}
-      - {label: Telefon, name: phone, widget: string}
-      - {label: E-postadress, name: email, widget: string}
-      - {label: Koordinater (Lat/Long), name: coordinates, widget: string}
-      - {label: "Besöksadress information", name: "visitinfo", widget: "list", fields: [
-          {label: "Text", name: "text", widget: "string"},
-          {label: "Länk", name: "link", widget: "string", required: false}
-        ]}
-      - {label: "Postadress information", name: "postinfo", widget: "list", required: false, fields: [
-          {label: "Text", name: "text", widget: "string"},
-          {label: "Länk", name: "link", widget: "string", required: false}
-        ]}
-      - {label: Lediga jobb, name: vacant_jobs, widget: list, fields: [
-          {label: Titel, name: title, widget: string},
-          {label: "Innehåll", name: "body", widget: "markdown"}
-        ]}
-      - {label: Medarbetare, name: coworker, widget: list, fields: [
-          {label: Namn, name: name, widget: string},
-          {label: E-postadress, name: email, widget: string},
-          {label: Bild, name: image, widget: image, required: false},
-          {label: Position, name: position, widget: string},
-          {label: Telefonnummer, name: phone, widget: string},
-        ]}
-  - name: "pages"
-    label: "Sidor"
+      - { label: Titel, name: title, widget: string }
+      - { label: Ingress, name: ingress, widget: text }
+      - { label: Telefon, name: phone, widget: string }
+      - { label: E-postadress, name: email, widget: string }
+      - { label: Koordinater (Lat/Long), name: coordinates, widget: string }
+      - {
+          label: 'Besöksadress information',
+          name: 'visitinfo',
+          widget: 'list',
+          fields:
+            [
+              { label: 'Text', name: 'text', widget: 'string' },
+              {
+                label: 'Länk',
+                name: 'link',
+                widget: 'string',
+                required: false,
+              },
+            ],
+        }
+      - {
+          label: 'Postadress information',
+          name: 'postinfo',
+          widget: 'list',
+          required: false,
+          fields:
+            [
+              { label: 'Text', name: 'text', widget: 'string' },
+              {
+                label: 'Länk',
+                name: 'link',
+                widget: 'string',
+                required: false,
+              },
+            ],
+        }
+      - {
+          label: Lediga jobb,
+          name: vacant_jobs,
+          widget: list,
+          fields:
+            [
+              { label: Titel, name: title, widget: string },
+              { label: 'Innehåll', name: 'body', widget: 'markdown' },
+            ],
+        }
+      - {
+          label: Medarbetare,
+          name: coworker,
+          widget: list,
+          fields:
+            [
+              { label: Namn, name: name, widget: string },
+              { label: E-postadress, name: email, widget: string },
+              { label: Bild, name: image, widget: image, required: false },
+              { label: Position, name: position, widget: string },
+              { label: Telefonnummer, name: phone, widget: string },
+            ],
+        }
+  - name: 'pages'
+    label: 'Sidor'
     editor:
       preview: false
     files:
-      - file: "site/content/_index.md"
-        label: "Startsida"
-        name: "home"
+      - file: 'site/content/_index.md'
+        label: 'Startsida'
+        name: 'home'
         fields:
-          - {label: Huvudrubrik, name: title, widget: text}
-          - {label: Underrubrik, name: subheading, widget: text, required: false}
-          - {label: Bilder,
-            name: "images",
-            widget: list,
-            fields: [
-              {label: "Bild", name: "image", widget: "image"},
-              {label: "Text", name: "text", widget: "string"},
-              {label: "Länk", name: "link", widget: "string"}
-          ]}
-          - {label: Rubrik Projektslider, name: slider_heading, widget: string, required: false}
-          - {label: Text Projektslider, name: slider_text, widget: text, required: false}
-          - {label: Partners, name: partners, widget: list, fields: [
-              {label: "Image", name: "image", widget: "image"}
-            ]}
-      - file: "site/content/kontakt/_index.md"
-        label: "Kontakt"
-        name: "kontakt"
+          - { label: Huvudrubrik, name: title, widget: text }
+          - {
+              label: Underrubrik,
+              name: subheading,
+              widget: text,
+              required: false,
+            }
+          - {
+              label: Bilder,
+              name: 'images',
+              widget: list,
+              fields:
+                [
+                  { label: 'Bild', name: 'image', widget: 'image' },
+                  { label: 'Text', name: 'text', widget: 'string' },
+                  { label: 'Länk', name: 'link', widget: 'string' },
+                ],
+            }
+          - {
+              label: Rubrik Projektslider,
+              name: slider_heading,
+              widget: string,
+              required: false,
+            }
+          - {
+              label: Text Projektslider,
+              name: slider_text,
+              widget: text,
+              required: false,
+            }
+          - {
+              label: Partners,
+              name: partners,
+              widget: list,
+              fields: [{ label: 'Image', name: 'image', widget: 'image' }],
+            }
+      - file: 'site/content/kontakt/_index.md'
+        label: 'Kontakt'
+        name: 'kontakt'
         fields:
-          - {label: Title, name: title, widget: string}
-          - {label: Logo, name: logo, widget: image}
-          - {label: Body, name: body, widget: markdown}
-      - file: "site/content/om-oss/_index.md"
-        label: "Om oss"
-        name: "om-oss"
+          - { label: Title, name: title, widget: string }
+          - { label: Logo, name: logo, widget: image }
+          - { label: Body, name: body, widget: markdown }
+      - file: 'site/content/om-oss/_index.md'
+        label: 'Om oss'
+        name: 'om-oss'
         fields:
-          - {label: Title, name: title, widget: string}
-          - {label: Body, name: body, widget: markdown}
+          - { label: Title, name: title, widget: string }
+          - { label: Body, name: body, widget: markdown }
