@@ -1,29 +1,29 @@
-<footer id="site-footer" class="bg-grey-1 ph3 pv4">
+<footer id="site-footer" class="bg-alvik-4 ph3 pv4">
 
 	<div class="mw8 center">
 		<div class="flex-ns flex-wrap-ns">
 			<div class="w-25-ns ph3">
 				<img src="{{ .Site.Data.global.logo }}" alt="">
-				<p class="mv3">{{ .Site.Data.footer.ingress }}</p>
-				<small>{{ .Site.Data.global.copy }} {{ now.Format "2006" }}</small>
+				<p class="white mv3">{{ .Site.Data.footer.ingress }}</p>
+				<small class="white">{{ .Site.Data.global.copy }} {{ now.Format "2006" }}</small>
 			</div>
 			<div class="w-75-ns">
 				<div class="flex-ns flex-wrap-ns">
 					{{ range .Site.Data.footer.ablock}}
 						<div class="w-third-ns mb4 ph3">
 							<ul>
-								<li class="f4 b lh-title mb2 black">{{ .heading }}</li>
+								<li class="f4 b lh-title mb2 white">{{ .heading }}</li>
 								{{ range .info }}
 									{{ if .link }}
-										<li><a {{ printf "href=%q" .link | safeHTMLAttr }}>{{ .text }}</a></li>
+										<li class="white"><a {{ printf "href=%q" .link | safeHTMLAttr }}>{{ .text }}</a></li>
 									{{ else }}
-										<li>{{ .text }}</li>
+										<li class="white">{{ .text }}</li>
 									{{ end }}
 								{{ end }}
 							</ul>
 							<div class="mt3">
 								{{ if or (or (.fblink) (.iglink)) }}
-									<h5 class="f5 b lh-title mb2 black">Social media</h5>
+									<h5 class="f5 b lh-title mb2 white">Social media</h5>
 								{{ end }}
 								<ul class="mhn2">
 									{{ if .fblink}}
