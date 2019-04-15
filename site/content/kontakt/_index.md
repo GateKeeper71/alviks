@@ -5,6 +5,6 @@ text: >-
   arbeta tillsammans med oss.
 
 
-  Klicka på ett av våra kontor för att ta dig vidare.
+  Klicka nedan på ett av våra kontor för att ta dig vidare.
 ---
 
