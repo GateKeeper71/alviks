@@ -34,7 +34,6 @@
 	left: 0;
 	right: 0;
 	left: 0;
-	opacity: 0.9;
 }
 
 /**
@@ -245,6 +244,7 @@
 
 	.c-fixedHeader__slideMenu {
 		left: auto;
+		opacity: 0.9;
 	}
 
 	.c-fixedHeader__sideMenu {
