@@ -1,8 +1,4 @@
 ---
 title: Kontakt
-logo: /img/alviks-building-with-birds.jpg
-contact_entries:
-  - heading: Test
-    text: Text
+text: Vi hoppas du kontaktar oss, oavsett om det är du som kund eller om du önskar arbeta tillsammans med oss.
 ---
-Vi hoppas du kontaktar oss, oavsett om det är du som kund eller om du önskar arbeta tillsammans med oss.
