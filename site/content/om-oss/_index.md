@@ -1,5 +1,5 @@
 ---
-title: Om oss
+title: LÄR KÄNNA OSS BÄTTRE
 ---
 **På Alviks Måleri är vi 125 medarbetare som målar och förskönar Sverige.**
 
