@@ -1,6 +1,7 @@
 ingress: >-
-  Till oss är du välkommen med allt från små servicejobb till stora
-  målerientreprenader.
+  Vi är det enda måleriet i Stockholm med specialkompetenser inom
+  industriklättring, dekorationsmålning, färgsättning och målerikonservering och
+  har över 20års erfarenhet inom måleriet.
 ablock:
   - fblink: 'https://www.facebook.com/alviksmaleristockholm'
     heading: Stockholm
@@ -24,7 +25,7 @@ ablock:
         text: uppsala@alviksmaleri.se
   - fblink: 'https://www.facebook.com/mpaalviks/'
     heading: Västerås
-    iglink: 'https://www.instagram.com/alviksmaleri/'
+    iglink: ''
     info:
       - text: Västeråsvägen 31
       - text: 812 23
@@ -32,7 +33,7 @@ ablock:
         text: 08 - 123 45 67
       - link: 'mailto:johannes.jansson@mpaalviksmaleri.se'
         text: johannes.jansson@mpaalviksmaleri.se
-socialheading: Social media
+socialheading: VI ÄR SOCIALA!
 socialicon:
   - icon: /img/fb-f-logo__blue_50.png
     link: 'https://www.facebook.com/alviksmaleristockholm'
