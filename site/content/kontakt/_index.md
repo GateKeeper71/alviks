@@ -15,6 +15,6 @@ text: >-
   Om du intresserad av att bli inspirerad av olika väggmaterial och inredning,
   så boka gärna en tid med vår arkitekt Anne i förväg, så kan ni fika eller
   luncha i en inspirerande miljö i Bromma och snacka lite om färg- och
-  ljussättning i ett rum.
+  ljussättning i rummet.
 ---
 
