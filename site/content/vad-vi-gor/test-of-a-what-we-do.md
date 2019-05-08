@@ -1,15 +1,7 @@
 ---
-title: 'Vanlig målning, ovanligt bra eller upplevelse'
+title: 'VANLIG MÅLNING '
 image: /img/_dsc3919.jpg
 weight: '10'
-subcategories:
-  - title: Underkategori
-    image: /img/342342.jpg
-    body: Detta är en informationstext om underkategorin
-    weight: '10'
-  - title: Underkategori 2
-    image: /img/about-jumbotron.jpg
-    body: Detta är en text om denna underkategori
 ---
 Vad är vanlig målning och vad är ovanligt bra?
 
