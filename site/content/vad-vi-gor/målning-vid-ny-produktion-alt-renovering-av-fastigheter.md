@@ -1,5 +1,5 @@
 ---
-title: Om- & Nybyggnadsmålning
+title: OM - & NYBYGGNADSMÅLNING
 image: /img/about-direct-sourcing.jpg
 weight: '99'
 ---
