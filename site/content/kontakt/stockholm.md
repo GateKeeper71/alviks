@@ -21,19 +21,20 @@ vacant_jobs:
     title: Trappexpert
 coworker:
   - email: daniel.andersson@alviksmaleri.se
-    image: /img/daniel.jpg
-    name: Daniel Andresson
+    image: /img/dsc_0012.png
+    name: DANIEL ANDERSSON
     phone: 073-660 61 03
     position: >-
       Delägare. Teamledare och försäljningschef med fokus på försäljning inom
       BRF och ramavtal.
   - email: lars-erik.jonsson@alviksmaleri.se
     image: /img/lars-erik.jpg
-    name: Lars-Erik Jonsson
+    name: LARS-ERIK JONSSON
     phone: 073-660 61 01
     position: VD och delägare. Teamledare med fokus på måleri inom ny- och ombyggnation
   - email: sebastian.persson@alviksmaleri.se
-    name: Sebastian Persson
+    image: /img/_dsc7781-nr-1-redigera.jpg
+    name: SEBASTIAN PERSSON
     phone: 073 660 61 55
     position: >-
       Teamledare med fokus på måleri inom ny- och ombyggnation samt privata
@@ -54,8 +55,8 @@ coworker:
     phone: 073-660 61 08
     position: Ekonomiansvarig
   - email: joachim.olsson@alviksmaleri.se
-    image: /img/33.jpg
-    name: Joachim Olsson
+    image: /img/_dsc7877-bild-1.jpg
+    name: JOACHIM OLSSON
     phone: 073-660 61 73
     position: Teamledare med fokus på måleri inom BRF och ramavtal.
   - email: stefan.pettersson@alviksmaleri.se
@@ -74,8 +75,8 @@ coworker:
     phone: 073-660 61 67
     position: Teamledare med fokus på måleri inom BRF och ramavtal.
   - email: hans-ake.wennerstrand@alviksmaleri.se
-    image: /img/37.jpg
-    name: Hans-Åke Wennerstrand
+    image: /img/dsc_0016.jpg
+    name: HANS-ÅKE WENNERSTRAND
     phone: 072-394 95 90
     position: Kvalitets- och miljöansvarig.
   - email: jim.wikstrom@alviksmaleri.se
@@ -89,23 +90,25 @@ coworker:
     phone: 073-660 61 10
     position: Löneadministratör.
   - email: anders.larm@alviksmaleri.se
-    image: /img/male-avatar-profile-picture-use-260nw-193292033.jpg
-    name: Anders Larm
+    image: /img/_dsc4792-redigera.jpg
+    name: ANDERS LARM
     phone: 073-660 61 62
     position: Ansvarig för Verksamhetsutveckling.
   - email: ' fredrik.kristland@alviksmaleri.se'
-    image: /img/4324324.jpg
-    name: Fredrik Kristland
+    image: /img/_dsc8034-redigera.jpg
+    name: FREDRIK KRISTLAND
     phone: 073-660 61 09
     position: Arbetsledare med fokus på måleri inom BRF och ramavtal.
   - email: anne.purzel@alviksmaleri.se
     image: /img/anne.jpg
-    name: Anne Pürzel
+    name: ANNE PURZEL
     phone: 073-660 61 12
-    position: Arkitekt med fokus på färgsättningar.
+    position: >-
+      Arkitekt (B.A.) med fokus på färgsättningar. Architectural Lighting
+      Designer (M.Sc.). Grafisk Design Assistent. Ansvarig för Social Media.
   - email: mikael.wilking@alviksmaleri.se
-    image: /img/mw.jpg
-    name: Mikael Wilking
+    image: /img/dsc_0046.png
+    name: MIKAEL WILKING
     phone: 073-660 61 79
     position: Projektledare med fokus på måleri inom ny- och ombyggnation.
 ---
