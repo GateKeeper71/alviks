@@ -1,5 +1,5 @@
 ---
-title: HÄR MÅLAR OCH FÄRGSÄTTER VI
+title: 'HÄR MÅLAR VI '
 text: >-
   <p>Alviks Måleri AB finns i tre städer i Sverige: Stockholm, Uppsala och
   Västerås.
