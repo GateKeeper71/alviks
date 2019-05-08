@@ -1,5 +1,5 @@
 ---
-title: Färgsättning
+title: FÄRGSÄTTNING I OFFENTLIGA MILJÖ
 image: /img/_dsc0239.jpg
 weight: '30'
 ---
