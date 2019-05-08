@@ -1,7 +1,5 @@
 ---
-title: >-
-  Industri klättrare. Arbeten där ställning eller skylift ej är att föredra
-  eller kan användas.
+title: INDUSTRIKLÄTTRING
 image: /img/_mg_2707.jpg
 weight: '40'
 ---
