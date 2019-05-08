@@ -1,5 +1,5 @@
 ---
-title: TOTALENTREPRENAD
+title: TOTALENTREPRENAD / SAMORDNING
 image: /img/_dsc3912.jpg
 weight: '80'
 ---
