@@ -1,5 +1,5 @@
 ---
-title: TOTALENTREPRENAD / SAMORDNING
+title: TOTALENTREPRENAD / SAMORDNINGSANSVARIG
 image: /img/_dsc3912.jpg
 weight: '80'
 ---
