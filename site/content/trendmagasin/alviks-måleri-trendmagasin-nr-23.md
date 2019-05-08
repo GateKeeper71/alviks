@@ -1,5 +1,5 @@
 ---
-title: Alviks Måleri TRENDmagasin nr. 23
+title: Alviks Måleri TRENDmagasin Nr. 23
 date: '2019-05-08T14:12:58+02:00'
 image: /img/instagram-8315.jpg
 pdf_file: /img/framsida-magasin-6-1024x517.jpg
