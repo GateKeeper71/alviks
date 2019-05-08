@@ -1,5 +1,5 @@
 ---
-title: Totalentreprenad
+title: TOTALENTREPRENAD
 image: /img/_dsc3912.jpg
 weight: '80'
 ---
