@@ -1,5 +1,5 @@
 ---
-title: Plåt taksmålning
+title: PLÅTTAKSMÅLNING
 image: /img/img_0597-effects.jpg
 weight: '40'
 ---
