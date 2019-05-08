@@ -1,5 +1,5 @@
 ---
-title: Dekorationsmålning
+title: DEKORATIONSMÅLNING
 image: /img/_dsc5242.jpg
 weight: '40'
 ---
