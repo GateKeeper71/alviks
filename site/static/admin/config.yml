@@ -230,6 +230,17 @@ collections: # A list of collections the CMS should be able to edit
               { label: Telefonnummer, name: phone, widget: string },
             ],
         }
+  - name: 'branscher'
+    label: 'Branscher'
+    editor:
+      preview: false
+    folder: 'site/content/branscher'
+    create: true
+    fields:
+      - { label: 'Rubrik', name: 'title', widget: 'string' }
+      - { label: 'Bild', name: 'image', widget: 'image' }
+      - { label: 'Innehåll', name: 'body', widget: 'markdown' }
+      - { label: 'Ordning', name: 'weight', widget: 'number' }
   - name: 'pages'
     label: 'Sidor'
     editor:
@@ -273,7 +284,7 @@ collections: # A list of collections the CMS should be able to edit
               label: Partners,
               name: partners,
               widget: list,
-              fields: [{ label: 'Image', name: 'image', widget: 'image' }],
+              fields: [{ label: 'Bild', name: 'image', widget: 'image' }],
             }
       - file: 'site/content/kontakt/_index.md'
         label: 'Kontakt'

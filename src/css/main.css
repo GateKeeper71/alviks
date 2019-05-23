@@ -111,6 +111,7 @@
 @import './custom/components/sections/list-workers.css';
 @import './custom/components/sections/textImage.css';
 @import './custom/components/sections/services-grid.css';
+@import './custom/components/sections/industries-grid.css';
 
 @import './custom/objects/button.css';
 @import './custom/objects/single.css';
