@@ -1,5 +1,5 @@
 ---
-title: FÖNSTER - & FASADMÅLNING
+title: FÖNSTER- & FASADMÅLNING
 image: /img/img_0750.jpg
 weight: '70'
 ---
