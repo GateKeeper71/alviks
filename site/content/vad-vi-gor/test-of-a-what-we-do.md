@@ -1,5 +1,5 @@
 ---
-title: 'VANLIG MÅLNING '
+title: 'VANLIG MÅLNING, OVANLIGT BRA'
 image: /img/_dsc3919.jpg
 weight: '10'
 ---
