@@ -1,7 +1,7 @@
 ---
 title: FÄRGSÄTTNING
 image: /img/_dsc0239.jpg
-weight: '30'
+weight: '20'
 ---
 En genomtänkt färgsättning är A och O för allt som ska målas! Vi färgsätter allt från trapphus, kontor, sjukhus, skolor, förskolor, butiker m.m. Med hjälp av en genomtänkt färgsättning ökar vi trivseln, ökar värdet, ökar försäljningen, eller det ni önskar uppnå med färgsättningen.
 
