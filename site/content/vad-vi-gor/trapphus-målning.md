@@ -1,5 +1,5 @@
 ---
-title: TRAPPHUSMÅLNING
+title: KLASSISK TRAPPHUSMÅLNING
 image: /img/instagram-5568.jpg
 weight: '20'
 ---
