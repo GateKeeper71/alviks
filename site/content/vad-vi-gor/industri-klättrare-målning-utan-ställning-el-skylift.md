@@ -1,5 +1,5 @@
 ---
-title: INDUSTRIKLÄTTRING
+title: INDUSTRIKLÄTTRING OCH REPARBETEN
 image: /img/_mg_2707.jpg
 weight: '40'
 ---
