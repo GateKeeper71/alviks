@@ -1,5 +1,5 @@
 ---
-title: RESTAURERING OCH MÅLERIKONSERVERING
+title: MÅLERIKONSERVERING
 image: /img/342342.jpg
 weight: '50'
 ---
