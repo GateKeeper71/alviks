@@ -1,7 +1,7 @@
 ---
 title: MÅLERIKONSERVERING
 image: /img/342342.jpg
-weight: '80'
+weight: '90'
 ---
 Många av våra uppdrag innebär att vi rör oss i kulturhistoriskt intressanta miljöer som i många fall är skyddsklassade. Värdefulla originalmålningar ställer krav på lyhördhet och respekt. Om det rör sig om försiktig rengöring eller endast renovering av målningar gäller det att ha rätt inställning när man tar sig an uppgiften. Arbetena sker i samarbete med antikvarier och representanter från myndigheter för att säkerställa kvalitén.
 
