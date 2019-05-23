@@ -1,22 +1,35 @@
-<div class="mw8 center c-partialProjectSlider">
-    <button class="c-partialProjectSlider__leftButton"><</button>
+<section>
+	<div class="mb4 flex w-100 flex-column items-center">
+		<div class="mw6">
+			<h3 class="f2 lh-title b mb3 alvik-4">
+				{{ .Param "slider_heading" }}
+			</h3>
+			<p class="f4">
+				{{ .Param "slider_text" }}
+			</p>
+		</div>
+	</div>
+	<div class="mw8 center c-partialProjectSlider">
+		<button class="c-partialProjectSlider__leftButton"><</button>
 
-    <div class="c-partialProjectSlider__frame">
-        <ul class="c-partialProjectSlider__wrapper">
+		<div class="c-partialProjectSlider__frame">
+			<ul class="c-partialProjectSlider__wrapper">
 
-            {{ range (where .Site.Pages "Type" "projects") }}
-                {{ if isset .Params "image" }}
+				{{ range (where .Site.Pages "Type" "projects") }}
+					{{ if isset .Params "image" }}
 
-                    <a href="{{ .Permalink }}" class="c-partialProjectSlider__project">
-                        <img src="{{ .Params.Image }}" alt="Project image">
-                        <p>{{ .Summary }}</p>
-                    </a>
+						<a href="{{ .Permalink }}" class="c-partialProjectSlider__project">
+							<img src="{{ .Params.Image }}" alt="Project image">
+							<p>{{ .Summary }}</p>
+						</a>
 
-                {{ end }}
-            {{ end }}
+					{{ end }}
+				{{ end }}
 
-        </ul>
-    </div>
+			</ul>
+		</div>
 
-    <button class="c-partialProjectSlider__rightButton">></button>
-</div>
+		<button class="c-partialProjectSlider__rightButton">></button>
+	</div>
+	<a class="c-sectionServicesGrid__link" href="/referenser">Fler referenser</a>
+</section>

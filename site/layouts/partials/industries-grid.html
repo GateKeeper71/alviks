@@ -1,18 +1,12 @@
 <section class="c-sectionIndustriesGrid bg-alvik-4">
-	<div class="container center">
+	<div class="container center mw8">
 		<ul>
-			{{ range $index, $value := (where .Site.Pages "Section" "branscher").ByParam "weight" }}
+			{{ range ($.Site.GetPage "taxonomyTerm" "branscher").Pages }}
 			<li class="c-sectionIndustriesGrid__item">
 				<img src="http://localhost:3000/img/342342.jpg">
-				<h4 class="f4 b">Bygg- / Bygglednings-företag</h4>
-				<p>
-					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas congue ac mi eu egestas. Praesent
-					eros
-					purus, tempor id orci id, interdum mollis nibh. Duis pharetra, risus ut fringilla pulvinar, leo nibh
-					posuere odio, vitae bibendum magna ante et sapien. Nullam at nisi tempus, pulvinar est sit amet,
-					eleifend odio.
-				</p>
-				<a href="#">Läs mer</a>
+				<h4 class="f4 b">{{ .Title }}</h4>
+				<p>{{ .Content }}</p>
+				<a href="{{ .Permalink }}">Läs mer</a>
 			</li>
 			{{ end }}
 		</ul>
