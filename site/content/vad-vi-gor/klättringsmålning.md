@@ -1,7 +1,7 @@
 ---
 title: FÖNSTER- & FASADMÅLNING
 image: /img/img_0750.jpg
-weight: '70'
+weight: '90'
 ---
 Föroreningar i luften tillsammans med ett mycket varierande klimat gör att det blir mycket påfrestningar på fönster och fasader i vårt land. Vi kan hjälpa er, så att ni får rätt förutsättningar för att era fasader ska hålla sig vackra länge.
 
