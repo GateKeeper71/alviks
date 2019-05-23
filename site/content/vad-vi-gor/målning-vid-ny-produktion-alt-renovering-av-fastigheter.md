@@ -1,6 +1,6 @@
 ---
 title: OM - & NYBYGGNADSMÅLNING
-image: /img/about-direct-sourcing.jpg
+image: /img/alviks-building-with-birds.jpg
 weight: '96'
 ---
 Vi har lång erfarenhet av att måla ny- och ombyggnadsprojekt. Vi skräddarsyr våra Team och är nyfikna på att prova nya arbetssätt och produkter för att göra målningsprocessen ännu effektivare i samverkan med dig som kund. Och samverkansprojekt/partenering gör vi gärna i ännu flera projekt.
