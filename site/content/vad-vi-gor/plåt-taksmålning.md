@@ -1,7 +1,7 @@
 ---
 title: PLÅTTAKSMÅLNING
 image: /img/img_0597-effects.jpg
-weight: '70'
+weight: '80'
 ---
 Ett plåttak håller inte hur länge som helst. Däremot kan du med rätt underhåll förlänga livslängden.
 
