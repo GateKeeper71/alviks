@@ -1,5 +1,5 @@
 ---
-title: 'MÅLNING AV MODERNA ROSTVÄGGAR, BETONG ELLER KALKFÄRG'
+title: 'DESIGN-YTBEHANDLINGAR: ROST, BETONG, KALK'
 image: /img/_dsc3760.jpg
 weight: '5'
 ---
