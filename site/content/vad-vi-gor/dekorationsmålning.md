@@ -3,7 +3,7 @@ title: DEKORATIONSMÅLNING
 image: /img/_dsc5242.jpg
 weight: '40'
 ---
-Dekorationsmålning sker ofta vid trapphusrenoveringar. Där kan det gälla att återskapa snickeriernas ådringsmålning eller att ge nya säkerhetsdörrar en känsla av gediget trä. Marmoreringar och olika former av stenimitation görs ofta i trapphusen. Olika typer av dekorationsmålning i form av väggmotiv, bårder och ornamentik är vanliga uppgifter. Även olika stuccotekniker förekommer. Ofta finns det originalmålningar bevarade som ska kompletteras eller bättringsmålas.
+Dekorationsmålning sker ofta vid trapphusrenoveringar. Där kan det gälla att återskapa snickeriernas ådringsmålning eller att ge nya säkerhetsdörrar en känsla av gediget trä. Marmoreringar och olika former av stenimitation görs ofta i trapphusen. Olika typer av dekorationsmålning i form av väggmotiv, bårder och ornamentik är vanliga uppgifter. Ofta finns det originalmålningar bevarade som ska kompletteras eller bättringsmålas.
 
 Vi vet hur man tar sig an de olika uppgifterna inom detta område samt vilka tekniker och material som kan användas för att resultatet ska bli bra och hållbart. 
 
