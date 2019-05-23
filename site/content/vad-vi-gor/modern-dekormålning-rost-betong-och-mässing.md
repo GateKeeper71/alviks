@@ -1,6 +1,6 @@
 ---
 title: 'DESIGN-YTBEHANDLINGAR: ROST, BETONG, KALK'
 image: /img/_dsc3760.jpg
-weight: '5'
+weight: '35'
 ---
 dfgdfgdfg
