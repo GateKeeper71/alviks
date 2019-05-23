@@ -1,6 +1,6 @@
 ---
 title: MODERN TRAPPHUSMÅLNING
 image: /img/_dsc4372.jpg
-weight: '55'
+weight: '60'
 ---
 ölkajsdf
