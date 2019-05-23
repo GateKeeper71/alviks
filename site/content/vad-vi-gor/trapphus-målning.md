@@ -1,7 +1,7 @@
 ---
 title: TRAPPHUSMÅLNING
 image: /img/instagram-5568.jpg
-weight: '3'
+weight: '15'
 ---
 **Vill ni ha ett snyggare trapphus och en välkommande känsla i huset?**\
 Genom att färgsätta, måla om och renovera ert trapphus på ett genomtänkt sätt så skapas både trivsel och ett högre värde på fastigheten och därmed de enskilda bostadsrätterna vid Brf.
