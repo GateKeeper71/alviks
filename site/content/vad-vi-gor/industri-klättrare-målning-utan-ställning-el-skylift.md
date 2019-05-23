@@ -1,7 +1,7 @@
 ---
 title: INDUSTRIKLÄTTRING & REPARBETEN
 image: /img/_mg_2707.jpg
-weight: '40'
+weight: '46'
 ---
 Hur ska vi komma åt att renovera takfoten? Hur ska vi bättra skadan högt upp på fasaden? Vilka hjälpmedel behöver vi för att måla fasaden, måla stålbalkarna, putsa fönster mm?
 
