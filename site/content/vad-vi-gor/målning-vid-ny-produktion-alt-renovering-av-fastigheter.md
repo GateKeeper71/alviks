@@ -3,6 +3,8 @@ title: OM - & NYBYGGNADSMÅLNING
 image: /img/alviks-building-with-birds.jpg
 weight: '96'
 ---
-Vi har lång erfarenhet av att måla ny- och ombyggnadsprojekt. Vi skräddarsyr våra Team och är nyfikna på att prova nya arbetssätt och produkter för att göra målningsprocessen ännu effektivare i samverkan med dig som kund. Och samverkansprojekt/partenering gör vi gärna i ännu flera projekt.
+Vi har lång erfarenhet av att måla ny- och ombyggnadsprojekt. Vi skräddarsyr våra team och förbättrar ständigt våra arbetssätt och produkter för att göra målningsprocessen ännu effektivare i samverkan med dig som kund. 
 
-Det bästa är när vi kan komma in i tidigt skede så att vi kan säkerställa att det blir rätt Team och att vår erfarenhet kan tas tillvara i planeringen. Välkommen att kontakta oss, oavsett om du är intresserad av samverkan eller traditionell entreprenadform.
+Idag har vi goda erfarenheter av samverkansprojekt/partnering och vill gärna utveckla detta ännu mer. Ju tidigare vi kan börja samarbeta och planera tillsammans, desto mer nytta kan vi tillföra till projektet. 
+
+Välkommen att kontakta oss, oavsett om du är intresserad av samverkan eller traditionell entreprenadform.
