@@ -1,6 +1,6 @@
 ---
-title: 'Modern dekormålning - rost, betong och mässing '
+title: 'DESIGN-YTBEHANDLINGAR: ROST, BETONG, KALK'
 image: /img/_dsc3760.jpg
-weight: '5'
+weight: '40'
 ---
 dfgdfgdfg

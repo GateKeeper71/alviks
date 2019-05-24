@@ -1,8 +1,8 @@
 ---
-title: 'Trendmagasin #22'
-date: '2018-11-06T07:49:38+01:00'
-image: /img/trend22-framsida.jpg
-pdf_file: /img/trend22.pdf
+title: Alviks Måleri TRENDmagasin Nr. 23
+date: '2019-05-08T14:12:58+02:00'
+image: /img/instagram-8315.jpg
+pdf_file: /img/framsida-magasin-6-1024x517.jpg
 ---
 <div data-configid="31181722/68088490" style="width:100%; height:517px;" class="issuuembed"></div>
 

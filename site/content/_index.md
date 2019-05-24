@@ -1,24 +1,24 @@
 ---
 title: |-
-  Vi är ett måleri med över 120 målare
+  Vi är ett måleri med c:a 240 medarbetare
   i Stockholm,
   Uppsala och Västerås.HEJ!
 subheading: >-
-  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy
-  nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi
-  enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis
-  nisl ut aliquip ex ea commodo consequat. Duis autem
+  Vi strävar hela tiden efter att bli den självklara valet för dig som kund och
+  dig som medarbetare. Vi hoppas kunna uppnå detta genom att vi bryr oss, att vi
+  är i framkant och att vi är lätta att samarbeta med. 
 images:
   - image: /img/Villa-cropped.jpg
-    link: 'https://nervous-easley-ac4f7a.netlify.com/vad-vi-gor/totalentreprenad/'
+    link: >-
+      https://nervous-easley-ac4f7a.netlify.com/vad-vi-gor/totalentreprenad-/-samordningsansvarig/
     text: Villa
   - image: /img/Industriklättrare-cropped.jpg
     link: >-
-      https://nervous-easley-ac4f7a.netlify.com/vad-vi-gor/industri-kl%C3%A4ttrare.-arbeten-d%C3%A4r-st%C3%A4llning-eller-skylift-ej-%C3%A4r-att-f%C3%B6redra-eller-kan-anv%C3%A4ndas./
+      https://nervous-easley-ac4f7a.netlify.com/vad-vi-gor/industrikl%C3%A4ttring--reparbeten/
     text: Industriklättrare
   - image: /img/Flamingo-cropped.jpg
     link: >-
-      https://nervous-easley-ac4f7a.netlify.com/vad-vi-gor/vanlig-m%C3%A5lning-ovanligt-bra-eller-upplevelse/
+      https://nervous-easley-ac4f7a.netlify.com/vad-vi-gor/vanlig-m%C3%A5lning-ovanligt-bra/
     text: Flamingo
   - image: /img/Rostfärg-cropped.jpg
     link: >-
