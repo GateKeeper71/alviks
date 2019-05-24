@@ -2,7 +2,7 @@
 title: |-
   Vi är ett måleri med c:a 240 medarbetare
   i Stockholm,
-  Uppsala och Västerås.HEJ!
+  Uppsala och Västerås.
 subheading: >-
   Vi strävar hela tiden efter att bli den självklara valet för dig som kund och
   dig som medarbetare. Vi hoppas kunna uppnå detta genom att vi bryr oss, att vi
