@@ -5,8 +5,8 @@ title: |-
   Uppsala och Västerås.
 subheading: >-
   Vi strävar hela tiden efter att bli den självklara valet för dig som kund och
-  dig som medarbetare. Vi hoppas kunna uppnå detta genom att vi bryr oss, vi är
-  i framkant och vi är lätta att samarbeta med. 
+  dig som medarbetare. Vi hoppas kunna uppnå detta genom att vi bryr oss, att vi
+  är i framkant och att vi är lätta att samarbeta med. 
 images:
   - image: /img/Villa-cropped.jpg
     link: >-
