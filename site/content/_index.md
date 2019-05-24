@@ -4,10 +4,9 @@ title: |-
   i Stockholm,
   Uppsala och Västerås.
 subheading: >-
-  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy
-  nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi
-  enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis
-  nisl ut aliquip ex ea commodo consequat. Duis autem
+  Vi strävar hela tiden efter att bli den självklara valet för dig som kund och
+  dig som medarbetare. Vi hoppas kunna uppnå detta genom att vi bryr oss, vi är
+  i framkant och vi är lätta att samarbeta med. 
 images:
   - image: /img/Villa-cropped.jpg
     link: >-
