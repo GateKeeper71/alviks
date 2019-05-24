@@ -9,4 +9,4 @@ Att jobba med äldre fastigheter, kyrkor, slott m.m. som har ett kulturhistorisk
 
 Erfarenhet och kunskap utöver det traditionella måleriet i dessa uppdrag finns hos oss och det kan bestå av olika former av tekniker som att lägga bladguld, äggoljetempera, retuschera, återskapa, målning med linoljefärger oavsett om det är utvändigt eller invändigt.  
 
-Vi har ett väl förankrat samarbete med antikvarier, konservatorer, arkitekter och leverantörer när det gällande denna typ av uppdrag.
+Utöver att vi har egen konservator så har vi ett väl förankrat samarbete med antikvarier, konservatorer, arkitekter och leverantörer när det gällande denna typ av uppdrag.
