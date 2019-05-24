@@ -5,12 +5,12 @@ weight: '10'
 ---
 Vad är vanlig målning och vad är ovanligt bra?
 
-Det är lätt att tro att du som kund skall veta exakt vilken färgsättning eller färgtyp som skall användas.
+Det är lätt att tro att ni som kund ska veta exakt vilken färgsättning eller färgtyp som bör användas.
 
-Något av det bästa vi vet är när en kund beskriver så här vill jag uppleva det här huset, rummet, kontoret, trapphuset mm.
+Något av det bästa vi vet är när en kund beskriver att såhär vill jag uppleva det här huset, rummet, kontoret, trapphuset etc.
 
-Det kan vara önskemål som tex industrikänsla, ombonad, tidstypiskt, mysigt, uppiggande mm.
+Det kan vara önskemål som till exempel industrikänsla, ombonad, tidstypiskt, mysigt, uppiggande mm.
 
-Här är det bara fantasin som sätter gränser och det är väldigt stimulerande att arbeta med känslan upplevelse för oss.
+Här är det bara fantasin som sätter gränser och det är väldigt stimulerande för oss att få skapa upplevelser för er.
 
-Är du nyfiken eller har frågor så kontakta oss….
+Är du nyfiken eller har frågor så kontakta oss.
