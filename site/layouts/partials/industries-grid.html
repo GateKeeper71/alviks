@@ -3,7 +3,7 @@
 		<ul>
 			{{ range ($.Site.GetPage "taxonomyTerm" "branscher").Pages }}
 			<li class="c-sectionIndustriesGrid__item">
-				<img src="http://localhost:3000/img/342342.jpg">
+				<img src="{{ .Params.image }}">
 				<h4 class="f4 b">{{ .Title }}</h4>
 				<p>{{ .Content }}</p>
 				<a href="{{ .Permalink }}">Läs mer</a>

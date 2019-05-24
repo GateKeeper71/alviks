@@ -3,3 +3,4 @@ dist/
 /npm-debug.log
 yarn-error.log
 .DS_Store
+site/static/js/lunr/PagesIndex.json
