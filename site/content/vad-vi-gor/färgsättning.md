@@ -11,7 +11,6 @@ Vid en färgsättning är det många saker att ta hänsyn till, t.ex. äldre tra
 
 Kontakta oss gärna, så berättar vi mer om hur vi kan hjälpa er med rätt färgsättning.
 
-\
 **FÄRGSÄTTNING AV TRAPPHUS
 **Ett fint och välkommande trapphus lyfter fram fastigheten och ökar värdet vid lägenhetsförsäljningar. 
 Vi har en anställd arkitekt på Alviks Måleri som är specialiserad på färgsättningar i trapphus.
