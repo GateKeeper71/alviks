@@ -1,5 +1,5 @@
 ---
-title: DESIGN - YTBEHANDLINGAR
+title: 'DESIGN - YTBEHANDLINGAR: ROST, KALK, BETONG MM.'
 image: /img/Rostfärg-cropped.jpg
 weight: '34'
 ---
