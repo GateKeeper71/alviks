@@ -28,7 +28,7 @@ En ådring imiterar ett träslag. Det är bra att använda i trapphus och entré
 
 En marmorering imiterar en stensort som t.ex. kolmårdsmarmor eller rouge royal.
 
-**2. SCHBABLONMÅLNING**
+**2. SCHABLONMÅLNING**
 
 Upprepningsmönster och bårder utförs ofta med schabloner för enkel repetition på väggar eller i tak. 
 
@@ -45,8 +45,6 @@ En påkostad och fin ytbehandling är Stucco Lustro som är klassisk och väldig
 Den finns i många olika nyanser och den kan specialblandas också efter önskemål.
 
 Materialet fick sin Comeback i Funktionalism och används idag mycket och gärna av arkitekter och inredningsdesigner.
-
-
 
 Kontakta oss så berättar vi mer om vad vi kan göra med måleriet möjligheter.
 
