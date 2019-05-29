@@ -52,7 +52,23 @@ I mer påkostade byggnader, entréer och trapphus används ibland förgyllningar
 
 Förgyllningar som man utför är inte äkta guld, det är ett sort slagmetall som är mässingslegeringar som skyddslackas sen. 
 
-Brons kan man också imitera. 
+Brons kan man också imitera. \
+\
+**4.	STUCCO LUSTRO**
+
+
+
+En påkostad och fin ytbehandling är Stucco Lustro som är klassisk och väldigt modern och trendig samtidigt och används i lyxigare inredningar eller entréer. Stucco Lustro ger en blank yta som speglar ljuset och är en konstverk i sig.
+
+Den finns i många olika nyanser och den kan specialblandas också efter önskemål.
+
+Materialet fick sin Comeback i Funktionalism och används idag mycket och gärna av arkitekter och inredningsdesigner.
+
+
+
+Vi utför inga Stucco Lustro-målningar själv, men har företag som samarbetspartner som hjälper oss med detta.
+
+
 
 
 
