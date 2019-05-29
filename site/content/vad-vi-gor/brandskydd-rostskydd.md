@@ -1,9 +1,10 @@
 ---
-title: MODERN TRAPPHUSMÅLNING
+title: MODERNA OCH KLASSISKA TRAPPHUSMÅLNINGAR
 image: /img/_dsc7441.jpg
 weight: '60'
 ---
-**Med över 20års erfarenhet av trapphusrenovering är vi det ledande måleriet för trapphusmålningar i Stockholmsområdet och har färgsatt och målat hundratals trapphus: moderna samt tidstypiska.**
+**Med över 20års erfarenhet av trapphusrenovering är vi det ledande måleriet för trapphusmålningar i Stockholmsområdet och har färgsatt och målat hundratals trapphus: moderna samt tidstypiska.
+**
 
 Genom att färgsätta, måla om och renovera ert trapphus på ett genomtänkt sätt så skapas både trivsel och ett högre värde på fastigheten och därmed de enskilda bostadsrätterna i en Brf.
 
@@ -11,7 +12,7 @@ En trapphusrenovering är ett stort beslut för er som förening. Våra projektl
 
 Vi och vår anställd arkitekt kan hjälpa er förening att arbeta fram ett tidstypiskt eller modernt trapphuskoncept.
 
-**Vi har en arkitekt anställd på företaget som är specialiserad på färgsättningar i trapphus**
+**Vi har en arkitekt anställd på företaget som är specialiserad på färgsättningar i trapphus.**
 
 Varför en arkitekt och ingen enkel färgsättare?
 
@@ -19,7 +20,7 @@ En arkitekt har gått igenom en lång utbildning för att skapa miljöer som är
 
 **Vi kan vara projektledare för totalentreprenaden och samordna med golvslipning och elektrikern.**
 
-Vi jobbar tillsammans med behöriga underentreprenörer som följer strika kontroller för ISO-certifieringen ISO 9001 och ISO 14001. 
+Vi jobbar tillsammans med behöriga underentreprenörer som följer strikta kontroller för ISO-certifieringen ISO 9001 och ISO 14001. 
 
 **Vår dekorationsmålare kan kopplas in vid behov. **
 
@@ -39,8 +40,6 @@ Om det skulle finnas historiska målningar kvar i er fastighet så kan vår
 
 anställd konservator undersöka målningen och bättra den professionell. 
 
-
-
 _EN PROFESSIONELL FÄRGSÄTTNING ÄR INKLUDERAD
 I ALLA MÅLNINGSUPPDRAG I TRAPPHUS I STOCKHOLMSOMRRÅDET 
 MED ETT VÄRDE ÖVER 150.000 SEK INKL MOMS. VAD INKLUDERAR DEN FÄRGSÄTTNINGEN?_
@@ -58,8 +57,6 @@ Inventering och platsbesök
 2 stycken provmålningar på pannåer i storlek 50x70cm
 
 Ni kan alltid uppgradera grundpaketet med olika tilläggspaket om ni önskar hjälp med någonting annat än målningen.
-
-
 
 **Om mitt projekt är lite mindre, kan jag köpa till färgsättningstjänsten?**
 
