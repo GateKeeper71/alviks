@@ -1,6 +1,6 @@
 ---
 title: MODERNA OCH KLASSISKA TRAPPHUSMÅLNINGAR
-image: /img/_dsc7441.jpg
+image: /img/instagram-5568.jpg
 weight: '60'
 ---
 _Med över 20års erfarenhet av trapphusrenovering är vi det ledande måleriet för trapphusmålningar i Stockholmsområdet och har färgsatt och målat hundratals trapphus: moderna samt tidstypiska._
