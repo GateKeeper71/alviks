@@ -12,3 +12,113 @@ En trapphusrenovering är ett stort beslut för er som förening. Våra projektl
 
 
 Vi och vår anställd arkitekt kan hjälpa er förening att arbeta fram ett tidstypiskt eller modernt trapphuskoncept.
+
+**Vi har en arkitekt anställd på företaget som är specialiserad på färgsättningar i trapphus**
+
+
+
+Varför en arkitekt och ingen enkel färgsättare?
+
+En arkitekt har gått igenom en lång utbildning för att skapa miljöer som är anpassade till byggnadens funktion och behov,
+
+den har lärt sig att se byggnden och stadsområdet i samspel med detaljerna och har kunskaper och olika byggnadsstilar.
+
+
+
+**Vi kan vara projektledare för totalentreprenaden och samordna**
+
+**med golvslipning och elektrikern.**
+
+
+
+Vi jobbar tillsammans med behöriga underentreprenörer som följer strika kontroller för ISO-certifieringen ISO 9001 och ISO 14001. 
+
+
+
+
+
+**Vi kan lämna ett pris på golvslipning och samordna med det**
+
+Vi jobbar tillsammans med behöriga underentreprenörer som följer strika kontroller för ISO-certifieringen ISO 9001 och ISO 14001. 
+
+
+
+
+
+**Vi kan lämna ett pris på elinstallationen och samordna med det**
+
+Vi jobbar tillsammans med behöriga underentreprenörer som följer strika kontroller för ISO-certifieringen ISO 9001 och ISO 14001. 
+
+
+
+**Vår dekorationsmålare kan kopplas in vid behov. **
+
+
+
+Har ni en fastighet som är historisk värdefull och ni skulle vilja renovera den tidstypisk,
+
+ådra dörrar eller måla en annan typ av dekoration i t.ex. taket?
+
+
+
+Då kopplar vi in vår mycket erfaren dekrationsmålare som vet bäst om olika
+
+tidstypiska utföranden och vilka typer av dekorationer som var typiska för byggnadens stil.
+
+Dekorationsmålaren kan också utföra professionella skrapningar och se vilka färger som antagligen har funnits i byggnaden. 
+
+
+
+**Vår konservator kan kopplas in vid behov**
+
+
+
+Om det skulle finnas historiska målningar kvar i er fastighet så kan vår
+
+anställd konservator undersöka målningen och bättra den professionell. 
+
+
+
+
+
+_EN PROFESSIONELL FÄRGSÄTTNING ÄR INKLUDERAD_
+
+_I ALLA MÅLNINGSUPPDRAG I TRAPPHUS I STOCKHOLMSOMRRÅDET _
+
+_MED ETT VÄRDE ÖVER 150.000 SEK INKL MOMS._
+
+
+
+VAD INKLUDERAR DEN FÄRGSÄTTNINGEN?
+
+Efter ni har skrivit under målningskontraktet, så träffar ni vår arkitekt eller/och vår dekorationsmålare som 
+
+kan hjälpa till med färgsättningen av ert trapphus. 
+
+
+
+Det inkluderade grundpaketet inkluderar
+
+3 st möten med arkitekten på plats 
+
+Inventering och platsbesök
+
+1 färgsättningsförslag inkl en justering
+
+2 stycken provmålningar på pannåer i storlek 50x70cm
+
+
+
+Ni kan alltid uppgradera grundpaketet med olika tilläggspaket om ni önskar hjälp med någonting annat än målningen.
+
+Ni
+
+
+
+
+
+
+
+Om mitt projekt är lite mindre, kan jag köpa till färgsättningstjänsten?
+
+Ja, självklart kan ni köpa till färgsättningen till mindre målningsuppdrag.
