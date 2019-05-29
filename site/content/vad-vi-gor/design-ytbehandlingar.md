@@ -5,8 +5,6 @@ weight: '34'
 ---
 Vi älskar att lämna det vanliga måleriet för speciella målningsuppdrag där inredningen, utseendet och själva materialkänslan skapar ett annorlunda rum! Sådana material är t.ex. rost, betong, kalk, mässing eller målad Terrazzo. 
 
-
-
 **ROSTVÄGGAR**
 
 Vill ni ha en rostig vägg i ditt vardagsrum eller en rostig dörr på kontoret? Industristilen är väldigt modern och dekorativ. 
