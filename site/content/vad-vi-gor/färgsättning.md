@@ -32,5 +32,3 @@ Vår arkitekt och ljusdesigner vet hur du kan förändra rummet på det bästa s
 
 **FÄRGSÄTTNING AV DITT HEM
 **Tyvärr så tar vi inga färgsättnings-/ inredningsuppdrag åt privatpersoner i nu-läge.
-
-För oss står användaren i fokus som ska nyttja rummet.
