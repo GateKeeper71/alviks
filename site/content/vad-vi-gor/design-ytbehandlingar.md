@@ -1,7 +1,7 @@
 ---
 title: DESIGN - YTBEHANDLINGAR
 image: /img/Rostfärg-cropped.jpg
-weight: '40'
+weight: '34'
 ---
 **ROSTVÄGGAR**
 
