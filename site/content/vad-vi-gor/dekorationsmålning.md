@@ -46,8 +46,6 @@ Den finns i många olika nyanser och den kan specialblandas också efter önskem
 
 Materialet fick sin Comeback i Funktionalism och används idag mycket och gärna av arkitekter och inredningsdesigner.
 
-Vi utför inga Stucco Lustro-målningar själv, men har företag som samarbetspartner som hjälper oss med detta.
-
 
 
 Kontakta oss så berättar vi mer om vad vi kan göra med måleriet möjligheter.
