@@ -3,6 +3,10 @@ title: 'DESIGN - YTBEHANDLINGAR: ROST, KALK, BETONG MM.'
 image: /img/Rostfärg-cropped.jpg
 weight: '34'
 ---
+Vi älskar att lämna det vanliga måleriet för speciella målningsuppdrag där inredningen, utseendet och själva materialkänslan skapar ett annorlunda rum! Sådana material är t.ex. rost, betong, kalk, mässing eller målad Terrazzo. 
+
+
+
 **ROSTVÄGGAR**
 
 Vill ni ha en rostig vägg i ditt vardagsrum eller en rostig dörr på kontoret? Industristilen är väldigt modern och dekorativ. 
@@ -21,7 +25,7 @@ Kalkfärgen finns i olika kulörtoner, fråga oss för rådgivning.
 
 **BETONGVÄGGAR**
 
-Älskar du den råa industrikänslan? Vi kan applicera en färg i olika lager på en vägg eller i taket så att du få den råa känslan som du är ute efter!\
+Älskar du den råa industrikänslan? Med speciella väggfärger kan vi skapa en riktig cool industrikänsla i ditt hem/kontor/hotel. \
 \
 **MÅLAD MÄSSING**
 
