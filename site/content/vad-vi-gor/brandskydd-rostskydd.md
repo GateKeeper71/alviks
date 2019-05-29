@@ -45,24 +45,22 @@ _EN PROFESSIONELL FÄRGSÄTTNING ÄR INKLUDERAD
 I ALLA MÅLNINGSUPPDRAG I TRAPPHUS I STOCKHOLMSOMRRÅDET 
 MED ETT VÄRDE ÖVER 150.000 SEK INKL MOMS. VAD INKLUDERAR DEN FÄRGSÄTTNINGEN?_
 
-Efter ni har skrivit under målningskontraktet, så träffar ni vår arkitekt eller/och vår dekorationsmålare som 
+Efter ni har skrivit under målningskontraktet, så träffar ni vår arkitekt eller/och vår dekorationsmålare som kan hjälpa till med färgsättningen av ert trapphus. 
 
-kan hjälpa till med färgsättningen av ert trapphus. 
+Det inkluderade grundpaketet inkluderar:
 
-Det inkluderade grundpaketet inkluderar
-
-3 st möten med arkitekten på plats 
+3 st möten med arkitekten/dekorationsmålaren på plats 
 
 Inventering och platsbesök
 
-1 färgsättningsförslag inkl en justering
+1 färgsättningsförslag inkl. en justering
 
 2 stycken provmålningar på pannåer i storlek 50x70cm
 
 Ni kan alltid uppgradera grundpaketet med olika tilläggspaket om ni önskar hjälp med någonting annat än målningen.
 
-Ni
 
-Om mitt projekt är lite mindre, kan jag köpa till färgsättningstjänsten?
+
+**Om mitt projekt är lite mindre, kan jag köpa till färgsättningstjänsten?**
 
 Ja, självklart kan ni köpa till färgsättningen till mindre målningsuppdrag.
