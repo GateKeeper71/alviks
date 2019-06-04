@@ -21,12 +21,7 @@ if (process.env.DEBUG) {
 	defaultArgs.unshift("--debug");
 }
 
-gulp.task("hugo", (cb) => buildSite(cb));
-gulp.task("hugo-preview", (cb) => buildSite(cb, ["--buildDrafts", "--buildFuture"]));
-gulp.task("build", ["css", "optimize", "cms-assets", "hugo"]);
-gulp.task("build-preview", ["css", "js", "cms-assets", "hugo-preview"]);
-
-gulp.task("css", () => (
+gulp.task("css", (cb) => {
 	gulp.src("./src/css/*.css")
 		.pipe(postcss([
 			cssImport({
@@ -36,8 +31,9 @@ gulp.task("css", () => (
 			cssnano(),
 		]))
 		.pipe(gulp.dest("./dist/css"))
-		.pipe(browserSync.stream())
-));
+		.pipe(browserSync.stream());
+	cb();
+});
 
 gulp.task("cms-assets", () => (
 	gulp.src("./node_modules/netlify-cms/dist/*.{woff,eot,woff2,ttf,svg,png}")
@@ -92,17 +88,23 @@ gulp.task("svg", () => {
 		.pipe(gulp.dest("site/layouts/partials/"));
 });
 
-gulp.task("server", ["hugo", "css", "cms-assets", "js", "svg"], () => {
+gulp.task("hugo", (cb) => buildSite(cb));
+gulp.task("hugo-preview", (cb) => buildSite(cb, ["--buildDrafts", "--buildFuture"]));
+gulp.task("build", gulp.series("css", "optimize", "cms-assets", "hugo"));
+gulp.task("build-dev", gulp.series("css", "js", "cms-assets", "hugo"));
+gulp.task("build-preview", gulp.series("css", "js", "cms-assets", "hugo-preview"));
+
+gulp.task("server", gulp.series("hugo", "css", "cms-assets", "js", "svg", () => {
 	browserSync.init({
 		server: {
 			baseDir: "./dist"
 		}
 	});
-	gulp.watch("./src/js/**/*.js", ["js"]);
-	gulp.watch("./src/css/**/*.css", ["css"]);
-	gulp.watch("./site/static/img/icons-*.svg", ["svg"]);
-	gulp.watch("./site/**/*", ["hugo"]);
-});
+	gulp.watch("./src/js/**/*.js", gulp.series("js"));
+	gulp.watch("./src/css/**/*.css", gulp.series("css"));
+	gulp.watch("./site/static/img/icons-*.svg", gulp.series("svg"));
+	gulp.watch("./site/**/*", gulp.series("hugo"));
+}));
 
 function buildSite(cb, options) {
 	const args = options ? defaultArgs.concat(options) : defaultArgs;

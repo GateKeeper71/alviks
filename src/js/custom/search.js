@@ -1,7 +1,8 @@
-import makeSliders from './slider';
+import makeSliders from "./slider";
+import lunr from "lunr";
 
 $(() => {
-	if ($('.referenser-list').length !== 0) {
+	if ($(".referenser-list").length !== 0) {
 		var lunrIndex,
 			$results = $(".referenser-list .c-searchForm__results"),
 			pagesIndex;
@@ -23,12 +24,12 @@ $(() => {
 
 			// First retrieve the index file
 			$.getJSON("/js/lunr/PagesIndex.json")
-				.done(index => {
+				.done((index) => {
 					pagesIndex = index;
 
 					// Set up lunrjs by declaring the fields we use
 					// Also provide their boost level for the ranking
-					lunrIndex = lunr(function () {
+					lunrIndex = lunr(function() {
 						this.field("title", {
 							boost: 10
 						});
@@ -41,7 +42,7 @@ $(() => {
 						this.ref("href");
 					});
 
-					pagesIndex.map(pageMapper).forEach(page => {
+					pagesIndex.map(pageMapper).forEach((page) => {
 						lunrIndex.add(page);
 					});
 				})
@@ -57,7 +58,7 @@ $(() => {
 				"content": page.content,
 				"category": page.category,
 				"href": page.href
-			}
+			};
 		}
 
 		// Nothing crazy here, just hook up a listener on the input field
@@ -73,8 +74,8 @@ $(() => {
 				}
 
 				$results.empty();
-				$("#category option:first").prop('selected', true);
-				$("#sub-category option:first").prop('selected', true);
+				$("#category option:first").prop("selected", true);
+				$("#sub-category option:first").prop("selected", true);
 				renderResults(results, query);
 			});
 
@@ -82,9 +83,9 @@ $(() => {
 				var query = $("#category").val();
 				var results = search(query);
 
-				$("#search").val('');
+				$("#search").val("");
 				$results.empty();
-				$("#sub-category option:first").prop('selected', true);
+				$("#sub-category option:first").prop("selected", true);
 				renderResults(results, query);
 			});
 
@@ -92,9 +93,9 @@ $(() => {
 				var query = $("#sub-category").val();
 				var results = search(query);
 
-				$("#search").val('');
+				$("#search").val("");
 				$results.empty();
-				$("#category option:first").prop('selected', true);
+				$("#category option:first").prop("selected", true);
 				renderResults(results, query);
 			});
 		}
@@ -111,8 +112,8 @@ $(() => {
 			//  {ref: "/section/page1", score: 0.2725657778206127}
 			// Our result:
 			//  {title:"Page1", href:"/section/page1", ...}
-			return lunrIndex.search(query).map(result => {
-				return pagesIndex.filter(page => {
+			return lunrIndex.search(query).map((result) => {
+				return pagesIndex.filter((page) => {
 					if (page) {
 						return page.href === result.ref;
 					}
@@ -133,7 +134,7 @@ $(() => {
 
 			$results.empty();
 
-			results.forEach(result => {
+			results.forEach((result) => {
 
 				// Slider HTML
 				let sliderHTML = $.parseHTML(`
@@ -160,9 +161,9 @@ $(() => {
 				// References
 				if (result.images) {
 					$(result.images).each((index, image) => {
-						let imageText = image.text || '';
+						const imageText = image.text || "";
 
-						$(sliderHTML).find('.c-partialProjectSlider__wrapper').append(`
+						$(sliderHTML).find(".c-partialProjectSlider__wrapper").append(`
                         <li>
                             <a target="_blank" href="${image.image}" class="c-partialProjectSlider__project">
                                 <img src="${image.image}" alt="Project image">
@@ -170,10 +171,8 @@ $(() => {
                             </a>
                         </li>`);
 					});
-					$('.referenser-list .flex.flex-wrap').append(sliderHTML);
+					$(".referenser-list .flex.flex-wrap").append(sliderHTML);
 				} else {
-					let references = [];
-
 					// Go though each page index
 					$(pagesIndex).each((index, page) => {
 
@@ -200,13 +199,13 @@ $(() => {
                                 </div>
                             </li>`);
 
-							$(sliderHTML).find('h3').text(page.title);
-							$(sliderHTML).find('.content p:first-of-type').text(page.content);
+							$(sliderHTML).find("h3").text(page.title);
+							$(sliderHTML).find(".content p:first-of-type").text(page.content);
 
 							$(page.images).each((index, image) => {
-								let imageText = image.text || '';
+								const imageText = image.text || "";
 
-								$(sliderHTML).find('.c-partialProjectSlider__wrapper').append(`
+								$(sliderHTML).find(".c-partialProjectSlider__wrapper").append(`
                                 <li>
                                     <a target="_blank" href="${image.image}" class="c-partialProjectSlider__project">
                                         <img src="${image.image}" alt="Project image">
@@ -215,7 +214,7 @@ $(() => {
                                 </li>`);
 							});
 
-							$('.referenser-list .flex.flex-wrap').append(sliderHTML);
+							$(".referenser-list .flex.flex-wrap").append(sliderHTML);
 						}
 					});
 				}

@@ -2,6 +2,8 @@ import webpack from "webpack";
 import path from "path";
 
 export default {
+	mode: "development",
+	devtool: "source-map",
 	resolve: {
 		extensions: [".jsx", ".js", ".json"]
 	},
