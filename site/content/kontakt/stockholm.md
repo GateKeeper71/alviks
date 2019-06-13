@@ -28,7 +28,7 @@ coworker:
       Delägare. Teamledare och försäljningschef med fokus på försäljning inom
       BRF och ramavtal.
   - email: lars-erik.jonsson@alviksmaleri.se
-    image: /img/lars-erik.jpg
+    image: /img/dsc_0045.jpg
     name: LARS-ERIK JONSSON
     phone: 073-660 61 01
     position: VD och delägare. Teamledare med fokus på måleri inom ny- och ombyggnation
@@ -40,7 +40,7 @@ coworker:
       Teamledare med fokus på måleri inom ny- och ombyggnation samt privata
       kunder
   - email: michael.gidlund@alviksmaleri.se
-    image: /img/36.jpg
+    image: /img/dsc_0006.png
     name: Michael Gidlund
     phone: ' 073-660 61 07'
     position: Teamledare med fokus på måleri inom allmännyttan och ramavtal.
