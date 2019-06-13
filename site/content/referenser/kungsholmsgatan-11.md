@@ -1,32 +1,7 @@
 ---
-title: Hantverkargatan 25
-underkategori: Färgsättning 20-tal
-images:
-  - image: /img/_dsc4372.jpg
-    text: >-
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ex erat,
-      fringilla non magna non, hendrerit maximus tortor.
-  - image: /img/_dsc3464.jpg
-    text: >-
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ex erat,
-      fringilla non magna non, hendrerit maximus tortor.
-  - image: /img/_dsc3944.jpg
-    text: >-
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ex erat,
-      fringilla non magna non, hendrerit maximus tortor.
-  - image: /img/_dsc5217.jpg
-    text: >-
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ex erat,
-      fringilla non magna non, hendrerit maximus tortor.
-  - image: /img/_dsc5238.jpg
-    text: >-
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ex erat,
-      fringilla non magna non, hendrerit maximus tortor.
-  - image: /img/_dsc0239.jpg
-    text: >-
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ex erat,
-      fringilla non magna non, hendrerit maximus tortor.
+title: Bergsgatan 11
+underkategori: Färgsättning 10-tal
+images: []
 weight: '10'
 ---
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vehicula sagittis cursus. In mollis eros in dui mollis, in accumsan velit feugiat. Pellentesque neque lectus, pharetra eget massa nec, pretium cursus sem. 
+<script id="asp-embed-script" data-zindex="1000000" type="text/javascript" charset="utf-8" src="https://spark.adobe.com/page-embed.js"></script><a class="asp-embed-link" href="https://spark.adobe.com/page/P99Qad9a4ToE0/" target="_blank"><img src="https://spark.adobe.com/page/P99Qad9a4ToE0/embed.jpg?buster=1560435354760" alt="BERGSGATAN 11" style="width:100%" border="0" /></a>
