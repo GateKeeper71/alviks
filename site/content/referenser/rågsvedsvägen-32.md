@@ -1,11 +1,11 @@
 ---
-title: Rågsvedsvägen 32
-underkategori: Trapphus 20-tal
+title: 'St. Eriksgatan 12 '
+underkategori: Trapphus 10-tal
 images:
-  - image: /img/342342.jpg
-  - image: /img/_dsc6356.jpg
-  - image: /img/_dsc5217.jpg
-  - image: /img/_dsc6356.jpg
+  - image: /img/instagram-2.jpg
+  - image: /img/instagram-8285.jpg
+  - image: /img/instagram-8315.jpg
+  - image: /img/instagram-8283.jpg
 weight: '20'
 ---
 
