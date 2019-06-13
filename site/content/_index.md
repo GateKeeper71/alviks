@@ -24,8 +24,8 @@ images:
     link: >-
       https://nervous-easley-ac4f7a.netlify.com/vad-vi-gor/pl%C3%A5t-taksm%C3%A5lning/
     text: Rostfärg
-slider_heading: Ett axplock av våra projekt
-slider_text: Detta är en beskrivande text om våra aktuella projekt.
+slider_heading: ETT AXPLOCK AV VÅRA PROJEKT
+slider_text: ''
 partners:
   - image: /img/skanska-logotype-posblue.svg
   - image: /img/peab-logo.svg
