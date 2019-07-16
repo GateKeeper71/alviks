@@ -40,20 +40,20 @@
     "headroom.js": "^0.9.4",
     "imports-loader": "^0.6.5",
     "lunr": "^1.0.0",
-    "netlify-cms": "^1.0.2",
+    "netlify-cms": "^2.9.6",
     "popper.js": "^1.15.0",
     "postcss-cssnext": "^2.7.0",
     "postcss-import": "^11.0.0",
     "postcss-loader": "^0.9.1",
     "react": "15.6.1",
     "string": "^3.3.3",
-    "webpack": "^4.32.2",
+    "webpack": "^4.35.3",
     "whatwg-fetch": "^1.0.0",
     "yamljs": "^0.3.0"
   },
   "devDependencies": {
     "gulp-inject": "^4.2.0",
     "gulp-svgmin": "^2.2.0",
-    "gulp-svgstore": "^6.1.0"
+    "gulp-svgstore": "^7.0.1"
   }
 }
